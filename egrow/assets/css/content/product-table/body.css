@@ -1,0 +1,93 @@
+/* CSS settings for table body */
+#egrowTable.dataTable tbody td {
+    padding: 4px !important;
+    border-top: 1px solid #e4eaec;
+    font-size: 12px;
+}
+
+#egrowTable.dataTable tbody tr:nth-child(even) {
+    background: #F5F6F7
+}
+
+#egrowTable.dataTable tbody tr:nth-child(odd) {
+    background: #FFFFFF
+}
+
+/* Height of table rows */
+#egrowTable.dataTable tbody tr {
+    line-height: 24px;
+}
+
+/* Hover for rows */
+#egrowTable.dataTable tbody tr:hover {
+    background: #CBD3DB;
+}
+
+/* Color of links/icons in table */
+#egrowTable.dataTable tbody a {
+    color: #62a8ea;
+}
+
+/* Padding of action icons in table */
+#egrowTable.dataTable tbody .egrow-action a {
+    padding: 7px 5px;
+}
+
+#egrowTable.dataTable tbody a:hover {
+    color: #89BCEB;
+    text-decoration: none;
+}
+
+#egrowTable.dataTable tbody td.egrow-no {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Padding for the delete icon */
+#egrowTable.dataTable tbody tr:hover td.egrow-no a {
+    padding: 8px 6px;
+}
+
+/* Centered columns */
+#egrowTable.dataTable tbody td.egrow-action {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Just so icons are not moving when adding or removing products*/
+#egrowTable.dataTable tbody td.egrow-action .fa-times {
+    width: 10.5px;
+}
+
+#egrowTable.dataTable tbody td.egrow-action .fab.fa-searchengin {
+    font-weight: 900;
+}
+
+#egrowTable.dataTable tbody td.egrow-title {
+    color: #62a8ea;
+    max-width: 180px;
+}
+
+#egrowTable.dataTable tbody td.egrow-title:hover {
+    color: #89BCEB;
+    cursor: pointer;
+}
+
+/* Ads icon in title column */
+#egrowTable.dataTable tbody td.egrow-title .fas.fa-ad {
+    font-size: 18px;
+    color: #5B2D8E;
+    position: relative;
+    padding-right: 2px;
+    top: 2px;
+}
+
+/* Max width for text fields */
+#egrowTable.dataTable tbody td.egrow-brand,
+#egrowTable.dataTable tbody td.egrow-category {
+    max-width: 63px;
+}
+
+#egrowTable.dataTable tbody td.egrow-lqs {
+    text-align: center;
+}

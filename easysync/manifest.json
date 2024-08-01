@@ -1,0 +1,56 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "name": "Easync Product ID Grab Tool for Drop Shipping",
+    "short_name": "Product ID Grabbing Tool",
+    "description": "Easync's powerful plug in for multi variation listings!",
+    "version": "2.29.62",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab",
+        "downloads",
+        "clipboardRead",
+        "clipboardWrite",
+        "storage"
+    ],
+    "browser_action": {
+        "default_title": "easync.io",
+        "default_icon": "img/logo-48.png",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.amazon.com/*",
+                "*://*.amazon.co.uk/*",
+                "*://*.amazon.ca/*",
+                "*://*.amazon.de/*",
+                "*://*.amazon.fr/*",
+                "*://*.amazon.it/*",
+                "*://*.amazon.es/*",
+                "*://*.amazon.co.jp/*"
+            ],
+            "css": ["css/font-awesome.min.css"],
+            "js": ["lib/jquery.js", "lib/address.js"]
+        },
+        {
+            "matches": [
+                "*://*.amazon.com/a/addresses/add*",
+                "*://*.amazon.com/gp/buy/*",
+                "*://*.amazon.co.uk/gp/buy/*",
+                "*://*.amazon.ca/gp/buy/*",
+                "*://*.amazon.de/gp/buy/*",
+                "*://*.amazon.fr/gp/buy/*",
+                "*://*.amazon.it/gp/buy/*",
+                "*://*.amazon.es/gp/buy/*",
+                "*://*.amazon.co.jp/gp/buy/*"
+            ],
+            "js": ["lib/address.js", "injectAddr.js"]
+        }
+    ],
+    "icons": {
+        "16": "img/logo-16.png",
+        "48": "img/logo-48.png",
+        "128": "img/logo-128.png"
+    }
+}

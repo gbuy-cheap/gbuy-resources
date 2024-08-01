@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="/css/widget.css">
+</head>
+<body>
+
+  <div class="view view-main">
+    <div class="space-6"></div>
+    <div class="counts-container"></div>
+    <div class="filters-container hidden">
+      <div class="filter-item">
+        <span class="filter-label">Price:</span>
+        <input type="number" id="price-filter-from">
+        <span>to</span>
+        <input type="number" id="price-filter-to">
+      </div>
+      <div class="filter-item">
+        <!-- <span class="filter-label">Type:</span> -->
+        <a href="#" class="filter-type active" data-val="all">All</a>
+        <a href="#" class="filter-type" data-val="fba">FBA</a>
+        <a href="#" class="filter-type" data-val="fbm">FBM</a>
+      </div>
+      <div class="filter-item">
+        <!-- <span class="filter-label">Condition:</span> -->
+        <a href="#" class="filter-condition active" data-val="all">All</a>
+        <a href="#" class="filter-condition" data-val="new">New</a>
+        <a href="#" class="filter-condition" data-val="used">Used</a>
+      </div>
+    </div>
+    <div class="table-container">
+      <table id="results" class="hidden">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+      <div class="limit-hint hidden">
+        <span class="red">*</span> If you see a red asterisk, it means the offer has a limit so we cannot see the total quantity in stock.
+      </div>
+    </div>
+    <div class="status-container">
+      <div class="spinner">
+        <img src="/img/spinner16.gif">
+      </div>
+      <div class="status hidden"></div>
+    </div>
+    <div class="expand-btn">
+      <span class="arrow-down"></span>
+      <span class="arrow-up"></span>
+    </div>
+  </div>
+
+  <div class="view view-settings hidden">
+    <div class="space-12"></div>
+    <div class="container fs-14 settings-container">
+      <div>
+        <input type="checkbox" id="input-checkLimits"><label for="input-checkLimits">Check if seller has set a quantity limit</label>
+      </div>
+      <div>
+        <input type="checkbox" id="input-loadAllOffers"><label for="input-loadAllOffers">Automatically load all pages (50 offers max)</label>
+      </div>
+      <p></p>
+      <div>
+        <div><strong>Export order.</strong> Put comma-separated headers for export.</div>
+        <div class="space-6"></div>
+        <input type="text" id="input-exportOrder">
+        <div class="export-order-container">Use:
+          <span id="export-order-default"></span>
+          <a href="#" id="set-export-default-btn">set default</a>
+        </div>
+      </div>
+      <div class="hidden">
+        <input type="checkbox" id="input-allowGA"><label for="input-allowGA">Allow anonymous usage statistics tracking</label>
+      </div>
+    </div>
+    <div class="container fs-14 contact-form">If you have any problems using the extension feel free to contact me at <strong>fromamid@gmail.com</strong></div>
+    <div class="space-12"></div>
+    <div class="text-center">
+      <a href="#" class="view-btn" data-view="main">Close</a>
+    </div>
+  </div>
+
+  <div class="view view-help hidden">
+    <div class="space-12"></div>
+    <div class="container fs-14 contact-form">If you have any problems using the extension feel free to contact me at <strong>fromamid@gmail.com</strong></div>
+    <div class="space-12"></div>
+    <div class="text-center">
+      <a href="#" class="view-btn" data-view="main">Close</a>
+    </div>
+  </div>
+
+  <script type="text/html" id="tpl-total-row">
+    <div class="counts-row">
+      <div class="counts-total">
+        Total: {{totalQty}}
+      </div>
+      <div class="counts-qty">
+        <div class="counts-item">
+          <div class="counts-item-label">FBA 3p</div>
+          <div>{{qtyFBA}}</div>
+        </div>
+        <div class="counts-item">
+          <div class="counts-item-label">FBM</div>
+          <div>{{qtyFBM}}</div>
+        </div>
+        <div class="counts-item">
+          <div class="counts-item-label">Amz</div>
+          <div>{{qtyAMZ}}</div>
+        </div>
+      </div>
+    </div>
+    <div class="counts-row offers-counts">
+      <div>
+        <span>{{offers}} offers counted</span>
+        <span class="load-more hidden">
+          <a href="#" class="btn-load-more">Check more offers?</a>
+        </span>
+        <span class="export-section">
+          <a href="#" class="btn-copy">Copy</a>
+          <a href="#" class="btn-export">Export</a>
+        </span>
+      </div>
+      <div class="" title="Stock checked for 50 offers max">
+        50 offers max. <span class="hint"></span>
+      </div>
+    </div>
+  </script>
+
+  <script type="text/html" id="tpl-table-row">
+    <tr data-index="{{offer.index}}" data-offerId="{{offerIdEnc}}" {{#isAmazon}}data-amz="true"{{/isAmazon}}>
+      <td>
+        {{#url}}<a href="{{url}}" target="_blank">{{name}}</a>{{/url}}
+        {{^url}}{{name}}{{/url}}
+      </td>
+      <td>{{qty}}{{#limit}}<span class="red">*</span>{{/limit}}{{#moreThan999}}+{{/moreThan999}}</td>
+      <td><a href="https://{{schost}}/fba/profitabilitycalculator/index" class="amz-calc-btn" data-asin="{{asin}}" data-price="{{price}}" data-shipPrice="{{shipPrice}}" target="_blank">{{pricePlusShip}}</a></td>
+      <td>{{type}}</td>
+      <td>{{{rating}}}</td>
+      <td data-condition="{{conditionEn}}">{{condition}}</td>
+      <td data-sort-value="{{delivery}}">{{deliveryStr}}</td>
+    </tr>
+  </script>
+
+  <script type="text/javascript" src="/lib/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="/lib/mustache.min.js"></script>
+  <script type="text/javascript" src="/lib/stupidtable.js"></script>
+
+  <script type="text/javascript" src="/js/widget-content.min.js"></script>
+
+</body>
+</html>

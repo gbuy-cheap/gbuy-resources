@@ -1,0 +1,133 @@
+/* Main modal is invisble at the start */
+#egrowModal.first-injection {
+    display: none;
+}
+
+#egrowModal {
+    min-width: 1100px;
+    width: 1100px;
+    min-height: 600px;
+    height: 600px;
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #5B2D8E;
+    font-family: 'Lato', sans-serif;
+    direction: ltr;
+}
+
+#egrowModal .page-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#egrowModal .egrow-middle-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#egrowModal .result-table {
+    flex: 1;
+}
+
+#egrowModal .menuIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#egrowModal .horizontalMenu li {
+    list-style-type: none !important;
+}
+
+#egrowModal .horizontalMenu li {
+    float: right;
+    margin-right: 20px;
+    color: white;
+}
+
+#egrowModal .horizontalMenu li i {
+    font-size: 15px;
+    color: white;
+}
+
+#egrowModal .center-parent {
+    text-align: center;
+}
+
+#egrowModal .center-child {
+    display: inline-block;
+}
+
+.alertify-logs.top.right {
+    z-index: 1000001;
+}
+
+/* Here start all settings for the conversion elements */
+#egrowModal .action-button,
+#egrowModal .limitModal .egrow-user-modal-body .upgrade-action-button{
+    height: 30px;
+    width: 100%;
+    color: #fff;
+    background-color: #46be8a;
+    border-radius: 3px;
+    border: 1px #46be8a;
+}
+
+#egrowModal .action-button:hover {
+    background-color: #5cd29d;
+    border-color: #5cd29d
+}
+
+#egrowModal .action-button:focus {
+    outline: none;
+}
+
+/* Per default the button is not shown */
+#egrowModal #upgradeButton {
+    display: none;
+}
+
+#egrowModal #countdownBar {
+    display: none;
+}
+
+/* Don't show countdown bar on minimized plugin */
+#egrowModal.minimized #countdownBar {
+    display: none !important;
+}
+
+/* Settings for coupon banner */
+#egrowModal .egrow-coupon-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    color: #fff;
+    background-color: #EB6709;
+}
+
+#egrowModal .egrow-coupon-banner .bold-text {
+    font-weight: 600;
+}
+
+#egrowModal a.egrow-coupon-banner-link {
+    color: #fff;
+}
+
+/* Minimized Modal */
+#egrowModal.minimized {
+    min-height: unset;
+    height: 142px;
+    max-height: 142px;
+    min-width: 920px;
+}

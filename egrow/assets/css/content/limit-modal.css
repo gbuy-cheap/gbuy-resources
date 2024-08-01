@@ -1,0 +1,32 @@
+#egrowModal .limitModal .egrow-user-modal-content {
+    width: 360px;
+    z-index: 1;
+}
+
+#egrowModal .limitModal .egrow-user-modal-body p {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+#egrowModal #limitModalBasicPlan.limitModal .egrow-user-modal-body p {
+    text-align: center;
+}
+
+#egrowModal #limitModalBasicPlan.limitModal .egrow-user-modal-content.childCenter {
+    width: auto;
+    min-width: 360px;
+}
+
+#egrowModal .limitModal .egrow-user-modal-body .upgrade-action-button {
+    display: inline-block;
+    line-height: 27px;
+    font-size: 16px;
+}
+
+/* Darker color than in general because of white background */
+#egrowModal .limitModal .egrow-user-modal-body .action-button:hover,
+#egrowModal .limitModal .egrow-user-modal-body .upgrade-action-button:hover {
+    background-color: #59B17D;
+    border-color: #59B17D
+}

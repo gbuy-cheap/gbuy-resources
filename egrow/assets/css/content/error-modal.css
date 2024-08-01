@@ -1,0 +1,10 @@
+#egrowModal #errorModal .egrow-user-modal-content {
+    width: 360px;
+}
+
+#egrowModal #errorModal .egrow-user-modal-body p {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: justify;
+    white-space: pre-line;
+}

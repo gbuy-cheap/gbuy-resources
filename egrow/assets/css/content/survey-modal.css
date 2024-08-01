@@ -1,0 +1,12 @@
+#egrowModal #surveyModal .egrow-user-modal-content {
+    width: 380px;
+}
+
+#egrowModal #surveyModal .egrow-user-modal-body {
+    height: 70px;
+    font-size: 15px;
+}
+
+#egrowModal #surveyModal #surveyButton {
+    height: 35px;
+}

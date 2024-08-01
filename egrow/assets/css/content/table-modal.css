@@ -1,0 +1,34 @@
+#egrowModal .table-modal table tbody label {
+    float: left;
+}
+
+#egrowModal .table-modal table tbody label.error {
+    float: right;
+    font-size: 9px;
+    padding: 0;
+    color: red;
+}
+
+#egrowModal .table-modal table tbody input[type='text'] {
+    height: 25px;
+    float: right;
+    text-align: right;
+}
+
+#egrowModal .table-modal table tbody input[type='text']:focus {
+    border-color: #5B2D8E;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
+}
+
+#egrowModal .table-modal table tbody input[type='text'].error {
+    border-color: red;
+}
+
+#egrowModal #egrowTable_wrapper .dataTables_scrollBody #egrowTable tbody tr td.egrow-col.egrow-bsr:not(.no-value),
+#egrowModal #egrowTable_wrapper .dataTables_scrollBody #egrowTable tbody tr td.egrow-col.egrow-price:not(.no-value),
+#egrowModal #egrowTable_wrapper .dataTables_scrollBody #egrowTable tbody tr td.egrow-col.egrow-sales:not(.no-value),
+#egrowModal #egrowTable_wrapper .dataTables_scrollBody #egrowTable tbody tr td.egrow-col.egrow-revenue:not(.no-value) {
+    font-size: 14px;
+    font-weight: 600;
+    color: #5B2D8E;
+}

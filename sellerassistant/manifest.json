@@ -1,0 +1,211 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 3,
+  "name": "Seller Assistant — Amazon Product Research Tool",
+  "description": "Amazon Seller Tools: FBM & FBA Calculator, IP Alert, Quick View, Stock Checker, Restrictions Checker, ASIN Grabber, Side Panel View",
+  "author": "Linen Art, LLC",
+  "homepage_url": "https://sellerassistant.app",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA21vwJbvFdM74pOeW2TzIdKA6bkV2Ws9zTUUH29N6/2dK0yq/omNDmOTap+FAoOCIeZvAHNuAmbJf4n6GdNV/O3RL2mYBcl+MJ7vpCYzLdOV+mMVsGKAhg9qUauZnOHxF4f+sXPezUNH+XlxVC4h4W5c80b5AYqdkXVVCC6ZYhqF9HjinVbohg8xpSvcWMJ54IaT1hPIWy8NyfWuV+1WbW/wqY4Wvdffb9lHfKRnpKsI2RyKgBTNOKf0/1LMttDUU5I03hEAT6EiOW2L3JhKM/20Mw9zSTFdlgtBgvG4O7njpAB8klFPyAu954ZAZdtLHfdC9aqqXmb1MBO4/osineQIDAQAB",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "externally_connectable": {
+    "ids": [
+      "nocegffaflllclilhgngcfejmfbdahno",
+      "bccpegbeakkofioonldfbhgdcdjmkfnk"
+    ],
+    "matches": [
+      "*://*.sellerassistant.app/*"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.amazon.com/*",
+        "https://www.amazon.ca/*",
+        "https://www.amazon.com.br/*",
+        "https://www.amazon.com.mx/*",
+        "https://www.amazon.ae/*",
+        "https://www.amazon.de/*",
+        "https://www.amazon.eg/*",
+        "https://www.amazon.es/*",
+        "https://www.amazon.fr/*",
+        "https://www.amazon.co.uk/*",
+        "https://www.amazon.in/*",
+        "https://www.amazon.it/*",
+        "https://www.amazon.nl/*",
+        "https://www.amazon.pl/*",
+        "https://www.amazon.sa/*",
+        "https://www.amazon.se/*",
+        "https://www.amazon.com.tr/*",
+        "https://www.amazon.sg/*",
+        "https://www.amazon.com.au/*",
+        "https://www.amazon.co.jp/*"
+      ],
+      "js": [
+        "content/content.js"
+      ],
+      "css": [
+        "vendor/css/fontawesome.css",
+        "content/content.css"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "https://*.amazon.com/*",
+        "https://*.amazon.ca/*",
+        "https://*.amazon.com.br/*",
+        "https://*.amazon.com.mx/*",
+        "https://*.amazon.ae/*",
+        "https://*.amazon.de/*",
+        "https://*.amazon.eg/*",
+        "https://*.amazon.es/*",
+        "https://*.amazon.fr/*",
+        "https://*.amazon.co.uk/*",
+        "https://*.amazon.in/*",
+        "https://*.amazon.it/*",
+        "https://*.amazon.nl/*",
+        "https://*.amazon.pl/*",
+        "https://*.amazon.sa/*",
+        "https://*.amazon.se/*",
+        "https://*.amazon.com.tr/*",
+        "https://*.amazon.sg/*",
+        "https://*.amazon.com.au/*",
+        "https://*.amazon.co.jp/*"
+      ],
+      "js": [
+        "content/quickView/contentView.js"
+      ],
+      "run_at": "document_end"
+    },
+    {
+      "matches": [
+        "https://sellercentral.amazon.com/inventory*",
+        "https://sellercentral.amazon.com/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.com/automatepricing/rules/listings/*",
+        "https://sellercentral.amazon.ca/inventory*",
+        "https://sellercentral.amazon.ca/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.ca/automatepricing/rules/listings/*",
+        "https://sellercentral.amazon.com.br/inventory*",
+        "https://sellercentral.amazon.com.br/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.com.br/automatepricing/rules/listings/*",
+        "https://sellercentral.amazon.com.mx/inventory*",
+        "https://sellercentral.amazon.com.mx/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.com.mx/automatepricing/rules/listings/*",
+        "https://sellercentral.amazon.ae/inventory*",
+        "https://sellercentral.amazon.ae/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.ae/automatepricing/rules/listings/*",
+        "https://sellercentral.amazon.de/inventory*",
+        "https://sellercentral.amazon.de/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.de/automatepricing/rules/listings/*",
+        "https://sellercentral.amazon.eg/inventory*",
+        "https://sellercentral.amazon.eg/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.eg/automatepricing/rules/listings/*",
+        "https://sellercentral.amazon.es/inventory*",
+        "https://sellercentral.amazon.es/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.es/automatepricing/rules/listings/*",
+        "https://sellercentral.amazon.fr/inventory*",
+        "https://sellercentral.amazon.fr/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.fr/automatepricing/rules/listings/*",
+        "https://sellercentral.amazon.co.uk/inventory*",
+        "https://sellercentral.amazon.co.uk/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.co.uk/automatepricing/rules/listings/*",
+        "https://sellercentral.amazon.in/inventory*",
+        "https://sellercentral.amazon.in/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.in/automatepricing/rules/listings/*",
+        "https://sellercentral.amazon.it/inventory*",
+        "https://sellercentral.amazon.it/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.it/automatepricing/rules/listings/*",
+        "https://sellercentral.amazon.nl/inventory*",
+        "https://sellercentral.amazon.nl/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.nl/automatepricing/rules/listings/*",
+        "https://sellercentral.amazon.pl/inventory*",
+        "https://sellercentral.amazon.pl/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.pl/automatepricing/rules/listings/*",
+        "https://sellercentral.amazon.sa/inventory*",
+        "https://sellercentral.amazon.sa/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.sa/automatepricing/rules/listings/*",
+        "https://sellercentral.amazon.se/inventory*",
+        "https://sellercentral.amazon.se/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.se/automatepricing/rules/listings/*",
+        "https://sellercentral.amazon.com.tr/inventory*",
+        "https://sellercentral.amazon.com.tr/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.com.tr/automatepricing/rules/listings/*",
+        "https://sellercentral.amazon.sg/inventory*",
+        "https://sellercentral.amazon.sg/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.sg/automatepricing/rules/listings/*",
+        "https://sellercentral.amazon.com.au/inventory*",
+        "https://sellercentral.amazon.com.au/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.com.au/automatepricing/rules/listings/*",
+        "https://sellercentral.amazon.co.jp/inventory*",
+        "https://sellercentral.amazon.co.jp/hz/inventory/view/FBAKNIGHTS/*",
+        "https://sellercentral.amazon.co.jp/automatepricing/rules/listings/*"
+      ],
+      "js": [
+        "content/sellercentral/contentSellercentral.js"
+      ],
+      "css": [
+        "vendor/css/fontawesome.css",
+        "content/content.css"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "storage",
+    "sidePanel",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "https://*.amazon.com/*",
+    "https://*.amazon.ca/*",
+    "https://*.amazon.com.mx/*",
+    "https://*.amazon.com.br/*",
+    "https://*.amazon.ae/*",
+    "https://*.amazon.de/*",
+    "https://*.amazon.eg/*",
+    "https://*.amazon.es/*",
+    "https://*.amazon.fr/*",
+    "https://*.amazon.co.uk/*",
+    "https://*.amazon.in/*",
+    "https://*.amazon.it/*",
+    "https://*.amazon.nl/*",
+    "https://*.amazon.pl/*",
+    "https://*.amazon.sa/*",
+    "https://*.amazon.se/*",
+    "https://*.amazon.com.tr/*",
+    "https://*.amazon.sg/*",
+    "https://*.amazon.com.au/*",
+    "https://*.amazon.co.jp/*",
+    "https://*.sellerassistant.app/"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "content/content.html",
+        "vendor/*",
+        "images/*"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Seller Assistant App",
+    "default_popup": "popup/popup.html"
+  },
+  "version": "1.14.1",
+  "version_name": "1.14.1",
+  "side_panel": {
+    "default_path": "sidepanel/sidepanel.html"
+  }
+}

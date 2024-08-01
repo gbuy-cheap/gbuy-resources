@@ -1,0 +1,146 @@
+/* z-index to be over waiting modal */
+#egrowModal .egrow-header {
+    width: 100%;
+    height: 35px;
+    z-index: 3;
+    display: flex;
+}
+
+/* Grabbing Hands for Header */
+#egrowModal .egrow-header:hover {
+    cursor: grab;
+}
+
+/* Grabbing Hands for Header */
+#egrowModal .egrow-header:active {
+    cursor: grabbing;
+}
+
+#egrowModal .egrow-header .egrow-header-element.disabled {
+    pointer-events: none;
+}
+
+#egrowModal .egrow-header .egrow-header-filler {
+    flex: 1 1 auto;
+}
+
+#egrowModal .egrow-header .horizontalMenu li {
+    margin-right: 15px;
+}
+
+#egrowModal .egrow-header .fas:hover {
+    color: #eee;
+    text-decoration: none;
+}
+
+#egrowModal .egrow-header li a {
+    padding: 10px 5px;
+}
+
+#egrowModal .egrow-header .horizontalMenu > ul > li > a > i.fas.fa-sync {
+    will-change: transform; /* reserve browser resources for transformation */
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+#egrowModal .egrow-header .rotate {
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 1.0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transition-timing-function: linear;
+}
+
+#egrowModal .egrow-header .egrow-logo {
+    width: 100px;
+    height: 100%;
+    float: left;
+}
+
+#egrowModal .egrow-header .egrow-logo img {
+    max-width: 80px;
+    width: 80px;
+}
+
+/* Menu Button */
+#egrowModal .egrow-header #menuButton {
+    position: relative;
+    top: 7px;
+    padding: 12px 5px 10px 10px;
+}
+
+#egrowModal .egrow-header #menuButton i {
+    color: white;
+    font-size: 20px;
+}
+
+/* Color change of icon on hover over button */
+#egrowModal .egrow-header #menuButton:hover i {
+    color: #eee;
+}
+
+/* CSS settings for menu icon */
+#egrowModal .egrow-header #egrowMenu {
+    width: 170px;
+    position: fixed;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #5B2D8E;
+    box-shadow: 4px 2px 10px #999;
+    border: none;
+}
+
+#egrowModal .egrow-header #egrowMenu a {
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+
+#egrowModal .egrow-header #egrowMenu li:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+#egrowModal .egrow-header #egrowMenu li.egrow-menu-element {
+    padding: 5px;
+}
+
+#egrowModal .egrow-header #egrowMenu li.egrow-menu-element a {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 0 0 5px;
+}
+
+#egrowModal .egrow-header #egrowMenu li.ui-menu-divider {
+    margin: 0;
+}
+
+#egrowModal .egrow-header #egrowMenu li:last-child {
+    border: 1px;
+}
+
+#egrowModal .ui-menu .ui-state-active {
+    border-color: #5B2D8E;
+    background-color: transparent;
+}
+
+/* Style for upgrade button in the header */
+#egrowModal .egrow-header .menuIcons button.action-button {
+    height: 25px;
+    font-size: 12px;
+}
+
+#egrowModal .egrow-header .menuIcons button.action-button i.fas.fa-shopping-cart {
+    font-size: 14px;
+    float: left;
+}
+
+#egrowModal .egrow-header .menuIcons button.action-button i.fas.fa-shopping-cart:hover {
+    color: white;
+}

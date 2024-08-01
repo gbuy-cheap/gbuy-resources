@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("chrome-extension://__MSG_@@extension_id__/assets/webfonts/Lato/Lato_Light.woff2") format('woff2'),
+        url("/assets/webfonts/Lato/Lato_Light.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("chrome-extension://__MSG_@@extension_id__/assets/webfonts/Lato/Lato_Normal.woff2") format('woff2'),
+        url("/assets/webfonts/Lato/Lato_Normal.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("chrome-extension://__MSG_@@extension_id__/assets/webfonts/Lato/Lato_Bold.woff2") format('woff2'),
+        url("/assets/webfonts/Lato/Lato_Bold.woff2") format('woff2');
+}

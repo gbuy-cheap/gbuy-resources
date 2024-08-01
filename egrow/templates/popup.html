@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login - egrow.io</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="icon" type="image/ico" sizes="32x32" href="/assets/img/favicon/32.png">
+	<link rel="stylesheet" type="text/css" href="/assets/css/fontawesome-all.min.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/lato.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/alertify.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/general.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/popup.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/content/header.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/content/footer.css">
+</head>
+<body id="popupBody">
+
+<div class="page-wrapper">
+	<header class="header purpleBackground">
+		<div class="logo parentCenter">
+			<div class="childCenter">
+				<a href="https://egrow.io/auth/register?rf_source=chrome_extension&rf_medium=content&rf_campaign=popup&rf_content=button"
+				   title="" target="_blank"><img src="/assets/img/logo.png" alt=""></a>
+			</div>
+		</div>
+		<div class="menuIcons flex-center-vertically">
+			<ul class="horizontalMenu">
+				<li><a href="#" class="" title="Close" id="closeIcon"><i class="fas fa-times"></i></a></li>
+			</ul>
+		</div>
+	</header>
+
+	<!-- Results Not Found Modal -->
+	<div class="modal childCenter" id="resultsNotFoundModal">
+		<div class="modal-body">
+			<h2>It looks like you are on a wrong page <i class="far fa-frown"></i></h2>
+			<p>The Chrome Extension works on Amazon pages which show results. Here are two example pages:</p>
+
+			<div class="row">
+				<div class="column">
+					<h3>Keyword Results</h3>
+					<img src="/assets/img/keywords-page-example.png" alt="Keyword Results">
+				</div>
+				<div class="column">
+					<h3>Product Details</h3>
+					<img src="/assets/img/details-page-example.png" alt="Product Details Page">
+				</div>
+			</div>
+			<p> The Chrome Extension supports various types of Amazon pages. The most popular page types are:<b>
+				Category Results, Amazon Top Pages, Seller Pages, Today's Deals,</b> and <b>many more</b>.</p>
+
+			<p>Your favorite site is not included? Simply contact us with the url and we will add it in our next
+				release.</p>
+		</div>
+	</div>
+
+	<footer class="footer purpleBackground">
+		<div class="flex-center-vertically">
+			<ul class="horizontalMenu">
+				<li>
+					<a class="footer-element" id="contactButton">
+						<i class="fas fa-envelope"></i><span>Support</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+</div>
+
+<!-- Scripts -->
+<script src="/assets/js/jquery-3.3.1.min.js"></script>
+<script src="/assets/js/alertify.js"></script>
+<script src="/js/env/constants.js"></script>
+<script src="/js/entity/message/Message.js"></script>
+<script src="/js/entity/message/MessageBackground.js"></script>
+<script src="/js/entity/message/MessageBackgroundActions.js"></script>
+<script src="/js/entity/message/MessageContent.js"></script>
+<script src="/js/entity/message/MessageContentActions.js"></script>
+<script src="/js/entity/message/MessageTarget.js"></script>
+<script src="/js/entity/Response.js"></script>
+<script src="/js/popup/services/Authenticator.js"></script>
+<script src="/js/popup/PopupServices.js"></script>
+<script src="/js/popup/PopupStart.js"></script>
+<!-- End Scripts -->
+</body>
+</html>
+

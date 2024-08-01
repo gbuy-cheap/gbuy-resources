@@ -1,0 +1,183 @@
+<!-- create a demo html file for chrome extension -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Kepicker</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0, minimal-ui"
+    />
+    <meta
+      name="description"
+      content="Find the most profitable products on Amazon!"
+    />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' gap:; script-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; object-src *; style-src 'self' data: 'unsafe-inline'; img-src 'self' data:; media-src 'self' data:; font-src 'self' data:; connect-src *"
+    />
+    <access origin="*" launch-external="yes" />
+    <allow-navigation href="*" />
+    <link rel="stylesheet" href="/popup-styles.css" />
+  </head>
+  <body>
+    <div class="container_kp" id="kp_popup_container">
+      <div class="header_kp">
+        <a class="kp_logo_area" href="http://kepicker.com/" target="_blank">
+          <div class="kp_logo"></div>
+          <span>Kepicker</span>
+        </a>
+
+        <button
+          id="kp-settings-btn"
+          class="kp_iconic_btn btn_settings small_tip"
+          aria-label="Settings"
+          data-microtip-position="left"
+          role="kptooltip"
+        ></button>
+      </div>
+
+      <div class="settings_area_kp">
+        <h5 class="h5_kp tt" id="show_hide_extension_title" >Show / Hide Extension</h5>
+        <div class="cl-toggle-switch one">
+          <h4 id="show_hide_extension_desc">Show/Hide Kepicker Extension For All Markets.</h4>
+          <div class="toggle-btn-kp">
+            <label class="cl-switch">
+              <input type="checkbox" id="kp-toggle-all" />
+              <span></span>
+            </label>
+          </div>
+        </div>
+
+        <h5 class="h5_kp tt" id="market_selection_title">Market Selections</h5>
+        <div class="cl-toggle-switch tt" id="market_selection_desc">
+          <h4>Hide Kepicker Extension from the markets you don't use.</h4>
+        </div>
+
+        <div class="radio-box">
+          <div
+            class="radio-option select__marktplcs"
+            id="kp_market_options"
+          ></div>
+        </div>
+      </div>
+      <div class="profile_area_kp">
+        <div class="hand_wave"></div>
+        <div>
+          <h2 id="user_name"></h2>
+          <span id="user_email"></span>
+        </div>
+      </div>
+      <div class="main_kp">
+        <div class="cards_area_kp">
+          <div class="info_card_kp">
+            <div class="kp_card_header">
+              <div class="kp_icn_token"></div>
+              <span id="label_remaining_tokens">Comparison<br />Tokens</span>
+            </div>
+            <div class="kp_card_container">
+              <span id="user_tokens">—</span>
+            </div>
+            <div class="kp_card_footer">
+              <a
+                id="label_buy_tokens"
+                class="card_link"
+                href="https://kepicker.com/client-dashboard"
+                target="_blank"
+                >Buy tokens</a
+              >
+            </div>
+          </div>
+          <div class="info_card_kp">
+            <div class="kp_card_header">
+              <div class="kp_icn_plan"></div>
+              <span id="label_current_plan">Current<br />Plan</span>
+            </div>
+            <div class="kp_card_container">
+              <span id="user_plan">—</span>
+            </div>
+            <div class="kp_card_footer">
+              <a
+                id="label_upgrade_plan"
+                class="card_link"
+                href="https://kepicker.com/pricing"
+                target="_blank"
+                >Upgrade plan</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="links_area_kp">
+          <ul>
+            <li>
+              <a
+                class="link_kp"
+                href="https://www.instagram.com/kepicker"
+                target="_blank"
+              >
+                <div class="k__left">
+                  <div class="kp_icn_instagram"></div>
+                  <span>Instagram</span>
+                </div>
+                <div class="kp_icn_right"></div>
+              </a>
+            </li>
+            <li>
+              <a
+                class="link_kp"
+                href="https://www.facebook.com/kepicker.software/"
+                target="_blank"
+              >
+                <div class="k__left">
+                  <div class="kp_icn_facebook"></div>
+                  <span>Facebook</span>
+                </div>
+                <div class="kp_icn_right"></div>
+              </a>
+            </li>
+            <li>
+              <a
+                class="link_kp"
+                href="https://twitter.com/kepicker_"
+                target="_blank"
+              >
+                <div class="k__left">
+                  <div class="kp_icn_twitter"></div>
+                  <span>X (Twitter)</span>
+                </div>
+                <div class="kp_icn_right"></div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer_kp">
+        <div class="connected_accounts">
+          <h3 id="label_connected_markets">Connected Markets</h3>
+          <div id="market_div" class="kp_market_itemms">
+            <span class="market_itemm">
+              <div id="label_north_america" class="m_title">North America</div>
+            </span>
+            <span class="market_itemm">
+              <div id="label_europe" class="m_title">Europe</div>
+            </span>
+            <span class="market_itemm">
+              <div id="label_far_east" class="m_title">Far East</div>
+            </span>
+          </div>
+
+          <div id="no_market_div" class="kp_no_market_itemms">
+            <div class="no_market_svg"></div>
+            <span id="label_no_markets">No connected markets!</span>
+          </div>
+        </div>
+      </div>
+      <div class="kp_powered_by">
+        powered by
+        <a href="https://onexyazilim.com/" target="_blank">Onex Software</a>
+      </div>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>

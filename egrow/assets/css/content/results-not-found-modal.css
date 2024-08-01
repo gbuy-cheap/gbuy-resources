@@ -1,0 +1,67 @@
+#egrowModal.waiting #resultsNotFoundModal {
+    background-color: white; /* Fallback color */
+}
+
+#egrowModal #resultsNotFoundModal .egrow-user-modal-body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+#egrowModal #resultsNotFoundModal .egrow-user-modal-body .results-not-found-content {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#egrowModal #resultsNotFoundModal .egrow-user-modal-body .results-not-found-content h2,
+#egrowModal #resultsNotFoundModal .egrow-user-modal-body .results-not-found-content h3 {
+    font-weight: 700;
+    padding-bottom: 4px;
+    margin: 0;
+}
+
+#egrowModal #resultsNotFoundModal .egrow-user-modal-body .results-not-found-content h2 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#egrowModal #resultsNotFoundModal .egrow-user-modal-body .results-not-found-content h3 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+#egrowModal #resultsNotFoundModal img {
+    border: 2px solid #5B2D8E;
+}
+
+#egrowModal #resultsNotFoundModal .example-pages {
+    color: black;
+    display: inline-block;
+    text-align: left;
+}
+
+#egrowModal #resultsNotFoundModal .egrow-user-modal-body .results-not-found-content p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #111111;
+    margin: 5px;
+}
+
+#egrowModal #resultsNotFoundModal .row {
+    display: flex;
+}
+
+#egrowModal #resultsNotFoundModal .column {
+    flex: 50%;
+    padding: 5px;
+}
+
+#egrowModal #resultsNotFoundModal .fa-frown {
+    color: #5B2D8E;
+}

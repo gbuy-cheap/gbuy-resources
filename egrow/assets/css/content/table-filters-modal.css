@@ -1,0 +1,81 @@
+#egrowModal #tableFiltersModal .egrow-user-modal-content {
+    background-color: #eeeeee;
+    width: 440px;
+}
+
+#egrowModal #tableFiltersModal .egrow-user-modal-body {
+    padding-top: 0;
+}
+
+#egrowModal #tableFiltersModal #tableFiltersForm {
+    margin-bottom: 0;
+}
+
+#egrowModal #tableFiltersModal .egrow-user-modal-footer {
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+#egrowModal #tableFiltersModal table.filters-table {
+    display: inline;
+}
+
+#egrowModal #tableFiltersModal table.filters-table td {
+    padding-right: 20px;
+    vertical-align: middle;
+}
+
+#egrowModal #tableFiltersModal table.filters-table td:first-child {
+    padding-left: 20px;
+}
+
+#egrowModal #tableFiltersModal table.filters-table input[type='text'] {
+    width: 100%;
+    text-align: left;
+}
+
+#egrowModal #tableFiltersModal table.filters-table input[type='text']::placeholder {
+    font-size: smaller;
+}
+
+#egrowModal #tableFiltersModal table.filters-table input[type='checkbox'] {
+    margin-right: 5px;
+    height: 13px;
+    width: 13px;
+    vertical-align: top;
+    position: relative;
+    bottom: -3px;
+}
+
+#egrowModal #tableFiltersModal table.filters-table .checkbox-label {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+#egrowModal #tableFiltersModal table .empty-row td {
+    padding: 5px 0;
+}
+
+#egrowModal #tableFiltersModal #clearFilters {
+    float: right;
+    font-size: smaller;
+}
+
+#egrowModal #tableFiltersModal .button-row .table-button {
+    height: 30px;
+    width: 100%;
+    float: right;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px #5B2D8E;
+    background-color: #5B2D8E;
+}
+
+#egrowModal #tableFiltersModal .button-row .table-button:focus {
+    outline: none;
+}
+
+#egrowModal #tableFiltersModal .button-row .table-button:hover {
+    border: 1px #663299;
+    background-color: #663299;
+}

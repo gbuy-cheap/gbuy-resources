@@ -1,0 +1,34 @@
+#egrowModal #profitCalculatorModal .egrow-user-modal-content {
+    width: 280px;
+    background-color: #EEEEEE;
+}
+
+#egrowModal #profitCalculatorModal .egrow-user-modal-footer {
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+#egrowModal #profitCalculatorModal .profit-calculator-table input {
+    width: 80px;
+}
+
+#egrowModal #profitCalculatorModal .profit-calculator-table label.input-label {
+    font-weight: normal;
+}
+
+#egrowModal #profitCalculatorModal .profit-calculator-table .calculated-value {
+    float: right;
+    font-weight: 600;
+}
+
+#egrowModal #profitCalculatorModal .profit-calculator-table .calculated-value.profitable {
+    color: green;
+}
+
+#egrowModal #profitCalculatorModal .profit-calculator-table .calculated-value.not-profitable {
+    color: red;
+}
+
+#egrowModal #profitCalculatorModal .profit-calculator-table #totalFBAFee {
+    color: red;
+}

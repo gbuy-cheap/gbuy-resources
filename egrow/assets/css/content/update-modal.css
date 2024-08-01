@@ -1,0 +1,48 @@
+#egrowModal #updateModal {
+    background-color: rgba(238, 238, 238, 1); /* Fallback color */
+    z-index: 2;
+}
+
+#egrowModal #updateModal .egrow-user-modal-content {
+    width: unset;
+}
+
+#egrowModal #updateModal .egrow-user-modal-title {
+    white-space: nowrap;
+}
+
+#egrowModal #updateModal .egrow-user-modal-body {
+    height: unset;
+    text-align: left;
+}
+
+#egrowModal #updateModal .egrow-user-modal-body ul {
+    color: black;
+}
+
+#egrowModal #updateModal .egrow-user-modal-body a {
+    text-decoration: none;
+    color: #5B2D8E;
+    font-weight: bold;
+}
+
+#egrowModal #updateModal .egrow-user-modal-footer {
+    padding: 15px;
+}
+
+#egrowModal #updateModal .egrow-user-modal-footer a {
+    text-decoration: none;
+    color: #5B2D8E;
+}
+
+#egrowModal #updateModal .egrow-user-modal-footer .contact-paragraph {
+    text-align: justify;
+}
+
+#egrowModal #updateModal .egrow-user-modal-footer .rate-paragraph {
+    text-align: center;
+}
+
+#egrowModal a.underline-link {
+    text-decoration: underline !important;
+}

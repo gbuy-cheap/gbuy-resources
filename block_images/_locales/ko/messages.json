@@ -1,0 +1,10 @@
+{
+	"extension_name": {
+		"message": "이미지 차단",
+		"description": "확장프로그램 이름."
+	},
+	"extension_desc": {
+		"message": "이미지와 동영상을 숨겨줍니다.",
+		"description": "확장프로그램 설명."
+	}
+}

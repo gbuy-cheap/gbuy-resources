@@ -1,0 +1,71 @@
+/* Customize the label (the container) */
+#egrowModal #tableFiltersModal .checkbox-label {
+    font-size: smaller;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+#egrowModal #tableFiltersModal .checkbox-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+#egrowModal .checkmark {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.3);
+}
+
+/* On mouse-over, add a grey background color */
+#egrowModal #tableFiltersModal .checkbox-label:hover input ~ .checkmark {
+    background-color: #f0f0f0;
+}
+
+/* When the checkbox is checked, add a blue background */
+#egrowModal #tableFiltersModal .checkbox-label input:checked ~ .checkmark {
+    background-color: #5B2D8E;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+#egrowModal .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+#egrowModal #tableFiltersModal .checkbox-label input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Show the checkmark when checked */
+#egrowModal #tableFiltersModal .checkbox-label input:checked .checkmark {
+    box-shadow: 0 0 0 1px rgba(0,0,0,0);
+}
+
+/* Style the checkmark/indicator */
+#egrowModal #tableFiltersModal .checkbox-label .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

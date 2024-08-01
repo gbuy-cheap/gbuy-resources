@@ -1,0 +1,73 @@
+/* Definition for all tooltips*/
+.egrow-tooltip.ui-tooltip {
+    z-index: 1000000;
+    display: inline-block;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 0;
+    opacity: 1;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    text-align: justify;
+    max-width: 310px;
+}
+
+.egrow-tooltip .ui-tooltip-content {
+    padding: 5px;
+}
+
+.egrow-tooltip .arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+}
+
+.egrow-tooltip .arrow.top {
+    top: -16px;
+    bottom: auto;
+}
+
+.egrow-tooltip .arrow:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -20px;
+    height: 23px;
+    width: 23px;
+    border: 1px solid rgb(211, 211, 211);
+    background-color: white;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: translate(-50%) rotate(45deg);
+}
+
+.egrow-tooltip .arrow.top:after {
+    bottom: -20px;
+    top: auto;
+}
+
+/* Definition for tooltips of form inputs */
+.egrow-tooltip.form-tooltip {
+    background-color: red;
+    color: white;
+    font-weight: 600;
+}
+
+.egrow-tooltip.form-tooltip .arrow {
+    top: 8px;
+    left: -7px;
+    transform: rotate(90deg);
+}
+
+.egrow-tooltip.form-tooltip .arrow:after {
+    background-color: red;
+    height: 28px;
+}

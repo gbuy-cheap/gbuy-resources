@@ -1,0 +1,113 @@
+{
+  "name": "Asinbaba",
+  "description": "Asinbaba Her Anında Yanında",
+  "version": "2.1.9",
+  "manifest_version": 3,
+  "author": "Muhammed Ali Altuntas <altuntasmuhammet96@gmail.com>",
+  "permissions": [
+    "background",
+    "notifications",
+    "activeTab",
+    "tabs",
+    "storage",
+    "unlimitedStorage",
+    "scripting",
+    "downloads",
+    "proxy",
+    "cookies",
+    "webRequest",
+    "offscreen"
+  ],
+  "action": {},
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.amazon.co.jp/*",
+        "*://*.amazon.com.au/*",
+        "*://*.amazon.com.tr/*",
+        "*://*.amazon.com.br/*",
+        "*://*.amazon.ca/*",
+        "*://*.amazon.ae/*",
+        "*://*.amazon.nl/*",
+        "*://*.amazon.co.uk/*",
+        "*://*.amazon.com/*",
+        "*://*.amazon.in/*",
+        "*://*.amazon.de/*",
+        "*://*.amazon.sg/*",
+        "*://*.amazon.fr/*",
+        "*://*.amazon.it/*",
+        "*://*.amazon.es/*",
+        "*://*.amazon.com.mx/*",
+        "*://*.amazon.sa/*",
+        "*://*.asinbaba.com/*",
+        "*://smile.amazon.com/*",
+        "*://api.exchangerate-api.com/*",
+        "*://tmsearch.uspto.gov/*"
+      ],
+      "css": [],
+      "js": [
+        "content-script.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": false
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "src/app/assets/*"
+      ],
+      "matches": [
+        "https://*/*"
+      ]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "icons": {
+    "256": "icon256.png"
+  },
+  "host_permissions": [
+    "*://*.amazon.co.jp/*",
+    "*://*.amazon.com.au/*",
+    "*://*.amazon.com.tr/*",
+    "*://*.amazon.com.br/*",
+    "*://*.amazon.ca/*",
+    "*://*.amazon.ae/*",
+    "*://*.amazon.nl/*",
+    "*://*.amazon.co.uk/*",
+    "*://*.amazon.com/*",
+    "*://*.amazon.in/*",
+    "*://*.amazon.de/*",
+    "*://*.amazon.sg/*",
+    "*://*.amazon.fr/*",
+    "*://*.amazon.it/*",
+    "*://*.amazon.es/*",
+    "*://*.amazon.com.mx/*",
+    "*://*.amazon.sa/*",
+    "*://.amazon.co.jp/*",
+    "*://.amazon.com.au/*",
+    "*://.amazon.com.tr/*",
+    "*://.amazon.com.br/*",
+    "*://.amazon.ca/*",
+    "*://.amazon.ae/*",
+    "*://.amazon.nl/*",
+    "*://.amazon.co.uk/*",
+    "*://.amazon.com/*",
+    "*://.amazon.in/*",
+    "*://.amazon.de/*",
+    "*://.amazon.sg/*",
+    "*://.amazon.fr/*",
+    "*://.amazon.it/*",
+    "*://.amazon.es/*",
+    "*://.amazon.com.mx/*",
+    "*://.amazon.sa/*",
+    "*://*.helium10.com/*",
+    "*://*.asinbaba.com/*"
+  ],
+  "version_name": "2.1.9"
+}

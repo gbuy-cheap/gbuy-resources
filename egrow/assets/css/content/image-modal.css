@@ -1,0 +1,66 @@
+/* All css settings for the image modal */
+#egrowModal #imageModal.egrow-user-modal {
+    height: 0;
+    width: 0;
+}
+
+#egrowModal #imageModal .egrow-user-modal-title {
+    margin: 15px 0 0;
+}
+
+#egrowModal #imageModal .egrow-user-modal-body {
+    text-align: left;
+    height: auto;
+}
+
+/* Image */
+#egrowModal #imageModal .product-image {
+    display: flex;
+    background: no-repeat center center;
+    background-size: contain;
+    border: 1px solid #999;
+    height: 150px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+#egrowModal #imageModal .product-image .fas.fa-file-image.image-placeholder {
+    color: #7a7a7a;
+    font-size: 70px;
+    margin: auto;
+}
+
+/* Review stars */
+#egrowModal #imageModal .fas,
+#egrowModal #imageModal .far {
+    color: #f3a847;
+}
+
+#egrowModal #imageModal .half-empty-star {
+    transform: scale(-1, 1);
+}
+
+#egrowModal #imageModal .half-added {
+    position: relative;
+    right: 15px;
+}
+
+#egrowModal #imageModal span {
+    padding-left: 5px;
+}
+
+#egrowModal #imageModal span.half-added {
+    position: relative;
+    right: 10px;
+    padding-left: 0;
+}
+
+/* Price */
+#egrowModal #imageModal .egrow-user-modal-price {
+    color: #5B2D8E;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

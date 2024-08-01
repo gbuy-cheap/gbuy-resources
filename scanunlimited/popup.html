@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Scan Unlimited</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+      body {
+        font-family: "Roboto", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+        margin: 20px;
+      }
+      .logo {
+        background-image: url(ScanU_BrandGreen.svg);
+        cursor: pointer;
+        width: 260px;
+        height: 30px;
+        background-size: 260px 30px;
+        margin-bottom: 20px;
+      }
+    </style>
+    <script src="js/vendor.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="d-flex flex-column align-items-center">
+          <a href="https://www.scanunlimited.com" target="_blank">
+            <div class="logo"></div>
+          </a>
+          <a id="reportBrand" href="https://docs.google.com/forms/d/e/1FAIpQLSf7xul7TJa7QYfITovtIAjEQEciHCL_AMfwF8NPu3A9ZDBQ-w/viewform?usp=sf_link" target="_blank">
+            <button type="button" class="btn btn-success">Report Brand</button>
+          </a>
+          <div id="session" class="d-none">
+            <div class="d-flex flex-column align-items-center">
+              <p class="text-center">Sign into your Scan Unlimited account to get started!</p>
+              <p class="text-center">Don't have an account? It's free to sign up!</p>
+              <div class="d-flex flex-row align-items-center">
+                <a class="p-2" href="https://app.scanunlimited.com/dashboard" target="_blank">
+                  <button style="width: 100px;" type="button" class="btn btn-success">Sign In</button>
+                </a>
+                <a class="p-2" href="https://app.scanunlimited.com/session/signup" target="_blank">
+                  <button style="width: 100px;" type="button" class="btn btn-success">Sign Up</button>
+                </a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <script src="js/popup.js"></script>
+  </body>
+</html>
+

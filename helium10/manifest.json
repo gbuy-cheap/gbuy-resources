@@ -1,0 +1,117 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 3,
+  "name": "Helium 10",
+  "short_name": "Helium 10",
+  "description": "Powerful Amazon and Walmart product research. Dive deep into marketplace data to assess competition, demand, opportunity & more.",
+  "version": "8.2.1",
+  "version_name": "8.2.1",
+  "author": "Helium10 <support@helium10.com>",
+  "icons": {
+    "16": "icon/16.png",
+    "32": "icon/32.png",
+    "48": "icon/48.png",
+    "128": "icon/128.png"
+  },
+  "background": {
+    "service_worker": "background-script.js",
+    "type": "module"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon/16-off.png",
+      "48": "icon/48.png"
+    },
+    "default_title": "Helium 10",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.helium-dev.com/*",
+        "*://*.helium10-dev.com/*",
+        "*://*.helium10.com/*"
+      ],
+      "css": [],
+      "js": [
+        "vendors.js",
+        "helium-script.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": false
+    },
+    {
+      "matches": [
+        "*://*.amazon.com/*",
+        "*://*.amazon.ca/*",
+        "*://*.amazon.com.mx/*",
+        "*://*.amazon.de/*",
+        "*://*.amazon.es/*",
+        "*://*.amazon.it/*",
+        "*://*.amazon.fr/*",
+        "*://*.amazon.co.uk/*",
+        "*://*.amazon.nl/*",
+        "*://*.amazon.in/*",
+        "*://*.amazon.com.au/*",
+        "*://*.amazon.co.jp/*",
+        "*://*.amazon.com.br/*",
+        "*://*.amazon.ae/*"
+      ],
+      "css": [],
+      "js": [
+        "vendors.js",
+        "amazon-script.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": false
+    },
+    {
+      "matches": [
+        "*://*.walmart.com/*"
+      ],
+      "css": [],
+      "js": [
+        "vendors.js",
+        "walmart-script.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": false
+    },
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "css": [],
+      "js": [
+        "vendors.js",
+        "shopify-script.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": false
+    }
+  ],
+  "options_page": "options.html",
+  "incognito": "spanning",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "permissions": [
+    "background",
+    "activeTab",
+    "tabs",
+    "storage",
+    "unlimitedStorage",
+    "scripting"
+  ],
+  "optional_permissions": [],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "externally_connectable": {
+    "matches": [
+      "*://*.helium-dev.com/*",
+      "*://*.helium10.com/*"
+    ]
+  }
+}

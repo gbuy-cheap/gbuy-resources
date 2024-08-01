@@ -1,0 +1,16 @@
+/* Do not show table on first injection and when minimized */
+#egrowModal.first-injection #egrowTable.dataTable,
+#egrowModal.minimized .result-table {
+    display: none;
+}
+
+/* Text fields are adjusted to the correct length */
+#egrowTable.dataTable .nowrap {
+    white-space: nowrap !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#egrowTable.dataTable.no-footer {
+    border-bottom: 1px solid rgb(228, 234, 236) !important;
+}

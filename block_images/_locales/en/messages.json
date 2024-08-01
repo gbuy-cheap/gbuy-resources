@@ -1,0 +1,10 @@
+{
+	"extension_name": {
+		"message": "Block image",
+		"description": "Extension name."
+	},
+	"extension_desc": {
+		"message": "Block images and videos.",
+		"description": "Extension description."
+	}
+}

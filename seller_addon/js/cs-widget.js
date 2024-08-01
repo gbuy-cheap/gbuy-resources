@@ -1,0 +1,1 @@
+AMZHelpers.getASIN()?WidgetController.init():alert("Online Seller Addon:\nWill only work on product detail pages or the list of sellers page.");

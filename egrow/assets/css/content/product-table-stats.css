@@ -1,0 +1,128 @@
+/* Do not show table stats on first injection */
+#egrowModal.first-injection #egrowTableStats {
+    display: none;
+}
+
+/* Table stats position and sizes */
+#egrowModal #egrowTableStats {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    background-color: #f7f8fa;
+}
+
+/* CSS Settings for one stats element */
+#egrowModal #egrowTableStats .table-stats {
+    flex: 1;
+    min-width: 160px;
+    margin: 0 5px;
+    padding: 2px;
+    color: rgb(69, 69, 69);
+}
+
+/* Settings for min/max stats */
+#egrowModal #egrowTableStats .table-stats .min-max-stats {
+    display: none;
+    font-size: 12px;
+}
+
+#egrowModal #egrowTableStats .table-stats .min-max-stats .min-text {
+    float: left;
+}
+
+#egrowModal #egrowTableStats .table-stats .min-max-stats .max-text {
+    float: right;
+}
+
+/* Hover effects for min/max and avg stats (not when modal is minimized) */
+#egrowModal:not(.minimized) #egrowTableStats .table-stats:not(.os-stats):hover .min-max-stats {
+    display: flow-root;
+}
+
+#egrowModal:not(.minimized) #egrowTableStats .table-stats:not(.os-stats):hover .avg-stats .avg-value {
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+}
+
+/* Position of first and last stats element */
+#egrowModal #egrowTableStats div.table-stats:first-of-type {
+    margin-left: 0;
+}
+
+#egrowModal #egrowTableStats div.table-stats:last-of-type {
+    margin-right: 0;
+}
+
+#egrowModal #egrowTableStats .table-stats .avg-stats {
+    background-color: white;
+    padding: 5px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+}
+
+/* Paragraphs */
+#egrowModal #egrowTableStats .table-stats .avg-stats .avg-text {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+#egrowModal #egrowTableStats .table-stats .avg-stats .avg-text .currency-symbol {
+    font-weight: bold;
+}
+
+/* Avg Values */
+#egrowModal #egrowTableStats .table-stats .avg-stats .avg-value {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: normal;
+}
+
+/* Info Icons */
+#egrowModal #egrowTableStats .table-stats .avg-stats .avg-info-icon {
+    font-size: 15px;
+    float: right;
+    color: #5B2D8E;
+}
+
+/* OS Stats */
+#egrowModal #egrowTableStats .table-stats.os-stats {
+    min-width: 150px;
+}
+
+#egrowModal #egrowTableStats .table-stats.os-stats .avg-value {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#egrowModal #egrowTableStats .table-stats.os-stats .avg-value .br-wrapper {
+    margin-right: 4px;
+}
+
+#egrowModal #egrowTableStats #osRating {
+    display: none;
+}
+
+/* Minimized Table Stats */
+#egrowModal.minimized #egrowTableStats {
+    padding: 5px;
+}
+
+#egrowModal.minimized #egrowTableStats .table-stats {
+    min-width: unset;
+    margin: 0 2px;
+}
+
+#egrowModal.minimized #egrowTableStats .table-stats .avg-stats .avg-value {
+    font-size: 28px;
+}
+
+#egrowModal.minimized #egrowTableStats .table-stats .avg-stats .avg-text .currency-symbol {
+    font-size: 10px;
+}

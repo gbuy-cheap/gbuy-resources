@@ -1,0 +1,45 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "name": "Keepa - Amazon Price Tracker",
+    "short_name": "Keepa",
+    "version": "5.26",
+    "permissions": ["alarms", "storage", "declarativeNetRequestWithHostAccess", "cookies", "contextMenus", "offscreen", "webRequest"],
+    "optional_permissions": [],
+    "author": "Keepa GmbH",
+    "background": {
+        "service_worker": "keepa.js",
+        "type": "module"
+    },
+    "minimum_chrome_version": "120",
+    "host_permissions": ["*://*.keepa.com/*", "*://*.amazon.com/*", "*://*.amzn.com/*", "*://*.amazon.co.uk/*", "*://*.amazon.de/*", "*://*.amazon.fr/*", "*://*.amazon.it/*", "*://*.amazon.ca/*", "*://*.amazon.com.mx/*", "*://*.amazon.es/*", "*://*.amazon.co.jp/*", "*://*.amazon.in/*", "*://*.amazon.com.br/*", "*://*.amazon.nl/*", "*://*.amazon.com.au/*"],
+    "web_accessible_resources": [{
+            "resources": ["selectionHook.js"],
+            "matches": ["*://*.amzn.com/*", "*://*.amazon.com/*", "*://*.amazon.ca/*", "*://*.amazon.com.mx/*", "*://*.amazon.co.uk/*", "*://*.amazon.de/*", "*://*.amazon.fr/*", "*://*.amazon.it/*", "*://*.amazon.es/*", "*://*.amazon.co.jp/*", "*://*.amazon.in/*", "*://*.amazon.com.br/*", "*://*.amazon.nl/*", "*://*.amazon.com.au/*"]
+        }
+    ],
+    "manifest_version": 3,
+    "options_page": "options.html",
+    "homepage_url": "https://keepa.com",
+    "content_scripts": [{
+            "all_frames": true,
+            "js": ["content.js"],
+            "matches": ["*://*.keepa.com/*", "*://*.amzn.com/*", "*://*.amazon.com/*", "*://*.amazon.ca/*", "*://*.amazon.com.mx/*", "*://*.amazon.co.uk/*", "*://*.amazon.de/*", "*://*.amazon.fr/*", "*://*.amazon.it/*", "*://*.amazon.es/*", "*://*.amazon.co.jp/*", "*://*.amazon.in/*", "*://*.amazon.com.br/*", "*://*.amazon.nl/*", "*://*.amazon.com.au/*"],
+            "run_at": "document_start"
+        }
+    ],
+	"action": {
+		"default_icon": {
+			"32": "icons/i32.png",
+			"48": "icons/i48.png"
+		},
+		"default_title": "Keepa automatically loads on Amazon product pages."
+	},
+    "description": "Adds price history charts and the option to be alerted on price drops to all supported Amazon sites.",
+    "icons": {
+        "128": "icons/i128.png",
+        "16": "icons/i16.png",
+        "32": "icons/i32.png",
+        "48": "icons/i48.png"
+    }
+}

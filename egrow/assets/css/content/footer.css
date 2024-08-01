@@ -1,0 +1,95 @@
+/* z-index to be over waiting modal */
+#egrowModal .egrow-footer {
+    width: 100%;
+    height: 28px;
+    font-size: 12px;
+    z-index: 3;
+    display: flex;
+}
+
+/* Grabbing Hands for Footer */
+#egrowModal .egrow-footer:hover {
+    cursor: grab;
+}
+
+/* Grabbing Hands for Footer */
+#egrowModal .egrow-footer:active {
+    cursor: grabbing;
+}
+
+#egrowModal .egrow-footer .egrow-footer-filler {
+    flex: 1 1 auto;
+}
+#egrowModal .egrow-footer .first-menu {
+    margin-left: 5px;
+}
+
+#egrowModal .egrow-footer .horizontalMenu li {
+    margin-right: 15px;
+}
+
+/* Centering icons with text */
+#egrowModal .egrow-footer .egrow-footer-element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#egrowModal .egrow-footer a {
+    color: white;
+    padding: 5px;
+}
+
+#egrowModal .egrow-footer span {
+    margin-left: 5px;
+}
+
+/* Disable elements during scanning of data */
+#egrowModal .egrow-footer .egrow-footer-element.disabled {
+    pointer-events: none;
+}
+
+/* Normal color for icons */
+#egrowModal .egrow-footer .egrow-footer-element .fas,
+#egrowModal .egrow-footer .egrow-footer-element .fab,
+#egrowModal .egrow-footer .egrow-footer-element .far {
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+}
+
+/* Hover color for icons */
+#egrowModal .egrow-footer .egrow-footer-element:hover,
+#egrowModal .egrow-footer .egrow-footer-element:hover .fas,
+#egrowModal .egrow-footer .egrow-footer-element:hover .fab,
+#egrowModal .egrow-footer .egrow-footer-element:hover .far {
+    color: #eee;
+    text-decoration: none;
+}
+
+/* Gray out all elements when products are scanned */
+#egrowModal.waiting .egrow-footer .egrow-footer-element .fas,
+#egrowModal.waiting .egrow-footer .egrow-footer-element .fab,
+#egrowModal.waiting .egrow-footer .egrow-footer-element .far {
+    color: #eee;
+}
+
+#egrowModal .egrow-footer #sponsoredButton.sponsored-hidden,
+#egrowModal .egrow-footer #sponsoredButton.sponsored-hidden .fab {
+    color: #eee;
+}
+
+#egrowModal .egrow-footer #sponsoredButton.sponsored-hidden:hover,
+#egrowModal .egrow-footer #sponsoredButton.sponsored-hidden:hover .fab {
+    color: white;
+}
+
+/* Do not show icons+text when minimized */
+#egrowModal.minimized .egrow-footer #tableFiltersButton {
+    display: none;
+}
+
+/* Change color of filter icon to indicate set filters */
+#egrowModal .egrow-footer #tableFiltersButton.filters-selected i.fa-filter {
+    color: #F2A654;
+}

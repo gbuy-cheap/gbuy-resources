@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Grab ASIN on page</title>
+</head>
+
+<body>
+    <a href="http://easync.io/?extn"></a>
+    <!-- <div>
+      <a class="btn text" href="http://easync.io/"><img src="logo.svg" width="100px" alt="easync.io"></a>
+    </div> -->
+    <div class="">
+        <select class="btn text js-markets">
+            <option value="empty">Go Store</option>
+            <option value="amazon">amazon</option>
+            <option value="walmart">walmart.com</option>
+            <option value="aliexpress">aliexpress.com</option>
+            <option value="overstock">overstock.com</option>
+            <option value="sears">sears.com</option>
+            <option value="kmart">kmart.com</option>
+            <option value="bestbuy">bestbuy.com</option>
+            <option value="bhphotovideo">bhphotovideo.com</option>
+            <option value="costco">costco.com</option>
+            <option value="samsclub">samsclub.com</option>
+            <option value="lowes">lowes.com</option>
+            <option value="homedepot">homedepot.com</option>
+            <!-- <option value="ebay">eBay</option> -->
+        </select>
+        <span class="badge js-count" title="Unique Product Ids"></span>
+        <a class="btn btn-default js-empty pull-right" title="Remove Product Ids"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+        <a class="btn btn-default js-table pull-right" title="Copy & New Google Spreadsheet"><i class="fa fa-google" aria-hidden="true"></i></a>
+        <a class="btn btn-default js-csv pull-right" title="Download CSV"><i class="fa fa-file-excel-o" aria-hidden="true"></i></a>
+        <a class="btn btn-default js-address pull-right" title="Paste address"><i class="fa fa-paste" aria-hidden="true"></i></a>
+        <a class="btn btn-default js-cp pull-right" title="Copy"><i class="fa fa-files-o" aria-hidden="true"></i></a>
+        <a class="btn btn-default js-timing pull-right" title="Timing Grab"><i class="fa fa-clock-o" aria-hidden="true"></i></a>
+        <a class="btn btn-default js-run pull-right" title="Grab & Next Page"><i class="fa fa-rocket" aria-hidden="true"></i></a>
+        <textarea class="js-box hide" placeholder="Items; Price; Stars; Reviews; Prime"></textarea>
+        <div id="hacker-list">
+            <div class="btn-toolbar btn-group-xs" role="group">
+                <span class="btn btn-default sort pull-right" data-sort="datetime">added</span>
+                <span class="btn btn-default sort pull-right" data-sort="reviews">reviews</span>
+                <span class="btn btn-default sort pull-right" data-sort="price">price</span>
+                <span class="btn btn-default sort pull-right" data-sort="productId">product id</span>
+                <span class="pull-right" style="color:#999">sort</span>
+            </div>
+            <p>
+                <p>
+                    <ul class="list list-group"></ul>
+                    <div class="text-center">
+                        <ul class="pagination pagination-sm paginationBottom"></ul>
+                        <div>
+                        </div>
+                        <div class="footer js-status"></div>
+                    </div>
+<script src="lib/jquery.js"></script>
+<script src="lib/list.js"></script>
+<script src="lib/list.pagination.js"></script>
+<link href="css/popup.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="popup.js"></script>
+</body>
+</html>

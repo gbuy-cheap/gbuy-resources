@@ -1,0 +1,715 @@
+<div class="page-wrapper" id="egrowPageWrapper">
+    <div class="egrow-header draggable purpleBackground">
+        <div class="menu">
+            <a id="menuButton"><i class="fas fa-bars"></i></a>
+            <ul id="egrowMenu">
+                <li class="egrow-menu-element">
+                    <a href="javascript:void(0);" data-target="member/product-tracker">Product Tracker</a>
+                </li>
+                <li></li>
+                <li class="egrow-menu-element">
+                    <a href="javascript:void(0);" data-target="member/database-research">Database Research</a>
+                </li>
+                <li></li>
+                <li class="egrow-menu-element">
+                    <a href="javascript:void(0);" data-target="member/live-amazon-scanner">Live Amazon Scanner</a>
+                </li>
+                <li></li>
+                <li class="egrow-menu-element">
+                    <a href="javascript:void(0);" data-target="member/keyword-niche-tool">KW & Niche Tool</a>
+                </li>
+                <li></li>
+                <li class="egrow-menu-element">
+                    <a href="javascript:void(0);" data-target="member/reverse-asin-research">Reverse ASIN Research</a>
+                </li>
+                <li></li>
+                <li class="egrow-menu-element">
+                    <a href="javascript:void(0);" data-target="member/rank-tracker">Rank Tracker</a>
+                </li>
+            </ul>
+        </div>
+        <a href="https://egrow.io/member/dashboard" target="_blank" title="Egrow.io" class="egrow-logo parentCenter">
+            <div class="childCenter">
+                <img src="##path##assets/img/logo.png" alt="">
+            </div>
+        </a>
+        <span class="egrow-header-filler"></span>
+        <div class="horizontalMenu">
+            <ul class="menuIcons">
+                <li>
+                    <a class="egrow-header-element" title="Upgrade your Account" id="upgradeButton"
+                       href="https://egrow.io/member/plans?ic_source=chrome_extension&ic_medium=top_navigation&ic_campaign=ads&ic_content=upgrade_button&ic_term=&itm_source=chrome_extension&itm_medium=menu&itm_campaign=itm&itm_content=_&itm_term=c_a_upgrade&coupon=GROW50" target="_blank">
+                        <button class="action-button">
+                            <i class="fas fa-shopping-cart"></i> Upgrade
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <a class="egrow-header-element" title="Feedback" id="feedbackHeaderButton">
+                        <i class="fas fa-comment-dots"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="egrow-header-element" title="Rate me" id="rateHeaderButton">
+                        <i class="fas fa-star"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="egrow-header-element" title="Refresh" id="refreshButton">
+                        <i class="fas fa-sync"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="egrow-header-element" title="Minimize" id="sizeButton">
+                        <i class="fas fa-window-minimize"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="egrow-header-element" title="Close" id="closeButton">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="egrow-coupon-banner" id="countdownBar">
+        <div>
+            <span class="bold-text">Offer <span id="countdownTimer"></span></span> - Lifetime Monthly Discount - Use Coupon Code "GROW50" -
+            <a class="egrow-coupon-banner-link bold-text" target="_blank"
+               href="https://egrow.io/member/plans?ic_source=chrome_extension&ic_medium=top_navigation&ic_campaign=ads&ic_content=countdown_bar&ic_term=&itm_source=chrome_extension&itm_medium=topbar&itm_campaign=itm&itm_content=_&itm_term=c_a_countdown&coupon=GROW50">
+                Click Here to Upgrade Now
+            </a>
+        </div>
+    </div>
+    <div class="egrow-middle-content">
+        <div class="table-stats-container" id="egrowTableStats">
+            <div class="bsr-stats table-stats">
+                <div class="avg-stats">
+                    <div class="avg-text">
+                        Avg. BSR
+                        <i class="fas fa-info-circle avg-info-icon"
+                           title="Averaged Amazon Best Seller Rank of all products">
+                        </i>
+                    </div>
+                    <div class="avg-value"></div>
+                    <div class="min-max-stats">
+                        <span class="min-text">Min: <span class="min-value"></span></span>
+                        <span class="max-text">Max: <span class="max-value"></span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="price-stats table-stats">
+                <div class="avg-stats">
+                    <div class="avg-text">
+                        Avg. Price <span class="currency-symbol"></span>
+                        <i class="fas fa-info-circle avg-info-icon"
+                           title="Averaged Price of all products"></i>
+                    </div>
+                    <div class="avg-value"></div>
+                    <div class="min-max-stats">
+                        <span class="min-text">Min: <span class="min-value"></span></span>
+                        <span class="max-text">Max: <span class="max-value"></span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-stats table-stats">
+                <div class="avg-stats">
+                    <div class="avg-text">
+                        Avg. Reviews
+                        <i class="fas fa-info-circle avg-info-icon"
+                           title="Averaged number of reviews of all products">
+                        </i>
+                    </div>
+                    <div class="avg-value"></div>
+                    <div class="min-max-stats">
+                        <span class="min-text">Min: <span class="min-value"></span></span>
+                        <span class="max-text">Max: <span class="max-value"></span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="sales-stats table-stats">
+                <div class="avg-stats">
+                    <div class="avg-text">
+                        Avg. Sales
+                        <i class="fas fa-info-circle avg-info-icon"
+                           title="Averaged monthly sales of all products">
+                        </i>
+                    </div>
+                    <div class="avg-value"></div>
+                    <div class="min-max-stats">
+                        <span class="min-text">Min: <span class="min-value"></span></span>
+                        <span class="max-text">Max: <span class="max-value"></span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="revenue-stats table-stats">
+                <div class="avg-stats">
+                    <div class="avg-text">
+                        Avg. Revenue <span class="currency-symbol"></span>
+                        <i class="fas fa-info-circle avg-info-icon"
+                           title="Averaged Revenue of all products"></i>
+                    </div>
+                    <div class="avg-value"></div>
+                    <div class="min-max-stats">
+                        <span class="min-text">Min: <span class="min-value"></span></span>
+                        <span class="max-text">Max: <span class="max-value"></span></span>
+                    </div>
+                </div>
+            </div>
+            <div id="osStats" class="os-stats table-stats">
+                <div class="avg-stats">
+                    <div class="avg-text">
+                        Opportunity Score
+                        <i class="fas fa-info-circle avg-info-icon"
+                           title="The Opportunity Score (OS) is a number from 0-10. It reflects the ratio between demand, competition
+				 		and quality of listings. A high score (8-10) indicates that this niche could be a great opportunity
+						for sellers and a low score (0-2) does the opposite. It is calculated only for keyword result pages.">
+                        </i>
+                    </div>
+                    <div class="avg-value real-os">
+                        <select id="osRating">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                        <div id="osValue"></div>
+                    </div>
+                    <div class="avg-value default-os">—</div>
+                </div>
+            </div>
+        </div>
+        <div class="result-table">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" id="egrowTable">
+            </table>
+        </div>
+    </div>
+
+    <div class="egrow-footer draggable purpleBackground">
+        <div>
+            <div class="horizontalMenu flex-center-vertically">
+                <ul class="first-menu">
+                    <li class="egrow-footer-list-item">
+                        <a class="egrow-footer-element" title="Filter Results" id="tableFiltersButton">
+                            <i class="fas fa-filter"></i><span>Filters</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <span class="egrow-footer-filler"></span>
+        <div class="horizontalMenu flex-center-vertically">
+            <ul>
+                <li class="egrow-footer-list-item">
+                    <a class="egrow-footer-element egrow-contact" title="Contact Egrow Support" id="contactButton">
+                        <i class="fas fa-envelope"></i><span>Support</span>
+                    </a>
+                </li>
+                <li class="egrow-footer-list-item">
+                    <a class="export egrow-footer-element" title="Export Data" id="exportButton">
+                        <i class="fas fa-download"></i><span>Export</span>
+                    </a>
+                </li>
+                <li class="egrow-footer-list-item">
+                    <a class="egrow-footer-element" title="Remove/Add Sponsored Products" id="sponsoredButton">
+                        <i class="fas fa-ad"></i><span>Sponsored</span>
+                    </a>
+                </li>
+                <li class="egrow-footer-list-item">
+                    <a class="egrow-footer-element" title="Take Screenshot" id="screenShotButton">
+                        <i class="fas fa-camera"></i><span>Screenshot</span>
+                    </a>
+                </li>
+                <li class="egrow-footer-list-item">
+                    <a class="egrow-footer-element" title="Show related Keywords" id="keywordNicheToolButton">
+                        <i class="fas fa-search"></i><span id="keywordNicheToolSpan">Keywords</span>
+                    </a>
+                </li>
+                <li class="egrow-footer-list-item">
+                    <a class="egrow-footer-element" title="Scan next Amazon Page" id="getNextPageButton">
+                        <i class="fas fa-arrow-right"></i><span>Scan Next Page</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Table Filters Modal -->
+<div class="egrow-user-modal table-modal childCenter" id="tableFiltersModal">
+    <div class="egrow-user-modal-content childCenter">
+        <a class="close-modal close-modal-link" href="javascript:void(0);" title="Close Filters"><i class="fas fa-times close-modal"></i></a>
+        <div class="egrow-user-modal-title">
+            Table Filters
+        </div>
+        <div class="egrow-user-modal-body">
+            <form id="tableFiltersForm" autocomplete="off">
+
+                <table class="filters-table">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <label class="row-label" for="minPrice">Price</label>
+                        </td>
+                        <td>
+                            <input type="text" name="minPrice" class="input float-input" id="minPrice" placeholder="Min. Price">
+                        </td>
+                        <td>
+                            <input type="text" name="maxPrice" class="input float-input" id="maxPrice" placeholder="Max. Price">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="minBsr">BSR</label>
+                        </td>
+                        <td>
+                            <input type="text" name="minBsr" class="integer-input" id="minBsr" placeholder="Min. BSR">
+                        </td>
+                        <td>
+                            <input type="text" name="maxBsr" class="integer-input" id="maxBsr" placeholder="Max. BSR">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="minNet">Net</label>
+                        </td>
+                        <td>
+                            <input type="text" name="minNet" class="float-input" id="minNet" placeholder="Min. Net">
+                        </td>
+                        <td>
+                            <input type="text" name="maxNet" class="float-input" id="maxNet" placeholder="Max. Net">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="minWeight">Weight</label>
+                        </td>
+                        <td>
+                            <input type="text" name="minWeight" class="float-input" id="minWeight" placeholder="Min. Weight">
+                        </td>
+                        <td>
+                            <input type="text" name="maxWeight" class="float-input" id="maxWeight" placeholder="Max. Weight">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="minReviews">Reviews</label>
+                        </td>
+                        <td>
+                            <input type="text" name="minReviews" class="float-input" id="minReviews" placeholder="Min. Reviews">
+                        </td>
+                        <td>
+                            <input type="text" name="maxReviews" class="float-input" id="maxReviews" placeholder="Max. Reviews">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="minRating">Rating</label>
+                        </td>
+                        <td>
+                            <input type="text" name="minRating" class="float-input" id="minRating" placeholder="Min. Rating">
+                        </td>
+                        <td>
+                            <input type="text" name="maxRating" class="float-input" id="maxRating" placeholder="Max. Rating">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="minSales">Sales</label>
+                        </td>
+                        <td>
+                            <input type="text" name="minSales" class="float-input" id="minSales" placeholder="Min. Sales">
+                        </td>
+                        <td>
+                            <input type="text" name="maxSales" class="float-input" id="maxSales" placeholder="Max. Sales">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="minRevenue">Revenue</label>
+                        </td>
+                        <td>
+                            <input type="text" name="minRevenue" class="float-input" id="minRevenue" placeholder="Min. Revenue">
+                        </td>
+                        <td>
+                            <input type="text" name="maxRevenue" class="float-input" id="maxRevenue" placeholder="Max. Revenue">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="minLqs">LQS</label>
+                        </td>
+                        <td>
+                            <input type="text" name="minLqs" class="float-input" id="minLqs" placeholder="Min. LQS">
+                        </td>
+                        <td>
+                            <input type="text" name="maxLqs" class="float-input" id="maxLqs" placeholder="Max. LQS">
+                        </td>
+                    </tr>
+                    <tr class="empty-row">
+                        <td></td>
+                        <td></td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr class="seller-row">
+                        <td>
+                            <label for="minLqs">Seller</label>
+                        </td>
+
+                        <td class="checkbox-cell" colspan="2">
+                            <div class="checkbox-container">
+                                <label class="checkbox-label" for="AMZSeller">
+                                    <input type="checkbox" name="AMZSeller" id="AMZSeller" checked>AMZ
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox-label" for="FBASeller">
+                                    <input type="checkbox" name="FBASeller" id="FBASeller" checked>FBA
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox-label" for="FBMSeller">
+                                    <input type="checkbox" name="FBMSeller" id="FBMSeller" checked>FBM
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <a class="table-button" id="clearFilters">Reset All</a>
+                        </td>
+                    </tr>
+                    <tr class="empty-row">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="button-row">
+                        <td></td>
+                        <td colspan="2">
+                            <button class="table-button" type="button" id="applyFilter">Apply Filter</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+
+        </div>
+        <div class="egrow-user-modal-footer">
+        </div>
+    </div>
+</div>
+
+<!-- Profit Calculator Modal -->
+<div class="egrow-user-modal table-modal childCenter" id="profitCalculatorModal">
+    <div class="egrow-user-modal-content childCenter">
+        <a class="close-modal close-modal-link" href="javascript:void(0);" title="Close Calculator"><i class="fas fa-times close-modal"></i></a>
+        <div class="egrow-user-modal-title">
+            Profit Calculator
+        </div>
+        <div class="egrow-user-modal-body">
+            <form id="profitCalculatorForm" autocomplete="off">
+                <table class="profit-calculator-table">
+                    <tr>
+                        <td>
+                            <label class="input-label" for="productCost">Product Cost</label>
+                        </td>
+                        <td>
+                            <div class="profit-calculator-currency">$</div>
+                        </td>
+                        <td>
+                            <input type="text" name="productCost" class="required-float-input" id="productCost" placeholder="e.g. 15.4">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label class="input-label" for="shippingCost">Shipping Cost</label>
+                        </td>
+                        <td>
+                            <div class="profit-calculator-currency">$</div>
+                        </td>
+                        <td>
+                            <input type="text" name="shippingCost" class="required-float-input" id="shippingCost" placeholder="e.g. 1.2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label class="input-label" for="cpcCost">CPC Cost</label>
+                        </td>
+                        <td>
+                            <div class="profit-calculator-currency">$</div>
+                        </td>
+                        <td>
+                            <input type="text" name="cpcCost" class="required-float-input" id="cpcCost" placeholder="e.g. 0.85">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label class="input-label" for="taxes">Taxes</label>
+                        </td>
+                        <td>
+                            <div>%</div>
+                        </td>
+                        <td>
+                            <input type="text" name="taxes" class="required-float-input" id="taxes" placeholder="e.g. 19">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label class="input-label" for="productPrice">Product Price</label>
+                        </td>
+                        <td>
+                            <div class="profit-calculator-currency">$</div>
+                        </td>
+                        <td>
+                            <input type="text" name="productPrice" class="required-float-input" id="productPrice" placeholder="e.g. 25.99">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label class="input-label" for="estimatedMonthlySales">Est. Monthly Sales</label>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                            <input type="text" name="estimatedMonthlySales" class="required-integer-input"
+                                   id="estimatedMonthlySales" placeholder="e.g. 350">
+                        </td>
+                    </tr>
+                    <tr class="empty-row">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="totalFBAFee">Total FBA Fee</label>
+                        </td>
+                        <td>
+                            <div class="profit-calculator-currency">$</div>
+                        </td>
+                        <td>
+                            <div class="calculated-value" id="totalFBAFee">...</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="profitPerProduct">Profit per Product</label>
+                        </td>
+                        <td>
+                            <div class="profit-calculator-currency">$</div>
+                        </td>
+                        <td>
+                            <div class="calculated-value" id="profitPerProduct">...</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="netMargin">Net Margin</label>
+                        </td>
+                        <td>
+                            <div>%</div>
+                        </td>
+                        <td>
+                            <div class="calculated-value" id="netMargin">...</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="estimatedMonthlyProfit">Est. Monthly Profit</label>
+                        </td>
+                        <td>
+                            <div class="profit-calculator-currency">$</div>
+                        </td>
+                        <td>
+                            <div class="calculated-value" id="estimatedMonthlyProfit">...</div>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="egrow-user-modal-footer">
+        </div>
+    </div>
+</div>
+
+<!-- Results Not Found Modal -->
+<div class="egrow-user-modal childCenter" id="resultsNotFoundModal">
+    <div class="egrow-user-modal-body">
+        <div class="results-not-found-content">
+            <h2>It looks like you are on a wrong page <i class="far fa-frown"></i></h2>
+            <p>The Chrome Extension works on Amazon pages which show results. Here are two example pages:</p>
+
+            <div class="row">
+                <div class="column">
+                    <h3>Keyword Results</h3>
+                    <img src="##path##assets/img/keywords-page-example.png" alt="Keyword Results" style="width:85%">
+                </div>
+                <div class="column">
+                    <h3>Product Details</h3>
+                    <img src="##path##assets/img/details-page-example.png" alt="Product Details Page" style="width:85%">
+                </div>
+            </div>
+            <p> The Chrome Extension supports various types of Amazon pages. The most popular page types are:<b>
+                Category Results, Amazon Top Pages, Seller Pages, Today's Deals,</b> and <b>many more</b>.</p>
+
+            <p>Your favorite site is not included? Simply contact us with the url and we will add it in our next
+                release.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Waiting Modal -->
+<div class="egrow-user-modal childCenter" id="waitingModal">
+    <div class="egrow-user-modal-content childCenter">
+        <div class="egrow-user-modal-title">
+            Please Wait
+        </div>
+        <div class="egrow-user-modal-body">
+            <img src="##path##assets/img/loader.gif">
+        </div>
+    </div>
+</div>
+
+<!-- Location Modal needs to be above the Update Modal so the update modal visible at start -->
+<div class="egrow-user-modal childCenter modal-custom-border" id="location-modal">
+    <div class="egrow-user-modal-content location childCenter">
+        <div class="egrow-user-modal-title">
+            Set a delivery location
+        </div>
+        <div class="egrow-user-modal-body">
+            <div class="description">
+                <p>To receive full and reliable data, we ask you to update the delivery location of the Amazon marketplace.</p>
+                <p>You can do it yourself or we can set a default one for you.</p>
+            </div>
+        </div>
+        <div class="egrow-user-modal-footer">
+            <div class="button-wrapper">
+                <button id="request-location-button" type="button" class="request-button">set default location</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Update Modal -->
+<div class="egrow-user-modal childCenter" id="updateModal">
+    <div class="egrow-user-modal-content childCenter">
+        <a class="close-modal close-modal-link" href="javascript:void(0);"><i title="Close Updates" class="fas fa-times"></i></a>
+        <div class="egrow-user-modal-title">
+            Hey we have updated the Chrome Extension!
+        </div>
+        <div class="egrow-user-modal-body"></div>
+        <div class="egrow-user-modal-footer">
+
+            <p class="contact-paragraph" style="text-align: justify">
+                We at Egrow appreciate all kind of feedback and we develop all tools together with our community.
+                So if you would like to improve something <a class="underline-link egrow-contact">contact us</a>.
+            </p>
+            <p class="rate-paragraph" style="text-align: center">
+                Spread the word and give us
+                <a class="rate-extension">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </a>
+            </p>
+
+        </div>
+    </div>
+</div>
+
+<!-- Image Modal -->
+<div class="egrow-user-modal childCenter" id="imageModal">
+    <div class="egrow-user-modal-content childCenter">
+        <div class="egrow-user-modal-title">
+            <div class="product-image"></div>
+        </div>
+        <div class="egrow-user-modal-body">
+        </div>
+    </div>
+</div>
+
+<!-- Limitation Modal Product Tracker-->
+<div class="egrow-user-modal childCenter limitModal" id="limitModalProductTracker">
+    <div class="egrow-user-modal-content childCenter">
+        <div class="egrow-user-modal-body">
+            <p></p>
+            <a href="https://egrow.io/member/plans?ic_source=chrome_extension&ic_medium=modal&ic_campaign=limitation&ic_content=add_products&ic_term=&itm_source=chrome_extension&itm_medium=modal&itm_campaign=itm&itm_content=_&itm_term=c_l_product_tracker&coupon=GROW50" target="_blank">
+                <button class="action-button" id="limitProductTrackerUpgradeButton">Upgrade Now</button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Limitation Modal Daily Searches -->
+<div class="egrow-user-modal childCenter limitModal" id="limitModalDailySearches">
+    <div class="egrow-user-modal-content childCenter">
+        <div class="egrow-user-modal-body">
+            <p></p>
+            <a href="https://egrow.io/member/plans?ic_source=chrome_extension&ic_medium=modal&ic_campaign=limitation&ic_content=live_searches&ic_term=&itm_source=chrome_extension&itm_medium=modal&itm_campaign=itm&itm_content=_&itm_term=c_l_las&coupon=GROW50" target="_blank">
+                <button class="action-button" id="limitDailySearchesUpgradeButton">Upgrade Now</button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Rate Modal -->
+<div class="egrow-user-modal childCenter" id="rateModal">
+    <div class="egrow-user-modal-content childCenter">
+        <div class="egrow-user-modal-title">
+            Hey you've used me a lot. Do you mind giving me
+            <a class="rate-extension">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </a> ?
+        </div>
+        <div class="egrow-user-modal-body">
+            <button class="action-button rate-extension" id="rateButton">Rate me now</button>
+        </div>
+    </div>
+</div>
+
+<!-- Survey Modal -->
+<div class="egrow-user-modal childCenter" id="surveyModal">
+    <div class="egrow-user-modal-content childCenter">
+        <div class="egrow-user-modal-title">
+            We love to have happy members at Egrow.
+            Can you fill in this quick survey and decide what feature will be added next?
+        </div>
+        <div class="egrow-user-modal-body">
+            <button class="action-button" id="surveyButton">Yes, start survey now</button>
+        </div>
+    </div>
+</div>
+
+<!-- Error Modal -->
+<div class="egrow-user-modal childCenter" id="errorModal">
+    <div class="egrow-user-modal-content childCenter">
+        <div class="egrow-user-modal-body">
+            <p></p>
+        </div>
+    </div>
+</div>
+
+<!-- Limitation Modal Basic Plan -->
+<div class="egrow-user-modal childCenter limitModal" id="limitModalBasicPlan">
+    <div class="egrow-user-modal-content childCenter">
+        <div class="egrow-user-modal-body">
+            <p></p>
+            <a
+                    id="limitBasicPlanUpgradeButton"
+                    href="/"
+                    target="_blank"
+                    class="upgrade-action-button">
+                Upgrade Now
+            </a>
+        </div>
+    </div>
+</div>

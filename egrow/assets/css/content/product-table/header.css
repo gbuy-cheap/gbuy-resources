@@ -1,0 +1,74 @@
+/* CSS settings for table header */
+#egrowModal #egrowTable_wrapper.dataTables_wrapper thead tr > th.egrow-col {
+    font-size: 13px;
+    padding: 4px 8px 3px 6px !important;
+    border-bottom: 0;
+    text-align: left;
+    direction: ltr;
+}
+
+#egrowModal #egrowTable_wrapper.dataTables_wrapper.no-footer .dataTables_scrollHead.ui-state-default .dataTables_scrollHeadInner {
+    padding-left: unset !important;
+    padding-right: 17px;
+    direction: ltr;
+}
+
+#egrowModal #egrowTable_wrapper.dataTables_wrapper thead tr th.egrow-col .DataTables_sort_wrapper {
+    white-space: nowrap;
+}
+
+/* It is the border below the table header */
+#egrowModal .dataTables_wrapper.no-footer div.dataTables_scrollHead table.dataTable {
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+/* Hover color change for header */
+#egrowModal #egrowTable_wrapper.dataTables_wrapper thead tr th.egrow-col:not(.egrow-action):hover {
+    background-color: #eee !important;
+    cursor: pointer;
+}
+
+#egrowModal #egrowTable_wrapper.dataTables_wrapper thead tr th.egrow-col:first-child {
+    border-left: 0;
+}
+
+#egrowModal #egrowTable_wrapper.dataTables_wrapper thead tr th.egrow-col:last-child {
+    border-right: 0;
+}
+
+#egrowModal #egrowTable_wrapper.dataTables_wrapper thead tr th.egrow-col.sorting_desc:not(.egrow-no),
+#egrowModal #egrowTable_wrapper.dataTables_wrapper thead tr th.egrow-col.sorting_asc:not(.egrow-no) {
+    padding-right: 15px;
+}
+
+/* Padding for sorting icon on number column */
+#egrowModal #egrowTable_wrapper.dataTables_wrapper thead tr th.egrow-col.sorting_desc.egrow-no,
+#egrowModal #egrowTable_wrapper.dataTables_wrapper thead tr th.egrow-col.sorting_asc.egrow-no {
+    padding-right: 10px;
+}
+
+/* Custom css for jquery-ui */
+#egrowModal #egrowTable_wrapper.dataTables_wrapper thead tr th.egrow-col .DataTables_sort_icon {
+    right: -12px;
+}
+
+#egrowModal #egrowTable_wrapper.dataTables_wrapper thead tr th.egrow-col .DataTables_sort_icon.ui-icon-caret-2-n-s {
+    display: none;
+}
+
+/* Centered action column */
+#egrowModal #egrowTable_wrapper.dataTables_wrapper thead tr th.egrow-action {
+    min-width: 64px;
+    text-align: center;
+}
+
+/* Centered number column */
+#egrowModal #egrowTable_wrapper.dataTables_wrapper thead tr th.egrow-no {
+    min-width: 20px;
+    text-align: center;
+}
+
+#egrowModal #egrowTable_wrapper .dataTables_scrollBody #egrowTable thead tr th {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}

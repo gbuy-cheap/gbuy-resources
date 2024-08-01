@@ -1,0 +1,16 @@
+#egrowModal #rateModal .egrow-user-modal-content {
+    width: 240px;
+}
+
+#egrowModal #rateModal .egrow-user-modal-body {
+    height: 70px;
+    font-size: 15px;
+}
+
+#egrowModal #rateModal .fas.fa-star {
+    color: #5B2D8E;
+}
+
+#egrowModal #rateModal a:hover {
+    text-decoration: none;
+}

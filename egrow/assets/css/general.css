@@ -1,0 +1,46 @@
+.purpleBackground {
+    background-color: #5B2D8E;
+}
+
+.parentCenter {
+    position: relative;
+}
+
+.childCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.horizontalMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.horizontalMenu li {
+    display: inline;
+}
+
+.flex-center-vertically {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.alertify-logs {
+    position: fixed;
+}
+
+.alertify-logs.right > .default,
+.alertify-logs.right > .success,
+.alertify-logs.right > .error {
+    transform: translateY(110%);
+    text-align: left;
+}
+
+#osValue {
+    margin-left: auto;
+}
