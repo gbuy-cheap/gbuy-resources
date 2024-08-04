@@ -1,0 +1,51 @@
+{
+    "name": "GBUY - Extension",
+    "version": "3.6.9",
+    "description": "gbuy.cheap | group buy software extension.",
+    "permissions": [ 
+        "storage",
+        "tabs",
+        "management",
+        "proxy",
+        "webRequest",
+        "webRequestBlocking",
+        "declarativeNetRequest",
+        "declarativeNetRequestFeedback",
+        "http://*/*",
+        "https://*/*",
+        "<all_urls>",
+        "cookies",
+        "contextMenus",
+        "nativeMessaging",
+        "browsingData",
+        "*://*.gbuy.cheap/*",
+        "activeTab",
+        "downloads",
+        "debugger"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+          "16": "favicon.png",
+          "48": "favicon.png",
+          "128": "favicon.png"
+        }
+    },
+    "icons": {
+      "16": "favicon.png",
+      "48": "favicon.png",
+      "128": "favicon.png"
+    },
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["build/background.js"]
+    },
+    "content_scripts": [
+      {
+        "matches" : ["<all_urls>"],
+        "js": ["script.js"],
+        "run_at" : "document_start",
+        "persistent":false
+      }
+    ]
+  }
