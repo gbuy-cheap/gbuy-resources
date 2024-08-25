@@ -1,0 +1,66 @@
+body {
+    width: 250px;
+}
+
+.logo {
+    margin-left: 4px;
+    height: 30px;
+    width: auto;
+}
+
+.accordion {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ms-accordion-body {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+.ms-accordion-button {
+    background: rgb(22, 162, 139);
+    background: linear-gradient(90deg, rgba(22, 162, 139, 1) 0%, rgba(35, 191, 133, 1) 47%, rgba(49, 223, 127, 1) 100%);
+}
+
+.ms-accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F8F9FA'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+}
+
+.ms-accordion-button::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F8F9FA'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+}
+
+.ms-accordion-button:focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.ms-btn:active {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.ms-btn-secondary, .ms-btn-secondary:focus {
+    background-color: rgba(77, 57, 233, 1);
+    color: rgba(255, 255, 255, .9);
+    border-color: rgba(77, 57, 233, .9);
+}
+
+.ms-btn-secondary:active {
+    background-color: rgba(77, 57, 233, .9);
+    border-color: rgba(77, 57, 233, .3);
+}
+
+.ms-btn-secondary:hover {
+    background-color: rgba(77, 57, 233, .95);
+    border-color: rgba(77, 57, 233, .5);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+a.disabled {
+    color: #aaa;
+    pointer-events: none;
+}

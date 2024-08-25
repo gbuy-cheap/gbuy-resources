@@ -1,0 +1,107 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "MySYS Extension",
+  "version": "2.6.0",
+  "description": "MySYS is one of the Amazon Product Research tool for Online Arbitrage, Retail Arbitrage, Private Label or wholesale Amazon sellers.",
+  "permissions": [
+    "storage",
+    "contextMenus"    
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "run_at": "document_end",
+      "js": [
+        "js/libs/jquery-3.5.1.min.js",
+        "js/libs/popper.min.js",
+        "js/libs/bootstrap.min.js",
+        "js/libs/aggrid-community.min.js",
+        "js/libs/xlsx.full.min.js",
+        "js/libs/filesaver.js",
+        "js/libs/ms-popover.js",
+        "js/icons.js",
+        "js/common.js",
+        "js/auth.js",
+        "js/langs.js",
+        "js/exporter.js",
+        "js/toast.js",
+        "js/contenthtml.js",
+        "js/quickview.js",
+        "js/order.js",
+        "js/crw/crwcommon.js",
+        "js/tabs/calculator.js",
+        "js/tabs/stockChecker.js",
+        "js/tabs/settings.js",
+        "js/tabs/marketplaces.js",
+        "js/tabs/wishlist.js",
+        "js/tabs/variations.js",
+        "js/tabs/contact.js",
+        "js/errorHandler.js",
+        "js/markets/arbcommon.js",
+        "js/markets/arbmodal.js",
+        "js/markets/quickanalysis.js",
+        "js/markets/oneproductQA.js",
+        "js/markets/hepsiburada.js",
+        "js/markets/trendyol.js",
+        "js/markets/n11.js",
+        "js/markets/boyner.js",
+        "js/markets/morhipo.js",
+        "js/markets/ebay.js",
+        "js/markets/amazon.js",
+        "js/markets/samsclub.js",
+        "js/markets/qogita.js",
+        "js/asinfinder.js",
+        "js/contentpopovers.js",
+        "js/toppanel.js",
+        "js/searchOnPanel.js",
+        "js/contentscript.js"
+      ],
+      "css": [
+        "css/bootstrap.min.css",
+        "css/ag-grid.css",
+        "css/ag-theme-balham.css",
+        "css/content.css",
+        "css/tooltip.css"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "html/popup.html",
+    "default_icon": {
+      "16": "images/icons/icon16.png",
+      "48": "images/icons/icon48.png",
+      "96": "images/icons/icon96.png",
+      "128": "images/icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icons/icon16.png",
+    "48": "images/icons/icon48.png",
+    "96": "images/icons/icon96.png",
+    "128": "images/icons/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/*",
+        "js/*"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ]
+    }
+  ],
+  "manifest_version": 3
+}

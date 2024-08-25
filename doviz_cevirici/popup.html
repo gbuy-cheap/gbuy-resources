@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/stylesheets/popup.css"
+    />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div id="number-text">
+        <div class="control pb-0">
+          <input
+            class="amount-words"
+            type="text"
+            placeholder="Original amount in words"
+            readonly="readonly"
+          />
+        </div>
+        <div style="clear: both"></div>
+      </div>
+      <div class="container">
+        <div id="controls"></div>
+        <div id="settings">
+          <div class="control pb-0 pt-10">
+            <div class="control-input inputbox">
+              <input class="fee-tax" type="text" placeholder="Fee/Tax %" />
+            </div>
+            <div class="add-item">
+              <a
+                href="#"
+                title="Add new item"
+                class="plus is-small is-success"
+              ></a>
+            </div>
+            <div class="control-panel">
+              <a
+                href="#"
+                title="Exchange rates"
+                class="rates icon icon-exchange"
+              ></a>
+            </div>
+            <div class="control-panel">
+              <a
+                href="#"
+                title="Settings"
+                class="settings icon icon-slider"
+                role="button"
+              ></a>
+            </div>
+            <div class="control-panel">
+              <a
+              id="browser-link"
+                href="https://currencyrate.today/"
+                rel="nofollow"
+                target="_blank"
+                title="Add review"
+                class="icon icon-like"
+              ></a>
+            </div>
+            <div style="clear: both"></div>
+          </div>
+          <div class="control pb-0 pt-10">
+            <div class="checkbox" style="vertical-align: middle; float: left">
+              <label style="font-weight: 500"
+                ><input class="convert-in-page" type="checkbox" /><span
+                  >Convert in-page prices</span
+                ></label
+              >
+            </div>
+            <div class="date" style="vertical-align: middle; float: right">
+              Exchange Rates Updated
+            </div>
+            <div style="clear: both"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="assets/scripts/money.js"></script>
+    <script src="assets/scripts/countup.min.js"></script>
+    <script src="assets/scripts/common.js"></script>
+    <script src="assets/scripts/popup.js"></script>
+  </body>
+</html>
