@@ -1,0 +1,1 @@
+"use strict";const originRuleIndex={value:0};export{originRuleIndex};

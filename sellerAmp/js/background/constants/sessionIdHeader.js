@@ -1,0 +1,1 @@
+"use strict";const STOCKCHECKEXT_SESSION_ID_HEADER="x-stockcheckext-session-id";export{STOCKCHECKEXT_SESSION_ID_HEADER};

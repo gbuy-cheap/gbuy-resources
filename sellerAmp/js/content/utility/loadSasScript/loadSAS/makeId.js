@@ -1,0 +1,1 @@
+"use strict";const makeId=r=>{let e="";var a="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",o=a.length;for(let t=0;t<r;t++)e+=a.charAt(Math.floor(Math.random()*o));return e};export{makeId};

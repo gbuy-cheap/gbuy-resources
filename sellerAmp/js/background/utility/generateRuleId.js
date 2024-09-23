@@ -1,0 +1,1 @@
+"use strict";const generateRuleId=(e,r)=>{return Number(""+e+r)};export{generateRuleId};

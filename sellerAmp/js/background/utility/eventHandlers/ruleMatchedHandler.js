@@ -1,0 +1,1 @@
+"use strict";import{declarativeNetRequest}from"../../constants/declarativeNetRequestConstants.js";import{sentrySellerAmp}from"../../../content/sentrySellerAmp/sentrySellerAmp.js";const ruleMatchedHandler=e=>{sentrySellerAmp.wrap(function(){handleEvent(e)})},handleEvent=e=>{e=e.rule.ruleId;declarativeNetRequest.updateSessionRules({removeRuleIds:[e]})};export{ruleMatchedHandler};

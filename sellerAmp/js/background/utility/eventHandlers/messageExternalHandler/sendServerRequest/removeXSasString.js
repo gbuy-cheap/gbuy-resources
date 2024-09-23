@@ -1,0 +1,1 @@
+const removeXSasString=a=>{a.origin=a["x-sas-origin"];var e=Object.keys(a);let t={};return e.forEach(e=>{var r=e.match(/(x-sas-)(.*)/);r?(r=r[2],t[r]=a[e]):t[e]=a[e]}),delete t.ua,t};export{removeXSasString};

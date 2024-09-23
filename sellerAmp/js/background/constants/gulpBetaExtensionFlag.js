@@ -1,0 +1,1 @@
+const IS_BETA_EXTENSION=!1;export{IS_BETA_EXTENSION};

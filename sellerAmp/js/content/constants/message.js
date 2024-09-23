@@ -1,0 +1,1 @@
+const message={confirmAutoAnalyzeDisabling:"Do you want to switch off auto analyze on amazon product pages?"};export{message};

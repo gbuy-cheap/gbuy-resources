@@ -1,80 +1,91 @@
 {
 "update_url": "https://clients2.google.com/service/update2/crx",
 
-	"name": "SellerAmp SAS - Amazon FBA Analysis Tool",
-	"short_name": "SellerAmp SAS",
-	"version": "0.0.43",
-	"description": "Analyze products to sell on Amazon via Online Arbitrage. Includes Keepa charts, FBA profit calculator, stock levels and more",
-	"manifest_version": 2,
+  "name": "SellerAmp SAS - Amazon FBA Analysis Tool",
+  "short_name": "SellerAmp SAS",
+  "version": "2.0.7",
+  "description": "Analyze products to sell on Amazon via Online Arbitrage. Includes Keepa charts, FBA profit calculator, stock levels and more",
+  "manifest_version": 3,
 
-	"permissions": [
-		 "activeTab", 
-		 "storage", 
-		 "contextMenus", 
-		  "webRequest",
-		  "webRequestBlocking",
-		  "*://*/*"
-		],
-	 "content_scripts": [
-		{
-		"css": [ "css/custom.css", "css/jquery-ui.structure.min.css", "css/jquery-ui.min.css"],
-		"js": [  
-			"js/jquery-3.4.1.min.js", 
-			"js/jquery-ui.min.js", 
-			"js/contentscript.js"
-		],
-		"matches": ["*://*/*"],
-		"run_at": "document_end"
-	}],
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "webRequest",
+    "tabs",
+    "storage",
+    "management",
+    "cookies",
+    "contextMenus",
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "css": [
+        "css/custom.css",
+        "css/jquery-ui.structure.min.css",
+        "css/jquery-ui.min.css",
+        "css/reusableDialog.css"
+      ],
+      "matches": ["*://*/*"],
+      "run_at": "document_end"
+    }
+  ],
 
-	"background": {
-	  "scripts": [
-		  "js/background.js", 
-		  "js/background2.js",  
-		   "js/jquery-3.4.1.min.js", 
-		   "js/jquery-ui.min.js" 
-		],
-	  "persistent": true
-	},
+  "background": {
+    "service_worker": "js/background/background.js",
+    "type": "module"
+  },
 
-	"browser_action": {},
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
 
-	"icons": {
-		"16": "images/sas-logo2-16.png",
-		"32": "images/sas-logo2-32.png",
-		"48": "images/sas-logo2-48.png",
-		"128": "images/sas-logo2-128.png"
-	},
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
 
-	"externally_connectable": {
- 		"matches": [
-			"*://*.selleramp.com/*",
-			"*://*.arbitragehero.com/*",
-			"*://*.sellertoolkit.co.uk/*",
-			"*://*.fbadealsource.com/*",
-			"*://fbadealsource.com/*"
-		]
-	},
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules_1.json"
+      }
+    ]
+  },
 
-	"web_accessible_resources": [
-		"frame.html",
-		"images/anim.gif",
-		"images/exticon.png",
-		"images/sas-full-logo.png",
-		"images/sas-logo2-32.png",
-		"images/sas-logo-color.png",
-		"images/selleramp-sas-ext-h30.png",
-		"images/sas-logo-mono2.png",
-		"images/docked-left.png",
-		"images/docked-right.png",
-		"images/embedded.png",
-		"images/embedded-center.png",
-		"images/floating.png",
-		"images/modal.png",
-		"images/home.png",
-		"images/settings.png",
-		"images/history.png",
-		"images/envelope.png"
-		]
-		  
+  "action": {},
+
+  "icons": {
+    "16": "images/sas-logo2-16.png",
+    "32": "images/sas-logo2-32.png",
+    "48": "images/sas-logo2-48.png",
+    "128": "images/sas-logo2-128.png"
+  },
+
+  "externally_connectable": {
+    "ids": [
+      "kdjdiajopilediaadgkjijbcnegggpdd",
+      "kidmffepbniamfbibhfgdakkggchipjl"
+    ],
+    "matches": [
+      "*://*.selleramp.com/*",
+      "*://*.arbitragehero.com/*",
+      "*://*.sellerampsas.com/*",
+      "*://*.sellertoolkit.co.uk/*"
+    ]
+  },
+
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj5vkuFuBHAiLPLFZtOPJI62KEr1doLHLMBZMdmK9K5gTQN34EWCSFYVK8CD8fx5jWcXuhjduJXxW8ucRd4qgKCP48+BUEE/sXXVhmv4bdNIEDXQRx8yJ/ySG2wMov5EMTWZxPyry0OSuOQqq7niFocHqWbnUajgYJA/UYfN5Ie80nz1OzQT4ZV/NU6f+9AzW3JmmIvyZne4msdkME71U+elHAW6vcmPeCk1eBAbARcvsC3OU1x/0dd7MiknsO2WPtbfZB/XXIbkwy7iEiv68wodMn1M1Y+U+zacQQ2jVZCeve5nvMY4noRY8Ewl7U4VLFSRD3xG2pvIsVNwxmUI12wIDAQAB",
+
+  "web_accessible_resources": [
+    {
+      "resources": ["js/content/*", "frame.html", "images/*"],
+      "matches": ["*://*/*"]
+    }
+  ]
 }

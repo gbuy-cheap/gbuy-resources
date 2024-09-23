@@ -1,0 +1,1 @@
+"use strict";const userAgentRuleIndex={value:0};export{userAgentRuleIndex};

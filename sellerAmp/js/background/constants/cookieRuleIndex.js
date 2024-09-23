@@ -1,0 +1,1 @@
+"use strict";const cookieRuleIndex={value:0};export{cookieRuleIndex};

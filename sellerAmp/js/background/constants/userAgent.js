@@ -1,0 +1,1 @@
+"use strict";const userAgent={value:""},sassUserAgent={value:""};export{userAgent,sassUserAgent};

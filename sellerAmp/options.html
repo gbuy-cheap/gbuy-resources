@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/options/options.css" />
+    <link rel="stylesheet" href="css/options/switch.css" />
+    <link rel="stylesheet" href="css/options/icons.css" />
+  </head>
+  <body>
+    <form id="optionsForm">
+      <div class="group-container">
+        <div class="group-title">On Amazon Sites</div>
+        <div class="group-content">
+          <div class="switch-container">
+            <label class="switch">
+              <input
+                class="isAutoAnalyzer"
+                type="checkbox"
+                name="isAutoAnalyzer"
+              />
+              <span class="slider"></span>
+              <div class="switch-name">Auto analyze on product pages</div>
+            </label>
+          </div>
+          <div class="switch-container">
+            <label class="switch">
+              <input
+                class="isShortcutVisible"
+                type="checkbox"
+                name="isShortcutVisible"
+              />
+              <span class="slider"></span>
+              <div class="switch-name">SAS shortcut on search pages</div>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="group-container">
+        <div class="group-title">Other</div>
+        <div class="group-content">
+          <div class="switch-container">
+            <label class="switch">
+              <input
+                class="isCSPDisabled"
+                type="checkbox"
+                name="isCSPDisabled"
+              />
+              <span class="slider"></span>
+              <div class="switch-name">
+                Allow extension to run on other sites by disabling content
+                security policy
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </form>
+    <div class="warning-message">
+      <i class="material-icons">settings_alert</i>
+      You have to reload your browser in order to apply the new settings!
+    </div>
+    <div class="link-container">
+      <a
+        href="https://selleramp.com/privacy-center/privacy-policy/"
+        target="_blank"
+        >Privacy Policy</a
+      >
+    </div>
+    <script type="text/javascript" src="js/options.js"></script>
+  </body>
+</html>
