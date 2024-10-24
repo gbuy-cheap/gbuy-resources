@@ -1,0 +1,422 @@
+{
+  "module_listing_product_info": {
+    "message": "商品情報"
+  },
+  "module_listing_keepa_trends": {
+    "message": "Keepa"
+  },
+  "module_listing_station_sales": {
+    "message": "グローバル"
+  },
+  "module_listing_reverse_open": {
+    "message": "逆引きリサーチ"
+  },
+  "module_listing_reverse_search": {
+    "message": "注文ワード"
+  },
+  "module_listing_ad_insights": {
+    "message": "広告インサイト"
+  },
+  "module_listing_reversing": {
+    "message": "トラフィック源"
+  },
+  "module_listing_relation_keyword": {
+    "message": "関連トラフィック "
+  },
+  "module_listing_review_analysis": {
+    "message": "AIレビュー分析"
+  },
+  "review_analysis_shulex_tips": {
+    "message": "Shulex VOCのAIサポートにより、レビューのセマンティクスをインテリジェントに識別し、消費者のポイントを正確に洞察することが可能です。<br>VOCの詳細については、<a href='https://www.voc.ai/jp' target='_blank'>ここをクリック</a>"
+  },
+  "review_analysis_ss_tips": {
+    "message": "Listingレビューをもとに、各バリエーションの詳細情報、レビュー傾向など、総合的な分析レポートを提供します。<br>見本レポートを見るには、<a href='https://www.sellersprite.com/v3/review-analysis/details?list=1455741&_sign=cgV9%2aBdWme19l1' target='_blank'>ここをクリック</a>"
+  },
+  "module_listing_review_analysis_ss": {
+    "message": "分析レポートを作成"
+  },
+  "module_listing_review_analysis_send": {
+    "message": "分析レポートを見る"
+  },
+  "module_listing_listing_builder": {
+    "message": "Listingエディター"
+  },
+  "module_listing_Alibaba": {
+    "message": "Alibaba"
+  },
+  "module_listing_1688": {
+    "message": "1688"
+  },
+  "module_listing_all_asin_copy": {
+    "message": "全ての子ASINをコピー"
+  },
+  "module_listing_asin_copy": {
+    "message": "ASINコピー"
+  },
+  "module_listing_seller_num": {
+    "message": "セラー数"
+  },
+  "quick_view_prime": {
+    "message": "プライム価格"
+  },
+  "quick_view_QA": {
+    "message": "Q&A数"
+  },
+  "quick_view_trends_variant_compare": {
+    "message": "バリエーション比較"
+  },
+  "quick_view_trends_variant": {
+    "message": "バリエーション"
+  },
+  "quick_view_trends_parent_variant": {
+    "message": "親"
+  },
+  "quick_view_trends_parent_variant_tips": {
+    "message": "このバリエーションの販売数は「親ASIN販売数」"
+  },
+  "quick_view_trends_child_variant": {
+    "message": "子"
+  },
+  "quick_view_trends_child_variant_tips": {
+    "message": "子ASIN販売数"
+  },
+  "quick_view_trends_amz_variant_tips": {
+    "message": "販売数は子ASINの販売数、データはAmazonより"
+  },
+  "quick_view_trends_variant_tips": {
+    "message": "<p>バリエーション：現在のListingの全バリエーションASIN<br>SKU：各バリエーションASINに対応するモデル、カラー、サイズなど<br>価格：各バリエーションの最新のBuyBox価格<br>トラフィックワード数：直近30日間にASINがAmazon検索結果で上位3ページに表示された検索トラフィックワードの数<br>星評価：Listing星評価<br>評価数：バリエーションASINのratings数<br>レビュー：バリエーションASINのreviews数<br>レビュー数割合：Listingのreviews総数に対するバリエーションASINのreviews数の割合<br>FBA：Listingページに記載された商品のサイズと重量をもとに自動計算<br>出品時間：Listingが最も早く発見された時間</p>"
+  },
+  "quick_view_trends_variant_sale_tips": {
+    "message": "<p>月間販売数は以下の2つの方法で取得しています。<br>1、アマゾン検索ページ「4K+ bought in past month」から、データはおおよそ正確で、参考になります。<br>2、アマゾンが販売数を公開されていない、親・子ASINがBSRランキングを共有している場合は、親ASINの直近30日間の販売数が表示されます。</p>"
+  },
+  "quick_view_trends_variant_sale_week_tips": {
+    "message": "<p>アマゾン検索ページ「400+ bought in past week」から、データはおおよそ正確で、参考になります。</p>"
+  },
+  "quick_view_trends_station_tips": {
+    "message": "<p>サイト：本商品が販売されているすべての国<br>セラー：現在BuyBoxを獲得している販売者<br>価格：最新のBuyBox価格<br>販売数：直近30日間の予測販売数<br>販売額：直近30日間の予測販売額<br>星評価：Listing星評価<br>評価数：Listingのratings数<br>FBA：Listingページに記載された商品のサイズと重量をもとに自動計算<br>出品時間：Listingが最も早く発見された時間</p>"
+  },
+  "quick_view_trends_explorer_tips": {
+    "message": "<p>キーワード：現在の商品がそのキーワードでクリック順位上位3位に入っている<br>転換効果：異なるキーワードのもとでの商品の様々なコンバージョン効果<br>ABA順位：AmazonセラーセントラルのABAデータにおけるキーワードの検索回数の週間ランキング<br>週間変化：キーワードの検索順位の前週に対する今週の変化量<br>週間変化率：前週と比較して、今週のキーワードの検索順位の変化率<br>クリック共有：直近1週間のキーワードに対する、ASINの総クリック数に対するクリック総数の割合<br>転化共有：直近1週間のキーワードに対する、ASINの総クリック数に対する転換総数の割合<br>Top3ASINのクリック、転換総数比率：このキーワードにおけるクリック数Top3ASINのクリック共有、転換共有総数。<br>クリックTop3ASIN：Amazonの検索結果で、このキーワードで直近1週間に最もクリックされたASINの上位3つ</p>"
+  },
+  "quick_view_trends_distribution_tips": {
+    "message": "<p>商品：現在のListingの全バリエーションASIN<br>全てのトラフィックワード：直近30日間にASINを検索結果の1～3ページ目に露出させたすべての検索トラフィックワード（重複排除済み）<br>自然検索ワード：購入者が検索する際に、商品が自然トラフィックポジションに露出されています。<br>AC推薦ワード：購入者が検索する際に、商品がAmazon's Choiceコーナーに露出されています。<br>ER推薦ワード：購入者が検索する際に、商品がEditorial recommendationsコーナーに露出されています。<br>4つ星推薦ワード：購入者が検索する際に、商品が星4つ商品コーナーに露出されています。<br>HR推薦ワード：購入者が検索する際に、商品がHighly Ratedコーナーに露出されています。<br>SP広告ワード：購入者が検索する際に、商品がSponsored広告位置に露出されています。<br>動画広告ワード：購入者が検索する際に、商品の動画広告の露出があります。<br>ブランド広告ワード：購入者が検索する際に、商品のブランド広告の露出があります。</p>"
+  },
+  "quick_view_trends_variant_table_sales": {
+    "message": "月間販売数"
+  },
+  "quick_view_trends_variant_table_sales_week": {
+    "message": "週間販売数"
+  },
+  "quick_view_traffic_words": {
+    "message": "ワード数"
+  },
+  "quick_view_reviews": {
+    "message": "レビュー数"
+  },
+  "quick_view_reviews_proportion": {
+    "message": "レビュー数割合"
+  },
+  "quick_view_bestselling": {
+    "message": "BS"
+  },
+  "quick_view_bestselling_variant_tips": {
+    "message": "Best-Selling。このバリエーションは売れ筋バリエーションです。"
+  },
+  "quick_view_reverse_search": {
+    "message": "この商品の注文ワードは取得できません、他の商品を試してみてください！"
+  },
+  "quick_view_review_analysis_tips": {
+    "message": "この機能はセラースプライトとShulexが共同で提供しています。レビューをマイニングすることで、消費者像や商品の長所・短所、利用シーンを素早く把握し、Amazonセラーの商品開発·運営にサポートします。<br/>その他の利用ガイド、<a style='color: #ff9300' href='https://www.sellersprite.com/jp/help/review-analysis-for-beginners' target='_blank'>ここをクリック</a>"
+  },
+  "quick_view_review_analysis_btn_title": {
+    "message": "AI分析レポート作成"
+  },
+  "quick_view_review_analysis_sellersprite": {
+    "message": "レポートを見る"
+  },
+  "quick_view_main_img": {
+    "message": "ダウンロード"
+  },
+  "quick_view_search_sales": {
+    "message": "販売数リサーチ"
+  },
+  "quick_view_product_library": {
+    "message": "追加"
+  },
+  "quick_view_search_source_all_word": {
+    "message": "全てのトラフィックワード"
+  },
+  "traffic_source_table_type_source_NATURAL_SEARCHING": {
+    "message": "自然検索ワード"
+  },
+  "traffic_source_table_type_source_AMAZON_CHOICE": {
+    "message": "AC推薦ワード"
+  },
+  "traffic_source_table_type_source_EDITORIAL_RECOMMENDATIONS": {
+    "message": "ER推薦ワード"
+  },
+  "traffic_source_table_type_source_SPONSOR_BRAND": {
+    "message": "ブランド広告ワード"
+  },
+  "traffic_source_table_type_source_SPONSOR_VIDEO": {
+    "message": "動画広告ワード"
+  },
+  "traffic_source_table_type_source_HIGHLY_RATED": {
+    "message": "HR推薦ワード"
+  },
+  "traffic_source_table_type_AMAZON_CHOICE": {
+    "message": "ACコラム"
+  },
+  "traffic_source_table_type_EDITORIAL_RECOMMENDATIONS": {
+    "message": "ERコラム"
+  },
+  "traffic_source_table_type_FOUR_STAR": {
+    "message": "4つ星コラム"
+  },
+  "traffic_source_table_type_HIGHLY_RATED": {
+    "message": "HRコラム"
+  },
+  "traffic_source_table_type_ADS": {
+    "message": "SP広告"
+  },
+  "traffic_source_table_type_SPONSOR_BRAND": {
+    "message": "ブランド広告"
+  },
+  "traffic_source_table_type_SPONSOR_VIDEO": {
+    "message": "動画広告"
+  },
+  "quick_view_listing_date": {
+    "message": "出品日付"
+  },
+  "quick_view_listing_seals_month": {
+    "message": "直近30日販売数（親）"
+  },
+  "quick_view_new_product_listing": {
+    "message": "新品"
+  },
+  "quick_view_variation_compare_all": {
+    "message": "全てのバリエーショントラフィック比較を見る"
+  },
+  "quick_view_keyword_explorer_all": {
+    "message": "全ての注文ワードを見る"
+  },
+  "traffic_source_look_related_traffic_words": {
+    "message": "数字をクリックして、その商品に関するトラフィックワードを見る"
+  },
+  "traffic_source_look_all_traffic_words": {
+    "message": "数字をクリックして、この商品のすべてのトラフィックワードを見る"
+  },
+  "traffic_source_all_keyword_tips": {
+    "message": "注意：全てのトラフィックワード数は、自然検索ワードやSP広告ワードなどの他のワードの和よりも小さくなります。<br>それは、自然トラフィックワードや広告ワードには重複ワードが存在するため、重複ワードを排除してから全体のトラフィックワード数を計算します。"
+  },
+  "traffic_keyword_conversion_effect": {
+    "message": "転化効果"
+  },
+  "traffic_keyword_search_rank_growth": {
+    "message": "週間変化量"
+  },
+  "traffic_keyword_search_rank_rate": {
+    "message": "週間変化率"
+  },
+  "traffic_keyword_click_share": {
+    "message": "クリック共有"
+  },
+  "traffic_keyword_conversion_rate": {
+    "message": "転換共有"
+  },
+  "traffic_keyword_sum_conversion_rate": {
+    "message": "Top3ASINのクリ <br>ック、転換総数比率"
+  },
+  "traffic_keyword_click_asin_three": {
+    "message": "クリック<br>数Top3ASIN"
+  },
+  "listing_video_link": {
+    "message": "https://www.sellersprite.com/jp/help/listing-page-of-extension"
+  },
+  "review_analysis_title": {
+    "message": "インテリジェント解析中、データロード中..."
+  },
+  "review_analysis_btn": {
+    "message": "チェック"
+  },
+  "review_analysis_checkbox": {
+    "message": "同意"
+  },
+  "review_analysis_privacy_policy": {
+    "message": "「プライバシーポリシー」"
+  },
+  "review_analysis_condition": {
+    "message": "「利用規約」"
+  },
+  "review_analysis_privacy_policy_link": {
+    "message": "https://www.voc.ai/privacy-policy"
+  },
+  "review_analysis_condition_link": {
+    "message": "https://www.voc.ai/terms-and-condition"
+  },
+  "review_analysis_ing": {
+    "message": "このインテリジェントなコメント分析レポートは1分以内に生成されますので、お待ちください"
+  },
+  "review_analysis_btn_tips": {
+    "message": "まずは、「プライバシーポリシー」をお読みいただき、ご同意ください。"
+  },
+  "quick_view_listing_position": {
+    "message": "機能位置"
+  },
+  "quick_view_listing_position_top": {
+    "message": "メイン画像の上部に配置"
+  },
+  "quick_view_listing_position_bottom": {
+    "message": "メイン画像の下部に配置"
+  },
+  "review_analysis_btn_tips_l": {
+    "message": "本サービスは"
+  },
+  "review_analysis_btn_tips_r": {
+    "message": "AIサポートを提供"
+  },
+  "excel_variation_image": {
+    "message": "画像"
+  },
+  "excel_variation_unit_date": {
+    "message": "{date}",
+    "placeholders": {
+      "label": {
+        "content": "$1",
+        "example": "2024-03"
+      }
+    }
+  },
+  "excel_variation_main_image": {
+    "message": "メイン画像"
+  },
+  "excel_variation_main_overviews": {
+    "message": "製品概要"
+  },
+  "excel_variation_price": {
+    "message": "価格"
+  },
+  "excel_variation_monthUnits": {
+    "message": "直近30日販売数"
+  },
+  "excel_variation_weekUnits": {
+    "message": "週間販売数"
+  },
+  "excel_variation_keywords": {
+    "message": "流量词数"
+  },
+  "excel_variation_rating": {
+    "message": "評価値"
+  },
+  "excel_variation_ratings": {
+    "message": "評価数"
+  },
+  "excel_variation_reviews": {
+    "message": "レビュー数"
+  },
+  "excel_variation_reviews_proportion": {
+    "message": "レビュー数割合"
+  },
+  "excel_variation_reviews_available": {
+    "message": "出品日付"
+  },
+  "variation_live_data_tips": {
+    "message": "下の**をクリックしてデータ取得"
+  },
+  "variation_tips_table": {
+    "message": "ブロックされるのを避けるために、購入者アカウントにログインしてより包括的なレビューデータが取得できます〜"
+  },
+  "variation_tips_table_close_known": {
+    "message": "了解"
+  },
+  "excel_variation_reviews_available_days": {
+    "message": "販売時間"
+  },
+  "quick_view_1688_factory": {
+    "message": "1688メーカー"
+  },
+  "quick_view_taobao": {
+    "message": "タオバオ"
+  },
+  "quick_view_wangdiantong": {
+    "message": "旺店通"
+  },
+  "quick_view_VOC": {
+    "message": "セラースプライト会員なら、20%割引でお得にVOCご体験！"
+  },
+  "quick_view_VOC_link": {
+    "message": "https://apps.voc.ai/app?utm=seller_sprite&lang=jp"
+  },
+  "table_current_asin": {
+    "message": "現在のバリエーション"
+  },
+  "quick_child_sales": {
+    "message": "直近30日間販売数(子)"
+  },
+  "goods_source_1688_sourcing": {
+    "message": "1688商品検索"
+  },
+  "goods_source_search_by_pictures": {
+    "message": "画像検索"
+  },
+  "goods_source_taobao_by_pictures": {
+    "message": "淘宝找货源"
+  },
+  "goods_source_transaction_price": {
+    "message": "料金"
+  },
+  "goods_source_comprehensive_ranking": {
+    "message": "総合"
+  },
+  "goods_source_turnover": {
+    "message": "出来高"
+  },
+  "goods_source_next_page": {
+    "message": "次のページ"
+  },
+  "goods_source_first_page": {
+    "message": "先頭ページ"
+  },
+  "goods_source_find_it_in_1688": {
+    "message": "1688へ"
+  },
+  "goods_source_taobao_turnover": {
+    "message": "销量"
+  },
+  "goods_source_pieces_per_order": {
+    "message": "{num}から卸価格",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "goods_source_btn_tips": {
+    "message": "Alibabaで仕入先を見つける（写真の相似性に基づく）"
+  },
+  "sbv_video_btn_tips": {
+    "message": "ビデオダウンロード"
+  },
+  "choose_img_title_tips": {
+    "message": "高品質の1688商品を選定しました（EC向けに特別に選定され、潜在的な侵害または問題のある商品を除外）。1688の商品との違いがありますが、右側のボタンをクリックして1688で商品を探すこともできます。"
+  },
+  "keepa_prime_price": {
+    "message": "プライム価格"
+  },
+  "keepa_coupon_price": {
+    "message": "クーポン価格"
+  },
+  "keepa_fba_price": {
+    "message": "FBA価格"
+  },
+  "keepa_fbm_price": {
+    "message": "FBM価格"
+  },
+  "keepa_list_price": {
+    "message": "参考価格"
+  },
+  "keepa_child_seals": {
+    "message": "販売数(子)"
+  }
+}

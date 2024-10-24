@@ -1,0 +1,1 @@
+(()=>{const e=new CustomEvent("service-plugin-dock-event",{detail:{type:"register",name:"sellersprite"}});window.dispatchEvent(e)})();

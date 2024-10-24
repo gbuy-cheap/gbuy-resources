@@ -1,0 +1,14 @@
+// @use "element-plus/theme-chalk/src/index.scss" as *;
+
+// 主题色
+// :root {
+//    --el-color-primary: #fb8c1e;
+// }
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': #fb8c1e,
+    ),
+  ),
+);
+@use "element-plus/theme-chalk/src/index.scss" as *;

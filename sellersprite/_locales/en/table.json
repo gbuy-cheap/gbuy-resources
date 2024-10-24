@@ -1,0 +1,248 @@
+{
+  "miner_table_header_keyword_tips": {
+    "message": "<p>Keyword according to its relation to the search terms.</p>"
+  },
+  "miner_table_header_product_top10_tips": {
+    "message": "<p>Take a quick summary view of the top 10 products based on the search organic results.</p>"
+  },
+  "miner_table_header_month_trends_tips": {
+    "message": "<p>Search trends for this keyword over the past 2 to 3 years (monthly).</p>"
+  },
+  "miner_table_header_relevancy_tips": {
+    "message": "<p>A high score indicating how closely related the keyword is to the seed keyword.</p>"
+  },
+  "miner_table_header_aba_rank_tips": {
+    "message": "<p>Upper number shows the monthly search frequency rank<br>Lower number shows the weekly search frequency rank<br>The data comes from Amazon's Brand Analytics in Amazon Seller Central,<br>the smaller the number, the higher the ranking and the higher the search volume.</p>"
+  },
+  "miner_table_header_title_searches_tips": {
+    "message": "<p>The number of searches for this keyword in a natural month, such as July 2021.</p>"
+  },
+  "miner_table_header_SPR_tips": {
+    "message": "<p>SellerSprite Product Rank, estimated number of units that need to be sold over 8 days, resulting from a search <br>for this keyword in order for the product to rank on top half of page one for this keyword.</p>"
+  },
+  "miner_table_header_title_density_tips": {
+    "message": "<p>Number of page 1 products with the searched keyword in their title.</p>"
+  },
+  "miner_table_header_aba_purchases": {
+    "message": "<p>Upper: The volume of purchase after searching for this keyword on Amazon in a month.<br>Lower: Purchase Rate=Monthly Sales/Monthly Search Volume</p>"
+  },
+  "miner_table_header_product_result_tips": {
+    "message": "<p>Upper: Demand to Supply Ratio = search volume (demand) / number of items (supply)<br>Lower: The number of related products that appear after searching for the keyword (All Departments catogories).</p>"
+  },
+  "miner_table_header_supply_demand_ratio_tips": {
+    "message": "<p>Demand to Supply Ratio = Search Volume ( Demand ) / Search Results ( Supply )</p>"
+  },
+  "miner_table_header_ad_competitors_tips": {
+    "message": "<p>The total number of advertised products displayed in the first 3 pages<br> of search results for the keyword in the past 7 days.</p>"
+  },
+  "miner_table_header_click_concentration_tips": {
+    "message": "<p>Upper: Sum of top 3 ASINs click share from ABA Data<br>Lower: Sum of top 3 ASINs conversion share from ABA Data</p>"
+  },
+  "miner_table_header_ppc_bid_tips": {
+    "message": "<p>Average bid of “Pay-Per-Click” for this keyword. System provides suggested bid range.</p>"
+  },
+  "reverse_table_header_keyword_tips": {
+    "message": "<p>Keywords that bring this ASIN to the top 3 pages of Amazon search results in the last 30 days.</p>"
+  },
+  "reverse_table_header_product_top10_tips": {
+    "message": "<p>Take a quick summary view of the top 10 products based on the search organic results.</span></p>"
+  },
+  "reverse_table_header_month_trends_tips": {
+    "message": "<p>Search trends for this keyword over the past 2 to 3 years (monthly).</p>"
+  },
+  "reverse_table_header_traffic_proportion_tips": {
+    "message": "<p>First line: Click Share, refers to the percentage of clicks that the product received in comparison to the total clicks based on the search results.<br/>Second line: Estimated Weekly Impressions, refers to the estimated number of times this keyword is searched in this week.<br/>Third line: according to the traffic and keyword ranking to determine the highly searched words, High-ranking words or long-tail words.</p>"
+  },
+  "reverse_table_header_aba_rank_tips": {
+    "message": "<p>Search Frequency Rank，it is the rank (numeric) of a particular search <br>term based on its popularity for a particular time period.</p>"
+  },
+  "reverse_table_header_searchs_tips": {
+    "message": "<p>The number of searches for this keyword in a natural month, such as July 2021.</p>"
+  },
+  "reverse_table_header_spr_tips": {
+    "message": "<p>SellerSprite Product Rank: Estimated number of units that need to be sold over 8 days, resulting from a search <br>for this keyword in order for the product to rank on top half of page one for this keyword.</p>"
+  },
+  "reverse_table_header_title_density_tips": {
+    "message": "<p>Number of page 1 products with the searched keyword in their title.</p>"
+  },
+  "reverse_table_header_purchases_tips": {
+    "message": "<div>Upper: The volume of purchase after searching for this keyword on Amazon in a month.<br>Lower: Purchase Rate=Monthly Sales/Monthly Search Volume</div>"
+  },
+  "reverse_table_header_results_tips": {
+    "message": "<p>The total number of products returned in a customer search using this keyword/phrase.</p>"
+  },
+  "reverse_table_header_supply_demand_ratio_tips": {
+    "message": "<p>Demand to Supply Ratio = Search Volume ( Demand ) / Search Results ( Supply )</p>"
+  },
+  "reverse_table_header_ad_competitors_tips": {
+    "message": "<p>The total number of advertised products displayed in the first 3 pages of search results for<br> the keyword in the past 7 days. </p>"
+  },
+  "reverse_table_header_click_concentration_tips": {
+    "message": "<p>Upper: Sum of top 3 ASINs click share from ABA Data<br>Lower: Sum of top 3 ASINs conversion share from ABA Data</p>"
+  },
+  "reverse_table_header_ppc_bid_tips": {
+    "message": "<p>Average bid of “Pay-Per-Click” for this keyword. System provides suggested bid range.</p>"
+  },
+  "product_table_header_brand_tips": {
+    "message": "<p>The brand of this ASIN</p>"
+  },
+  "product_table_header_category_tips": {
+    "message": "<p>The category this ASIN belongs to</p>"
+  },
+  "product_table_header_BSR_tips": {
+    "message": "<p>Category Best Seller Rank</p>"
+  },
+  "product_table_header_price_tips": {
+    "message": "<p>The latest BuyBox price</p>"
+  },
+  "product_table_header_rating_tips": {
+    "message": "<p>Rating average</p>"
+  },
+  "product_table_header_ratings_tips": {
+    "message": "<p>Rating average</p>"
+  },
+  "product_table_header_month_ratings_tips": {
+    "message": "<p>The number of new ratings in the last 30 days for this ASIN</p>"
+  },
+  "product_table_header_percentage_ratings_tips": {
+    "message": "<p>Number of new ratings in the last 30 days / Sales in the last 30 days * 100%</p>"
+  },
+  "product_table_header_QA_tips": {
+    "message": "<p>The total number of Q&A</p>"
+  },
+  "product_table_header_sale_trends_tips": {
+    "message": "<p>Mouse over to see estimated monthly sales, click the drop-down arrow to switch to see parent/variation sales trends.</p>"
+  },
+  "product_table_header_sale_tips": {
+    "message": "<p>The Number of Units Sold in the past 30 days<br>Click on the numbers to see the historical sales trend for the last 3 years</p>"
+  },
+  "product_table_header_monthly_sales_tips": {
+    "message": "<p>The Revenue in the past 30 days<br>Monthly Revenue=Monthly Sales* BuyBox Price</p>"
+  },
+  "product_table_header_variation_amount_tips": {
+    "message": "<p>子体销售额</p>"
+  },
+  "product_table_header_gross_margin_tips": {
+    "message": "<p>Gross Margin = (Sales - Referral Fees - FBA Fees)/Sales*100%<br>Click on the numbers below to see detailed calculation of fees.</p>"
+  },
+  "product_table_header_FBA_tips": {
+    "message": "<p>FBA fees are calculated per unit, based on size and weight of the product.</p>"
+  },
+  "product_table_header_date_published_tips": {
+    "message": "<p>Date product was published.</p>"
+  },
+  "product_table_header_seller_tips": {
+    "message": "<p>The Number of Sellers currently selling this ASIN</p>"
+  },
+  "product_table_header_variations_tips": {
+    "message": "<p>Number of variations of this ASIN</p>"
+  },
+  "product_table_header_fulfillment_tips": {
+    "message": "<p>Fulfillment method of the current Buybox (FBA, FBM, or AMZ)</p>"
+  },
+  "miner_table_filter_broad_match_tips": {
+    "message": "<p>Check this box to expand the keywords according to the current seed phrase. <br>The results contain the seed word/phrase.</p>"
+  },
+  "miner_table_filter_AC_tips": {
+    "message": "<p>Amazon Choice:  Filter keyword results based on the Amazon Choice badge status</p>"
+  },
+  "miner_table_filter_ABA_tips": {
+    "message": "<p>Search Frequency Rank. It is the rank (numeric) of a particular search term based on its popularity for a month</p>"
+  },
+  "miner_table_filter_searchs_tips": {
+    "message": "<p>The number of searches for this keyword in a natural month, such as July 2021.</p>"
+  },
+  "miner_table_filter_SPR_tips": {
+    "message": "<p>SellerSprite Product Rank: Estimated number of units that need to be sold over 8 days,<br> resulting from a search for this keyword in order for the product to rank on top half of page one for this keyword.</p>"
+  },
+  "miner_table_filter_title_tips": {
+    "message": "<p>Number of page 1 products with the searched keyword in their title.</p>"
+  },
+  "miner_table_filter_buy_tips": {
+    "message": "<p>The volume of purchase after searching for this keyword on Amazon in a month.</p>"
+  },
+  "miner_table_filter_buy_rate_tips": {
+    "message": "<p>Purchase Rate=Monthly Sales/Monthly Search Volume</p>"
+  },
+  "miner_table_filter_goods_tips": {
+    "message": "<p>Total number of products returned in a customer search using this keyword/phrase</p>"
+  },
+  "miner_table_filter_supply_rate_tips": {
+    "message": "<p>Demand to Supply Ratio = Search Volume ( Demand ) / Search Results ( Supply )</p>"
+  },
+  "miner_table_filter_ad_competitors_tips": {
+    "message": "<p>The total number of advertised products displayed in the first 3 pages of search results for the keyword in the past 7 days. </p>"
+  },
+  "miner_table_filter_click_tips": {
+    "message": "<p>Click Concentration is calculated by taking the top three ASINs’ number of clicks combined, divided by the total amount of clicks.</p>"
+  },
+  "miner_table_filter_sum_top3_tips": {
+    "message": "<p>Sum of top 3 ASINs conversion share from ABA Data</p>"
+  },
+  "miner_table_filter_PPC_tips": {
+    "message": "<p>Average bid of “Pay-Per-Click” for this keyword. System provides recommended bid range. </p>"
+  },
+  "miner_table_filter_keywords_tips": {
+    "message": "<p>Filter keyword results by word count. </p>"
+  },
+  "miner_table_filter_exclude_tips": {
+    "message": "<p>Exclude phrases that contain entered keywords (separate with commas)</p>"
+  },
+  "miner_table_filter_include_tips": {
+    "message": "<p>Enter up to 200 keywords, separated by commas.</p>"
+  },
+  "reverse_table_filter_AC_tips": {
+    "message": "<p>Amazon Choice:  Filter keyword results based on the Amazon Choice badge status</p>"
+  },
+  "reverse_table_filter_traffic_tips": {
+    "message": "<p>The percentage of clicks that the product received in comparison to the total clicks based on the search results</p>"
+  },
+  "reverse_table_filter_ABA_tips": {
+    "message": "<p>Search Frequency Rank，it is the rank (numeric) of a particular search term based on its popularity for a week</p>"
+  },
+  "reverse_table_filter_searchs_tips": {
+    "message": "<p>The number of searches for this keyword in a natural month, such as July 2021</p>"
+  },
+  "reverse_table_filter_SPR_tips": {
+    "message": "<p>SellerSprite Product Rank: Estimated number of units that need to be sold over 8 days, <br>resulting from a search for this keyword in order for the product to rank on top half of page one for this keyword</p>"
+  },
+  "reverse_table_filter_title_tips": {
+    "message": "<p>Number of page 1 products with the searched keyword in their title</p>"
+  },
+  "reverse_table_filter_buy_tips": {
+    "message": "<p>The volume of purchase after searching for this keyword on Amazon in a month.</p>"
+  },
+  "reverse_table_filter_buy_rate_tips": {
+    "message": "<p>Purchase Rate=Monthly Sales/Monthly Search Volume</p>"
+  },
+  "reverse_table_filter_goods_tips": {
+    "message": "<p>Total number of products returned in a customer search using this keyword/phrase</p>"
+  },
+  "reverse_table_filter_supply_tips": {
+    "message": "<p>Demand to Supply Ratio = Search Volume ( Demand ) / Search Results ( Supply )</p>"
+  },
+  "reverse_table_filter_ad_competitors_tips": {
+    "message": "<p>The total number of advertised products displayed in the first 3 pages<br> of search results for the keyword in the past 7 days</p>"
+  },
+  "reverse_table_filter_click_tips": {
+    "message": "<p>Click Concentration is calculated by taking the top three ASINs’ number<br> of clicks combined, divided by the total amount of clicks</p>"
+  },
+  "reverse_table_filter_sum_rate_tips": {
+    "message": "<p>Sum of top 3 ASINs conversion share from ABA Data </p>"
+  },
+  "reverse_table_filter_PPC_tips": {
+    "message": "<p>Average bid of “Pay-Per-Click” for this keyword. System provides recommended bid range</p>"
+  },
+  "reverse_table_filter_keywords_tips": {
+    "message": "<p>Filter keyword results by word count</p>"
+  },
+  "reverse_table_filter_exclude_tips": {
+    "message": "<p>Exclude phrases that contain entered keywords (separate with commas)</p>"
+  },
+  "reverse_table_filter_include_tips": {
+    "message": "<p>Enter up to 200 keywords, separated by commas</p>"
+  },
+  "product_table_header_monthly_child_sales_tips": {
+    "message": "<p>The sales data for this variation in the past 30 days is sourced directly from the Amazon search page.</p>"
+  }
+}

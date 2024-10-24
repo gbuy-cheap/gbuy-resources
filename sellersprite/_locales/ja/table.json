@@ -1,0 +1,248 @@
+{
+  "miner_table_header_keyword_tips": {
+    "message": "<p>検索ワードの関連キーワード</p>"
+  },
+  "miner_table_header_product_top10_tips": {
+    "message": "<p>Top10商品の外観を比較することで、そのキーワードが自社運営商品との関連性を判断します。</p>"
+  },
+  "miner_table_header_month_trends_tips": {
+    "message": "<p>直近2-3年間、対象キーワードの検索数のトレンドを指します。</p>"
+  },
+  "miner_table_header_relevancy_tips": {
+    "message": "<p>相関度が高いほど、そのキーワードとクエリキーワードに関連する同型ASINの数<br/>が多く、そのキーワードとクエリキーワードの相関度が高いことを意味します。</p>"
+  },
+  "miner_table_header_aba_rank_tips": {
+    "message": "<p>第一行：キーワードの月間ABA順位<br>第二行：キーワードの週間ABA順位<br>データはAmazonセラーセントラルのABAデータのキーワード検索頻度から取得されます。<br>数字が小さいほど順位が高く、検索ボリュームが多いことを示します。</p>"
+  },
+  "miner_table_header_title_searches_tips": {
+    "message": "<p>1ヶ月以内に、例えば、2022年6月に、対象キーワードがAmazonで検索される回数を指します。</p>"
+  },
+  "miner_table_header_SPR_tips": {
+    "message": "<p>Sellersprite Product Rank、そのキーワード順位を検索結果の1ページ目に維持<br>できる8日間の予測販売数です。</p>"
+  },
+  "miner_table_header_title_density_tips": {
+    "message": "<p>そのキーワードはアマゾンの検索結果の1ページ目にある商品の中で、タイト<br>ルに該当キーワードが含まれている商品の数です。</p>"
+  },
+  "miner_table_header_aba_purchases": {
+    "message": "<p>上：一か月間に、例えば、2023年7月に、対象キーワードで検索された後、ユーザーが商品を購入した回数を指します。<br>下：転換率。転換率＝販売数／検索数</p>"
+  },
+  "miner_table_header_product_result_tips": {
+    "message": "<p>上：需給率。需給率＝検索数（需要）/商品数（供給）<br> 下：商品数。このキーワードが検索されたら、検索結果に表示された関連商品数量のことを指します。</p>"
+  },
+  "miner_table_header_supply_demand_ratio_tips": {
+    "message": "<p>需給比率=検索数(需要)/商品数(供給)</p>"
+  },
+  "miner_table_header_ad_competitors_tips": {
+    "message": "<p>直近7日間で、キーワードの検索結果上位3ページに入った広告商品の総数を示します。</p>"
+  },
+  "miner_table_header_click_concentration_tips": {
+    "message": "<p>上：Top3ASINのクリック総数比率<br>下：Top3ASINの転換総数</p>"
+  },
+  "miner_table_header_ppc_bid_tips": {
+    "message": "<p>アマゾンサイト内広告のBid価格、システムが「フレーズマッチング」のBid推奨価格と範囲を提供します。</p>"
+  },
+  "reverse_table_header_keyword_tips": {
+    "message": "<p>このASINが直近30日に、アマゾンの検索結果の前の3ページに入った全ての検索トラフィックワードです。</p>"
+  },
+  "reverse_table_header_product_top10_tips": {
+    "message": "<p>Top10商品の外観を比較することで、そのキーワードが自社運営商品との関連性を判断します。</p>"
+  },
+  "reverse_table_header_month_trends_tips": {
+    "message": "<p>直近2-3年間、対象キーワードの検索数のトレンドを指します。</p>"
+  },
+  "reverse_table_header_traffic_proportion_tips": {
+    "message": "<p>第一行：商品が異なるトラフィックワードで取得した露出の割合です。<br/>第二行：予測週間露出数。今週このキーワードが商品に与える予測露出数です。<br/>第三行：露出数とキーワード順位によって、主要トラフィックワードか、正確トラフィックワードか、または正確ロングテールワードかを判断します。</p>"
+  },
+  "reverse_table_header_aba_rank_tips": {
+    "message": "<p>Amazon ABAデータのキーワード検索頻度週間ランキング</p>"
+  },
+  "reverse_table_header_searchs_tips": {
+    "message": "<p>月間検索数。1ヶ月以内に、例えば、2022年6月に、対象キーワードがAmazonで検索される回数を指します。</p>"
+  },
+  "reverse_table_header_spr_tips": {
+    "message": "<p>Sellersprite Product Rank、そのキーワード順位を検索結果の1ページ目に維持できる8日間の予測販売数です。</p>"
+  },
+  "reverse_table_header_title_density_tips": {
+    "message": "<p>そのキーワードはアマゾンの検索結果の1ページ目にある商品の中で、タイトルに該当キ<br>ーワードが含まれている商品の数です。</p>"
+  },
+  "reverse_table_header_purchases_tips": {
+    "message": "<p>上：一か月間に、例えば、2023年7月に、対象キーワードで検索された後、ユーザーが商品を購入した回数を指します。<br>下：転換率。転換率＝販売数／検索数</p>"
+  },
+  "reverse_table_header_results_tips": {
+    "message": "<p>このキーワードが検索されたら、検索結果に表示された関連商品数量のことを指します。</p>"
+  },
+  "reverse_table_header_supply_demand_ratio_tips": {
+    "message": "<p>需給比率=検索数(需要)/商品数(供給)</p>"
+  },
+  "reverse_table_header_ad_competitors_tips": {
+    "message": "<p>直近7日間で、キーワードの検索結果上位3ページに入った広告商品の総数を示します。</p>"
+  },
+  "reverse_table_header_click_concentration_tips": {
+    "message": "<p>上：Top3ASINのクリック総数比率<br>下：Top3ASINの転換総数</p>"
+  },
+  "reverse_table_header_ppc_bid_tips": {
+    "message": "<p>アマゾンサイト内広告のBid価格、システムが「フレーズマッチング」のBid推奨価格と範囲を提供します。</p>"
+  },
+  "product_table_header_brand_tips": {
+    "message": "<p>ASINが属するブランド</p>"
+  },
+  "product_table_header_category_tips": {
+    "message": "<p>ASINが属するカテゴリー名</p>"
+  },
+  "product_table_header_BSR_tips": {
+    "message": "<p>ASINのBSR親カテゴリーランキング（親・子ASINでランキングを共有している場合は親のランキングが表示）<br>BSRの数字にカーソルを合わせると、サブカテゴリのランキングが表示されます。<br>BSRの数字をクリックすると、過去のランキング推移を見ることができます。</p>"
+  },
+  "product_table_header_price_tips": {
+    "message": "<p>ASINの最新のBuyBox価格</p>"
+  },
+  "product_table_header_rating_tips": {
+    "message": "<p>ASINが属するListingの星評価</p>"
+  },
+  "product_table_header_ratings_tips": {
+    "message": "<p>ASINが属するListingの評価数</p>"
+  },
+  "product_table_header_month_ratings_tips": {
+    "message": "<p>ASINが所属するListingの直近30日間の新規評価数</p>"
+  },
+  "product_table_header_percentage_ratings_tips": {
+    "message": "<p>直近30日間の新規評価数/直近30日間の販売数 * 100%</p>"
+  },
+  "product_table_header_QA_tips": {
+    "message": "<p>ASINが属するListingのQ&A総数</p>"
+  },
+  "product_table_header_sale_trends_tips": {
+    "message": "<p>カーソルを合わせると毎月の予測販売数と販売額が表示され、ドロップダウンの矢印をクリックすると、親/子ASINの販売推移が表示されます。</p>"
+  },
+  "product_table_header_sale_tips": {
+    "message": "<p>直近30日の予測販売数<br>数字をクリックすると、直近3年間の販売推移が表示されます。</p>"
+  },
+  "product_table_header_monthly_sales_tips": {
+    "message": "<p>直近30日の予測販売額<br>販売額=販売数*最新BuyBox価格</p>"
+  },
+  "product_table_header_variation_amount_tips": {
+    "message": "<p>子体销售额</p>"
+  },
+  "product_table_header_gross_margin_tips": {
+    "message": "<p>粗利率=（商品販売価格-アマゾンコミッション-FBA送料）/商品販売価格*100%</p>"
+  },
+  "product_table_header_FBA_tips": {
+    "message": "<p>商品FBA運賃。商品体積及び重量により計算します。</p>"
+  },
+  "product_table_header_date_published_tips": {
+    "message": "<p>Listingが最も早く発見された時間、つまり下記のような時間の中で一番早い時間。<br>Listingが展示されている出品時間（Date First Available、常にない）<br>Listingが初回レビューされた時間<br>Keepaがモニタリングした価格、BSR、レビューなどの時間</p>"
+  },
+  "product_table_header_seller_tips": {
+    "message": "<p>販売中のセラー数、すなわち全ての相乗り出品のセラー数</p>"
+  },
+  "product_table_header_variations_tips": {
+    "message": "<p>このASIN所属するListingのバリエーション数</p>"
+  },
+  "product_table_header_fulfillment_tips": {
+    "message": "<p>現在のBuyBoxセラーの配送方法</p>"
+  },
+  "miner_table_filter_broad_match_tips": {
+    "message": "<p>ボックスにチェックを入れて、現在の検索語根のみに基づいてキーワード<br>を展開します。結果のキーワードには検索語が含まれます。</p>"
+  },
+  "miner_table_filter_AC_tips": {
+    "message": "<p>Amazon's Choice、チェックを入れてACロゴ付きのキーワードを絞り込みます。</p>"
+  },
+  "miner_table_filter_ABA_tips": {
+    "message": "<p>Amazon ABAデータのキーワード検索頻度月間ランキング</p>"
+  },
+  "miner_table_filter_searchs_tips": {
+    "message": "<p>1ヶ月以内に、例えば、2022年6月に、対象キーワードがAmazonで検索される回数を指します。</p>"
+  },
+  "miner_table_filter_SPR_tips": {
+    "message": "<p>Sellersprite Product Rank、そのキーワード順位を検索結果の1ページ目に維持できる8日間の予測販売数です。</p>"
+  },
+  "miner_table_filter_title_tips": {
+    "message": "<p>そのキーワードはアマゾンの検索結果の1ページ目にある商品の中で、<br>タイトルに該当キーワードが含まれている商品の数です。</p>"
+  },
+  "miner_table_filter_buy_tips": {
+    "message": "<p>一か月間に、例えば、<br>2023年7月に、対象キーワードで検索された後、ユーザーが商品を購入した回数を指します。</p>"
+  },
+  "miner_table_filter_buy_rate_tips": {
+    "message": "<p>転換率＝販売数／検索数</p>"
+  },
+  "miner_table_filter_goods_tips": {
+    "message": "<p>このキーワードが検索されたら、検索結果に表示された関連商品数量のことを指します。</p>"
+  },
+  "miner_table_filter_supply_rate_tips": {
+    "message": "<p>需給比率=検索数(需要)/商品数(供給)</p>"
+  },
+  "miner_table_filter_ad_competitors_tips": {
+    "message": "<p>直近7日間で、キーワードの検索結果上位3ページに入った広告商品の総数を示します。</p>"
+  },
+  "miner_table_filter_click_tips": {
+    "message": "<p>Top3ASINのクリック総数比率</p>"
+  },
+  "miner_table_filter_sum_top3_tips": {
+    "message": "<p>Top3ASINの転換総数</p>"
+  },
+  "miner_table_filter_PPC_tips": {
+    "message": "<p>アマゾンサイト内広告のBid価格、システムが「フレーズマッチング」のBid推奨価格と範囲を提供します。</p>"
+  },
+  "miner_table_filter_keywords_tips": {
+    "message": "<p>キーワードフレーズの単語数は、スペースで区切られています。</p>"
+  },
+  "miner_table_filter_exclude_tips": {
+    "message": "<p>追加後のスクリーニング結果には、そのキーワードを含むフレーズは示しません。</p>"
+  },
+  "miner_table_filter_include_tips": {
+    "message": "<p>フィルタリングされた結果は、キーワードを含むフレーズのみを表示します。</p>"
+  },
+  "reverse_table_filter_AC_tips": {
+    "message": "<p>Amazon's Choice、チェックを入れてACロゴ付きのキーワードを絞り込みます。</p>"
+  },
+  "reverse_table_filter_traffic_tips": {
+    "message": "<p>トラフィックワードの違いによる露出量の割合です。</p>"
+  },
+  "reverse_table_filter_ABA_tips": {
+    "message": "<p>Amazon ABAデータのキーワード検索頻度週間ランキング</p>"
+  },
+  "reverse_table_filter_searchs_tips": {
+    "message": "<p>1ヶ月以内に、例えば、2022年6月に、対象キーワードがAmazonで検索される回数を指します。</p>"
+  },
+  "reverse_table_filter_SPR_tips": {
+    "message": "<p>Sellersprite Product Rank、そのキーワード順位を検索結果の1ページ目に維持できる8日間の予測販売数です。</p>"
+  },
+  "reverse_table_filter_title_tips": {
+    "message": "<p>そのキーワードはアマゾンの検索結果の1ページ目にある商品の中で、<br>タイトルに該当キーワードが含まれている商品の数です。</p>"
+  },
+  "reverse_table_filter_buy_tips": {
+    "message": "<p>一か月間に、例えば、<br>2023年7月に、対象キーワードで検索された後、ユーザーが商品を購入した回数を指します。</p>"
+  },
+  "reverse_table_filter_buy_rate_tips": {
+    "message": "<p>転換率＝販売数／検索数</p>"
+  },
+  "reverse_table_filter_goods_tips": {
+    "message": "<p>このキーワードが検索されたら、検索結果に表示された関連商品数量のことを指します。</p>"
+  },
+  "reverse_table_filter_supply_tips": {
+    "message": "<p>需給比率=検索数(需要)/商品数(供給)</p>"
+  },
+  "reverse_table_filter_ad_competitors_tips": {
+    "message": "<p>直近7日間で、キーワードの検索結果上位3ページに入った広告商品の総数を示します。</p>"
+  },
+  "reverse_table_filter_click_tips": {
+    "message": "<p>Top3ASINのクリック総数比率</p>"
+  },
+  "reverse_table_filter_sum_rate_tips": {
+    "message": "<p>Top3ASINの転換総数</p>"
+  },
+  "reverse_table_filter_PPC_tips": {
+    "message": "<p>アマゾンサイト内広告のBid価格、システムが「フレーズマッチング」のBid推奨価格と範囲を提供します。</p>"
+  },
+  "reverse_table_filter_keywords_tips": {
+    "message": "<p>キーワードフレーズの単語数は、スペースで区切られています。</p>"
+  },
+  "reverse_table_filter_exclude_tips": {
+    "message": "<p>追加後のスクリーニング結果には、そのキーワードを含むフレーズは示しません。</p>"
+  },
+  "reverse_table_filter_include_tips": {
+    "message": "<p>フィルタリングされた結果は、キーワードを含むフレーズのみを表示します。</p>"
+  },
+  "product_table_header_monthly_child_sales_tips": {
+    "message": "<p>この子ASINの直近30日間の販売数（Amazon検索ページのデータ）</p>"
+  }
+}

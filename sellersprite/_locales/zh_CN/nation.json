@@ -1,0 +1,755 @@
+{
+  "nation_code_noun_OTHER": {
+    "message": "其他"
+  },
+  "nation_code_noun_UNKNOWN": {
+    "message": "未知"
+  },
+  "nation_code_noun_AD": {
+    "message": "安道尔"
+  },
+  "nation_code_noun_AE": {
+    "message": "阿联酋"
+  },
+  "nation_code_noun_AF": {
+    "message": "阿富汗"
+  },
+  "nation_code_noun_AG": {
+    "message": "安提瓜和巴布达"
+  },
+  "nation_code_noun_AI": {
+    "message": "安圭拉"
+  },
+  "nation_code_noun_AL": {
+    "message": "阿尔巴尼亚"
+  },
+  "nation_code_noun_AM": {
+    "message": "亚美尼亚"
+  },
+  "nation_code_noun_AO": {
+    "message": "安哥拉"
+  },
+  "nation_code_noun_AQ": {
+    "message": "南极洲"
+  },
+  "nation_code_noun_AR": {
+    "message": "阿根廷"
+  },
+  "nation_code_noun_AS": {
+    "message": "美属萨摩亚"
+  },
+  "nation_code_noun_AT": {
+    "message": "奥地利"
+  },
+  "nation_code_noun_AU": {
+    "message": "澳大利亚"
+  },
+  "nation_code_noun_AW": {
+    "message": "阿鲁巴"
+  },
+  "nation_code_noun_AX": {
+    "message": "奥兰"
+  },
+  "nation_code_noun_AZ": {
+    "message": "阿塞拜疆"
+  },
+  "nation_code_noun_BA": {
+    "message": "波斯尼亚和黑塞哥维那"
+  },
+  "nation_code_noun_BB": {
+    "message": "巴巴多斯"
+  },
+  "nation_code_noun_BD": {
+    "message": "孟加拉国 孟加拉国"
+  },
+  "nation_code_noun_BE": {
+    "message": "比利时"
+  },
+  "nation_code_noun_BF": {
+    "message": "布基纳法索"
+  },
+  "nation_code_noun_BG": {
+    "message": "保加利亚"
+  },
+  "nation_code_noun_BH": {
+    "message": "巴林"
+  },
+  "nation_code_noun_BI": {
+    "message": "布隆迪"
+  },
+  "nation_code_noun_BJ": {
+    "message": "贝宁"
+  },
+  "nation_code_noun_BL": {
+    "message": "圣巴泰勒米"
+  },
+  "nation_code_noun_BM": {
+    "message": "百慕大"
+  },
+  "nation_code_noun_BN": {
+    "message": "文莱"
+  },
+  "nation_code_noun_BO": {
+    "message": "玻利维亚"
+  },
+  "nation_code_noun_BQ": {
+    "message": "荷兰加勒比区"
+  },
+  "nation_code_noun_BR": {
+    "message": "巴西"
+  },
+  "nation_code_noun_BS": {
+    "message": "巴哈马"
+  },
+  "nation_code_noun_BT": {
+    "message": "不丹"
+  },
+  "nation_code_noun_BV": {
+    "message": "布韦岛"
+  },
+  "nation_code_noun_BW": {
+    "message": "博茨瓦纳"
+  },
+  "nation_code_noun_BY": {
+    "message": "白俄罗斯"
+  },
+  "nation_code_noun_BZ": {
+    "message": "伯利兹"
+  },
+  "nation_code_noun_CA": {
+    "message": "加拿大"
+  },
+  "nation_code_noun_CC": {
+    "message": "科科斯（基林）群岛"
+  },
+  "nation_code_noun_CD": {
+    "message": "刚果（金）"
+  },
+  "nation_code_noun_CF": {
+    "message": "中非"
+  },
+  "nation_code_noun_CG": {
+    "message": "刚果（布）"
+  },
+  "nation_code_noun_CH": {
+    "message": "瑞士"
+  },
+  "nation_code_noun_CI": {
+    "message": "科特迪瓦"
+  },
+  "nation_code_noun_CK": {
+    "message": "库克群岛"
+  },
+  "nation_code_noun_CL": {
+    "message": "智利"
+  },
+  "nation_code_noun_CM": {
+    "message": "喀麦隆"
+  },
+  "nation_code_noun_CN": {
+    "message": "中国"
+  },
+  "nation_code_noun_CO": {
+    "message": "哥伦比亚"
+  },
+  "nation_code_noun_CR": {
+    "message": "哥斯达黎加"
+  },
+  "nation_code_noun_CU": {
+    "message": "古巴"
+  },
+  "nation_code_noun_CV": {
+    "message": "佛得角"
+  },
+  "nation_code_noun_CW": {
+    "message": "库拉索"
+  },
+  "nation_code_noun_CX": {
+    "message": "圣诞岛"
+  },
+  "nation_code_noun_CY": {
+    "message": "塞浦路斯"
+  },
+  "nation_code_noun_CZ": {
+    "message": "捷克"
+  },
+  "nation_code_noun_DE": {
+    "message": "德国"
+  },
+  "nation_code_noun_DJ": {
+    "message": "吉布提"
+  },
+  "nation_code_noun_DK": {
+    "message": "丹麦"
+  },
+  "nation_code_noun_DM": {
+    "message": "多米尼克"
+  },
+  "nation_code_noun_DO": {
+    "message": "多米尼加"
+  },
+  "nation_code_noun_DZ": {
+    "message": "阿尔及利亚"
+  },
+  "nation_code_noun_EC": {
+    "message": "厄瓜多尔"
+  },
+  "nation_code_noun_EE": {
+    "message": "爱沙尼亚"
+  },
+  "nation_code_noun_EG": {
+    "message": "埃及"
+  },
+  "nation_code_noun_EH": {
+    "message": "西撒哈拉"
+  },
+  "nation_code_noun_ER": {
+    "message": "厄立特里亚"
+  },
+  "nation_code_noun_ES": {
+    "message": "西班牙"
+  },
+  "nation_code_noun_ET": {
+    "message": "埃塞俄比亚"
+  },
+  "nation_code_noun_FI": {
+    "message": "芬兰"
+  },
+  "nation_code_noun_FJ": {
+    "message": "斐济"
+  },
+  "nation_code_noun_FK": {
+    "message": "福克兰群岛"
+  },
+  "nation_code_noun_FM": {
+    "message": "密克罗尼西亚联邦"
+  },
+  "nation_code_noun_FO": {
+    "message": "法罗群岛"
+  },
+  "nation_code_noun_FR": {
+    "message": "法国"
+  },
+  "nation_code_noun_GA": {
+    "message": "加蓬"
+  },
+  "nation_code_noun_GB": {
+    "message": "英国"
+  },
+  "nation_code_noun_GD": {
+    "message": "格林纳达"
+  },
+  "nation_code_noun_GE": {
+    "message": "格鲁吉亚"
+  },
+  "nation_code_noun_GF": {
+    "message": "法属圭亚那"
+  },
+  "nation_code_noun_GG": {
+    "message": "根西"
+  },
+  "nation_code_noun_GH": {
+    "message": "加纳"
+  },
+  "nation_code_noun_GI": {
+    "message": "直布罗陀"
+  },
+  "nation_code_noun_GL": {
+    "message": "格陵兰"
+  },
+  "nation_code_noun_GM": {
+    "message": "冈比亚"
+  },
+  "nation_code_noun_GN": {
+    "message": "几内亚"
+  },
+  "nation_code_noun_GP": {
+    "message": "瓜德罗普"
+  },
+  "nation_code_noun_GQ": {
+    "message": "赤道几内亚"
+  },
+  "nation_code_noun_GR": {
+    "message": "希腊"
+  },
+  "nation_code_noun_GS": {
+    "message": "南乔治亚和南桑威奇群岛"
+  },
+  "nation_code_noun_GT": {
+    "message": "危地马拉"
+  },
+  "nation_code_noun_GU": {
+    "message": "关岛"
+  },
+  "nation_code_noun_GW": {
+    "message": "几内亚比绍"
+  },
+  "nation_code_noun_GY": {
+    "message": "圭亚那"
+  },
+  "nation_code_noun_HK": {
+    "message": "中国香港"
+  },
+  "nation_code_noun_HM": {
+    "message": "赫德岛和麦克唐纳群岛"
+  },
+  "nation_code_noun_HN": {
+    "message": "洪都拉斯"
+  },
+  "nation_code_noun_HR": {
+    "message": "克罗地亚"
+  },
+  "nation_code_noun_HT": {
+    "message": "海地"
+  },
+  "nation_code_noun_HU": {
+    "message": "匈牙利"
+  },
+  "nation_code_noun_ID": {
+    "message": "印尼"
+  },
+  "nation_code_noun_IE": {
+    "message": "爱尔兰"
+  },
+  "nation_code_noun_IL": {
+    "message": "以色列"
+  },
+  "nation_code_noun_IM": {
+    "message": "马恩岛"
+  },
+  "nation_code_noun_IN": {
+    "message": "印度"
+  },
+  "nation_code_noun_IO": {
+    "message": "英属印度洋领地"
+  },
+  "nation_code_noun_IQ": {
+    "message": "伊拉克"
+  },
+  "nation_code_noun_IR": {
+    "message": "伊朗"
+  },
+  "nation_code_noun_IS": {
+    "message": "冰岛"
+  },
+  "nation_code_noun_IT": {
+    "message": "意大利"
+  },
+  "nation_code_noun_JE": {
+    "message": "泽西"
+  },
+  "nation_code_noun_JM": {
+    "message": "牙买加"
+  },
+  "nation_code_noun_JO": {
+    "message": "约旦"
+  },
+  "nation_code_noun_JP": {
+    "message": "日本"
+  },
+  "nation_code_noun_KE": {
+    "message": "肯尼亚"
+  },
+  "nation_code_noun_KG": {
+    "message": "吉尔吉斯斯坦"
+  },
+  "nation_code_noun_KH": {
+    "message": "柬埔寨"
+  },
+  "nation_code_noun_KI": {
+    "message": "基里巴斯"
+  },
+  "nation_code_noun_KM": {
+    "message": "科摩罗"
+  },
+  "nation_code_noun_KN": {
+    "message": "圣基茨和尼维斯"
+  },
+  "nation_code_noun_KP": {
+    "message": "朝鲜"
+  },
+  "nation_code_noun_KR": {
+    "message": "韩国"
+  },
+  "nation_code_noun_KW": {
+    "message": "科威特"
+  },
+  "nation_code_noun_KY": {
+    "message": "开曼群岛"
+  },
+  "nation_code_noun_KZ": {
+    "message": "哈萨克斯坦"
+  },
+  "nation_code_noun_LA": {
+    "message": "老挝"
+  },
+  "nation_code_noun_LB": {
+    "message": "黎巴嫩"
+  },
+  "nation_code_noun_LC": {
+    "message": "圣卢西亚"
+  },
+  "nation_code_noun_LI": {
+    "message": "列支敦士登"
+  },
+  "nation_code_noun_LK": {
+    "message": "斯里兰卡"
+  },
+  "nation_code_noun_LR": {
+    "message": "利比里亚"
+  },
+  "nation_code_noun_LS": {
+    "message": "莱索托"
+  },
+  "nation_code_noun_LT": {
+    "message": "立陶宛"
+  },
+  "nation_code_noun_LU": {
+    "message": "卢森堡"
+  },
+  "nation_code_noun_LV": {
+    "message": "拉脱维亚"
+  },
+  "nation_code_noun_LY": {
+    "message": "利比亚"
+  },
+  "nation_code_noun_MA": {
+    "message": "摩洛哥"
+  },
+  "nation_code_noun_MC": {
+    "message": "摩纳哥"
+  },
+  "nation_code_noun_MD": {
+    "message": "摩尔多瓦"
+  },
+  "nation_code_noun_ME": {
+    "message": "黑山"
+  },
+  "nation_code_noun_MF": {
+    "message": "法属圣马丁"
+  },
+  "nation_code_noun_MG": {
+    "message": "马达加斯加"
+  },
+  "nation_code_noun_MH": {
+    "message": "马绍尔群岛"
+  },
+  "nation_code_noun_MK": {
+    "message": "北马其顿"
+  },
+  "nation_code_noun_ML": {
+    "message": "马里"
+  },
+  "nation_code_noun_MM": {
+    "message": "缅甸"
+  },
+  "nation_code_noun_MN": {
+    "message": "蒙古国"
+  },
+  "nation_code_noun_MO": {
+    "message": "中国澳门"
+  },
+  "nation_code_noun_MP": {
+    "message": "北马里亚纳群岛"
+  },
+  "nation_code_noun_MQ": {
+    "message": "马提尼克"
+  },
+  "nation_code_noun_MR": {
+    "message": "毛里塔尼亚"
+  },
+  "nation_code_noun_MS": {
+    "message": "蒙特塞拉特"
+  },
+  "nation_code_noun_MT": {
+    "message": "马耳他"
+  },
+  "nation_code_noun_MU": {
+    "message": "毛里求斯"
+  },
+  "nation_code_noun_MV": {
+    "message": "马尔代夫"
+  },
+  "nation_code_noun_MW": {
+    "message": "马拉维"
+  },
+  "nation_code_noun_MX": {
+    "message": "墨西哥"
+  },
+  "nation_code_noun_MY": {
+    "message": "马来西亚"
+  },
+  "nation_code_noun_MZ": {
+    "message": "莫桑比克"
+  },
+  "nation_code_noun_NA": {
+    "message": "纳米比亚"
+  },
+  "nation_code_noun_NC": {
+    "message": "新喀里多尼亚"
+  },
+  "nation_code_noun_NE": {
+    "message": "尼日尔"
+  },
+  "nation_code_noun_NF": {
+    "message": "诺福克岛"
+  },
+  "nation_code_noun_NG": {
+    "message": "尼日利亚"
+  },
+  "nation_code_noun_NI": {
+    "message": "尼加拉瓜"
+  },
+  "nation_code_noun_NL": {
+    "message": "荷兰"
+  },
+  "nation_code_noun_NO": {
+    "message": "挪威"
+  },
+  "nation_code_noun_NP": {
+    "message": "尼泊尔"
+  },
+  "nation_code_noun_NR": {
+    "message": "瑙鲁"
+  },
+  "nation_code_noun_NU": {
+    "message": "纽埃"
+  },
+  "nation_code_noun_NZ": {
+    "message": "新西兰"
+  },
+  "nation_code_noun_OM": {
+    "message": "阿曼"
+  },
+  "nation_code_noun_PA": {
+    "message": "巴拿马"
+  },
+  "nation_code_noun_PE": {
+    "message": "秘鲁"
+  },
+  "nation_code_noun_PF": {
+    "message": "法属波利尼西亚"
+  },
+  "nation_code_noun_PG": {
+    "message": "巴布亚新几内亚"
+  },
+  "nation_code_noun_PH": {
+    "message": "菲律宾"
+  },
+  "nation_code_noun_PK": {
+    "message": "巴基斯坦"
+  },
+  "nation_code_noun_PL": {
+    "message": "波兰"
+  },
+  "nation_code_noun_PM": {
+    "message": "圣皮埃尔和密克隆"
+  },
+  "nation_code_noun_PN": {
+    "message": "皮特凯恩群岛"
+  },
+  "nation_code_noun_PR": {
+    "message": "波多黎各"
+  },
+  "nation_code_noun_PS": {
+    "message": "巴勒斯坦"
+  },
+  "nation_code_noun_PT": {
+    "message": "葡萄牙"
+  },
+  "nation_code_noun_PW": {
+    "message": "帕劳"
+  },
+  "nation_code_noun_PY": {
+    "message": "巴拉圭"
+  },
+  "nation_code_noun_QA": {
+    "message": "卡塔尔"
+  },
+  "nation_code_noun_RE": {
+    "message": "留尼汪"
+  },
+  "nation_code_noun_RO": {
+    "message": "罗马尼亚"
+  },
+  "nation_code_noun_RS": {
+    "message": "塞尔维亚"
+  },
+  "nation_code_noun_RU": {
+    "message": "俄罗斯"
+  },
+  "nation_code_noun_RW": {
+    "message": "卢旺达"
+  },
+  "nation_code_noun_SA": {
+    "message": "沙特阿拉伯"
+  },
+  "nation_code_noun_SB": {
+    "message": "所罗门群岛"
+  },
+  "nation_code_noun_SC": {
+    "message": "塞舌尔"
+  },
+  "nation_code_noun_SD": {
+    "message": "苏丹"
+  },
+  "nation_code_noun_SE": {
+    "message": "瑞典"
+  },
+  "nation_code_noun_SG": {
+    "message": "新加坡"
+  },
+  "nation_code_noun_SH": {
+    "message": "圣赫勒拿、阿森松和特里斯坦-达库尼亚"
+  },
+  "nation_code_noun_SI": {
+    "message": "斯洛文尼亚"
+  },
+  "nation_code_noun_SJ": {
+    "message": "斯瓦尔巴和扬马延"
+  },
+  "nation_code_noun_SK": {
+    "message": "斯洛伐克"
+  },
+  "nation_code_noun_SL": {
+    "message": "塞拉利昂"
+  },
+  "nation_code_noun_SM": {
+    "message": "圣马力诺"
+  },
+  "nation_code_noun_SN": {
+    "message": "塞内加尔"
+  },
+  "nation_code_noun_SO": {
+    "message": "索马里"
+  },
+  "nation_code_noun_SR": {
+    "message": "苏里南"
+  },
+  "nation_code_noun_SS": {
+    "message": "南苏丹"
+  },
+  "nation_code_noun_ST": {
+    "message": "圣多美和普林西比"
+  },
+  "nation_code_noun_SV": {
+    "message": "萨尔瓦多"
+  },
+  "nation_code_noun_SX": {
+    "message": "圣马丁"
+  },
+  "nation_code_noun_SY": {
+    "message": "叙利亚"
+  },
+  "nation_code_noun_SZ": {
+    "message": "斯威士兰"
+  },
+  "nation_code_noun_TC": {
+    "message": "特克斯和凯科斯群岛"
+  },
+  "nation_code_noun_TD": {
+    "message": "乍得"
+  },
+  "nation_code_noun_TF": {
+    "message": "法属南方和南极洲领地"
+  },
+  "nation_code_noun_TG": {
+    "message": "多哥"
+  },
+  "nation_code_noun_TH": {
+    "message": "泰国"
+  },
+  "nation_code_noun_TJ": {
+    "message": "塔吉克斯坦"
+  },
+  "nation_code_noun_TK": {
+    "message": "托克劳"
+  },
+  "nation_code_noun_TL": {
+    "message": "东帝汶"
+  },
+  "nation_code_noun_TM": {
+    "message": "土库曼斯坦"
+  },
+  "nation_code_noun_TN": {
+    "message": "突尼斯"
+  },
+  "nation_code_noun_TO": {
+    "message": "汤加"
+  },
+  "nation_code_noun_TR": {
+    "message": "土耳其"
+  },
+  "nation_code_noun_TT": {
+    "message": "特立尼达和多巴哥"
+  },
+  "nation_code_noun_TV": {
+    "message": "图瓦卢"
+  },
+  "nation_code_noun_TW": {
+    "message": "中国台湾"
+  },
+  "nation_code_noun_TZ": {
+    "message": "坦桑尼亚"
+  },
+  "nation_code_noun_UA": {
+    "message": "乌克兰"
+  },
+  "nation_code_noun_UG": {
+    "message": "乌干达"
+  },
+  "nation_code_noun_UM": {
+    "message": "美国本土外小岛屿"
+  },
+  "nation_code_noun_US": {
+    "message": "美国"
+  },
+  "nation_code_noun_UY": {
+    "message": "乌拉圭"
+  },
+  "nation_code_noun_UZ": {
+    "message": "乌兹别克斯坦"
+  },
+  "nation_code_noun_VA": {
+    "message": "梵蒂冈"
+  },
+  "nation_code_noun_VC": {
+    "message": "圣文森特和格林纳丁斯"
+  },
+  "nation_code_noun_VE": {
+    "message": "委内瑞拉"
+  },
+  "nation_code_noun_VG": {
+    "message": "英属维尔京群岛"
+  },
+  "nation_code_noun_VI": {
+    "message": "美属维尔京群岛"
+  },
+  "nation_code_noun_VN": {
+    "message": "越南"
+  },
+  "nation_code_noun_VU": {
+    "message": "瓦努阿图"
+  },
+  "nation_code_noun_WF": {
+    "message": "瓦利斯和富图纳"
+  },
+  "nation_code_noun_WS": {
+    "message": "萨摩亚"
+  },
+  "nation_code_noun_YE": {
+    "message": "也门"
+  },
+  "nation_code_noun_YT": {
+    "message": "马约特"
+  },
+  "nation_code_noun_ZA": {
+    "message": "南非"
+  },
+  "nation_code_noun_ZM": {
+    "message": "赞比亚"
+  },
+  "nation_code_noun_ZW": {
+    "message": "津巴布韦"
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "miner_table_header_keyword_tips": {
+    "message": "<p>查询词的相关关键词</p>"
+  },
+  "miner_table_header_product_top10_tips": {
+    "message": "<p>通过自然搜素排名前10产品的图片判断关键词与您的产品是否相关</p>"
+  },
+  "miner_table_header_month_trends_tips": {
+    "message": "<p>最近2-3年该关键词的月度搜索量趋势</p>"
+  },
+  "miner_table_header_relevancy_tips": {
+    "message": "<p>相关度越高，表示该关键词与查询关键词所关联的同款竞品ASIN数量越多</p>"
+  },
+  "miner_table_header_aba_rank_tips": {
+    "message": "<p>第一行：关键词的月度ABA排名<br>第二行：关键词的每周ABA排名<br>数据来源于亚马逊ABA数据的关键词搜索频率排名数字越小表示排名越靠前，搜索量越高</p>"
+  },
+  "miner_table_header_title_searches_tips": {
+    "message": "<p>指的是一个自然月的月搜索量，比如2022年6月，该关键词在亚马逊站内的搜索总次数</p>"
+  },
+  "miner_table_header_SPR_tips": {
+    "message": "<p>SellerSprite Product Rank，能够让该关键词排名维持在搜索结果第1页的8天预估单量</p>"
+  },
+  "miner_table_header_title_density_tips": {
+    "message": "<p>该关键词在亚马逊搜索结果第1页的产品中，标题包含该词的产品数量</p>"
+  },
+  "miner_table_header_aba_purchases": {
+    "message": "<p>上行：指一个自然月，比如2023年7月，在亚马逊站内搜索该关键词后产生购买的次数<br>下行：购买率，购买率=购买量/搜索量</p>"
+  },
+  "miner_table_header_product_result_tips": {
+    "message": "<p>上行：需供比，需供比=搜索量(需求) / 商品数(供应) <br> 下行：商品数，指搜索该关键词后出现了多少相关产品(All Departments类目)</p>"
+  },
+  "miner_table_header_supply_demand_ratio_tips": {
+    "message": "<p>需供比 = 搜索量(需求) / 商品数(供应)</p>"
+  },
+  "miner_table_header_ad_competitors_tips": {
+    "message": "<p>表示近7天内进入过该关键词搜索结果前3页的广告产品总数</p>"
+  },
+  "miner_table_header_click_concentration_tips": {
+    "message": "<p>上行：指该关键词下点击排名前三ASIN的点击总占比<br>下行：指该关键词下点击排名前三ASIN的转化共享之和</p>"
+  },
+  "miner_table_header_ppc_bid_tips": {
+    "message": "<p>亚马逊站内广告Bid价格，系统提供【词组匹配】的Bid建议价格以及范围</p>"
+  },
+  "reverse_table_header_keyword_tips": {
+    "message": "该ASIN近30天内进入过亚马逊搜索结果前3页的所有搜索流量词"
+  },
+  "reverse_table_header_product_top10_tips": {
+    "message": "<p>通过自然搜素排名前10产品的图片判断关键词与您的产品是否相关</p>"
+  },
+  "reverse_table_header_month_trends_tips": {
+    "message": "<p>最近2-3年该关键词的月度搜索量趋势</p>"
+  },
+  "reverse_table_header_traffic_proportion_tips": {
+    "message": "<p>第一行：流量占比，指产品通过不同流量词获得的曝光量占比<br/>第二行：预估周曝光量，指该关键词本周内给产品带来的预估曝光量<br/>第三行：根据曝光量和关键词排名判定为主要流量词、精准流量词或精准长尾词</p>"
+  },
+  "reverse_table_header_aba_rank_tips": {
+    "message": "<p>亚马逊ABA数据的关键词搜索频率周排名</p>"
+  },
+  "reverse_table_header_searchs_tips": {
+    "message": "<p>指的是一个自然月的月搜索量，比如2022年6月，该关键词在亚马逊站内的搜索总次数</p>"
+  },
+  "reverse_table_header_spr_tips": {
+    "message": "<p>SellerSprite Product Rank，能够让该关键词排名维持在搜索结果第1页的8天预估单量</p>"
+  },
+  "reverse_table_header_title_density_tips": {
+    "message": "<p>该关键词在亚马逊搜索结果第1页的产品中，标题包含该词的产品数量</p>"
+  },
+  "reverse_table_header_purchases_tips": {
+    "message": "<p>指一个自然月，比如2023年7月，在亚马逊站内搜索该关键词后产生购买的次数</p>"
+  },
+  "reverse_table_header_results_tips": {
+    "message": "<p>指搜索该关键词后出现了多少相关产品(All Departments类目)</p>"
+  },
+  "reverse_table_header_supply_demand_ratio_tips": {
+    "message": "<p>需供比 = 搜索量(需求) / 商品数(供应)</p>"
+  },
+  "reverse_table_header_ad_competitors_tips": {
+    "message": "<p>表示近7天内进入过该关键词搜索结果前3页的广告产品总数</p>"
+  },
+  "reverse_table_header_click_concentration_tips": {
+    "message": "<p>上行：指该关键词下点击排名前三ASIN的点击总占比<br>下行：指该关键词下点击排名前三ASIN的转化共享之和</p>"
+  },
+  "reverse_table_header_ppc_bid_tips": {
+    "message": "<p>亚马逊站内广告Bid价格，系统提供【词组匹配】的Bid建议价格以及范围</p>"
+  },
+  "product_table_header_brand_tips": {
+    "message": "<p>该ASIN的所属品牌</p>"
+  },
+  "product_table_header_category_tips": {
+    "message": "<p>该ASIN所属类目的品类名称</p>"
+  },
+  "product_table_header_BSR_tips": {
+    "message": "<p>该ASIN的BSR大类排名（父子体共享排名时显示父体排名）<br>鼠标悬浮在BSR数字上可以看到小类排名<br>点击BSR数字，可以查看历史排名趋势</p>"
+  },
+  "product_table_header_price_tips": {
+    "message": "<p>该ASIN最新的BuyBox价格</p>"
+  },
+  "product_table_header_rating_tips": {
+    "message": "<p>该ASIN所在Listing的评分星级</p>"
+  },
+  "product_table_header_ratings_tips": {
+    "message": "<p>该ASIN所在Listing的ratings总数</p>"
+  },
+  "product_table_header_month_ratings_tips": {
+    "message": "<p>该ASIN所在Listing近30天的新增评分数</p>"
+  },
+  "product_table_header_percentage_ratings_tips": {
+    "message": "<p>近30天评分数增长值/近30天销量*100%</p>"
+  },
+  "product_table_header_QA_tips": {
+    "message": "<p>该ASIN所在Listing的Q&A总数</p>"
+  },
+  "product_table_header_sale_trends_tips": {
+    "message": "<p>鼠标悬停查看每月的预估销量和销售额，点击下拉箭头切换查看父/子体销量趋势</p>"
+  },
+  "product_table_header_sale_tips": {
+    "message": "<p>近30天的预估销量<br>点击数字，可以查看最近3年的历史销量走势</p>"
+  },
+  "product_table_header_monthly_sales_tips": {
+    "message": "<p>近30天的预估销售额<br>销售额=销量*最新BuyBox价格</p>"
+  },
+  "product_table_header_variation_amount_tips": {
+    "message": "<p>子体销售额</p>"
+  },
+  "product_table_header_gross_margin_tips": {
+    "message": "<p>毛利率 = （商品售价 - 亚马逊佣金 - FBA运费）/商品售价 * 100%</p>"
+  },
+  "product_table_header_FBA_tips": {
+    "message": "<p>FBA费用，根据Listing页面显示的产品尺寸及重量自动计算</p>"
+  },
+  "product_table_header_date_published_tips": {
+    "message": "<p>取Listing最早被发现的时间，也就是如下时间中最早的一个：<br>Listing展示的上架时间<br>Listing首次留评时间<br>Keepa监控到的价格、BSR、评论等时间</p>"
+  },
+  "product_table_header_seller_tips": {
+    "message": "<p>Listing的在售卖家数量，也就是所有跟卖卖家的数量</p>"
+  },
+  "product_table_header_variations_tips": {
+    "message": "<p>该ASIN所在Listing的变体数量</p>"
+  },
+  "product_table_header_fulfillment_tips": {
+    "message": "<p>当前获取了BuyBox卖家的配送方式</p>"
+  },
+  "miner_table_filter_broad_match_tips": {
+    "message": "<p>勾选后默认使用静态挖掘进行查询，<br>即基于当前查询词根扩展关键词，得到的关键词包含搜索词</p>"
+  },
+  "miner_table_filter_AC_tips": {
+    "message": "<p>AC推荐词：Amazon's Choice，勾选后可以筛选出拥有AC标识的关键词</p>"
+  },
+  "miner_table_filter_ABA_tips": {
+    "message": "<p>亚马逊ABA数据的关键词搜索频率月度排名</p>"
+  },
+  "miner_table_filter_searchs_tips": {
+    "message": "<p>指的是一个自然月的月搜索量，比如2022年6月，该关键词在亚马逊站内的搜索总次数</p>"
+  },
+  "miner_table_filter_SPR_tips": {
+    "message": "<p>SellerSprite Product Rank，能够让该关键词排名维持在搜索结果第1页的8天预估单量</p>"
+  },
+  "miner_table_filter_title_tips": {
+    "message": "<p>该关键词在亚马逊搜索结果第1页的产品中，标题包含该关键词的产品数量</p>"
+  },
+  "miner_table_filter_buy_tips": {
+    "message": "<p>指一个自然月，比如2023年7月，在亚马逊站内搜索该关键词后产生购买的次数</p>"
+  },
+  "miner_table_filter_buy_rate_tips": {
+    "message": "<p>购买率=购买量/(关键词)搜索量</p>"
+  },
+  "miner_table_filter_goods_tips": {
+    "message": "<p>商品数，指搜索该关键词后出现了多少相关产品(All Departments类目)</p>"
+  },
+  "miner_table_filter_supply_rate_tips": {
+    "message": "<p>需供比 = 搜索量(需求) / 商品数(供应)</p>"
+  },
+  "miner_table_filter_ad_competitors_tips": {
+    "message": "<p>表示近7天内进入过该关键词搜索结果前3页的广告产品总数</p>"
+  },
+  "miner_table_filter_click_tips": {
+    "message": "<p>指该关键词下点击排名前三ASIN的点击总占比</p>"
+  },
+  "miner_table_filter_sum_top3_tips": {
+    "message": "<p>指该关键词下点击排名前三ASIN的转化共享之和</p>"
+  },
+  "miner_table_filter_PPC_tips": {
+    "message": "<p>亚马逊站内广告Bid价格，系统提供【词组匹配】的Bid建议价格以及范围</p>"
+  },
+  "miner_table_filter_keywords_tips": {
+    "message": "<p>关键词词组的单词个数，以空格区分；只能输入整数</p>"
+  },
+  "miner_table_filter_exclude_tips": {
+    "message": "<p>添加后的筛选结果中不会有任何包含该关键词的词组出现</p>"
+  },
+  "miner_table_filter_include_tips": {
+    "message": "<p>添加后的筛选结果中仅展示包含该关键词的词组</p>"
+  },
+  "reverse_table_filter_AC_tips": {
+    "message": "<p>Amazon's Choice，勾选后可以筛选出拥有AC标识的关键词</p>"
+  },
+  "reverse_table_filter_traffic_tips": {
+    "message": "<p>指的是产品通过不同流量词获得的曝光量占比</p>"
+  },
+  "reverse_table_filter_ABA_tips": {
+    "message": "<p>亚马逊ABA数据的关键词搜索频率周排名</p>"
+  },
+  "reverse_table_filter_searchs_tips": {
+    "message": "<p>指的是一个自然月的月搜索量，比如2022年6月，该关键词在亚马逊站内的搜索总次数</p>"
+  },
+  "reverse_table_filter_SPR_tips": {
+    "message": "<p>SellerSprite Product Rank，能够让该关键词排名维持在搜索结果第1页的8天预估单量</p>"
+  },
+  "reverse_table_filter_title_tips": {
+    "message": "<p>该关键词在亚马逊搜索结果第1页的产品中，标题包含该关键词的产品数量</p>"
+  },
+  "reverse_table_filter_buy_tips": {
+    "message": "<p>指一个自然月，比如2023年7月，在亚马逊站内搜索该关键词后产生购买的次数</p>"
+  },
+  "reverse_table_filter_buy_rate_tips": {
+    "message": "<p>购买率=购买量/(关键词)搜索量</p>"
+  },
+  "reverse_table_filter_goods_tips": {
+    "message": "<p>商品数，指搜索该关键词后出现了多少相关产品(All Departments类目)</p>"
+  },
+  "reverse_table_filter_supply_tips": {
+    "message": "<p>需供比 = 搜索量(需求) / 商品数(供应)</p>"
+  },
+  "reverse_table_filter_ad_competitors_tips": {
+    "message": "<p>表示近7天内进入过该关键词搜索结果前3页的广告产品总数</p>"
+  },
+  "reverse_table_filter_click_tips": {
+    "message": "<p>指该关键词下点击排名前三ASIN的点击总占比</p>"
+  },
+  "reverse_table_filter_sum_rate_tips": {
+    "message": "<p>指该关键词下点击排名前三ASIN的转化共享之和</p>"
+  },
+  "reverse_table_filter_PPC_tips": {
+    "message": "<p>亚马逊站内广告Bid价格，系统提供【词组匹配】的Bid建议价格以及范围</p>"
+  },
+  "reverse_table_filter_keywords_tips": {
+    "message": "<p>关键词词组的单词个数，以空格区分；只能输入整数</p>"
+  },
+  "reverse_table_filter_exclude_tips": {
+    "message": "<p>添加后的筛选结果中不会有任何包含该关键词的词组出现</p>"
+  },
+  "reverse_table_filter_include_tips": {
+    "message": "<p>添加后的筛选结果中仅展示包含该关键词的词组</p>"
+  },
+  "product_table_header_monthly_child_sales_tips": {
+    "message": "<p>该子体ASIN近30天的销量，数据来源于亚马逊搜索页</p>"
+  }
+}

@@ -1,0 +1,491 @@
+{
+  "module_listing_product_info": {
+    "message": "产品信息"
+  },
+  "module_listing_keepa_trends": {
+    "message": "Keepa插件替代"
+  },
+  "module_listing_station_sales": {
+    "message": "全站点售卖"
+  },
+  "module_listing_reverse_open": {
+    "message": "关键词反查"
+  },
+  "module_listing_reverse_search": {
+    "message": "反查出单词"
+  },
+  "module_listing_ad_insights": {
+    "message": "广告洞察"
+  },
+  "module_listing_reversing": {
+    "message": "查流量来源"
+  },
+  "module_listing_relation_keyword": {
+    "message": "查关联流量"
+  },
+  "module_listing_review_analysis": {
+    "message": "AI评论分析"
+  },
+  "review_analysis_shulex_tips": {
+    "message": "由Shulex VOC提供AI支持，智能识别评论中的语义，精准洞察消费者痛点<br>更多VOC功能请<a href='https://www.voc.ai/cn/support/learn-shulex-voc-within-1-minute-cn' target='_blank'>点击这里</a>"
+  },
+  "review_analysis_ss_tips": {
+    "message": "基于Listing所有评论生成的综合性分析报告，包含各变体的详细信息、评论变化趋势等<br>查看示例报告：请<a href='https://www.sellersprite.com/v3/review-analysis/details?list=1455741&_sign=cgV9%2aBdWme19l1' target='_blank'>点击这里</a>"
+  },
+  "module_listing_review_analysis_ss": {
+    "message": "生成卖家精灵分析报告"
+  },
+  "module_listing_review_analysis_send": {
+    "message": "查看卖家精灵分析报告"
+  },
+  "quick_view_review_analysis_btn_title": {
+    "message": "生成AI智能分析报告"
+  },
+  "module_listing_listing_builder": {
+    "message": "Listing生成器"
+  },
+  "module_listing_Alibaba": {
+    "message": "Alibaba"
+  },
+  "module_listing_1688": {
+    "message": "1688"
+  },
+  "module_listing_all_asin_copy": {
+    "message": "复制所有子体ASIN"
+  },
+  "module_listing_asin_copy": {
+    "message": "复制当前ASIN"
+  },
+  "module_listing_seller_num": {
+    "message": "卖家数"
+  },
+  "quick_view_prime": {
+    "message": "Prime价格"
+  },
+  "quick_view_QA": {
+    "message": "Q&A数"
+  },
+  "quick_view_trends_variant_compare": {
+    "message": "变体对比"
+  },
+  "quick_view_trends_variant": {
+    "message": "变体"
+  },
+  "quick_view_trends_parent_variant": {
+    "message": "父"
+  },
+  "quick_view_trends_parent_variant_tips": {
+    "message": "此变体销量为“父体销量”"
+  },
+  "quick_view_trends_child_variant": {
+    "message": "子"
+  },
+  "quick_view_trends_child_variant_tips": {
+    "message": "此变体销量为“子体销量”"
+  },
+  "quick_view_trends_amz_variant_tips": {
+    "message": "该销量为子体销量，数据来源于亚马逊"
+  },
+  "quick_view_trends_variant_tips": {
+    "message": "<p>变体：当前Listing的所有变体ASIN<br>SKU：各变体ASIN对应的型号、颜色、尺寸等<br>价格：各变体最新的BuyBox价格<br>流量词数：该ASIN在近30天内进入过亚马逊前台搜索结果前3页的搜索流量词数量<br>评分：Listing评分星级<br>评分数：变体ASIN的ratings数量<br>评论数：变体ASIN的reviews数量<br>评论数占比：变体ASIN的reviews数量占Listing总reviews数量的比例<br>FBA：根据Listing页面显示的产品尺寸及重量自动计算<br>上架时间：取各变体ASIN最早被发现的时间</p>"
+  },
+  "quick_view_trends_variant_sale_tips": {
+    "message": "<p>月销量按以下2种方式获取<br>1、来源于亚马逊搜索页 '4K+ bought in past month'，数据大致准确，具有较强的参考性<br>2、若亚马逊未开放销量，且父子体共享BSR排名，则显示父体的近30天销量</p>"
+  },
+  "quick_view_trends_variant_sale_week_tips": {
+    "message": "<p>来源于亚马逊搜索页 '400+ bought in past week'，数据大致准确，具有较强的参考性</p>"
+  },
+  "quick_view_trends_station_tips": {
+    "message": "<p>站点：该产品售卖的所有站点国家<br>卖家：当前获取到BuyBox的卖家<br>价格：最新的BuyBox价格<br>销量：近30天的预估销量<br>销售额：产品在对应站点近30天的预估销售额<br>评分：Listing评分星级<br>评分数：Listing的ratings数量<br>FBA：根据Listing页面显示的产品尺寸及重量自动计算<br>上架时间：取各变体ASIN最早被发现的时间</p>"
+  },
+  "quick_view_trends_explorer_tips": {
+    "message": "<p>关键词：当前产品进入到了该关键词的点击排名前3<br>转化效果：产品在不同关键词的下各种转化效果<br>ABA排名：亚马逊后台ABA数据中的关键词搜索频率周排名<br>周变化量：该关键词本周的搜索排名相对于上一周的变化值<br>周变化率：该关键词本周的搜索排名相对于上一周的变化百分比<br>点击共享：最近一周该关键词下该ASIN的点击量与关键词总点击量的百分比<br>转化共享：最近一周该关键词下该ASIN的转化数与关键词总转化数的百分比<br>前三ASIN点击、转化总占比：该关键词下点击排名前三ASIN的点击共享之和、转化共享之和<br>点击前三ASIN：该关键词最近一周在亚马逊前台的搜索结果下，点击量最高的3个ASIN</p>"
+  },
+  "quick_view_trends_distribution_tips": {
+    "message": "<p>产品信息：当前Listing的所有变体ASIN<br>全部流量词：近30天内让该ASIN曝光在搜索结果前3页的所有搜索流量词（已去重）<br>自然搜索词：买家搜索该词时，该产品在自然流量位置有曝光<br>AC推荐词：买家搜索该词时，该产品在Amazon's Choice推荐专栏有曝光<br>ER推荐词：买家搜索该词时，该产品在Editorial recommendations亚马逊编辑推荐专栏有曝光<br>4星推荐词：买家搜索该词时，该产品在4+ star styles专栏有曝光<br>HR推荐词：买家搜索该词时，该产品在Highly Rated专栏有曝光<br>SP广告词：买家在搜索该词时，该产品在Sponsored广告位有曝光<br>视频广告词：买家在搜索该词时，该产品的视频广告有曝光<br>品牌广告词：买家在搜索该词时，该产品的品牌广告有曝光</p>"
+  },
+  "quick_view_trends_variant_table_sales": {
+    "message": "月销量"
+  },
+  "quick_view_trends_variant_table_sales_week": {
+    "message": "周销量"
+  },
+  "quick_view_reverse_search": {
+    "message": "主人~ 暂未获取到该产品的出单词，试试其他同类产品吧！"
+  },
+  "quick_view_review_analysis_tips": {
+    "message": "该功能由卖家精灵&Shulex联合提供，通过对全量Reviews的挖掘，快速掌握产品卖点、优缺点<br>以及使用场景，赋能亚马逊产品开发及运营。更多使用技巧，请<a href='https://www.sellersprite.com/v3/knowledge/feature/review-analysis-for-beginners' target='_blank'>点击了解</a>"
+  },
+  "quick_view_main_img": {
+    "message": "主图下载"
+  },
+  "quick_view_search_sales": {
+    "message": "销量查询"
+  },
+  "quick_view_product_library": {
+    "message": "加入产品库"
+  },
+  "quick_view_search_source_all_word": {
+    "message": "全部流量词"
+  },
+  "traffic_source_table_type_source_NATURAL_SEARCHING": {
+    "message": "自然搜索词"
+  },
+  "traffic_source_table_type_source_AMAZON_CHOICE": {
+    "message": "AC推荐词"
+  },
+  "traffic_source_table_type_source_EDITORIAL_RECOMMENDATIONS": {
+    "message": "ER推荐词"
+  },
+  "traffic_source_table_type_FOUR_STAR": {
+    "message": "4星推荐词"
+  },
+  "traffic_source_table_type_source_SPONSOR_BRAND": {
+    "message": "品牌广告词"
+  },
+  "traffic_source_table_type_source_SPONSOR_VIDEO": {
+    "message": "视频广告词"
+  },
+  "traffic_source_table_type_source_HIGHLY_RATED": {
+    "message": "HR推荐词"
+  },
+  "traffic_source_table_type_source_ADS": {
+    "message": "SP广告词"
+  },
+  "traffic_source_table_type_AMAZON_CHOICE": {
+    "message": "AC专栏"
+  },
+  "traffic_source_table_type_EDITORIAL_RECOMMENDATIONS": {
+    "message": "ER专栏"
+  },
+  "traffic_source_table_type_HIGHLY_RATED": {
+    "message": "HR专栏"
+  },
+  "traffic_source_table_type_ADS": {
+    "message": "SP广告"
+  },
+  "traffic_source_table_type_SPONSOR_BRAND": {
+    "message": "品牌广告"
+  },
+  "traffic_source_table_type_SPONSOR_VIDEO": {
+    "message": "视频广告"
+  },
+  "quick_view_listing_date": {
+    "message": "上架时间"
+  },
+  "quick_view_listing_seals_month": {
+    "message": "近30天销量(父体)"
+  },
+  "quick_view_new_product_listing": {
+    "message": "新品"
+  },
+  "quick_view_variation_compare_all": {
+    "message": "点击查看全部变体流量对比"
+  },
+  "quick_view_keyword_explorer_all": {
+    "message": "点击查看全部出单词"
+  },
+  "traffic_source_look_related_traffic_words": {
+    "message": "点击数字，查看该产品的相关流量词"
+  },
+  "traffic_source_look_all_traffic_words": {
+    "message": "点击数字，查看该产品的所有流量词"
+  },
+  "traffic_source_all_keyword_tips": {
+    "message": "注意: 全部流量词会小于自然搜索词和SP广告词等其它词之和<br />因为自然流量词和广告词会存在重复的词，计算全部流量词时会去重"
+  },
+  "traffic_keyword_conversion_effect": {
+    "message": "转化效果"
+  },
+  "traffic_keyword_search_rank_growth": {
+    "message": "周变化量"
+  },
+  "traffic_keyword_search_rank_rate": {
+    "message": "周变化率"
+  },
+  "traffic_keyword_click_share": {
+    "message": "点击共享"
+  },
+  "traffic_keyword_conversion_rate": {
+    "message": "转化共享"
+  },
+  "traffic_keyword_sum_conversion_rate": {
+    "message": "前三ASIN<br>点击、转化总占比"
+  },
+  "traffic_keyword_click_asin_three": {
+    "message": "点击前三ASIN"
+  },
+  "listing_video_link": {
+    "message": "https://www.sellersprite.com/v3/knowledge/feature/listing-page-of-extension"
+  },
+  "review_analysis_title": {
+    "message": "智能分析中，一大波数据正在赶来"
+  },
+  "review_analysis_btn": {
+    "message": "去查看"
+  },
+  "review_analysis_checkbox": {
+    "message": "同意"
+  },
+  "review_analysis_privacy_policy": {
+    "message": "《隐私策略》"
+  },
+  "review_analysis_condition": {
+    "message": "《服务条款》"
+  },
+  "review_analysis_privacy_policy_link": {
+    "message": "https://www.voc.ai/cn/privacy-policy"
+  },
+  "review_analysis_condition_link": {
+    "message": "https://www.voc.ai/cn/terms-and-condition"
+  },
+  "review_analysis_ing": {
+    "message": "智能评论分析报告将在一分钟内生成，请耐心等待"
+  },
+  "review_analysis_btn_tips": {
+    "message": "请先阅读，并同意用户隐私政策"
+  },
+  "quick_view_traffic_words": {
+    "message": "流量词数"
+  },
+  "quick_view_reviews": {
+    "message": "评论数"
+  },
+  "quick_view_reviews_proportion": {
+    "message": "评论数占比"
+  },
+  "quick_view_bestselling": {
+    "message": "畅销"
+  },
+  "quick_view_bestselling_variant_tips": {
+    "message": "该变体为畅销变体"
+  },
+  "quick_view_listing_position": {
+    "message": "功能位置"
+  },
+  "quick_view_listing_position_top": {
+    "message": "放置主图顶部"
+  },
+  "quick_view_listing_position_bottom": {
+    "message": "放置主图底部"
+  },
+  "review_analysis_btn_tips_l": {
+    "message": "该服务由"
+  },
+  "review_analysis_btn_tips_r": {
+    "message": "提供AI支持"
+  },
+  "excel_variation_image": {
+    "message": "图片"
+  },
+  "excel_variation_unit_date": {
+    "message": "{date}",
+    "placeholders": {
+      "label": {
+        "content": "$1",
+        "example": "2024-03"
+      }
+    }
+  },
+  "excel_variation_main_image": {
+    "message": "商品主图"
+  },
+  "excel_variation_main_overviews": {
+    "message": "详细参数"
+  },
+  "excel_variation_price": {
+    "message": "价格"
+  },
+  "excel_variation_monthUnits": {
+    "message": "近30天销量"
+  },
+  "excel_variation_weekUnits": {
+    "message": "周销量"
+  },
+  "excel_variation_keywords": {
+    "message": "流量词数"
+  },
+  "excel_variation_rating": {
+    "message": "评分"
+  },
+  "excel_variation_ratings": {
+    "message": "评分数"
+  },
+  "excel_variation_reviews": {
+    "message": "评论数"
+  },
+  "excel_variation_reviews_proportion": {
+    "message": "评论数占比"
+  },
+  "excel_variation_reviews_available": {
+    "message": "上架时间"
+  },
+  "variation_live_data_tips": {
+    "message": "点击下方**，获取实时数据"
+  },
+  "variation_tips_table": {
+    "message": "主人~ 为避免被拦截。建议登录买家账号获取更全面的评论数据哦~"
+  },
+  "variation_tips_table_close_known": {
+    "message": "我已知晓"
+  },
+  "excel_variation_reviews_available_days": {
+    "message": "上架天数"
+  },
+  "goods_source_title": {
+    "message": "卖家精灵-查货源"
+  },
+  "goods_source_seller_style": {
+    "message": "商家特色"
+  },
+  "goods_source_goods_send_24": {
+    "message": "48小时发货"
+  },
+  "goods_source_goods_hd_img": {
+    "message": "赠运费险"
+  },
+  "goods_source_goods_hd_video": {
+    "message": "包邮"
+  },
+  "goods_source_day_7": {
+    "message": "七天无理由退换"
+  },
+  "goods_source_patent_authentication": {
+    "message": "伙拼"
+  },
+  "goods_source_source_factory": {
+    "message": "产地货源"
+  },
+  "goods_source_free_credit": {
+    "message": "免费赊账"
+  },
+  "goods_source_phone_price": {
+    "message": "手机专享价"
+  },
+  "goods_source_filter_price_min": {
+    "message": "最低"
+  },
+  "goods_source_filter_price_max": {
+    "message": "最高"
+  },
+  "goods_source_sale_price": {
+    "message": "售价"
+  },
+  "goods_source_orders": {
+    "message": "起订量"
+  },
+  "goods_source_orders_unit": {
+    "message": " 件"
+  },
+  "goods_source_update_date": {
+    "message": "上架时间"
+  },
+  "goods_source_update_date_day": {
+    "message": " 天"
+  },
+  "goods_source_orders_90days": {
+    "message": "90天内成交量"
+  },
+  "goods_source_serve_rating": {
+    "message": "服务评分"
+  },
+  "goods_source_trading_medal": {
+    "message": "交易勋章"
+  },
+  "goods_source_transaction_volume": {
+    "message": "成交额"
+  },
+  "goods_source_transaction_price": {
+    "message": "价格"
+  },
+  "goods_source_keyword_search": {
+    "message": "请输入关键词搜索"
+  },
+  "goods_source_orders_min": {
+    "message": "起批量"
+  },
+  "quick_view_1688_factory": {
+    "message": "1688找工厂"
+  },
+  "quick_view_taobao": {
+    "message": "淘宝找货源"
+  },
+  "quick_view_wangdiantong": {
+    "message": "旺店通找货源"
+  },
+  "quick_view_VOC": {
+    "message": "卖家精灵用户专享优惠：现在购买Shulex任意套餐均加赠1个月时长"
+  },
+  "quick_view_VOC_link": {
+    "message": "https://apps.voc.ai/app?utm=seller_sprite&lang=cn"
+  },
+  "table_current_asin": {
+    "message": "当前变体"
+  },
+  "quick_child_sales": {
+    "message": "近30天销量(子体)"
+  },
+  "goods_source_1688_sourcing": {
+    "message": "1688找货源"
+  },
+  "goods_source_search_by_pictures": {
+    "message": "搜索图片"
+  },
+  "goods_source_taobao_by_pictures": {
+    "message": "淘宝找货源"
+  },
+  "goods_source_comprehensive_ranking": {
+    "message": "综合排序"
+  },
+  "goods_source_turnover": {
+    "message": "月销量"
+  },
+  "goods_source_taobao_turnover": {
+    "message": "销量"
+  },
+  "goods_source_find_it_in_1688": {
+    "message": "去1688查看"
+  },
+  "goods_source_next_page": {
+    "message": "下一页"
+  },
+  "goods_source_first_page": {
+    "message": "首页"
+  },
+  "goods_source_pieces_per_order": {
+    "message": "{num}条起批",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "goods_source_btn_tips": {
+    "message": "去阿里巴巴找货源(基于图片相似度)"
+  },
+  "sbv_video_btn_tips": {
+    "message": "下载视频"
+  },
+  "choose_img_title_tips": {
+    "message": "主人~ 已为您甄选出优质的1688跨境货源(专门针对跨境电商，排除可能侵权或存在争议的产品)。与1688货源有差别，您也可以点击右侧按钮前往1688找货源"
+  },
+  "keepa_prime_price": {
+    "message": "Prime价格"
+  },
+  "keepa_coupon_price": {
+    "message": "Coupon价格"
+  },
+  "keepa_fba_price": {
+    "message": "FBA价格"
+  },
+  "keepa_fbm_price": {
+    "message": "FBM价格"
+  },
+  "keepa_list_price": {
+    "message": "划线价格"
+  },
+  "keepa_child_seals": {
+    "message": "子体销量"
+  }
+}

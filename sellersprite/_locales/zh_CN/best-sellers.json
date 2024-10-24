@@ -1,0 +1,542 @@
+{
+  "best_sellers_product_num": {
+    "message": "样本数"
+  },
+  "best_sellers_product_brand": {
+    "message": "品牌"
+  },
+  "best_sellers_product_seller": {
+    "message": "卖家"
+  },
+  "best_sellers_product_nums": {
+    "message": "商品数"
+  },
+  "best_sellers_product_new": {
+    "message": "新品数"
+  },
+  "best_sellers_product_bsr": {
+    "message": "平均BSR"
+  },
+  "best_sellers_market_analysis": {
+    "message": "分析Top400产品"
+  },
+  "best_sellers_tab_overview": {
+    "message": "市场概况"
+  },
+  "best_sellers_tab_industry_sales": {
+    "message": "行业销售"
+  },
+  "best_sellers_tab_product_click": {
+    "message": "商品集中度"
+  },
+  "best_sellers_tab_brand_click": {
+    "message": "品牌集中度"
+  },
+  "best_sellers_tab_seller_click": {
+    "message": "卖家集中度"
+  },
+  "best_sellers_tab_price_spread": {
+    "message": "价格分布"
+  },
+  "best_sellers_tab_new_product": {
+    "message": "新品销量/占比"
+  },
+  "best_sellers_tab_seller_type": {
+    "message": "卖家类型"
+  },
+  "best_sellers_tab_video_A": {
+    "message": "A+视频"
+  },
+  "best_sellers_tab_areas": {
+    "message": "所属地分布"
+  },
+  "best_sellers_tab_product_need": {
+    "message": "商品需求"
+  },
+  "best_sellers_tab_change_rate": {
+    "message": "榜单变化率"
+  },
+  "best_sellers_tab_launch_trend": {
+    "message": "上架趋势"
+  },
+  "best_sellers_tab_reviews": {
+    "message": "评分数"
+  },
+  "best_sellers_tab_rating": {
+    "message": "评分值"
+  },
+  "best_sellers_new_product_sales": {
+    "message": "新品销量"
+  },
+  "best_sellers_sales_rate": {
+    "message": "销量占比"
+  },
+  "any_best_sellers_sales_rate": {
+    "message": "{index}销量占比",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "美国"
+      }
+    }
+  },
+  "best_sellers_sales_rate_avg": {
+    "message": "平均销量占比"
+  },
+  "best_sellers_new_product_rate": {
+    "message": "新品占比"
+  },
+  "best_sellers_new_sales_rate": {
+    "message": "新品销量占比"
+  },
+  "best_sellers_new_sales_volume": {
+    "message": "新品销售额"
+  },
+  "best_sellers_volume_rate": {
+    "message": "销售额占比"
+  },
+  "best_sellers_volume_rate_avg": {
+    "message": "平均销售额占比"
+  },
+  "best_sellers_avg_weight": {
+    "message": "平均重量"
+  },
+  "best_sellers_avg_gross_margin": {
+    "message": "平均毛利率"
+  },
+  "best_sellers_avg_size": {
+    "message": "平均体积"
+  },
+  "best_sellers_avg_variants": {
+    "message": "平均变体数"
+  },
+  "best_sellers_sales_distribution": {
+    "message": "销量分布"
+  },
+  "best_sellers_volume_distribution": {
+    "message": "销售额分布"
+  },
+  "reversing_rank": {
+    "message": "排名"
+  },
+  "reversing_rank_position": {
+    "message": "第{num}位",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "keyword_research_weekly_brand": {
+    "message": "品牌"
+  },
+  "keyword_research_weekly_seller": {
+    "message": "卖家"
+  },
+  "brands_seller_method": {
+    "message": "卖家类型"
+  },
+  "ratings_and_reviews": {
+    "message": "评分数/星级"
+  },
+  "nation_code_adj_UNKNOWN": {
+    "message": "未知"
+  },
+  "brands_seller_products": {
+    "message": "商品总数"
+  },
+  "brands_seller_brand_name": {
+    "message": "品牌名称"
+  },
+  "brands_seller_products_new": {
+    "message": "商品数量/新品"
+  },
+  "brands_seller_brand_sales": {
+    "message": "该品牌月销量"
+  },
+  "brands_seller_brand_sales_rate": {
+    "message": "该品牌销量占比"
+  },
+  "brands_seller_brand_Revenue_rate": {
+    "message": "该品牌销售额占比"
+  },
+  "brands_seller_brand_Revenue": {
+    "message": "该品牌月销售额"
+  },
+  "brands_seller_sellers_name": {
+    "message": "卖家名称"
+  },
+  "brands_seller_sellers_sales": {
+    "message": "该卖家月销量"
+  },
+  "brands_seller_sellers_sales_rate": {
+    "message": "该卖家销量占比"
+  },
+  "brands_seller_sellers_Revenue_rate": {
+    "message": "该卖家销售额占比"
+  },
+  "brands_seller_sellers_Revenue": {
+    "message": "该卖家月销售额"
+  },
+  "brands_seller_brand_click_list": {
+    "message": "点击可查看商品列表"
+  },
+  "brands_seller_brand_sales_new": {
+    "message": "新品："
+  },
+  "brands_seller_brand_sales_new_none": {
+    "message": "非新品："
+  },
+  "best_seller_brand_num": {
+    "message": "品牌数："
+  },
+  "brands_seller_brand_flagship_rate": {
+    "message": "品牌旗舰店占比："
+  },
+  "brands_seller_brand_flagship_sales_rate": {
+    "message": "品牌旗舰店销量占比："
+  },
+  "best_seller_sellers_num": {
+    "message": "卖家数："
+  },
+  "best_seller_sellers_click": {
+    "message": "卖家集中度："
+  },
+  "best_seller_sellers_amazon_rate": {
+    "message": "亚马逊自营占比："
+  },
+  "best_seller_sellers_amazon_sales_rate": {
+    "message": "亚马逊自营销量占比："
+  },
+  "best_seller_new_sales_rate": {
+    "message": "新品销量/占比"
+  },
+  "best_seller_FBA_sales_rate": {
+    "message": "FBA销量占比"
+  },
+  "best_seller_up_price": {
+    "message": "最高价格"
+  },
+  "best_seller_lower_price": {
+    "message": "最低价格"
+  },
+  "best_seller_new_avg_price": {
+    "message": "新品平均价格"
+  },
+  "best_seller_new_up_price": {
+    "message": "新品最高价格"
+  },
+  "best_seller_new_lower_price": {
+    "message": "新品最低价格"
+  },
+  "brands_delivery_asin": {
+    "message": "ASIN数量占比"
+  },
+  "brands_delivery_seals": {
+    "message": "月销量占比"
+  },
+  "sales_rate_fba": {
+    "message": "FBA销量占比"
+  },
+  "sales_rate_fbm": {
+    "message": "FBM销量占比"
+  },
+  "sales_rate_amazon": {
+    "message": "Amazon自营销量占比"
+  },
+  "sales_rate_amazon_key": {
+    "message": "Amazon自营"
+  },
+  "sales_rate_na": {
+    "message": "未知"
+  },
+  "video_A_sales_volume_rate": {
+    "message": "有A+ 有视频销量占比"
+  },
+  "video_A_pie": {
+    "message": "有A+ 有视频"
+  },
+  "no_video_A_sales_volume_rate": {
+    "message": "有A+ 无视频销量占比"
+  },
+  "no_video_A_pie": {
+    "message": "有A+ 无视频"
+  },
+  "video_no_A_sales_volume_rate": {
+    "message": "无A+ 有视频销量占比"
+  },
+  "video_no_A_pie": {
+    "message": "无A+ 有视频"
+  },
+  "no_video_no_A_sales_volume_rate": {
+    "message": "无A+ 无视频销量占比"
+  },
+  "no_video_no_A_pie": {
+    "message": "无A+ 无视频销量占比"
+  },
+  "new_video_A_sales_volume_rate": {
+    "message": "新品有A+ 有视频销量占比"
+  },
+  "new_video_A_pie": {
+    "message": "新品有A+ 有视频"
+  },
+  "new_no_video_A_sales_volume_rate": {
+    "message": "新品有A+ 无视频销量占比"
+  },
+  "new_no_video_A_pie": {
+    "message": "新品有A+ 无视频"
+  },
+  "new_video_no_A_sales_volume_rate": {
+    "message": "新品无A+ 有视频销量占比"
+  },
+  "new_video_no_A_pie": {
+    "message": "新品无A+ 有视频"
+  },
+  "new_no_video_no_A_sales_volume_rate": {
+    "message": "新品无A+ 无视频销量占比"
+  },
+  "new_no_video_no_A_pie": {
+    "message": "新品无A+ 无视频"
+  },
+  "video_A_rate": {
+    "message": "A+视频占比"
+  },
+  "video_A_sales_rate": {
+    "message": "A+视频销量占比"
+  },
+  "new_video_A_rate": {
+    "message": "新品A+视频占比"
+  },
+  "new_video_A_sales_rate": {
+    "message": "新品A+视频销量占比"
+  },
+  "video_tips_sales": {
+    "message": "产品销量"
+  },
+  "sellers_type_sales_rate": {
+    "message": "卖家所属地销量占比"
+  },
+  "search_buy_rate": {
+    "message": "搜索购买比"
+  },
+  "sales_rate_rate_us": {
+    "message": "美国销量占比"
+  },
+  "sales_rate_rate_cn": {
+    "message": "中国销量占比"
+  },
+  "sales_rate_rate_un": {
+    "message": "未知销量占比"
+  },
+  "best_sellers_change_rate": {
+    "message": "榜单变化率"
+  },
+  "best_sellers_change_rate_month_avg": {
+    "message": "近30天平均榜单变化率"
+  },
+  "best_sellers_rating_avg": {
+    "message": "平均评分值"
+  },
+  "best_sellers_rating_max": {
+    "message": "最高评分值"
+  },
+  "best_sellers_rating_min": {
+    "message": "最低评分值"
+  },
+  "best_sellers_rating_new": {
+    "message": "新品平均评分值"
+  },
+  "best_sellers_sales_avg_rate": {
+    "message": "平均销量占比"
+  },
+  "best_sellers_date_range": {
+    "message": "时间范围"
+  },
+  "best_sellers_nation": {
+    "message": "卖家归属地"
+  },
+  "page_view": {
+    "message": "浏览量"
+  },
+  "market_average": {
+    "message": "市场平均值"
+  },
+  "market_average_category": {
+    "message": "同类目平均值"
+  },
+  "best_sellers_reviews_max": {
+    "message": "最高评分数"
+  },
+  "best_sellers_reviews_min": {
+    "message": "最低评分数"
+  },
+  "best_sellers_reviews_new": {
+    "message": "新品平均评分数"
+  },
+  "best_sellers_reviews_start": {
+    "message": "起始评分数"
+  },
+  "best_sellers_reviews_step": {
+    "message": "跨度"
+  },
+  "best_sellers_reviews_submit": {
+    "message": "重新分析"
+  },
+  "best_sellers_reviews_range": {
+    "message": "评分数区间"
+  },
+  "nation_code_US": {
+    "message": "美国"
+  },
+  "best_sellers_shelf_time": {
+    "message": "上架年份"
+  },
+  "best_sellers_product_list": {
+    "message": "商品列表"
+  },
+  "best_sellers_sales_tips": {
+    "message": "样本范围内，所有商品近30天的销量总和"
+  },
+  "best_sellers_revenue_tips": {
+    "message": "样本范围内，所有商品近30天的销售额总和"
+  },
+  "best_sellers_product_click_tips": {
+    "message": "头部商品（销量前{day}位）的总销量T，占样本范围商品总销量A的比例，即商品集中度=T/A",
+    "placeholders": {
+      "day": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "best_sellers_bland_click_tips": {
+    "message": "头部品牌（销量前{day}位）的总销量X，占样本范围商品总销量B的比例，即品牌集中度=X/B",
+    "placeholders": {
+      "day": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "best_sellers_seller_click_tips": {
+    "message": "头部卖家（销量前{day}位）的总销量Z，占样本范围商品总销量C的比例，即卖家集中度=Z/C",
+    "placeholders": {
+      "day": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "best_sellers_new_sales_tips": {
+    "message": "第一行：样本范围内新品近30天销量总和/占样本商品近30天总销量的比例<br>第二行：样本范围内新品近30天销售额总和"
+  },
+  "best_sellers_avg_price_tips": {
+    "message": "样本范围内，所有商品最新BuyBox价格的平均值"
+  },
+  "best_sellers_fba_tips": {
+    "message": "样本范围内，发货类型为FBA方式的商品销量占样本商品总销量的比例"
+  },
+  "best_sellers_A_video_tips": {
+    "message": "样本范围内，有A+页面和视频介绍的商品销量占样本商品总销量的比例"
+  },
+  "best_sellers_nation_tips": {
+    "message": "样本范围内，归属于各国家(或地区)卖家的商品销量占样本商品总销量的比例"
+  },
+  "best_sellers_return_tips": {
+    "message": "第一行：退货率，最近6个月，样本范围内所有ASIN的退货数量与总购买数量的比值<br>第二行：搜索购买比，最近6个月，样本范围内已购买的ASIN数量与搜索类目节点中展示的ASIN数量的比值"
+  },
+  "best_sellers_release_day_tips": {
+    "message": "样本范围内，商品上架天数的平均值"
+  },
+  "best_sellers_reviews_tips": {
+    "message": "样本范围内，商品Listing评分数量的平均值"
+  },
+  "best_sellers_rating_tips": {
+    "message": "样本范围内，商品Listing评分值的平均数"
+  },
+  "best_sellers_rang": {
+    "message": "头部商品"
+  },
+  "best_sellers_rang_3": {
+    "message": "前3名"
+  },
+  "best_sellers_rang_5": {
+    "message": "前5名"
+  },
+  "best_sellers_rang_10": {
+    "message": "前10名"
+  },
+  "best_sellers_rang_20": {
+    "message": "前20名"
+  },
+  "best_sellers_video_url": {
+    "message": "https://www.sellersprite.com/v3/knowledge/feature/market-overview-of-extension"
+  },
+  "brands_seller_brand_flagship": {
+    "message": "品牌旗舰店"
+  },
+  "refresh_page_tips": {
+    "message": "主人~ 市场分析样本不足100个，建议刷新获取完整数据,"
+  },
+  "refresh_page_tips_btn": {
+    "message": "立即刷新"
+  },
+  "price_coupon": {
+    "message": "Coupon"
+  },
+  "library_open_web_link": {
+    "message": "打开网页版-产品库"
+  },
+  "bs_return_rate_click": {
+    "message": "点击可查看历史趋势"
+  },
+  "bs_return_rate": {
+    "message": "退货率"
+  },
+  "bs_return_rate_history_chart": {
+    "message": "类目退货率历史趋势"
+  },
+  "bs_return_rate_reason_rate": {
+    "message": "退货原因占比"
+  },
+  "bs_return_rate_reason_copy": {
+    "message": "复制退货原因"
+  },
+  "bs_first_tips_content": {
+    "message": "主人~ 点击缩略图表，可查看详细数据哦！"
+  },
+  "qa_tips_content": {
+    "message": "主人~ 请先尝试搜索Q&A后，再进行下载哦！"
+  },
+  "aq_tips_no_result": {
+    "message": "未搜索到相关QA，无法下载"
+  },
+  "seals_parent_data": {
+    "message": "销量(父)"
+  },
+  "seals_child_data": {
+    "message": "子体销量"
+  },
+  "seals_child_data_en": {
+    "message": "子体销量"
+  },
+  "product_grid_table": {
+    "message": "列表"
+  },
+  "product_grid_list": {
+    "message": "大图"
+  },
+  "product_grid_list_variation": {
+    "message": "图形"
+  },
+  "bs_main_tips_fake": {
+    "message": "主人~ <a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>升级套餐</a> 后即可查看市场报告哦！"
+  },
+  "show_icon_for_btn": {
+    "message": "图标展示"
+  },
+  "show_icon_for_btn_false": {
+    "message": "按钮展示"
+  }
+}

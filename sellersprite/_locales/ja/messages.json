@@ -1,0 +1,5555 @@
+{
+  "main_short_name": {
+    "message": "SellerSprite"
+  },
+  "main_logo_hover_tips": {
+    "message": "クリックすると、現在のページにあるすべてのASINの詳細データを表示します <a target='_blank' href='https://www.sellersprite.com/jp/help/competitor-lookup-of-extension'>動画+図解紹介</a>"
+  },
+  "main_data_sources": {
+    "message": "データ"
+  },
+  "main_name": {
+    "message": "SellerSprite - キーワード最適化、ビッグデータの商品リサーチ専門家"
+  },
+  "main_tooltips": {
+    "message": "セラースプライト（SellerSprite.COM）拡張機能"
+  },
+  "main_description": {
+    "message": "セラースプライト(SellerSprite)は、ビッグデータとAI技術に基づいて、ワンストップで商品リサーチ、キーワード最適化、商品モニタリングなどのアマゾン運営ツールを提供しています。"
+  },
+  "main_website_url": {
+    "message": "https://www.sellersprite.com/jp"
+  },
+  "main_qa_website_url": {
+    "message": "https://www.sellersprite.com/jp/help/extension-faq"
+  },
+  "main_header_logo": {
+    "message": "/assets/images/logo/header-logo-en.png"
+  },
+  "main_header_to_official_website": {
+    "message": "セラースプライトへ"
+  },
+  "main_header_module_RV": {
+    "message": "逆引きリサーチ"
+  },
+  "main_header_module_MI": {
+    "message": "マイニング"
+  },
+  "main_header_module_PS": {
+    "message": "売上詳細"
+  },
+  "main_header_module_KC": {
+    "message": "順位チェッカー"
+  },
+  "main_header_module_CS": {
+    "message": "評価をリクエストする"
+  },
+  "main_header_module_PL": {
+    "message": "商品ライブラリ"
+  },
+  "main_header_contact_us": {
+    "message": "オンラインサポート"
+  },
+  "main_header_contact_us_tips": {
+    "message": "公式サイトにてメッセージを残してください。基本的に1日以内に回答しますが、<br/> すぐに回答が必要な場合は、<a style='color: #ff9300' href='https://www.sellersprite.com/jp/' target='_blank'>公式サイト</a>の右下にあるお問い合わせアイコンをクリックして、お問い合わせください。"
+  },
+  "main_header_contact_us_url": {
+    "message": "https://www.sellersprite.com/chat"
+  },
+  "main_header_marketplace_us": {
+    "message": "アメリカ"
+  },
+  "main_header_marketplace_jp": {
+    "message": "日本"
+  },
+  "main_header_marketplace_uk": {
+    "message": "イギリス"
+  },
+  "main_header_marketplace_de": {
+    "message": "ドイツ"
+  },
+  "main_header_marketplace_fr": {
+    "message": "フランス"
+  },
+  "main_header_marketplace_it": {
+    "message": "イタリア"
+  },
+  "main_header_marketplace_es": {
+    "message": "スペイン"
+  },
+  "main_header_marketplace_ca": {
+    "message": "カナダ"
+  },
+  "main_header_marketplace_in": {
+    "message": "インド"
+  },
+  "main_header_marketplace_mx": {
+    "message": "メキシコ"
+  },
+  "main_header_marketplace_au": {
+    "message": "オーストラリア"
+  },
+  "main_header_marketplace_ae": {
+    "message": "アラブ首長国連邦"
+  },
+  "main_header_marketplace_nl": {
+    "message": "オランダ"
+  },
+  "main_header_marketplace_se": {
+    "message": "スウェーデン"
+  },
+  "main_header_marketplace_sa": {
+    "message": "サウジアラビア"
+  },
+  "main_header_marketplace_sg": {
+    "message": "シンガポール"
+  },
+  "main_header_marketplace_br": {
+    "message": "ブラジル"
+  },
+  "main_header_marketplace_tr": {
+    "message": "トルコ"
+  },
+  "main_header_marketplace_translate": {
+    "message": "翻訳機能をオンにしていて、一部のデータを正しく表示できないかもしれません。"
+  },
+  "main_header_marketplace_click_here": {
+    "message": "詳しくチェック"
+  },
+  "main_header_marketplace_click_here_url": {
+    "message": "https://www.sellersprite.com/jp/help/about-browser-translation"
+  },
+  "main_header_input_error_asin": {
+    "message": "正しい子ASINを入力してください。例：B071NDT5Q3"
+  },
+  "main_header_input_error_keywords": {
+    "message": "正確なキーワードを入力してください、例えば：iphone case"
+  },
+  "main_header_input_error_empty": {
+    "message": "ASIN或いはキーワードを入力してください"
+  },
+  "main_header_search_placeholder_RV": {
+    "message": "子ASINを入力"
+  },
+  "main_header_search_placeholder_MI": {
+    "message": "キーワード入力"
+  },
+  "main_header_search_placeholder_PS": {
+    "message": "キーワード / ASIN"
+  },
+  "main_header_search_placeholder_PSK": {
+    "message": "キーワード入力"
+  },
+  "main_header_search_placeholder_PSA": {
+    "message": "子ASINを入力"
+  },
+  "main_header_search_placeholder_PSB": {
+    "message": "ブランドを入力"
+  },
+  "main_header_search_placeholder_PSS": {
+    "message": "セラーを入力"
+  },
+  "main_header_search_tips_PSK": {
+    "message": "クリックして複数のキーワード(最大20個まで)を入力できます。"
+  },
+  "main_header_search_tips_MI": {
+    "message": "クリックして複数のASIN、最大200個の親(子)ASINを入力"
+  },
+  "main_header_search_tips_RV": {
+    "message": "クリックして複数のキーワード(最大20個まで)を入力できます。"
+  },
+  "main_header_search_tips_PSA": {
+    "message": "クリックして複数のASIN、最大200個の親(子)ASINを入力"
+  },
+  "main_header_search_tips_PSB": {
+    "message": "クリックして複数のブランド(最大20個まで)を入力できます。"
+  },
+  "main_header_search_tips_PSS": {
+    "message": "クリックして複数のセラー(最大20個まで)を入力できます。"
+  },
+  "main_header_search_over_tips": {
+    "message": "最大{num}{type}の検索が可能で、超過部分は自動的にクリアされます。",
+    "num": {
+      "content": "$1",
+      "example": "2"
+    },
+    "type": {
+      "content": "$1",
+      "example": "2"
+    }
+  },
+  "main_header_search_placeholder": {
+    "message": "最大{num}個の{type}を入力し(個々の{type}をEnterキーで送信)、またはtxt/Excelから列ごとに直接コピペしてください。",
+    "num": {
+      "content": "$1",
+      "example": "2"
+    },
+    "type": {
+      "content": "$1",
+      "example": "2"
+    }
+  },
+  "main_header_search_over_tips_asin": {
+    "message": "最大200ASINの検索が可能で、超過部分は自動的にクリアされます。"
+  },
+  "main_header_search_over_tips_keyword": {
+    "message": "最大20キーワードの検索が可能で、超過部分は自動的にクリアされます。"
+  },
+  "main_header_search_over_tips_brand": {
+    "message": "最大20ブランドの検索が可能で、超過部分は自動的にクリアされます。"
+  },
+  "main_header_search_over_tips_seller": {
+    "message": "最大20セラーの検索が可能で、超過部分は自動的にクリアされます。"
+  },
+  "main_header_search_placeholder_asin": {
+    "message": "最大200個のASINを入力し(個々のASINをEnterキーで送信)、またはtxt/Excelから列ごとに直接コピペしてください。"
+  },
+  "main_header_search_placeholder_keyword": {
+    "message": "最大20個のキーワードを入力し(個々のキーワードをEnterキーで送信)、またはtxt/Excelから列ごとに直接コピペしてください。"
+  },
+  "main_header_search_placeholder_brand": {
+    "message": "最大20個のブランドを入力し(個々のブランドをEnterキーで送信)、またはtxt/Excelから列ごとに直接コピペしてください。"
+  },
+  "main_header_search_placeholder_seller": {
+    "message": "最大20個のセラーを入力し(個々のセラーをEnterキーで送信)、またはtxt/Excelから列ごとに直接コピペしてください。"
+  },
+  "main_header_search_batch_btn_clear": {
+    "message": "削除"
+  },
+  "main_header_search_batch_btn_comfirm": {
+    "message": "確定"
+  },
+  "main_header_search_word_tips": {
+    "message": "{num}/{limt}の{type}が入力済み",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "2"
+      },
+      "limt": {
+        "content": "$1",
+        "example": "2"
+      },
+      "type": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "main_header_search_over_asin": {
+    "message": "{num}/200のASINが入力済み",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "main_header_search_over_keyword": {
+    "message": "{num}/20のキーワードが入力済み",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "main_header_search_over_brand": {
+    "message": "{num}/20のブランドが入力済み",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "main_header_search_over_seller": {
+    "message": "{num}/20のセラーが入力済み",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "main_header_search_enter_word_tips": {
+    "message": "{type}を入力してください (例: {example})",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "2"
+      },
+      "example": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "main_header_search_enter_word_tips2": {
+    "message": "{type} 例: {example}",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "2"
+      },
+      "example": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "main_header_search_batch_placeholder": {
+    "message": "ASINまたは商品リンクを例：B00FLYWNYQ"
+  },
+  "main_footer_btn_refresh": {
+    "message": "更新"
+  },
+  "main_footer_btn_export": {
+    "message": "エクスポート"
+  },
+  "main_footer_btn_export_keepa": {
+    "message": "DL"
+  },
+  "main_footer_btn_export_batch": {
+    "message": "明細ダウンロード"
+  },
+  "main_footer_btn_export_batch_tips": {
+    "message": "選択した商品の直近3年間の販売履歴データを、一度に最大100 ASINまで一括でエクスポートします"
+  },
+  "main_footer_btn_collection": {
+    "message": "このページをデフォルトページに追加"
+  },
+  "main_footer_btn_video": {
+    "message": "動画"
+  },
+  "main_footer_btn_video_href": {
+    "message": "https://www.sellersprite.com/jp/help/tour-of-sellersprite-extension"
+  },
+  "main_footer_btn_setting": {
+    "message": "設置"
+  },
+  "main_footer_btn_copy": {
+    "message": "コッピーする"
+  },
+  "main_footer_btn_google_trend": {
+    "message": "Google Trend"
+  },
+  "main_footer_btn_download_reviews": {
+    "message": "レビューダウンロード"
+  },
+  "main_footer_btn_reviews_translation": {
+    "message": "翻訳中"
+  },
+  "main_footer_translation_title_cont": {
+    "message": "タイトルと内容を翻訳します "
+  },
+  "main_footer_translation_title": {
+    "message": "タイトルを翻訳します "
+  },
+  "main_footer_btn_download_qa": {
+    "message": "Q&Aダウンロード"
+  },
+  "QA_download_video": {
+    "message": "Q&A動画もダウンロード"
+  },
+  "QA_download_tips": {
+    "message": "クリックすると、Q&A内容を無料で一括ダウンロード〜 <a style='color: #fb8c1e; border-bottom: 1px dashed #fb8c1e;' target='_blank' href='https://www.sellersprite.com/jp/help/reviews-download-guide-of-extension'>動画+図解紹介</a>"
+  },
+  "QA_download_dialog_title": {
+    "message": "Title"
+  },
+  "main_footer_btn_title_word_frequency": {
+    "message": "タイトルワード"
+  },
+  "main_footer_btn_title_word": {
+    "message": "タイトルコピー"
+  },
+  "main_footer_KC_found_items": {
+    "message": "キーワードが<strong class='text-danger'>{total}</strong>つ。収録されたキーワードが<strong class='text-primary'>{count}</strong>つ。",
+    "placeholders": {
+      "total": {
+        "content": "$1",
+        "example": "1000"
+      },
+      "count": {
+        "content": "$2",
+        "example": "500"
+      }
+    }
+  },
+  "main_footer_btn_batch_delete_error": {
+    "message": "削除したい商品を選択してください。"
+  },
+  "main_footer_btn_batch_add_error": {
+    "message": "追加する商品を選択してください。"
+  },
+  "main_footer_help": {
+    "message": "拡張機能が使えない？ここをクリック"
+  },
+  "main_footer_signin_or_signup": {
+    "message": "ログイン/新規登録"
+  },
+  "main_footer_user_focus_goods": {
+    "message": "お気に入り"
+  },
+  "main_footer_user_focus_goods_link": {
+    "message": "https://www.sellersprite.com/jp/v2/product-tracking"
+  },
+  "main_footer_go_web_home": {
+    "message": "Web版に入る"
+  },
+  "main_footer_go_web_home_link": {
+    "message": "https://www.sellersprite.com/jp/"
+  },
+  "main_footer_go_web_qa": {
+    "message": "フォーラム/Q&A"
+  },
+  "main_footer_go_web_qa_link": {
+    "message": "https://www.sellersprite.com/jp/bbs"
+  },
+  "main_footer_exit": {
+    "message": "ログアウト"
+  },
+  "main_footer_child_account": {
+    "message": "子アカウント"
+  },
+  "main_footer_premium_paid_member": {
+    "message": "有料会員"
+  },
+  "main_footer_member_I": {
+    "message": "独立会員"
+  },
+  "main_footer_member_S": {
+    "message": "スタンダード"
+  },
+  "main_footer_member_A": {
+    "message": "アドバンス"
+  },
+  "main_footer_member_V": {
+    "message": "VIP"
+  },
+  "main_footer_member_T": {
+    "message": "体験版"
+  },
+  "main_footer_member_TM": {
+    "message": "体験版"
+  },
+  "main_footer_free_membership": {
+    "message": "無料会員"
+  },
+  "main_footer_expiredDays_member": {
+    "message": "残り{day}日",
+    "placeholders": {
+      "day": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "main_footer_exit_title": {
+    "message": "ログアウト"
+  },
+  "main_tips_fake": {
+    "message": "有料会員限定，<a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>プランをアップグレード</a>してから確認してください"
+  },
+  "main_tips_warm_tips": {
+    "message": "ご注意"
+  },
+  "main_tips_search_loading": {
+    "message": "1-2分程かかりますので、しばらくお待ちください。"
+  },
+  "main_tips_listing_loading": {
+    "message": "リストが読み込み中、しばらくお待ちください。"
+  },
+  "main_tips_no_more": {
+    "message": "全部読み込みました"
+  },
+  "main_tips_no_more_limit": {
+    "message": "無料会員は上位<b style='color: red;font-style: normal;'>{num}</b>件のみ、<a href='https://www.sellersprite.com/price' target='_blank'>プランアップグレード</a>全部見えるようになります。",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "main_tips_no_data": {
+    "message": "データが見つかりません"
+  },
+  "main_tips_cant_get_data": {
+    "message": "データが見つかりません"
+  },
+  "main_tips_copy_success": {
+    "message": "コッピーした"
+  },
+  "main_tips_move_success": {
+    "message": "移動成功"
+  },
+  "main_tips_copy_failed": {
+    "message": "コッピーができなかった，もう一度試してください"
+  },
+  "main_tips_copy_failed_no_data": {
+    "message": "データがないため、コピーできません"
+  },
+  "main_tips_collection_success": {
+    "message": "追加に成功"
+  },
+  "main_tips_downloading": {
+    "message": "ダウンロード中"
+  },
+  "main_tips_enable_inventory_stock": {
+    "message": "在庫モニタリングオン"
+  },
+  "main_tips_disable_inventory_stock": {
+    "message": "在庫モニタリングOFF<br/>OFFにしたら、商品がたまにカートに入<br/>れたような悩みはありません～"
+  },
+  "main_tips_disable_marketplace": {
+    "message": "このサイトはサポートしておりません"
+  },
+  "main_tips_version_too_low": {
+    "message": "バージョンアップしてから、データをチェック！<a href='https://www.sellersprite.com/v2/extension/upgrading?language=ja' target='_blank'>ダウンロード</a>～"
+  },
+  "main_tips_request_failed": {
+    "message": "エラーが発生しました。後で再試行してください。"
+  },
+  "main_setting_title": {
+    "message": "セラースプライト - 拡張機能セット"
+  },
+  "main_setting_logo": {
+    "message": "/assets/images/logo/logo-en.png"
+  },
+  "main_setting_Example": {
+    "message": "図例"
+  },
+  "main_setting_inventory_stats_img": {
+    "message": "https://static.sellersprite.com/docs/202103/inventory_jp.jpg"
+  },
+  "main_setting_inventory_stats": {
+    "message": "在庫モニタリング機能"
+  },
+  "main_setting_inventory_stats_tips": {
+    "message": "在庫モニタリングは、カートに追加する方法で現在の在庫を判別しています。在庫モニタリングをオンにすると自動的に商品をカートに入れ、カートの前の商品を削除します"
+  },
+  "main_setting_quick_view_img": {
+    "message": "https://static.sellersprite.com/docs/202103/quick_view_jp.jpg"
+  },
+  "main_setting_quick_view": {
+    "message": "商品リストクイックビュー(BSRとセラー数など)"
+  },
+  "main_setting_quick_view_tips": {
+    "message": "オンにすると、パソコンの負荷がかかり、画面表示の調子が悪くなってしまう可能性があります。影響があればオフにしてください"
+  },
+  "main_setting_mini_trend_img": {
+    "message": "https://static.sellersprite.com/docs/202103/mini_trend_jp.jpg"
+  },
+  "main_setting_mini_trend": {
+    "message": "リストページ-トレンドサムネイル画像"
+  },
+  "main_setting_mini_trend_tips": {
+    "message": "拡張機能リストページ-トレンドサムネイル画像(販売数トレンド、検索トレンド)、ロード時にページがフリーズになる可能性があり、影響があれば閉じることができます。"
+  },
+  "main_setting_lqs_view_img": {
+    "message": "https://static.sellersprite.com/docs/202103/lqs_jp.jpg"
+  },
+  "main_setting_lqs_view": {
+    "message": "スコア"
+  },
+  "main_setting_lqs_view_tips": {
+    "message": "オンにした後、Listing品質スコアを即時にチェックできて、簡単に自社Listingおよびライバル商品を診断することができます。"
+  },
+  "main_setting_collection_listing": {
+    "message": "アマゾンの公開情報を共有する意志がある"
+  },
+  "main_setting_collection_listing_tips": {
+    "message": "データ表示の適時性向上のため、公開されているデータ（商品価格、BSR情報、商品タイトルなど）を当社と共有する意思があること"
+  },
+  "main_setting_phrase_name": {
+    "message": "解釈"
+  },
+  "main_setting_phrase_name_tips": {
+    "message": "オンにすると、拡張機能各用語の説明が表示されます。"
+  },
+  "main_setting_on": {
+    "message": "オン"
+  },
+  "main_setting_off": {
+    "message": "オフ"
+  },
+  "main_setting_allow": {
+    "message": "同意"
+  },
+  "main_setting_disallow": {
+    "message": "拒否"
+  },
+  "main_setting_unregistered": {
+    "message": "セラースプライトでまだ登録していない? "
+  },
+  "module_MI_tips_title": {
+    "message": "Web版の「キーワードマイニング」はもっと効率的です。ぜひ使ってみてください！"
+  },
+  "module_MI_tips_content": {
+    "message": "1、ワード拡張 - 関連キーワードやロングテールワードを検索し、正確なキーワードデータベースを迅速に構築することができます。<br/>2、ワード頻度分析 - キーワードの属性を分類し、商品の利用シーンを検討することができます。<br/>3、広告配信 - 効果的なキーワードをスクリーニングし、高得点のListing広告を作成し、PPC広告を最適化できます。"
+  },
+  "module_RV_thead_keywords": {
+    "message": "注目キーワード"
+  },
+  "module_RV_table_AC_tips": {
+    "message": "このキーワードで検索した結果 、Amazon's Choiceのロゴを持つ商品があります。"
+  },
+  "module_RV_table_ABA_week_rank": {
+    "message": "ABA週順位"
+  },
+  "module_RV_table_ABA_week_data_time": {
+    "message": "データ時間"
+  },
+  "module_RV_table_ABA_week_data_week": {
+    "message": "{num}週目",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "module_RV_table_keyword_type": {
+    "message": "タイプ"
+  },
+  "module_RV_table_keyword_type_tips": {
+    "message": "該当ASINが対応キーワードの検索結果の下で露出した具体的な位置です。"
+  },
+  "module_RV_table_conversion_and_traffic": {
+    "message": "トラフィック&転化"
+  },
+  "module_RV_table_conversion_and_traffic_tips": {
+    "message": "キーワードのトラフィックと自然順位に基づくトラフィックタイプ<br/>及び異なるキーワードでの商品のコンバージョン効果"
+  },
+  "module_RV_table_keyword_distribution": {
+    "message": "トラフィック"
+  },
+  "module_RV_table_keyword_distribution_tips": {
+    "message": "このキーワードがASINに与える自然トラフィックと広告トラフィックの割合"
+  },
+  "module_RV_table_keyword_distribution_org": {
+    "message": "自然"
+  },
+  "module_RV_table_keyword_distribution_ad": {
+    "message": "広告"
+  },
+  "module_RV_table_clickRate": {
+    "message": "トラフィック比率"
+  },
+  "module_RV_table_impressions": {
+    "message": "予測週間露出"
+  },
+  "module_table_impressions": {
+    "message": "露出数<br>クリック数"
+  },
+  "module_table_impressions_click": {
+    "message": "クリッ<br>ク数"
+  },
+  "module_table_impressions_filter": {
+    "message": "露出数"
+  },
+  "module_excel_impressions": {
+    "message": "露出数"
+  },
+  "module_excel_clicks": {
+    "message": "クリック数"
+  },
+  "module_table_impressions_filter_tips": {
+    "message": "某月（例：2024年3月）に、キーワードの検索結果ページにすべてのASINが表示された回数の合計を指します。"
+  },
+  "module_table_impressions_tips": {
+    "message": "上：露出数。某月（例：2024年3月）に、キーワードの検索結果ページにすべてのASINが表示された回数の合計を指します。<br>下：クリック数。某月（例：2024年3月）に、キーワードの検索結果ページにクリックされた回数の合計を指します。"
+  },
+  "module_table_impressions_click_tips": {
+    "message": "某月（例：2024年3月）に、キーワードの検索結果ページにクリックされた回数の合計を指します。"
+  },
+  "module_RV_table_type": {
+    "message": "キーワードタイプ"
+  },
+  "module_RV_table_conversion": {
+    "message": "転化効果"
+  },
+  "module_RV_table_distribution": {
+    "message": "タイプ"
+  },
+  "module_RV_table_organic_share": {
+    "message": "自然トラフィック比率"
+  },
+  "module_RV_table_sponsored_share": {
+    "message": "広告トラフィック比率"
+  },
+  "reversing_table_type_NATURAL_SEARCHING": {
+    "message": "主要トラフィックワード"
+  },
+  "reversing_table_type_AMAZON_CHOICE": {
+    "message": "AC推薦ワード"
+  },
+  "reversing_table_type_EDITORIAL_RECOMMENDATIONS": {
+    "message": "ER推薦ワード"
+  },
+  "reversing_table_type_FOUR_STAR": {
+    "message": "星4つ推薦ワード"
+  },
+  "reversing_table_type_HIGHLY_RATED": {
+    "message": "HR推薦ワード"
+  },
+  "reversing_table_type_SPONSOR_BRAND": {
+    "message": "ブランド広告ワード"
+  },
+  "reversing_table_type_SPONSOR_VIDEO": {
+    "message": "SP広告ワード"
+  },
+  "reversing_table_type_ADS": {
+    "message": "SP广告词"
+  },
+  "reversing_table_rank_position": {
+    "message": "自然順位"
+  },
+  "reversing_table_rank_page": {
+    "message": "自然順ページ"
+  },
+  "reversing_table_rank_updated_time": {
+    "message": "更新時間"
+  },
+  "reversing_table_rank_position_tips": {
+    "message": "このキーワードに対するASINの自然検索順位（絶対順位）"
+  },
+  "reversing_table_keyword_types_PRIMARY": {
+    "message": "主要トラフィックワード"
+  },
+  "reversing_table_keyword_types_PRECISE": {
+    "message": "正確トラフィックワード"
+  },
+  "reversing_table_keyword_types_PRECISE_LONG_TAIL": {
+    "message": "正確ロングテールワード"
+  },
+  "reversing_table_conversion_types_EXCELLENT": {
+    "message": "転化良質ワード"
+  },
+  "reversing_table_conversion_types_STABLE": {
+    "message": "転化平穏ワード"
+  },
+  "reversing_table_conversion_types_LOST": {
+    "message": "転化流失ワード"
+  },
+  "reversing_table_conversion_types_INVALID": {
+    "message": "無効露出ワード"
+  },
+  "reversing_table_ad_rank_position": {
+    "message": "広告順位"
+  },
+  "reversing_table_ad_rank_page": {
+    "message": "広告順位ページ"
+  },
+  "reversing_table_ad_rank_updated_time": {
+    "message": "更新時間"
+  },
+  "reversing_table_ad_rank_position_tips": {
+    "message": "このキーワードに対するASINの広告位置順位（絶対順位）"
+  },
+  "reversing_table_today": {
+    "message": "今日"
+  },
+  "reversing_table_yesterday": {
+    "message": "昨日"
+  },
+  "reversing_table_num_day": {
+    "message": "{num}日前",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "reversing_table_page_rank": {
+    "message": "P.{num}",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "reversing_rank": {
+    "message": "順位"
+  },
+  "reversing_table_no_rank_tips": {
+    "message": "キーワード{keyword}、最近収録されていないまたは自然検索結果の最初の3ページに入っていないです。",
+    "placeholders": {
+      "keyword": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "reversing_table_no_ad_rank_tips": {
+    "message": "キーワード{keyword}、最近SP広告を出していないまたはSP広告が検索結果の最初の3ページに入っていないです。",
+    "placeholders": {
+      "keyword": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "reversing_no_rank": {
+    "message": "3ページま<br>では順位なし"
+  },
+  "reversing_format_time": {
+    "message": "日{date1}\n米{date2}",
+    "placeholders": {
+      "date1": {
+        "content": "$1",
+        "example": ""
+      },
+      "date2": {
+        "content": "$2",
+        "example": ""
+      }
+    }
+  },
+  "main_common_short_year": {
+    "message": "年"
+  },
+  "main_common_short_month": {
+    "message": "月"
+  },
+  "main_common_short_day": {
+    "message": "日"
+  },
+  "module_RV_go_extend": {
+    "message": "全てのトラフィックワード"
+  },
+  "module_RV_go_website": {
+    "message": "セラースプライト-Web版で結果を確認"
+  },
+  "module_RV_tips_title": {
+    "message": "Web版の「キーワード逆引きリサーチ」はもっと効率的です。ぜひ使ってみてください！"
+  },
+  "module_RV_tips_content": {
+    "message": "1、任意のASINのトラフィックワード及びトラフィック源を検索することができます。<br/>2、競合商品のトラフィックワードとトラフィック構造を分析し、自社のトラフィック入り口を最適化することができます。<br/>3、商品のトラフィックとキーワードのパフォーマンスを追跡し、キーワード戦略を調整することもできます。"
+  },
+  "module_RV_tips_btn": {
+    "message": "今すぐ体験"
+  },
+  "module_RV_video_tips": {
+    "message": "動画+図解紹介"
+  },
+  "module_RV_video_link": {
+    "message": "https://www.sellersprite.com/jp/help/keyword-reverse-guide-of-extension"
+  },
+  "module_RV_tips": {
+    "message": "https://www.sellersprite.com/jp/help/keyword-reverse-tips-of-extension"
+  },
+  "module_MI_video_link": {
+    "message": "https://www.sellersprite.com/jp/help/keyword-miner-guide-of-extension"
+  },
+  "module_RV_tbody_search_at_amazon_title": {
+    "message": "アマゾンでこのキーワードを検索する"
+  },
+  "module_RV_search_trend_btn_weekly": {
+    "message": "週単位"
+  },
+  "module_RV_search_trend_btn_monthly": {
+    "message": "月単位"
+  },
+  "module_RV_search_trend_title": {
+    "message": "キーワード検索トレンド"
+  },
+  "module_RV_search_trend_keyword": {
+    "message": "キーワード"
+  },
+  "module_RV_search_trend_purchases": {
+    "message": "販売数"
+  },
+  "module_RV_search_trend_searches": {
+    "message": "検索数"
+  },
+  "module_RV_search_trend_rate": {
+    "message": "販売率"
+  },
+  "module_RV_search_trend_tips": {
+    "message": "グレー線は真実データーだったが、今は予測値"
+  },
+  "module_RV_search_trend_tips_searches": {
+    "message": "月間検索数"
+  },
+  "module_RV_search_trend_tips_growth_rate": {
+    "message": "MoM変動"
+  },
+  "module_RV_top_keyword": {
+    "message": "頻出キーワード"
+  },
+  "module_MI_thead_click_concentration": {
+    "message": "クリック集中度"
+  },
+  "module_MI_thead_click_concentration_br": {
+    "message": "クリック<br>集中度"
+  },
+  "module_MI_thead_click_concentration_tips": {
+    "message": "クリックすると、そのキーワードのクリック・転換比率のトレンドを表示します。"
+  },
+  "module_MI_thead_ppc": {
+    "message": "PPC価格"
+  },
+  "module_MI_thead_ppc_tips": {
+    "message": "クリックすると、そのキーワードの入札動向を表示します。"
+  },
+  "module_MI_thead_operation": {
+    "message": "操作"
+  },
+  "module_MI_tbody_view_google_trend_title": {
+    "message": "そのキーワードのGoogleトレンドを見ます"
+  },
+  "module_MI_analysis_chart_tips_products": {
+    "message": "商品数"
+  },
+  "module_MI_analysis_chart_tips_proportion": {
+    "message": "数量割合"
+  },
+  "module_MI_analysis_chart_tips_amount": {
+    "message": "数量"
+  },
+  "module_MI_analysis_chart_tips_no_reviews": {
+    "message": "評価数なし"
+  },
+  "module_MI_analysis_chart_tips_no_bsr": {
+    "message": "BSR無し"
+  },
+  "module_MI_analysis_chart_tips_below": {
+    "message": "{num}以下",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "module_MI_analysis_chart_tips_above": {
+    "message": "{num}以上",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "module_MI_click_concentration": {
+    "message": "クリック集中度"
+  },
+  "module_MI_chart_ppc_bid": {
+    "message": "PPC入札額(フレーズ一致)"
+  },
+  "module_MI_chart_ppc_bid_nodata_tips": {
+    "message": "(今月のPPC入札データは月末に更新)"
+  },
+  "module_MI_click_concentration_keyword": {
+    "message": "キーワード"
+  },
+  "module_MI_click_concentration_legend": {
+    "message": "クリック集中度"
+  },
+  "module_MI_click_conversion_share": {
+    "message": "転換比率"
+  },
+  "module_MI_click_rate": {
+    "message": "クリック比率"
+  },
+  "module_MI_max_cpc_bid_name_legend": {
+    "message": "最大値"
+  },
+  "module_MI_min_cpc_bid_name_legend": {
+    "message": "最小値"
+  },
+  "module_MI_cpc_bid_name_legend": {
+    "message": "推奨入札額"
+  },
+  "module_MI_google_trend_title": {
+    "message": "Google Trends"
+  },
+  "module_MI_google_trend_keyword": {
+    "message": "キーワード"
+  },
+  "module_MI_google_trend_tips_to_google": {
+    "message": "Googleトレンドへ"
+  },
+  "module_MI_google_trend_module_web": {
+    "message": "グーグル検索"
+  },
+  "module_MI_google_trend_module_shopping": {
+    "message": "グーグルショッピング検索"
+  },
+  "module_MI_google_trend_1_year": {
+    "message": "1 年"
+  },
+  "module_MI_google_trend_3_year": {
+    "message": "3 年"
+  },
+  "module_MI_google_trend_5_year": {
+    "message": "全て"
+  },
+  "module_MI_google_trend_search_interest": {
+    "message": "検索指数"
+  },
+  "module_MI_google_trend_btn_save_as_image": {
+    "message": "画像を保存"
+  },
+  "module_MI_google_trend_tips_empty_data": {
+    "message": "後で利用するか、<br/><a class='link' target='_blank' href='{link}'>Google Trendsサイトで確認することをお勧めします<a/>",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "module_PS_tips": {
+    "message": "BSRランキング：該当ASINのベストセラーランキングを指します。親カテゴリーの順位を優先的に表示しますが、なければ子カテゴリーの順位を表示します。<br/>数字をクリックすると、子カテゴリーの最新のランキング順位及び過去の順位トレンドをチェックすることができます。<br/>価格：最新のBuyBox価格<br/>評価率：先月の月間評価増加数/当月販売数 * 100%<br/>評価月増：商品当月評価数増加値<br/>販売数トレンド：過去一年間月別の販売数トレンドです。カーソルを合わせますと月別の予測販売数が確認できます。<br/>直近30日間の販売数:直近30日間の予想販売数です;たとえば現在は2020年10月30日であれば、30日近くの販売数は、10月01日から10月30日までの期間の予測販売数です。<br/>数字をクリックすると、ここ3年間の歴史的な販売数の推移を見ることができます。<br/>直近30日の販売額:直近30日の予想販売額です;たとえば現在は2020年10月30日であれば、30日近くの販売額は、10月01日から10月30日までの期間の予測販売額です。<br/>粗利益率：商品粗利益率、粗利益率＝商品価格*1－Amazon手数料－FBA送料<br/>粗利益率の数値をクリックすると、利益計算機がポップアップします。<br/>用語の意味は、<a target='_blank' href='https://www.sellersprite.com/jp/help/product-tips-of-extension'>ここをクリックして確認してください<a/>。"
+  },
+  "module_PS_thead_product_info": {
+    "message": "商品情報"
+  },
+  "module_PS_thead_field_explain": {
+    "message": "データ解釈"
+  },
+  "module_PS_thead_field_explain_link": {
+    "message": "https://www.sellersprite.com/jp/help/product-tips-of-extension"
+  },
+  "module_LIB_thead_field_explain_link": {
+    "message": "https://www.sellersprite.com/jp/help/product-list-tips-of-extension"
+  },
+  "module_MI_thead_field_explain_link": {
+    "message": "https://www.sellersprite.com/jp/help/keyword-miner-tips-of-extension"
+  },
+  "module_RV_thead_field_explain_link": {
+    "message": "https://www.sellersprite.com/jp/help/keyword-reverse-tips-of-extension"
+  },
+  "module_PS_bottom_tips": {
+    "message": "ここは最後～"
+  },
+  "module_PS_thead_brand": {
+    "message": "ブランド"
+  },
+  "module_PS_thead_category": {
+    "message": "カテゴリー"
+  },
+  "module_PS_thead_bsr": {
+    "message": "BSR"
+  },
+  "module_PS_thead_bsr_tips": {
+    "message": "親カテゴリーBSR(Best Sellers Rank)とは、この子ASINはListingページにおける最新の親カテゴリー・ランキングです。"
+  },
+  "module_PS_thead_price": {
+    "message": "価格"
+  },
+  "module_PS_thead_price_tips": {
+    "message": "この商品の最新価格"
+  },
+  "module_PS_thead_rating": {
+    "message": "評価"
+  },
+  "module_PS_thead_rating_tips": {
+    "message": "この商品の最新星評価。"
+  },
+  "module_PS_thead_review": {
+    "message": "評価数"
+  },
+  "module_PS_thead_trend_review": {
+    "message": "評価数"
+  },
+  "module_PS_thead_review_tips": {
+    "message": "この商品の最新評価数(ratings数)"
+  },
+  "module_PS_thead_review_rate": {
+    "message": "評価率"
+  },
+  "module_PS_thead_review_rate_tips": {
+    "message": "直近30日の評価率＝直近30日の月間評価増加数/直近30日の販売数"
+  },
+  "module_PS_thead_pop_review_rate": {
+    "message": "直近30日評価率(販売数)"
+  },
+  "module_PS_thead_grade": {
+    "message": "等級"
+  },
+  "module_PS_thead_review_delta": {
+    "message": "評価月増"
+  },
+  "module_PS_thead_review_delta_tips": {
+    "message": "この商品の直近30日の評価増加数。"
+  },
+  "module_PS_thead_questions": {
+    "message": "Q&A数"
+  },
+  "module_PS_thead_questions_tips": {
+    "message": "この商品の最新Q&A数。"
+  },
+  "module_PS_thead_sales_trend": {
+    "message": "トレンド(親)"
+  },
+  "module_PS_thead_sales_variation_trend": {
+    "message": "トレンド(子)"
+  },
+  "module_PS_sales_variation_trend": {
+    "message": "トレンド(子)"
+  },
+  "module_PS_thead_sales_volume_title": {
+    "message": "販売数"
+  },
+  "module_PS_thead_sales_volume_P": {
+    "message": "销量(親)"
+  },
+  "module_PS_thead_sales_volume_title_tips": {
+    "message": "直近30日販売数"
+  },
+  "module_PS_thead_sales_volume": {
+    "message": "直近30日<br/>販売数"
+  },
+  "module_PS_thead_sales_child_volume": {
+    "message": "直近30日間<br/>販売数(子)"
+  },
+  "module_PS_thead_sales_volume_tips": {
+    "message": "この商品の親ASINの直近30日の総販売数(FBA+FBM)"
+  },
+  "module_PS_thead_sales_child_volume_tips": {
+    "message": "子ASINの直近30日間の販売数（Amazon検索ページのデータ）"
+  },
+  "module_PS_thead_sales_amount_title": {
+    "message": "販売額"
+  },
+  "module_PS_thead_sales_child_amount_title": {
+    "message": "子ASIN販売数<br>販売額"
+  },
+  "module_PS_thead_sales_amount_title_tips": {
+    "message": "直近30日販売額"
+  },
+  "module_PS_thead_sales_amount": {
+    "message": "直近30日<br/>販売額"
+  },
+  "module_PS_thead_sales_amount_tips": {
+    "message": "この商品の親ASINの直近30日の総販売額(FBA+FBM)"
+  },
+  "module_PS_thead_profit_rate": {
+    "message": "粗利益率"
+  },
+  "module_PS_thead_profit_rate_tips": {
+    "message": "粗利益率＝商品の販売価格＊１ーAmazon手数料ーFBA配送手数料"
+  },
+  "module_PS_thead_fba_cost": {
+    "message": "FBA"
+  },
+  "module_PS_thead_available_on_br": {
+    "message": "出品日付"
+  },
+  "module_PS_thead_fba_cost_tips": {
+    "message": "FBA配送手数料（商品の重量とサイズより計算を行います）"
+  },
+  "module_PS_thead_available_on": {
+    "message": "出品日付"
+  },
+  "module_PS_thead_sellers": {
+    "message": "セラー数"
+  },
+  "module_PS_thead_sellers_tips": {
+    "message": "この商品のBuyboxセラーの相乗りセラー数"
+  },
+  "module_PS_thead_variations": {
+    "message": "バリエーション"
+  },
+  "module_PS_thead_fulfilled": {
+    "message": "配送"
+  },
+  "module_PS_thead_fulfilled_tips": {
+    "message": "FBA：Fulfilment by amazon，アマゾン配送<br/>FBM：Fulfillment by Merchant，セラー配送<br/>MZ：Ships from Amazon and Sold by Amazon.com，アマゾン自営"
+  },
+  "module_PS_tbody_product_info_tips": {
+    "message": "アマゾンで見る"
+  },
+  "module_PS_tbody_product_signboard_has_AC": {
+    "message": "Amazon's Choice <a href='/s?k={desc}' target='_blank' style='border-bottom: 1px #fd963c dashed !important;'>{desc}</a> スピード ",
+    "placeholders": {
+      "desc": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "module_PS_tbody_product_signboard_AC": {
+    "message": "このListingはAmazon's Choiceマークがあります"
+  },
+  "module_PS_tbody_product_signboard_SP": {
+    "message": "この商品にSponsored Product広告が出している"
+  },
+  "module_PS_tbody_product_signboard_SPB": {
+    "message": "ブランド広告商品。PPC広告の一種で、検索結果ページの上部または下部に表示されます"
+  },
+  "module_PS_tbody_product_signboard_SPV": {
+    "message": "動画広告商品。PPC広告の一種で、検索結果ページの中央に表示"
+  },
+  "module_PS_tbody_product_signboard_ER": {
+    "message": "検索結果ページの編集者推薦ブースに登場します。<br/>このブースでは、ブロガーなどの第三者が書いた商品推薦記事とその商品を表示されます"
+  },
+  "module_PS_tbody_product_signboard_HR": {
+    "message": "検索結果ページの高評価ブースに登場します。<br/>このブースでは、アマゾンが星評価と評価数に基づいて選んだ高評価商品が展示されます"
+  },
+  "module_PS_tbody_product_signboard_4S": {
+    "message": "Amazon 4-starの商品。<br/>Amazon 4-starはアマゾン傘下のリアル店舗であり、<br/>アマゾンのウェブサイト上のトップカテゴリーから選りすぐりの4つ星以上の商品を販売しています"
+  },
+  "module_PS_tbody_product_signboard_has_BS": {
+    "message": "Best Seller - {desc}",
+    "placeholders": {
+      "desc": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "module_PS_tbody_product_signboard_BS": {
+    "message": "このListingはBest Sellerマークがあります"
+  },
+  "module_PS_tbody_product_signboard_has_NR": {
+    "message": "このListingはNew Releaseマークがあり、所属カテゴリー：{desc}",
+    "placeholders": {
+      "desc": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "module_PS_tbody_product_signboard_NR": {
+    "message": "このListingはNew Releaseマークがあります"
+  },
+  "module_PS_tbody_product_signboard_LTD": {
+    "message": "Limited time deal、「7日間のタイムセール」対象商品"
+  },
+  "module_PS_tbody_product_signboard_EBC": {
+    "message": "この商品ページにはA+商品詳細ページを載せている"
+  },
+  "module_PS_tbody_product_signboard_ABS": {
+    "message": "この商品ページにはブランド紹介"
+  },
+  "module_PS_tbody_product_signboard_V": {
+    "message": "この商品ページにはビデオを載せている"
+  },
+  "module_PS_tbody_brand_tips": {
+    "message": "ブランド検索ページを開く"
+  },
+  "module_PS_tbody_category_tips": {
+    "message": "クリックするとカテゴリーツリーが展開されます"
+  },
+  "module_PS_tbody_close_category_tips": {
+    "message": "クリックしてカテゴリーを折りたたむ"
+  },
+  "module_PS_tbody_bsr_tips": {
+    "message": "青い数字は親カテゴリーのランキング、赤はサブカテゴリーのランキング<br/>数字をクリックして歴史トレンドを見る"
+  },
+  "module_PS_tbody_product_trend": {
+    "message": "商品トレンド"
+  },
+  "module_PS_tbody_profit_calculator": {
+    "message": "利益計算機"
+  },
+  "module_PS_tbody_delete_product": {
+    "message": "リストから該当商品を削除する"
+  },
+  "module_PS_tbody_view_same_category": {
+    "message": "カテゴリーで類似商品を閲覧する"
+  },
+  "module_PS_tbody_view_same_category_tips": {
+    "message": "アマゾンでこのカテゴリーを見る"
+  },
+  "module_PS_tbody_BS_list": {
+    "message": "売れ筋ランキング"
+  },
+  "module_PS_tbody_BS_list_tips": {
+    "message": "アマゾンでこのカテゴリーのベストセラーランキングを見る"
+  },
+  "module_PS_tbody_market_analysis": {
+    "message": "市場分析レポート"
+  },
+  "module_PS_tbody_market_analysis_tips": {
+    "message": "市場分析図表を見る"
+  },
+  "module_PS_tbody_alibaba": {
+    "message": "Alibaba"
+  },
+  "module_PS_tbody_alibaba_tips": {
+    "message": "Alibabaで仕入先を見つける（写真の相似性に基づく）(基于图片相似度)"
+  },
+  "module_PS_tbody_1688": {
+    "message": "1688"
+  },
+  "module_PS_tbody_1688_tips": {
+    "message": "1688に商品を探す"
+  },
+  "module_PS_tbody_1688_loading": {
+    "message": "1688にジャンプ中"
+  },
+  "module_PS_tbody_1688_loading_tips": {
+    "message": "1688をリクエストしていて、後で自動的に新しいページを開いて結果を表示します"
+  },
+  "module_PS_tbody_1688_need_login": {
+    "message": "1688"
+  },
+  "module_PS_tbody_1688_need_login_tips": {
+    "message": "タオバオに登録してから再試行してください"
+  },
+  "module_PS_tbody_1688_error": {
+    "message": "1688にジャンプエラー"
+  },
+  "module_PS_tbody_1688_error_tips": {
+    "message": "1688にリクエストエラー、後で再度お試しいただくか、オンラインカスタマーサポートに連絡してください"
+  },
+  "module_PS_tbody_taobao": {
+    "message": "TaoBao"
+  },
+  "module_PS_tbody_taobao_tips": {
+    "message": "TaoBaoに商品を探す"
+  },
+  "module_PS_tbody_taobao_loading": {
+    "message": "TaoBaoにジャンプ中"
+  },
+  "module_PS_tbody_taobao_loading_tips": {
+    "message": "TaoBaoをリクエストしていて、後で自動的に新しいページを開いて結果を表示します"
+  },
+  "module_PS_tbody_taobao_error": {
+    "message": "TaoBaoにジャンプエラー"
+  },
+  "module_PS_tbody_taobao_error_tips": {
+    "message": "TaoBaoにリクエストエラー、後で再度お試しいただくか、オンラインカスタマーサポートに連絡してください"
+  },
+  "module_PS_tbody_chinese_category_label": {
+    "message": "中文类目名"
+  },
+  "module_PS_tbody_weight": {
+    "message": "重量"
+  },
+  "module_PS_tbody_dimension": {
+    "message": "体積"
+  },
+  "module_PS_tbody_variations": {
+    "message": "バリエーション数"
+  },
+  "module_PS_tbody_sellers": {
+    "message": "セラー"
+  },
+  "module_PS_tbody_sellers_tips": {
+    "message": "Amazonでセラーを見る"
+  },
+  "module_PS_tbody_buy_box_owner": {
+    "message": "Buyboxセラー"
+  },
+  "module_PS_tbody_buy_box_owner_tips": {
+    "message": "アマンダでこのセラーを閲覧する"
+  },
+  "module_PS_tbody_business_name": {
+    "message": "販売業者"
+  },
+  "module_PS_tbody_business_type": {
+    "message": "会社の種類"
+  },
+  "module_PS_tbody_trade_number": {
+    "message": "登録取引コード"
+  },
+  "module_PS_tbody_vat_number": {
+    "message": "VAT番号"
+  },
+  "module_PS_tbody_phone": {
+    "message": "お問い合わせ先電話番号"
+  },
+  "module_PS_tbody_business_address": {
+    "message": "住所"
+  },
+  "module_PS_tbody_capital": {
+    "message": "登録資本金"
+  },
+  "module_PS_tbody_manger": {
+    "message": "運営責任者名"
+  },
+  "module_PS_tbody_seller_station_Feedback": {
+    "message": "Feedback"
+  },
+  "module_PS_tbody_seller_station": {
+    "message": "{stationName}セラー",
+    "placeholders": {
+      "stationName": {
+        "content": "$1",
+        "example": "日本"
+      }
+    }
+  },
+  "module_PS_tbody_tips_years": {
+    "message": "{years}年",
+    "placeholders": {
+      "years": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "module_PS_tbody_tips_years_months": {
+    "message": "{years}年{months}か月",
+    "placeholders": {
+      "years": {
+        "content": "$1",
+        "example": "1"
+      },
+      "months": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "module_PS_tbody_tips_half_years": {
+    "message": "{years}年半",
+    "placeholders": {
+      "years": {
+        "content": "$1",
+        "example": "1"
+      },
+      "months": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "module_PS_tbody_tips_half_of_year": {
+    "message": "半年",
+    "placeholders": {
+      "months": {
+        "content": "$2",
+        "example": "6"
+      }
+    }
+  },
+  "module_PS_tbody_tips_above_year": {
+    "message": "{years}年以上",
+    "placeholders": {
+      "years": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "module_PS_tbody_tips_years_months_days": {
+    "message": "{years}年{months}か月({days}日)",
+    "placeholders": {
+      "years": {
+        "content": "$1",
+        "example": "1"
+      },
+      "months": {
+        "content": "$2",
+        "example": "3"
+      },
+      "days": {
+        "content": "$3",
+        "example": "421"
+      }
+    }
+  },
+  "module_PS_tbody_tips_years_days": {
+    "message": "{years}年({days}日)",
+    "placeholders": {
+      "years": {
+        "content": "$1",
+        "example": "1"
+      },
+      "days": {
+        "content": "$2",
+        "example": "421"
+      }
+    }
+  },
+  "module_PS_tbody_tips_months": {
+    "message": "{months}か月",
+    "placeholders": {
+      "months": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "module_PS_tbody_tips_months_days": {
+    "message": "{months}か月({days}日)",
+    "placeholders": {
+      "months": {
+        "content": "$1",
+        "example": "3"
+      },
+      "days": {
+        "content": "$2",
+        "example": "421"
+      }
+    }
+  },
+  "module_PS_tbody_pop_days": {
+    "message": "{days}日",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "module_PS_tbody_pop_years_month": {
+    "message": "{years}年{months}か月({allDays}日)",
+    "placeholders": {
+      "years": {
+        "content": "$1",
+        "example": "1"
+      },
+      "months": {
+        "content": "$1",
+        "example": "3"
+      },
+      "allDays": {
+        "content": "$3",
+        "example": "421"
+      }
+    }
+  },
+  "module_PS_tbody_pop_months_days": {
+    "message": "{months}か月{days}日({allDays}日)",
+    "placeholders": {
+      "months": {
+        "content": "$1",
+        "example": "3"
+      },
+      "days": {
+        "content": "$2",
+        "example": "421"
+      },
+      "allDays": {
+        "content": "$3",
+        "example": "421"
+      }
+    }
+  },
+  "module_PS_tbody_pop_years_months_days": {
+    "message": "{years}年{months}か月{days}日({allDays}日)",
+    "placeholders": {
+      "years": {
+        "content": "$1",
+        "example": "1"
+      },
+      "months": {
+        "content": "$2",
+        "example": "3"
+      },
+      "days": {
+        "content": "$3",
+        "example": "421"
+      },
+      "allDays": {
+        "content": "$4",
+        "example": "421"
+      }
+    }
+  },
+  "module_PS_tbody_tips_track": {
+    "message": "モニタリングに追加(<a href='https://www.sellersprite.com/jp/v2/product-tracking' target='_blank'>Web版-【商品モニタリング】</a>に閲覧可能)"
+  },
+  "module_PS_tbody_tips_track_succeed": {
+    "message": "モニタリング成功！<a href='https://www.sellersprite.com/jp/v2/product-tracking' target='_blank'>Web版-【商品モニタリング】</a>に確認くださいね～"
+  },
+  "module_PS_footer_count": {
+    "message": "{count} 通のデータ",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "module_PS_footer_count_update": {
+    "message": "，<a href='https://www.sellersprite.com/price' target='_blank'>アップグレード</a>して見る！"
+  },
+  "module_PS_tips_row_monthsale": {
+    "message": "日販売数の詳細を見る<br/>ほかの青色の数字をクリックしてトレンドも見られます"
+  },
+  "module_PS_tips_row_month_sale_avg": {
+    "message": "日販売数：{dayUnits}/日、クリックして詳細を見る",
+    "placeholders": {
+      "dayUnits": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "module_PS_tips_row_sellers": {
+    "message": "クリックして相乗り出品を見る"
+  },
+  "module_PS_tips_row_rate": {
+    "message": "歴史評価のトレンドを見る<br/>評価率=当月新評価数/当月販売数"
+  },
+  "module_PS_tips_row_calculator": {
+    "message": "利益計算機を開く"
+  },
+  "module_PS_pop_echart_reference": {
+    "message": "5日移動平均線"
+  },
+  "module_PS_pop_echart_Ranking": {
+    "message": "ランキング順位"
+  },
+  "module_PS_pop_echart_bsrTips": {
+    "message": "BSRタグをクリックすると、強調表示されます"
+  },
+  "module_PS_pop_echart_bsr_tag_tips": {
+    "message": "BSRラベルをクリックしたら個別に表示"
+  },
+  "module_PS_footer_load_more": {
+    "message": "ロード"
+  },
+  "module_PS_footer_load_all": {
+    "message": "ロード済み"
+  },
+  "module_PS_summary_count": {
+    "message": "ASIN数"
+  },
+  "module_PS_summary_count_tips": {
+    "message": "リストページ全ての商品数を指します。"
+  },
+  "module_PS_summary_all_sales_volume": {
+    "message": "総販売数"
+  },
+  "module_PS_summary_all_sales_volume_tips": {
+    "message": "現在のページにおける全商品の販売数の合計、平均販売数=販売数合計/商品数<br/>販売数がない商品は計上しません,リストにおける商品を選択・削除することでより正確なデータ分析ができます。"
+  },
+  "module_PS_summary_avg_sales_volume": {
+    "message": "平均販売数"
+  },
+  "module_PS_summary_avg_sales_volume_tips": {
+    "message": "平均販売数 = 間販売数の合計/商品数。ただし、リストにある間販売数がない商品は計上しないです。<br/>リスト商品を削除することで、より正確なデータ分析ができます。<br/>下部左側が最低間販売数、右側が最高間販売数です。"
+  },
+  "module_PS_summary_all_sales_amount": {
+    "message": "総販売額"
+  },
+  "module_PS_summary_all_sales_amount_tips": {
+    "message": "現在のページにおける全商品の販売額の合計、平均販売額=販売額合計/商品数<br/>販売数がない商品は計上しません"
+  },
+  "module_PS_summary_avg_sales_amount": {
+    "message": "平均販売額"
+  },
+  "module_PS_summary_avg_sales_amount_tips": {
+    "message": "平均販売額 = 間販売額の合計/商品数。ただし、リストにある間販売額がない商品は計上しないです。<br/>下部左側が最低間販売額、右側が最高間販売額です。"
+  },
+  "module_PS_summary_avg_BSR": {
+    "message": "平均BSR"
+  },
+  "module_PS_summary_avg_BSR_tips": {
+    "message": "平均BSR = BSR合計/商品数。ただし、リストにあるBSRがない商品は計上しないです。<br/>下部左側が最小BSR値、右側が最大BSR値です。"
+  },
+  "module_PS_summary_avg_price": {
+    "message": "平均価格"
+  },
+  "module_PS_summary_avg_price_tips": {
+    "message": "平均価格 = 価格合計/商品数。リスト商品を削除することで、より正確な平均価格を得ることができます。<br/>下部左側が最低価格、右側が最高価格です。"
+  },
+  "module_PS_summary_avg_rating": {
+    "message": "平均星評価"
+  },
+  "module_PS_summary_avg_rating_tips": {
+    "message": "平均星評価 = 星評価の合計/商品数。このリストにある商品が、どの程度市場に認められているかを平均星評価で判断することができます。<br/>下部左側が最低星評価、右側が最高星評価です。"
+  },
+  "module_PS_summary_avg_review": {
+    "message": "平均評価数"
+  },
+  "module_PS_summary_avg_review_tips": {
+    "message": "平均評価数 = 評価数の合計/商品数。評価から商品の売れ行きを判断することができます。<br/>下部左側が最小評価数、右側が最大評価数です。"
+  },
+  "module_PS_summary_avg_available_on": {
+    "message": "平均販売期間"
+  },
+  "module_PS_summary_avg_available_on_tips": {
+    "message": "平均販売期間 = 販売期間の合計/商品数。販売期間から商品のライフサイクルを判断することができます。<br/>下部左側が商品の最新販売期間、右側が商品の最も早い販売期間です。"
+  },
+  "module_PS_chart_title_sales_volume": {
+    "message": "月間販売数"
+  },
+  "module_PS_chart_title_sales_amount": {
+    "message": "月間販売額"
+  },
+  "module_PS_chart_title_BSR": {
+    "message": "BSR"
+  },
+  "module_PS_chart_title_price": {
+    "message": "価格"
+  },
+  "module_PS_chart_title_rating": {
+    "message": "星評価"
+  },
+  "module_PS_chart_title_review": {
+    "message": "評価"
+  },
+  "module_MI_RV_chart_title_review_rating": {
+    "message": "評価(星評価)"
+  },
+  "pr_chart_title_review_rating": {
+    "message": "星評価/評価"
+  },
+  "module_PS_chart_title_available_on": {
+    "message": "販売期間"
+  },
+  "module_PS_sales_trend_title": {
+    "message": "月間販売数"
+  },
+  "module_PS_sales_trend_sales_volume": {
+    "message": "月間販売数"
+  },
+  "module_PS_trend_monthly_sales": {
+    "message": "該当月販売数"
+  },
+  "module_PS_sales_trend_sales_amount": {
+    "message": "月間販売額"
+  },
+  "module_PS_sales_trend_daily_sales": {
+    "message": "日販売数"
+  },
+  "module_PS_sales_trend_daily_sales_5MA": {
+    "message": "日販売数(5MA)"
+  },
+  "module_PS_BSR_trend_title": {
+    "message": "BSRランキング"
+  },
+  "module_PS_BSR_trend_BSR": {
+    "message": "BSR"
+  },
+  "module_PS_BSR_trend_BSR_NOT": {
+    "message": "利用できません"
+  },
+  "module_PS_daily_sales_trend_title": {
+    "message": "日販売数"
+  },
+  "module_PS_parent_changes_finally": {
+    "message": "子ASIN({asin})が{time}回変更され、最終的に親ASIN({pasin})に統合されたため、販売数異常が発生しました。",
+    "placeholders": {
+      "pasin": {
+        "content": "$1",
+        "example": "2"
+      },
+      "asin": {
+        "content": "$2",
+        "example": "2"
+      },
+      "time": {
+        "content": "$3",
+        "example": "2"
+      }
+    }
+  },
+  "module_PS_parent_changes_from": {
+    "message": "子ASIN({asin})が親ASIN({pasin})から分割されたため、販売数異常が発生しました。",
+    "pasin": {
+      "content": "$1",
+      "example": "2"
+    },
+    "asin": {
+      "content": "$2",
+      "example": "2"
+    }
+  },
+  "module_PS_parent_changes_to": {
+    "message": "子ASIN({asin})が親ASIN({pasin})に統合されたため、販売数異常が発生しました。",
+    "pasin": {
+      "content": "$1",
+      "example": "2"
+    },
+    "asin": {
+      "content": "$2",
+      "example": "2"
+    }
+  },
+  "module_PS_sales_bug": {
+    "message": "異常原因"
+  },
+  "module_PS_price_trend_title": {
+    "message": "価格"
+  },
+  "module_PS_price_trend_price": {
+    "message": "価格"
+  },
+  "module_PS_review_trend_title": {
+    "message": "評価"
+  },
+  "module_PS_review_trend_review": {
+    "message": "評価数"
+  },
+  "module_PS_review_trend_rating": {
+    "message": "星評価"
+  },
+  "module_PS_review_rate_trend_title": {
+    "message": "評価率"
+  },
+  "module_PS_review_rate_trend_review_delta": {
+    "message": "該当月評価増加数"
+  },
+  "module_PS_review_rate_trend_review_rate": {
+    "message": "該当月評価率"
+  },
+  "module_PS_question_trend_title": {
+    "message": "Q&A数"
+  },
+  "module_PS_question_trend_question": {
+    "message": "Q&A"
+  },
+  "module_PS_trend_tips_monthly_sales": {
+    "message": "該当月販売数"
+  },
+  "module_PS_trend_display_by_year": {
+    "message": "年間表示"
+  },
+  "module_PS_trend_tips_monthly_revenue": {
+    "message": "該当月売上"
+  },
+  "module_PS_empty_cont": {
+    "message": "現在、フィルタ条件を設定しているので、データが見つかりません!"
+  },
+  "module_PS_empty_cont_now": {
+    "message": "今すぐ"
+  },
+  "module_PS_empty_cont_reset": {
+    "message": "リセット"
+  },
+  "module_PS_grade_tips_A": {
+    "message": "90%-100%はリアルの評価 (fakespot.com)"
+  },
+  "module_PS_grade_tips_B": {
+    "message": "80%-89%はリアルの評価 (fakespot.com)"
+  },
+  "module_PS_grade_tips_C": {
+    "message": "65%-79%はリアルの評価 (fakespot.com)"
+  },
+  "module_PS_grade_tips_D": {
+    "message": "45%-64%はリアルの評価 (fakespot.com)"
+  },
+  "module_PS_grade_tips_F": {
+    "message": "45%以下はリアルの評価 (fakespot.com)"
+  },
+  "module_PS_calculator_title": {
+    "message": "セラースプライト-FBA利益計算機"
+  },
+  "module_PS_open_calculator": {
+    "message": "web版の利益計算機を開きます"
+  },
+  "module_PS_calculator_revenue": {
+    "message": "商品収入"
+  },
+  "module_PS_calculator_revenue_item_price": {
+    "message": "販売価格"
+  },
+  "module_PS_calculator_revenue_ship_price": {
+    "message": "カスタマーからの送料"
+  },
+  "module_PS_calculator_product_cost": {
+    "message": "商品コスト"
+  },
+  "module_PS_calculator_purchasing_cost": {
+    "message": "購入原価"
+  },
+  "module_PS_calculator_ship_to_amazon": {
+    "message": "納品送料"
+  },
+  "module_PS_calculator_vat": {
+    "message": "VAT費用"
+  },
+  "module_PS_calculator_other_cost": {
+    "message": "他のコスト"
+  },
+  "module_PS_calculator_market_cost": {
+    "message": "プロモコスト"
+  },
+  "module_PS_calculator_PPC_cost": {
+    "message": "サイト内広告"
+  },
+  "module_PS_calculator_int_promo_cost": {
+    "message": "サイト内PR費用"
+  },
+  "module_PS_calculator_ext_marketing_cost": {
+    "message": "サイト外PR費用"
+  },
+  "module_PS_calculator_others": {
+    "message": "他のコスト"
+  },
+  "module_PS_calculator_after_sales_cost": {
+    "message": "ユザサポコスト"
+  },
+  "module_PS_calculator_goods_status": {
+    "message": "破損していませんか"
+  },
+  "module_PS_calculator_goods_status_Y": {
+    "message": "破損"
+  },
+  "module_PS_calculator_goods_status_N": {
+    "message": "無損傷"
+  },
+  "module_PS_calculator_return_rate": {
+    "message": "返品率"
+  },
+  "module_PS_calculator_amazon_fees": {
+    "message": "Amz手数料"
+  },
+  "module_PS_calculator_category": {
+    "message": "商品種別"
+  },
+  "module_PS_calculator_referral_fees": {
+    "message": "販売手数料"
+  },
+  "module_PS_calculator_fba_fees": {
+    "message": "FBA配送料"
+  },
+  "module_PS_calculator_sales": {
+    "message": "販売数"
+  },
+  "module_PS_calculator_piece": {
+    "message": "件"
+  },
+  "module_PS_calculator_exchange_rate": {
+    "message": "為替レート"
+  },
+  "module_PS_calculator_net_profit": {
+    "message": "利益"
+  },
+  "module_PS_calculator_total_revenue": {
+    "message": "総收入"
+  },
+  "module_PS_calculator_total_cost": {
+    "message": "総コスト"
+  },
+  "module_PS_calculator_profit_rate": {
+    "message": "純利益率"
+  },
+  "module_PS_calculator_tips_revenue": {
+    "message": "商品収入は販売価格とカスタマーからの送料を含めます。\n販売価格：該当商品の値段\nカスタマーからの送料：購買する時に生じる送料，配送目的地により異なります。"
+  },
+  "module_PS_calculator_tips_product_cost": {
+    "message": "商品成本包含采购成本和头程运费　商品コストは仕入れ原価と納品送料を含めます\n仕入原価は1688の価格より判断できます。"
+  },
+  "module_PS_calculator_tips_market_cost": {
+    "message": "プロモコストはサイト内広告と他のプロモーションコストを含めます。\nサイト内広告初期のACOS値は50％にすることがおすすめです。これより初期のコストを確認できます。\n他のプロモーションコスト，例えば：Google広告、Facebook広告などの他サイトプロモーションコスト"
+  },
+  "module_PS_calculator_tips_after_sales": {
+    "message": "アフターコストには返品率が含まれます。通常、返品率は10%以下に維持した方がいいです。<br/>アフターコスト（商品が破損していない）= （FBA送料+アマゾン手数料* 20%）*返品率<br/>アフターコスト（商品が破損した）=（商品コスト+ FBA送料+アマゾン手数料* 20%）*返品率"
+  },
+  "module_PS_calculator_tips_amazon_fees": {
+    "message": "Amazon手数料は販売手数料とFBA送料を含めます。\n販売手数料：カテゴリーにより自動入力\nFBA送料：サイズと重量より自動入力\nヒント：入力内容は変更可能です。"
+  },
+  "module_PS_calculator_tips_sales": {
+    "message": "商品毎月の販売数，ライバル商品をサンプルとして販売数を予測できます。"
+  },
+  "module_PS_calculator_tips_exchange_rate": {
+    "message": "中国銀行の為替相場を基準として、毎日1回更新しています。\n更新頻度の差により、百度（バイドゥ）検索との為替レートと違う場合があります\n中国銀行為替相場: <a style='text-decoration:none' href='https://www.boc.cn/sourcedb/whpj/enindex_1619.html'>https://www.boc.cn/sourcedb/whpj/enindex_1619.html</a> "
+  },
+  "module_PS_report_btn_analysis": {
+    "message": "市場分析"
+  },
+  "module_PS_report_btn_analysis_use_tips": {
+    "message": "16以上の指標を含む市場分析レポートをワンクリックで作成し、市場を素早く洞察できます <a href='https://www.sellersprite.com/jp/help/how-to-use-market-analysis' target='_blank'>動画+図解紹介</a>"
+  },
+  "module_PS_report_btn_analysis_tips": {
+    "message": "現時点では「検索結果ページ」や「売れ筋ランキング」に存在せず、市場分析はできません"
+  },
+  "module_PS_report_btn_processing": {
+    "message": "作成中"
+  },
+  "module_PS_report_btn_view": {
+    "message": "レポートを見る"
+  },
+  "module_PS_report_text_samples_is_less": {
+    "message": "現在の見本商品は100件未満です"
+  },
+  "module_PS_report_text_load_more": {
+    "message": "拡張機能の下部にある「もっとロードする」ボタンをクリックして、より多くの見本商品を用意することをお勧めします"
+  },
+  "module_PS_report_btn_add": {
+    "message": "まず用意"
+  },
+  "module_PS_report_btn_add_tips": {
+    "message": "拡張機能の下部にある「もっとロードする」をクリックし、ロードした後に市場分析をクリックしてください"
+  },
+  "module_PS_report_btn_analyze_now": {
+    "message": "強制分析"
+  },
+  "module_PS_report_btn_analyze_now_tips": {
+    "message": "現在の見本商品で分析すると、データの正確性が保証されませんので、慎重に選択してください"
+  },
+  "module_PS_report_text_completed": {
+    "message": "市場レポートは作成できました！"
+  },
+  "module_PS_report_text_view_now": {
+    "message": "今すぐチェックできます"
+  },
+  "module_PS_report_text_view_later": {
+    "message": "Web版システムの「市場リサーチ  -  拡張機能レポート」からチェックすることも可能です"
+  },
+  "module_PS_report_btn_view_now": {
+    "message": "今すぐチェック"
+  },
+  "module_PS_sale_trend_export_excel_tips": {
+    "message": "エクスポート"
+  },
+  "module_PS_filter": {
+    "message": "タイプ"
+  },
+  "module_PS_filter_other_OTHER": {
+    "message": "無"
+  },
+  "module_PS_remove_asin": {
+    "message": "重複ASIN排除"
+  },
+  "excel_saleTrendChart_yearly_data": {
+    "message": "毎年"
+  },
+  "excel_saleTrendChart_yearly_compare_data": {
+    "message": "年比較"
+  },
+  "excel_product_compare_data": {
+    "message": "バリエーション比較"
+  },
+  "excel_saleTrendChart_month": {
+    "message": "月"
+  },
+  "excel_saleTrendChart_year": {
+    "message": "年"
+  },
+  "excel_saleTrendChart_units": {
+    "message": "販売数"
+  },
+  "excel_saleTrendChart_amount": {
+    "message": "販売額"
+  },
+  "excel_monthsaleTrendChart_day": {
+    "message": "日付"
+  },
+  "excel_monthsaleTrendChart_sale": {
+    "message": "日販売数"
+  },
+  "excel_monthsaleTrendChart_bsr": {
+    "message": "BSR"
+  },
+  "excel_bsrTrendChart_bsr": {
+    "message": "BSR[{label}]",
+    "placeholders": {
+      "label": {
+        "content": "$1",
+        "example": "Kitchen"
+      }
+    }
+  },
+  "excel_searchTrendChart_keyword": {
+    "message": "キーワード"
+  },
+  "excel_searchTrendChart_month": {
+    "message": "月"
+  },
+  "excel_searchTrendChart_abaMonth": {
+    "message": "ABA順位"
+  },
+  "excel_searchTrendChart_searchMonth": {
+    "message": "月間検索数"
+  },
+  "excel_searchTrendChart_growthMonth": {
+    "message": "検索数成長率"
+  },
+  "excel_searchTrendChart_purchases": {
+    "message": "月間販売数"
+  },
+  "excel_searchTrendChart_rate": {
+    "message": "転換率"
+  },
+  "excel_searchTrendChart_impressions": {
+    "message": "露出数"
+  },
+  "excel_searchTrendChart_impressions_click": {
+    "message": "クリック数"
+  },
+  "excel_searchTrendChart_products": {
+    "message": "商品数"
+  },
+  "excel_searchTrendChart_supplyDemandRatio": {
+    "message": "需給比率"
+  },
+  "excel_searchTrendChart_monopolyClickRate": {
+    "message": "クリック集中度"
+  },
+  "excel_searchTrendChart_goodsValue": {
+    "message": "PPCコスト率"
+  },
+  "excel_searchTrendChart_avgPrice": {
+    "message": "平均価格"
+  },
+  "excel_searchTrendChart_avgReviews": {
+    "message": "評価数"
+  },
+  "excel_searchTrendChart_avgRating": {
+    "message": "星評価"
+  },
+  "excel_searchTrendChart_bid": {
+    "message": "PPC入札額"
+  },
+  "excel_searchTrendChart_departments": {
+    "message": "所属カテゴリー"
+  },
+  "excel_searchTrendChart_week": {
+    "message": "週"
+  },
+  "excel_searchTrendChart_abaWeek": {
+    "message": "ABA週順位"
+  },
+  "excel_searchTrendChart_searchWeek": {
+    "message": "週間検索数"
+  },
+  "module_KC_search_variation": {
+    "message": "バリエーションリサーチ"
+  },
+  "module_KC_search_variation_guest_tips": {
+    "message": "有料会員限定，<a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>プランをアップグレード</a>してから確認してください"
+  },
+  "module_KC_input_asin_placeholder": {
+    "message": "1行に1ASIN、最大200ASINまで入力可能"
+  },
+  "module_KC_input_error_empty": {
+    "message": "検索条件に応じてリサーチしたい商品ASINを入力してください！"
+  },
+  "module_KC_input_error_bad_asin": {
+    "message": "B0で始まるASINしかリサーチできません"
+  },
+  "module_KC_textarea_keywords_placeholder": {
+    "message": "キーワードは1キーワード毎に改行してください。例：\napple slicer\napple corer"
+  },
+  "module_KC_textarea_error_empty": {
+    "message": "キーワードを入力してください"
+  },
+  "module_KC_textarea_error_limit": {
+    "message": "ゲストさんには一括で{limit_num}個のキーワードしかリサーチできません",
+    "placeholders": {
+      "limit_num": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "module_KC_button_search": {
+    "message": "リサーチ"
+  },
+  "module_KC_button_search_history": {
+    "message": "マイ付箋"
+  },
+  "module_KC_button_import": {
+    "message": "キーワードをインポート"
+  },
+  "module_KC_search_history_pop_keyword_num": {
+    "message": "キーワード数"
+  },
+  "module_KC_search_history_pop_btn_del": {
+    "message": "削除"
+  },
+  "module_main_loading_pic_default": {
+    "message": "/assets/images/loading/jp-loading-pic.png"
+  },
+  "module_main_loading_pic_failed": {
+    "message": "/assets/images/loading/jp-loading-pic-fail.png"
+  },
+  "module_KC_button_reset": {
+    "message": "リセット"
+  },
+  "module_KC_thead_keyword": {
+    "message": "キーワード"
+  },
+  "module_KC_thead_child_asin": {
+    "message": "子ASIN"
+  },
+  "module_KC_thead_page": {
+    "message": "現時点ページ目"
+  },
+  "module_KC_thead_page_tips": {
+    "message": "上:そのキーワードを検索すると、検索されたASINのページ数や絶対位置(広告位を含む)<br/>下:そのキーワードを検索すると、検索されたASINのページ数や絶対位置(広告位を除く)<br/><br/>システムは1ページ目から1ページずつ検索を行われ、1秒ごとに現在のページ数を更新し、最終ページまで検索するかそのASINが見つかるまで続けます。<br/>絶対位置は、現在のページとそのページの位置に基づいており、例えば、第3ページ第5位(各ページ18つ)の場合、絶対位置=  2*18+5=41となります"
+  },
+  "module_KC_thead_position": {
+    "message": "絶対位置"
+  },
+  "module_KC_thead_position_tips": {
+    "message": "絶対位置は、ランキングの順序を表します。例えば、現在のランキングが3ページ目の5番目(1ページあたり48本)であれば、絶対位置=2*48+5=101(1ページ目の1番目から計算)。"
+  },
+  "module_KC_thead_results": {
+    "message": "商品数"
+  },
+  "module_KC_thead_search_volume": {
+    "message": "月間検索数"
+  },
+  "module_KC_thead_purchase_rate": {
+    "message": "転換率"
+  },
+  "module_KC_thead_purchase_purchases_rate": {
+    "message": "販売数/転換率"
+  },
+  "module_KC_tips_error": {
+    "message": "データ取得に失敗した"
+  },
+  "module_KC_tbody_page": {
+    "message": "{page}ページ目",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "module_KC_tbody_page_null": {
+    "message": "最初の{page}ページにランキングがありません",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "module_KC_tbody_index": {
+    "message": "第{index}位",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "module_KC_tbody_SP_title": {
+    "message": "この商品には、そのキーワードのSponsored Product広告が出しています"
+  },
+  "module_KC_tbody_SB_title": {
+    "message": "この商品には、そのキーワードのSponsored Product Brand広告が出しています"
+  },
+  "module_KC_tbody_SBV_title": {
+    "message": "この商品には、そのキーワードのSponsored Product Video広告が出しています"
+  },
+  "module_KC_tbody_HR_title": {
+    "message": "この商品には、そのキーワードのHighly Rated広告が出しています"
+  },
+  "module_KC_tbody_AC_title": {
+    "message": "このキーワードで検索すると、商品にAmazon's Choiceのマークがついています"
+  },
+  "module_KC_remark_no_data": {
+    "message": "付箋は未だ保存されていませんよ～"
+  },
+  "module_KC_import_no_data": {
+    "message": "モニタリングしているキーワードはありません〜"
+  },
+  "module_KC_import": {
+    "message": "インポート"
+  },
+  "module_KC_import_tips": {
+    "message": "キーワードモニタリングからインポート"
+  },
+  "module_KC_import_product_info": {
+    "message": "商品情報"
+  },
+  "module_KC_import_keyword_num": {
+    "message": "キーワード数"
+  },
+  "module_KC_import_date": {
+    "message": "更新時間"
+  },
+  "module_KC_import_open_station_tips": {
+    "message": "ランキングを確認するには、<br/>{station}を開きましょう！",
+    "placeholders": {
+      "station": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "module_KC_import_open_link": {
+    "message": "クリックで開く"
+  },
+  "module_KC_remark_save": {
+    "message": "すぐ保存します"
+  },
+  "module_KC_video_title": {
+    "message": "動画+図解紹介"
+  },
+  "module_KC_video_link": {
+    "message": "https://www.sellersprite.com/jp/help/keyword-checker-guide-of-extension"
+  },
+  "module_KC_remark_title": {
+    "message": "付箋保存"
+  },
+  "module_KC_remark_label": {
+    "message": "付箋名"
+  },
+  "module_KC_remark_placeholder": {
+    "message": "付箋名を入力してください(必須ではない)"
+  },
+  "module_KC_remark_title_tips": {
+    "message": "この検索条件を付箋に保存する"
+  },
+  "module_KC_remark_title_tips_forbid": {
+    "message": "キーワードを入力してから付箋を保存してくださいね～"
+  },
+  "module_KC_remark_title_change": {
+    "message": "付箋から選ぶ"
+  },
+  "signin_form_privacy_policy": {
+    "message": "プライバシーポリシー"
+  },
+  "signin_form_terms": {
+    "message": "利用規約"
+  },
+  "signin_form_login_again_tips": {
+    "message": "あなたのアカウントは別の場所にログインされております、「すぐにログイン」をクリックして再ログインできます"
+  },
+  "signin_form_title": {
+    "message": "ユーザーログイン"
+  },
+  "signin_form_mobile_placeholder": {
+    "message": "メール"
+  },
+  "signin_form_mobile_regex": {
+    "message": ".*"
+  },
+  "signin_form_password_placeholder": {
+    "message": "パスワード"
+  },
+  "signin_form_btn_forget_password": {
+    "message": "パスワードを忘れた場合"
+  },
+  "signin_form_link_forget_password": {
+    "message": "/w/user/forgot"
+  },
+  "signin_form_btn_signing": {
+    "message": "読み込み中..."
+  },
+  "signin_form_btn_signin_now": {
+    "message": "今すぐログイン"
+  },
+  "signin_form_btn_signin_web_login": {
+    "message": "Web側のアカウントと同期し"
+  },
+  "signin_form_btn_signin_phone_login": {
+    "message": "手動ログインします"
+  },
+  "signin_form_btn_signin_third_part": {
+    "message": "その他のログイン方法"
+  },
+  "signin_form_btn_signup_now": {
+    "message": "新規登録"
+  },
+  "signin_form_btn_signin_google": {
+    "message": "Googleでログイン"
+  },
+  "signin_form_btn_signin_facebook": {
+    "message": "Facebookでログイン"
+  },
+  "signin_form_link_signup_now": {
+    "message": "/w/user/signup"
+  },
+  "signin_form_btn_back_home": {
+    "message": "セラースプライトへ"
+  },
+  "signin_form_btn_delete_account": {
+    "message": "アカウント削除"
+  },
+  "signin_form_validate_account_required": {
+    "message": "登録アカウント"
+  },
+  "signin_form_validate_password_required": {
+    "message": "パスワード（６文字以上）"
+  },
+  "signin_form_response_error_message": {
+    "message": "エラーが発生しました。 暫く待ってから、再度お試しください"
+  },
+  "enable_disable_extension": {
+    "message": "拡張機能を有効化/無効化"
+  },
+  "collect_enable_disable_extension": {
+    "message": "有効化/無効化"
+  },
+  "error_code": {
+    "message": "エラー番号"
+  },
+  "error_not_support_title_PS": {
+    "message": "すみません、エラーが発生しました"
+  },
+  "error_not_support_tips_PS": {
+    "message": "１．販売数照会はASINと商品タイトルしかサポートしておりません；\n２．アマゾンをアクセスしている時に、拡張機能は自動的に該当ページのASINを照会します。"
+  },
+  "error_empty_items_title_RV": {
+    "message": "このASINに一致するデータは見つかりませんでした。再検索のヒント："
+  },
+  "error_empty_items_tips_RV": {
+    "message": "このASINが新しく登録されたもの、もしくは直近１～２ヶ月前に出品された商品の場合には、データは暫く収集されていません。<br>このASINは検索ボリュームが少ないから、データは暫く収集されていません。<br>このASINは暫く収集されていません。類似商品のASINで検索して見ましょう。"
+  },
+  "error_empty_items_title_PS": {
+    "message": "このASINに一致するデータは見つかりませんでした。再検索のヒント："
+  },
+  "error_empty_items_tips_PS": {
+    "message": "1、このASINが新しく登録されたもののため、データは暫く収集されていません。<br/>2、このASINは販売数もしくはランキングが低いから、データは暫く収集されていません。<br/>3、このASINは暫く収集されていません。このASINのバリエーションで検索して見ましょう。<br/>4、他の拡張機能と衝突している可能性があり、他の拡張機能をoffにしてからお試しください。"
+  },
+  "module_keepa_hover_tips": {
+    "message": "クリックすると、商品履歴推移が表示されます〜 <a href='https://www.sellersprite.com/jp/help/keepa-extension-guide' target='_blank'>動画+図解紹介</a>"
+  },
+  "module_keepa_ext_name": {
+    "message": "Keepa\n歴史トレンド"
+  },
+  "module_keepa_ext_name_title_subtext": {
+    "message": "キーワード最適化\n商品リサーチ"
+  },
+  "module_keepa_title_buybox_price": {
+    "message": "Buybox 価格"
+  },
+  "module_keepa_title_price": {
+    "message": "価格"
+  },
+  "module_keepa_title_prime_price": {
+    "message": "Prime 価格"
+  },
+  "module_keepa_title_coupon_price": {
+    "message": "Coupon 価格"
+  },
+  "module_keepa_title_coupon_discount": {
+    "message": "Coupon 割引"
+  },
+  "module_keepa_title_deal_price": {
+    "message": "Deal 価格"
+  },
+  "module_keepa_title_deal_price_info": {
+    "message": "Deal 価格情報"
+  },
+  "module_keepa_title_fba_price": {
+    "message": "FBA 価格"
+  },
+  "module_keepa_title_fbm_price": {
+    "message": "FBM 価格"
+  },
+  "module_keepa_title_list_price": {
+    "message": "List 価格"
+  },
+  "module_keepa_title_monthly_units": {
+    "message": "販売数(子)"
+  },
+  "module_keepa_title_bsr_ranking": {
+    "message": "BSR"
+  },
+  "module_keepa_title_big_bsr_ranking": {
+    "message": "BSR"
+  },
+  "module_keepa_title_small_bsr_ranking": {
+    "message": "BSR"
+  },
+  "module_keepa_title_rating": {
+    "message": "評価"
+  },
+  "module_keepa_title_reviews": {
+    "message": "評価数"
+  },
+  "module_keepa_title_seller": {
+    "message": "セラー数"
+  },
+  "module_keepa_reverse_the_chart": {
+    "message": "BSRの座標を反転"
+  },
+  "module_keepa_tips_new_version": {
+    "message": "アップデート提供開始！<a href=''>更新を確認する</a>"
+  },
+  "module_keepa_tips_loading": {
+    "message": "プラグインを読み込み中..."
+  },
+  "module_keepa_tips_notice": {
+    "message": "市場リサーチの機能もリリースされます。詳しく見てみましょう：<a target='_blank' href='http://www.sellersprite.com/jp?utm_source=ext_keepa'>www.sellersprite.com<a/>"
+  },
+  "module_keepa_tips_login": {
+    "message": "<span style='color:#86929E'>ログインしてからご利用ください。今すぐ<a style='cursor: pointer;color:#FB8C1E' id='user_login'>ログイン</a></span>"
+  },
+  "module_keepa_tips_upgrade": {
+    "message": "<span style='color:#86929E'>ご主人様~現在ご使用する拡張機能のバージョンは古すぎるので、拡張機能の市場にてバージョンアップしてください! <a style='cursor: pointer;color:#FB8C1E'>即時アップグレード</a><span>"
+  },
+  "module_keepa_tips_no_data": {
+    "message": "一致するデータは見つかりませんでした。類似商品のASINで再度お試しください。"
+  },
+  "module_keepa_btn_close": {
+    "message": "keepaデータOFF"
+  },
+  "module_keepa_btn_open": {
+    "message": "keepaデータON"
+  },
+  "module_keepa_btn_area_zoom": {
+    "message": "ズームアウト"
+  },
+  "module_keepa_btn_area_reset": {
+    "message": "元に戻す"
+  },
+  "module_keepa_btn_area_minimize": {
+    "message": "最小化"
+  },
+  "module_keepa_btn_restore": {
+    "message": "元に戻す"
+  },
+  "module_keepa_btn_check_all": {
+    "message": "全て選択"
+  },
+  "module_keepa_btn_check_no": {
+    "message": "クリア"
+  },
+  "module_keepa_btn_save_as_image": {
+    "message": "画像を保存"
+  },
+  "module_keepa_btn_save_as_excel": {
+    "message": "エクスポート"
+  },
+  "module_keepa_btn_select_range": {
+    "message": "範囲:"
+  },
+  "module_keepa_btn_select_range_7": {
+    "message": "直近7日"
+  },
+  "module_keepa_btn_select_range_30": {
+    "message": "1ヶ月間"
+  },
+  "module_keepa_btn_select_range_90": {
+    "message": "3ヶ月間"
+  },
+  "module_keepa_btn_select_range_180": {
+    "message": "6ヶ月間"
+  },
+  "module_keepa_btn_select_range_365": {
+    "message": "直近一年間"
+  },
+  "module_keepa_btn_select_range_all": {
+    "message": "全部({day}日間)",
+    "placeholders": {
+      "day": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "module_inventory_open_settings": {
+    "message": "拡張機能設置を開く"
+  },
+  "module_inventory_header": {
+    "message": "セラースプライト-在庫"
+  },
+  "module_inventory_view_inventory": {
+    "message": "在庫確認"
+  },
+  "module_inventory_total_inventory": {
+    "message": "総在庫"
+  },
+  "module_inventory_view_all_sellers": {
+    "message": "全てのセラーを見る"
+  },
+  "module_inventory_view_FBA_only": {
+    "message": "FBAセラーだけを見る"
+  },
+  "module_inventory_view_FBM_only": {
+    "message": "FBMセラーだけを見る"
+  },
+  "module_inventory_view_AMZ_only": {
+    "message": "AMZセラーだけを見る"
+  },
+  "module_inventory_store_feedbacky": {
+    "message": "店舗評価"
+  },
+  "module_inventory_type": {
+    "message": "タイプ"
+  },
+  "module_inventory": {
+    "message": "在庫"
+  },
+  "module_inventory_view_seller_information": {
+    "message": "クリックしてセラー情報を見る"
+  },
+  "module_inventory_title": {
+    "message": "在庫状況"
+  },
+  "module_inventory_btn_title": {
+    "message": "詳細を見る"
+  },
+  "module_inventory_dialog_tips": {
+    "message": "左上が総在庫。総在庫、FBA、FBMなどをクリックすると、該当タイプの在庫状況が見られます。<br/>注意:同一セラーでも価格によって在庫が異なる場合があり、在庫を見る際に価格とセラー名を合わせ考えてください<br/><br/>右側は在庫のスナップショットです。BuyBoxの在庫の変化、毎日の販売数(販売数=昨日の在庫-今日の在庫)<br/>在庫のスナップショットはロード後に保存し、もし毎日在庫の変化を追跡するならば毎日この商品ページを開く必要があります"
+  },
+  "module_inventory_tips": {
+    "message": "上部の在庫状況は現在の子ASINの在庫であり、もし在庫が999+であれば現在の在庫が999を超えていることを示しています<br/>下部は他の相乗り出品セラーの在庫であり、リストに黄色のマークがあるものは現在のBuyBoxの在庫です<br/>注意:同一セラーでも価格によって在庫が異なる場合があり、在庫を見る際に価格とセラー名を合わせ考えてください<br/><br/>在庫モニタリングができない場合 :<br/>1、この商品は購入数制限のある商品です。<br/>2、商品の在庫数は999より大きいです。<br/><br/>右側は在庫のスナップショットです。BuyBoxの在庫の変化、毎日の販売数(販売数=昨日の在庫-今日の在庫)<br/>在庫のスナップショットはロード後に保存し、もし毎日在庫の変化を追跡するならば毎日この商品ページを開く必要があります"
+  },
+  "module_inventory_body_limit_purchase": {
+    "message": "限定"
+  },
+  "module_inventory_date": {
+    "message": "日付"
+  },
+  "module_inventory_snapshot": {
+    "message": "在庫スナップショット"
+  },
+  "module_inventory_copy": {
+    "message": "コピー(Excelに貼り付け可能)"
+  },
+  "module_inventory_inventory": {
+    "message": "当日在庫"
+  },
+  "module_inventory_sales": {
+    "message": "日販売数"
+  },
+  "module_inventory_follow_up": {
+    "message": "クリックして相乗り出品を見る"
+  },
+  "excel_PS_image": {
+    "message": "画像"
+  },
+  "excel_PS_badges": {
+    "message": "アマゾンマーク"
+  },
+  "excel_PS_asin": {
+    "message": "ASIN"
+  },
+  "excel_PS_parent_asin": {
+    "message": "ParentASIN"
+  },
+  "excel_PS_url": {
+    "message": "URL"
+  },
+  "excel_PS_image_url": {
+    "message": "メイン画像"
+  },
+  "excel_PS_brand": {
+    "message": "ブランド"
+  },
+  "excel_PS_overviews": {
+    "message": "製品概要"
+  },
+  "excel_PS_brand_url": {
+    "message": "ブランド URL"
+  },
+  "excel_PS_departments": {
+    "message": "所属カテゴリー"
+  },
+  "excel_PS_title": {
+    "message": "タイトル"
+  },
+  "excel_PS_category_path": {
+    "message": "カテゴリー"
+  },
+  "excel_PS_category": {
+    "message": "親カテゴリー"
+  },
+  "excel_PS_bsr": {
+    "message": "親カテゴリー BSR"
+  },
+  "excel_PS_bsr_CV": {
+    "message": "親カテゴリーBSR増加数"
+  },
+  "excel_PS_bsr_CR": {
+    "message": "親カテゴリーBSR成長率"
+  },
+  "excel_PS_sub_category": {
+    "message": "子カテゴリー"
+  },
+  "excel_PS_sub_category_BSR": {
+    "message": "子カテゴリー BSR"
+  },
+  "excel_PS_sales_volume": {
+    "message": "月販売数"
+  },
+  "excel_PS_sales_volume_growth": {
+    "message": "月販売数成長率"
+  },
+  "excel_PS_sub_sales_volume": {
+    "message": "販売数(子)"
+  },
+  "excel_PS_sub_sales_amount": {
+    "message": "子体販売額"
+  },
+  "excel_PS_sales_amount": {
+    "message": "月販売額"
+  },
+  "excel_PS_price": {
+    "message": "価格"
+  },
+  "excel_PS_prime_price": {
+    "message": "Prime価格"
+  },
+  "excel_PS_coupon": {
+    "message": "クーポン"
+  },
+  "excel_PS_profit": {
+    "message": "粗利益"
+  },
+  "excel_PS_fba_fees": {
+    "message": "FBA"
+  },
+  "excel_PS_rating": {
+    "message": "評価値"
+  },
+  "excel_PS_review": {
+    "message": "評価数"
+  },
+  "excel_PS_review_rate": {
+    "message": "評価率"
+  },
+  "excel_PS_review_delta": {
+    "message": "月間評価数増加数"
+  },
+  "excel_PS_grade": {
+    "message": "等級"
+  },
+  "excel_PS_questions": {
+    "message": "Q&A数"
+  },
+  "excel_PS_date_available": {
+    "message": "出品日付"
+  },
+  "excel_PS_available_days": {
+    "message": "販売時間"
+  },
+  "excel_PS_variations": {
+    "message": "バリエーション数"
+  },
+  "excel_PS_sellers": {
+    "message": "セラー数"
+  },
+  "excel_PS_seller_name": {
+    "message": "BuyBoxセラー"
+  },
+  "excel_PS_buy_box_type": {
+    "message": "BuyBoxタイプ"
+  },
+  "excel_PS_seller_nation": {
+    "message": "セラー所在地"
+  },
+  "excel_PS_seller_info": {
+    "message": "セラー情報"
+  },
+  "excel_PS_seller_info_business_name": {
+    "message": "会社名"
+  },
+  "excel_PS_seller_info_business_type": {
+    "message": "会社の種類"
+  },
+  "excel_PS_seller_info_trade_number": {
+    "message": "登録取引コード"
+  },
+  "excel_PS_seller_info_vat_number": {
+    "message": "VAT"
+  },
+  "excel_PS_seller_info_phone": {
+    "message": "電話番号"
+  },
+  "excel_PS_seller_info_address": {
+    "message": "オフィス住所"
+  },
+  "excel_PS_seller_info_capital": {
+    "message": "資本金"
+  },
+  "excel_PS_seller_info_manger": {
+    "message": "マネージャー"
+  },
+  "excel_PS_seller_type": {
+    "message": "セラータイプ"
+  },
+  "excel_PS_seller_url": {
+    "message": "セラーHP"
+  },
+  "excel_PS_BS": {
+    "message": "Best Sellerマーク"
+  },
+  "excel_PS_AC": {
+    "message": "Amazon's Choice"
+  },
+  "excel_PS_NR": {
+    "message": "New Releaseマーク"
+  },
+  "excel_PS_EBC": {
+    "message": "A+ページ"
+  },
+  "excel_PS_Video": {
+    "message": "動画紹介"
+  },
+  "excel_PS_SP": {
+    "message": "ACキーワード"
+  },
+  "excel_PS_ABS": {
+    "message": "ブランド紹介"
+  },
+  "excel_PS_SPB": {
+    "message": "スポンサー ブランド"
+  },
+  "excel_PS_LTD": {
+    "message": "タイムセール"
+  },
+  "excel_PS_AC_Keyword": {
+    "message": "AC关键词"
+  },
+  "excel_PS_weight": {
+    "message": "重量"
+  },
+  "excel_PS_dimension": {
+    "message": "体積"
+  },
+  "excel_PS_remark": {
+    "message": "備考"
+  },
+  "excel_PS_history_sales": {
+    "message": "過去の月次販売数量"
+  },
+  "excel_PS_history_amounts": {
+    "message": "過去の月次売上高"
+  },
+  "excel_KC_keywords": {
+    "message": "キーワード"
+  },
+  "excel_KC_child_asin": {
+    "message": "子ASIN"
+  },
+  "excel_KC_AD": {
+    "message": "AD"
+  },
+  "excel_KC_sub_ASIN": {
+    "message": "子ASIN"
+  },
+  "excel_KC_badge": {
+    "message": "広告タイプ"
+  },
+  "excel_KC_ADR": {
+    "message": "広告順位"
+  },
+  "excel_KC_current_page_ad": {
+    "message": "現時点ページ目(adを含む)"
+  },
+  "excel_KC_current_page": {
+    "message": "現時点ページ"
+  },
+  "excel_KC_page_value": {
+    "message": "P{page}",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "excel_KC_page_value_null": {
+    "message": "最初の{page}ページにランキ",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "excel_KC_index_value": {
+    "message": "#{index}",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "excel_KC_position_ad": {
+    "message": "絶対位置(adを含む)"
+  },
+  "excel_KC_position": {
+    "message": "絶対位置"
+  },
+  "excel_KC_results": {
+    "message": "商品数"
+  },
+  "excel_KC_weekly_search_rank": {
+    "message": "ABA週順位"
+  },
+  "excel_KC_searches": {
+    "message": "月間検索数"
+  },
+  "excel_KC_purchase_rate": {
+    "message": "転換率"
+  },
+  "excel_KC_ad_rank": {
+    "message": "広告順位"
+  },
+  "excel_KC_nature_rank": {
+    "message": "自然順位"
+  },
+  "excel_RE_author": {
+    "message": "レビューアー"
+  },
+  "excel_RE_verified": {
+    "message": "認証購入者レビュー"
+  },
+  "excel_RE_title": {
+    "message": "タイトル"
+  },
+  "excel_RE_author_avatar": {
+    "message": "プロフィール画像URL"
+  },
+  "excel_RE_nation": {
+    "message": "国家"
+  },
+  "excel_RE_author_link": {
+    "message": "レビューアーHP"
+  },
+  "excel_RE_title_translate": {
+    "message": "タイトル（翻訳）"
+  },
+  "excel_RE_content": {
+    "message": "内容"
+  },
+  "excel_RE_content_translate": {
+    "message": "内容（翻訳）"
+  },
+  "excel_RE_vine": {
+    "message": "Vine Voice"
+  },
+  "excel_RE_sku": {
+    "message": "型番"
+  },
+  "excel_RE_rating": {
+    "message": "星評価"
+  },
+  "excel_RE_helpful": {
+    "message": "役に立つ数"
+  },
+  "excel_RE_images": {
+    "message": "画像数"
+  },
+  "excel_RE_images_url": {
+    "message": "画像URL"
+  },
+  "excel_RE_video": {
+    "message": "動画の有無"
+  },
+  "excel_RE_video_url": {
+    "message": "動画URL"
+  },
+  "excel_RE_url": {
+    "message": "レビューリンク"
+  },
+  "excel_RE_influencer_url": {
+    "message": "インフルエンサープログラム（Amazon Influencer Program）リンク"
+  },
+  "excel_RE_marketplace": {
+    "message": "サイト"
+  },
+  "excel_RE_date": {
+    "message": "レビュー時間"
+  },
+  "excel_QA_translation_title_cont": {
+    "message": "Q&Aを翻訳"
+  },
+  "excel_QA_question": {
+    "message": "質問"
+  },
+  "excel_QA_ASIN": {
+    "message": "ASIN"
+  },
+  "excel_QA_question_translate": {
+    "message": "質問（翻訳）"
+  },
+  "excel_QA_answer": {
+    "message": "回答"
+  },
+  "excel_QA_answer_translate": {
+    "message": "回答（翻訳）"
+  },
+  "excel_QA_url": {
+    "message": "QA URL"
+  },
+  "excel_QA_nation": {
+    "message": "所在地"
+  },
+  "excel_QA_replier": {
+    "message": "投稿者"
+  },
+  "excel_QA_date": {
+    "message": "投稿日"
+  },
+  "excel_QA_video_name": {
+    "message": "ビデオタイトル"
+  },
+  "excel_keepa_date": {
+    "message": "日付"
+  },
+  "excel_export_note_site": {
+    "message": "Website: https://www.SellerSprite.com"
+  },
+  "excel_export_note_mobile": {
+    "message": "お問い合わせ"
+  },
+  "excel_export_note_wechat": {
+    "message": "Email: marketing-jp{'@'}sellersprite.com"
+  },
+  "excel_export_note_guide_extension": {
+    "message": "拡張機能-ご利用ガイド: https://www.sellersprite.com/jp/help/chrome-guide"
+  },
+  "excel_export_note_video_extension": {
+    "message": "拡張機能-動画紹介 - Tutorial Video: https://www.sellersprite.com/jp/help/tour-of-sellersprite-extension"
+  },
+  "excel_export_note_guide_reverse": {
+    "message": "キーワード逆引きリサーチ‐ご利用ガイド - Guide: https://www.sellersprite.com/jp/help/reverse-asin-guide-v2"
+  },
+  "excel_export_note_video_reverse": {
+    "message": "キーワード逆引きリサーチ‐紹介動画 - Tutorial Video: https://www.sellersprite.com/jp/help/keyword-reverse-video-tutorial"
+  },
+  "excel_export_note_guide_mining": {
+    "message": "キーワードマイニング‐ご利用ガイド - Guide: https://www.sellersprite.com/jp/blog/what-is-dynamic-keywords-mining-of-sellersprite"
+  },
+  "excel_export_note_video_mining": {
+    "message": "キーワードマイニング‐紹介動画 - Tutorial Video: https://www.sellersprite.com/jp/help/keyword-miner-video-tutorial-01"
+  },
+  "excel_export_note_video_checker": {
+    "message": "キーワード順位チェッカー-紹介動画 - Tutorial Video: https://www.sellersprite.com/jp/v3/knowledge/feature/keyword-checker-guide-of-extension"
+  },
+  "excel_export_remark_update": {
+    "message": "備考：星評価、レビュー、Q&A、バリエーション、セラーなどのデータはすべて「最近更新された」日の数字を取ったものです。"
+  },
+  "excel_export_remark_reviews": {
+    "message": "備考: SKUを分析する場合、どの型番がよく売れるかを確認するために、型番を並べ替えたり、型番ごとに「選別」することをお勧めします。"
+  },
+  "excel_export_note_slogan": {
+    "message": "セラースプライト-Amazonキーワード最適化、ビックデータを用いた商品リサーチ分析ツール"
+  },
+  "global_robot_detecting": {
+    "message": "Robot Checking"
+  },
+  "global_robot_placeholder_captcha_input": {
+    "message": "Captcha Code"
+  },
+  "global_robot_i_am_not": {
+    "message": "I'm not ROBOT"
+  },
+  "global_robot_wrong_code": {
+    "message": "code is wrong, retry it."
+  },
+  "global_robot_is_incognito": {
+    "message": "Please do not use incognito window."
+  },
+  "global_robot_block_cookies": {
+    "message": "Please select \"Allow all cookies\"."
+  },
+  "bullets_download_translation_title": {
+    "message": "タイトルとセールスポイントの翻訳"
+  },
+  "feature_bullets_download": {
+    "message": "セールスポイントDL"
+  },
+  "feature_bullets_download_translation": {
+    "message": "翻訳中..."
+  },
+  "bullets_download_btn_tips_title": {
+    "message": "有料会員限定，<a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>プランをアップグレード</a>してから確認してください"
+  },
+  "excel_bullets_image": {
+    "message": "画像"
+  },
+  "excel_bullets_asin": {
+    "message": "ASIN"
+  },
+  "excel_bullets_title": {
+    "message": "タイトル"
+  },
+  "excel_bullets_title_translate": {
+    "message": "タイトル（翻訳）"
+  },
+  "excel_bullets_features": {
+    "message": "セールスポイント"
+  },
+  "excel_bullets_features_translate": {
+    "message": "セールスポイント(翻訳)"
+  },
+  "excel_bullets_overviews": {
+    "message": "製品概要"
+  },
+  "quick_view_open_settings": {
+    "message": "「クイックビュー」がフリーズしてしまう場合は、この機能を無効にすることをおすすめします<br/>アイコンをクリックして設置します"
+  },
+  "quick_view_open_enable_settings": {
+    "message": "「クイックプレビュー」をオンにしたい場合は、アイコンをクリックして設定する"
+  },
+  "quick_view_similar": {
+    "message": "似た商品"
+  },
+  "btn_link_check_patent": {
+    "message": "意匠検索"
+  },
+  "quick_view_brand": {
+    "message": "ブランド"
+  },
+  "quick_view_ad": {
+    "message": "広告インサイト"
+  },
+  "quick_view_traffic": {
+    "message": "関連トラフィック"
+  },
+  "quick_view_keyword_reverse": {
+    "message": "注文ワード"
+  },
+  "quick_view_popver_reversing_keyword": {
+    "message": "逆引きリサーチ"
+  },
+  "quick_view_popver_show_setting": {
+    "message": "パラメータ設定を示す"
+  },
+  "quick_view_new_product": {
+    "message": "新品定義"
+  },
+  "quick_view_new_product_month_one": {
+    "message": "1ケ月"
+  },
+  "quick_view_new_product_month_three": {
+    "message": "3ケ月"
+  },
+  "quick_view_new_product_month_six": {
+    "message": "6ケ月"
+  },
+  "quick_view_new_product_month_twelve": {
+    "message": "12ケ月"
+  },
+  "quick_view_popver_btn_show_setting": {
+    "message": "表示ボタン設定"
+  },
+  "quick_view_popver_now_version": {
+    "message": "現在のバージョン"
+  },
+  "quick_view_popver_update_extension": {
+    "message": "クリックして拡張機能をアップグレード"
+  },
+  "quick_view_popver_find_new_version": {
+    "message": "新バージョン発見"
+  },
+  "quick_view_brand_tip": {
+    "message": "アマゾンでこのブランドを検索"
+  },
+  "quick_view_brand_open_window_tip_one": {
+    "message": "TRADEMARKS ON CALLで商標リサーチ"
+  },
+  "quick_view_brand_open_window_tip_two": {
+    "message": "USPTOで商標リサーチ"
+  },
+  "quick_view_brand_open_window_tip_three": {
+    "message": "プラットフォームは英語の商標しか検出できないかもしれません"
+  },
+  "quick_view_brand_open_window_fail_tip": {
+    "message": "第三者サイトへのアクセスが失敗した場合は、プロキシを開くか、後で再度試してください。"
+  },
+  "quick_view_seller_name": {
+    "message": "セラー"
+  },
+  "quick_view_seller_name_tip": {
+    "message": "セラーのトップページに入る"
+  },
+  "quick_view_seller_list_tip": {
+    "message": "クリックして相乗り出品を見る"
+  },
+  "quick_view_bsr_tip": {
+    "message": "ベストセラーを見る"
+  },
+  "quick_view_click_seed": {
+    "message": "クリックして見る"
+  },
+  "quick_view_weight": {
+    "message": "重量"
+  },
+  "quick_view_dimensions": {
+    "message": "体積"
+  },
+  "quick_view_available": {
+    "message": "出品日付"
+  },
+  "quick_view_new": {
+    "message": "新品"
+  },
+  "quick_view_all_keywords": {
+    "message": "全てのトラフィックワード"
+  },
+  "quick_view_all_keywords_tips": {
+    "message": "直近30日間にこのASINの露出をもたらしたすべての検索トラフィックワード（重複排除済み）"
+  },
+  "quick_view_nature_keywords": {
+    "message": "自然トラフィックワード"
+  },
+  "quick_view_nature_keywords_tips": {
+    "message": "直近30日間にこのASINの露出をもたらした自然トラフィックワード"
+  },
+  "quick_view_ad_keywords": {
+    "message": "広告トラフィックワード"
+  },
+  "quick_view_ad_keywords_tips": {
+    "message": "直近30日間にこのASINの露出をもたらした広告トラフィックワードです。ブランド広告、動画広告、HR推薦ワード、SP広告を含みます。"
+  },
+  "quick_view_search_keywords": {
+    "message": "検索推薦ワード"
+  },
+  "quick_view_search_keywords_tips": {
+    "message": "直近30日間にこのASINの露出をもたらしたアマゾン推薦トラフィックです。ACコーナー、ERコーナー、星4つ推薦コーナーを含みます。"
+  },
+  "quick_view_keywords_reverse": {
+    "message": "逆引きリサーチ"
+  },
+  "quick_view_ad_insights": {
+    "message": "広告インサイト"
+  },
+  "quick_view_keywords_relation": {
+    "message": "関連トラフィック"
+  },
+  "quick_view_market_research": {
+    "message": "市場分析"
+  },
+  "quick_view_keywords_aba": {
+    "message": "注文ワード"
+  },
+  "quick_view_product_bullet": {
+    "message": "セールスポイント"
+  },
+  "quick_view_product_description": {
+    "message": "商品概要"
+  },
+  "quick_view_you_mai_yun": {
+    "message": ""
+  },
+  "quick_view_alibaba": {
+    "message": "Alibaba"
+  },
+  "quick_view_1688": {
+    "message": "1688商品検索"
+  },
+  "quick_view_add_success": {
+    "message": "追加成功"
+  },
+  "quick_view_add_error": {
+    "message": "追加失敗、後でもう一度お試しください〜"
+  },
+  "quick_view_add_repeat_name_error": {
+    "message": "この商品ライブラリはすでに存在するため、別の名前に変更してください！"
+  },
+  "quick_view_add_name_warning": {
+    "message": "商品ライブラリ名は特殊文字をサポートしていません。テキスト、英文字または数字を入力してください。"
+  },
+  "quick_view_fulfilled": {
+    "message": "配送"
+  },
+  "quick_view_sellers": {
+    "message": "セラー数"
+  },
+  "quick_view_fba": {
+    "message": "FBA送料"
+  },
+  "quick_view_margin": {
+    "message": "粗利益率"
+  },
+  "quick_view_num_of_variation": {
+    "message": "バリエーション数"
+  },
+  "quick_view_sku": {
+    "message": "SKU"
+  },
+  "quick_view_price": {
+    "message": "価格"
+  },
+  "quick_view_price_new": {
+    "message": "価格"
+  },
+  "quick_view_price_prime": {
+    "message": "Prime価格"
+  },
+  "quick_view_variations": {
+    "message": "バリエーション"
+  },
+  "quick_view_add_to_product_list": {
+    "message": "商品ライブラリに追加"
+  },
+  "quick_view_add_to_product_list_tips": {
+    "message": "無料会員の利用限度額を超えました！<a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>プランをアップグレード</a>してご利用くださいね～"
+  },
+  "quick_view_add_to_product_list_tips_only_words": {
+    "message": "無料会員の利用限度額を超えました！プランをアップグレードしてご利用くださいね～"
+  },
+  "quick_view_cancel_default_tips_one": {
+    "message": "デフォルトで“{name}”に追加,",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "quick_view_cancel_default_tips_two": {
+    "message": "デフォルト追加のキャンセルはここをクリック"
+  },
+  "quick_view_grade": {
+    "message": "評価(評価数)"
+  },
+  "quick_view_Lqs": {
+    "message": "Listing品質スコア"
+  },
+  "quick_view_monthly_sales": {
+    "message": "直近30日販売数"
+  },
+  "quick_view_monthly_sales_tips": {
+    "message": "データ遅延の可能性があるため、「歴史トレンド」を参照してください"
+  },
+  "quick_view_monthly_sales_tips_none": {
+    "message": "データが用意できていませんので、後ほど再度お試しください"
+  },
+  "quick_view_bullet": {
+    "message": "セールスポイント"
+  },
+  "quick_view_description": {
+    "message": "商品概要"
+  },
+  "quick_view_trend": {
+    "message": "歴史トレンド"
+  },
+  "quick_view_trend_sales_volume": {
+    "message": "履歴販売"
+  },
+  "quick_view_analysis": {
+    "message": "市場分析"
+  },
+  "quick_view_open_listing_batch": {
+    "message": "詳細ページを一括で開く"
+  },
+  "quick_view_open_listing_batch_tips": {
+    "message": "クリックすると、現在の全商品のListing詳細ページが表示されます。<br/>読み込みが完了するまで、しばらくお待ちくださいね〜"
+  },
+  "quick_view_analysis_tips_one": {
+    "message": "現在のページにある"
+  },
+  "quick_view_analysis_tips_two": {
+    "message": " 商品の分析結果です "
+  },
+  "quick_view_analysis_tips_three": {
+    "message": " プランをアップグレードして、より多くの商品を分析"
+  },
+  "quick_view_analysis_tips_link": {
+    "message": "ここをクリックして、もっと多くの商品を分析"
+  },
+  "quick_view_search_num": {
+    "message": "検索結果の商品数統計"
+  },
+  "quick_view_search_num_tips": {
+    "message": "検索結果数が多いほど、キーワードの1～3ページ目の商品の変動が大きくなります。<br>それは、細分化市場がまだ固まっておらず、特定の商品に独占されていないことを示します。<br>例：自然 369/48<br>直近30日間に369の商品が検索結果の最初の3ページで自然位置に表示されたことを意味します。<br>48は、最初の3ページで48の自然位置があります。<br>つまり、369/48*3（最初の3ページ）を使用し、得られた値が大きいほど、キーワードの自然位置の競争度も高いです。"
+  },
+  "quick_view_search_num_explain": {
+    "message": "(直近30日間、<span style='font-size: 13px'>{num}</span>の商品が検索結果の最初の3ページに入っている)",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "quick_view_search_total": {
+    "message": "総数"
+  },
+  "quick_view_search_total_tips": {
+    "message": "総数"
+  },
+  "quick_view_search_nature": {
+    "message": "自然"
+  },
+  "quick_view_search_nature_tips": {
+    "message": "最初の3ページの自然位置に入る商品の数 / 現在のページの自然位置の数"
+  },
+  "quick_view_search_sp_tips": {
+    "message": "最初の3ページのSP広告位置に入る商品の数 / 現在のページのSP広告位置の数"
+  },
+  "quick_view_search_sb_tips": {
+    "message": "最初の3ページのブランド広告位置に入る商品の数 / 現在のページのブランド広告位置の数"
+  },
+  "quick_view_search_sbv_tips": {
+    "message": "最初の3ページの動画広告位置に入る商品の数 / 現在のページの動画広告位置の数"
+  },
+  "quick_view_search_hr_tips": {
+    "message": "最初の3ページのHighly Rated位置に入る商品の数 / 現在のページのHighly Rated位置の数"
+  },
+  "quick_view_search_ac_tips": {
+    "message": "最初の3ページのAmazon's Choice位置に入る商品の数 / 現在のページのAmazon's Choice位置の数"
+  },
+  "quick_view_search_er_tips": {
+    "message": "最初の3ページのEditorial recommendations位置に入る商品の数 / 現在のページのEditorial recommendations位置の数"
+  },
+  "quick_view_search_four_star_tips": {
+    "message": "最初の3ページの星4つ商品位置に入る商品の数 / 現在のページの星4つ商品位置の数"
+  },
+  "quick_view_search_four_star": {
+    "message": "4つ星"
+  },
+  "quick_view_reversing": {
+    "message": "トラフィック源"
+  },
+  "quick_view_tips_need_login": {
+    "message": "ログインしたらご覧ください"
+  },
+  "quick_view_video_url": {
+    "message": "https://www.sellersprite.com/jp/help/search-result-of-extension"
+  },
+  "quick_view_tips_fba": {
+    "message": "商品の縦・横・高さ、重量と種類に応じて、計算したFBA配送料です。"
+  },
+  "quick_view_tips_margin": {
+    "message": "商品の販売価格から販売手数料とFBA費用を引いた金額が、商品の販売価格に比例します。<br/><br/>例えば、商品の販売価格= $100.00、手数料= $20.00、FBA料金= $15.00<br/>とすると、粗利益率= (100 - 20 - 15)/ 100 = 65%"
+  },
+  "quick_view_tips_lqs": {
+    "message": "商品の画像、説明、評価という３つの指標で計算されるスコアです。<br/>10点満点で点数が高いほど、Listingの品質が高いことを示します。<br/><br/>右側の小さなアイコンにマウスを置くと、得点の内訳を見ることができます。"
+  },
+  "quick_view_loading_timeout": {
+    "message": "お客様~現在のネットワークが遅いです"
+  },
+  "quick_view_loading_timeout_solution": {
+    "message": ""
+  },
+  "quick_view_loading_timeout_help": {
+    "message": "をクリックして解決しましょう"
+  },
+  "quick_view_loading_timeout_solution_url": {
+    "message": "https://www.sellersprite.com/jp/help/how-to-solve-internet-lag"
+  },
+  "quick_view_loading_failed_bsr": {
+    "message": "BSR情報は取得できません、"
+  },
+  "quick_view_loading_failed_bsr_solution": {
+    "message": "解決策"
+  },
+  "quick_view_loading_failed_bsr_solution_url": {
+    "message": "https://www.sellersprite.com/jp/help/how-to-get-bsr-of-extension"
+  },
+  "quick_view_loading_failed": {
+    "message": "商品情報は取得できません、"
+  },
+  "quick_view_loading_failed_solution": {
+    "message": "解決策をみる"
+  },
+  "quick_view_loading_failed_solution_url": {
+    "message": "https://www.sellersprite.com/jp/help/how-to-get-bsr-of-extension"
+  },
+  "quick_view_loading_failed_not_included": {
+    "message": "このASINは収録されていません！"
+  },
+  "quick_view_loading_failed_not_included_solution": {
+    "message": "リアルタイムデータ取得？"
+  },
+  "quick_view_loading_failed_not_included_solution_link": {
+    "message": "設定を開く"
+  },
+  "quick_view_BSR_not_realtime_one": {
+    "message": "現在のネットワークが遅いか、またはアマゾンにブロックされています。"
+  },
+  "quick_view_BSR_not_realtime_two": {
+    "message": "バックグラウンドのデータに変更しましたが、システムはリアルタイムのデータを取り込み中です。"
+  },
+  "quick_view_BSR_not_realtime_three": {
+    "message": "リアルタイムのデータを素早く取得するには"
+  },
+  "quick_view_BSR_not_realtime_solution_link": {
+    "message": "https://www.sellersprite.com/jp/help/how-to-solve-internet-lag"
+  },
+  "quick_searches_searches": {
+    "message": "月間検索数"
+  },
+  "quick_searches_link": {
+    "message": "セラースプライト－Web版を開く"
+  },
+  "quick_searches_search_trend": {
+    "message": "検索トレンド"
+  },
+  "quick_searches_google_trend": {
+    "message": "Google Trends"
+  },
+  "data_report_filter_market": {
+    "message": "市場分析概要"
+  },
+  "data_report_filter_product": {
+    "message": "検索結果商品数統計"
+  },
+  "data_report_filter_trend": {
+    "message": "トレンドグラフ"
+  },
+  "context_menu_CC": {
+    "message": "キャッシュの消去"
+  },
+  "context_menu_ST": {
+    "message": "拡張機能設置を開く"
+  },
+  "context_menu_PS": {
+    "message": "売上詳細: %s"
+  },
+  "context_menu_RV": {
+    "message": "キーワード逆引きリサーチ: %s"
+  },
+  "context_menu_PS2": {
+    "message": "売上詳細: "
+  },
+  "context_menu_RV2": {
+    "message": "キーワード逆引きリサーチ: "
+  },
+  "context_menu_MI_dynamic": {
+    "message": "動的マイニング: %s"
+  },
+  "context_menu_MI_static": {
+    "message": "静的マイニング: %s"
+  },
+  "request_review_success": {
+    "message": "招待しました"
+  },
+  "request_review_alreadyInvited": {
+    "message": "既に招待"
+  },
+  "request_review_notime": {
+    "message": "時間内でない"
+  },
+  "request_review_invitation_all": {
+    "message": "すべての評価を要求する"
+  },
+  "request_review_inspect_feedback": {
+    "message": "チェック feedback"
+  },
+  "request_review_in_progress": {
+    "message": "現在招待..."
+  },
+  "request_review_loading": {
+    "message": "注文はロード中です、暫くお待ちください…"
+  },
+  "request_review_select_time": {
+    "message": "リサーチ時間を選択してください"
+  },
+  "request_review_select_sales_channel": {
+    "message": "販売経路"
+  },
+  "request_review_select_sort1": {
+    "message": "注文日の昇順で検索する"
+  },
+  "request_review_select_sort2": {
+    "message": "注文日の降順で検索する"
+  },
+  "request_review_select_sort3": {
+    "message": "出荷日の昇順で検索する"
+  },
+  "request_review_select_sort4": {
+    "message": "出荷日の降順で検索する"
+  },
+  "request_review_select_one_time": {
+    "message": "直近1日"
+  },
+  "request_review_select_time_options": {
+    "message": "直近{index}日",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "request_review_custom_time": {
+    "message": "カスタム日付"
+  },
+  "request_review_start_time": {
+    "message": "開始時間"
+  },
+  "request_review_end_time": {
+    "message": "終了時間"
+  },
+  "request_review_select_delivery": {
+    "message": "配送方法を選択してください"
+  },
+  "request_review_onekey_invitation": {
+    "message": "一括レビュー招待"
+  },
+  "request_review_invitation_conduct": {
+    "message": "招待中"
+  },
+  "request_review_invitation_end": {
+    "message": "招待済み"
+  },
+  "request_review_feedback": {
+    "message": "星評価{num}星以下の注文を排除",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "request_review_refund": {
+    "message": "返金の注文を排除"
+  },
+  "request_review_excluded": {
+    "message": "レビュー招待排除項目"
+  },
+  "request_review_site": {
+    "message": "サイト"
+  },
+  "request_review_exclude_asin": {
+    "message": "これらのasinを排除します"
+  },
+  "request_review_refund_loading_text": {
+    "message": "払い戻し注文書をロードしています。"
+  },
+  "request_review_purchase_time": {
+    "message": "購入時間"
+  },
+  "request_review_order_number": {
+    "message": "注文番号"
+  },
+  "request_review_order_status": {
+    "message": "注文状態"
+  },
+  "request_review_invitation_status": {
+    "message": "レビュー招待状態"
+  },
+  "request_review_refund_order": {
+    "message": "返金注文"
+  },
+  "request_review_payment_order": {
+    "message": "支払い済み"
+  },
+  "request_review_canceled_order": {
+    "message": "取り消し"
+  },
+  "request_review_waiting_order": {
+    "message": "支払い待ち"
+  },
+  "request_review_shipping_order": {
+    "message": "配送中"
+  },
+  "request_review_complete_order": {
+    "message": "完成"
+  },
+  "request_review_invitation_order": {
+    "message": "招待成功"
+  },
+  "request_review_invitation_order_tip": {
+    "message": "コメントメールを送信しました"
+  },
+  "request_review_invited_order": {
+    "message": "招待済み"
+  },
+  "request_review_invited_order_tip": {
+    "message": "前に招待してメールも成功に送信した注文 今回は送信していない"
+  },
+  "request_review_nottime_order": {
+    "message": "招待可能な時間ではない"
+  },
+  "request_review_nottime_order_tip": {
+    "message": "招待可能時間は着荷後の5-30日"
+  },
+  "request_review_other_order": {
+    "message": "そのほか"
+  },
+  "request_review_other_order_tip": {
+    "message": "待ち中、キャンセル、完成、未招待などの注文"
+  },
+  "request_review_refund_order_tip": {
+    "message": "返金未招待の注文"
+  },
+  "request_review_request_aborted": {
+    "message": "請求失敗"
+  },
+  "request_review_bad_feedback": {
+    "message": "差评"
+  },
+  "request_review_soliciting": {
+    "message": "招待中"
+  },
+  "request_review_request_aborted_tip": {
+    "message": "コメントの招待に失敗しました"
+  },
+  "request_review_actions": {
+    "message": "アクション"
+  },
+  "request_review_successful": {
+    "message": "招待は成功に送信しました！"
+  },
+  "request_review_successful_title": {
+    "message": "今回はレビュー招待 <b>{num}</b> 件を検出",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "request_review_strip": {
+    "message": "件"
+  },
+  "request_review_successful_success": {
+    "message": "成功"
+  },
+  "request_review_successful_fail": {
+    "message": "未招待"
+  },
+  "request_review_successful_fail_detailed": {
+    "message": "未招待细目"
+  },
+  "request_review_feedback_below_three": {
+    "message": "フィードバック星3以下"
+  },
+  "request_review_successful_success_tip": {
+    "message": "成功件数には、今回の招待で成功したものと、かつて招待したものが含まれます"
+  },
+  "request_review_successful_fail_tip": {
+    "message": "未招待件数には、(招待できる時間外、返金注文、星評価3星以下、待ち中、キャンセル、完成、請求失敗)などの注文が含まれます"
+  },
+  "request_review_understand": {
+    "message": "了解"
+  },
+  "request_review_remind_title": {
+    "message": "現在一括招待{num}件、選択された時間内には{total}件があります",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "request_review_remind_cont": {
+    "message": "全招待したい場合は、全ロードするボタンをクリックしてください"
+  },
+  "request_review_load_all": {
+    "message": "全ロードする"
+  },
+  "request_review_load_all_tip": {
+    "message": "件数が多い場合は、全ロードするには時間がかかます"
+  },
+  "request_review_invitation_num": {
+    "message": "現在の{num}件を招待する",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "request_review_footerbar_cont": {
+    "message": "本ページ{page}件, 共に {total} 件 ",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "0"
+      },
+      "total": {
+        "content": "$2",
+        "example": "0"
+      }
+    }
+  },
+  "request_review_asin": {
+    "message": "ASIN オプション"
+  },
+  "request_review_search": {
+    "message": "検索"
+  },
+  "request_review_not_data": {
+    "message": "利用可能なデータなし"
+  },
+  "request_review_login": {
+    "message": "ログイン"
+  },
+  "request_review_order_id": {
+    "message": "注文番号"
+  },
+  "request_review_enter_order_id": {
+    "message": "注文番号を入力してください。"
+  },
+  "request_review_sku": {
+    "message": "SKU 入力してください"
+  },
+  "request_review_email": {
+    "message": "emailを入力してください"
+  },
+  "request_review_listingid": {
+    "message": "出品IDを入力してください"
+  },
+  "request_review_productname": {
+    "message": "製品名を入力してください"
+  },
+  "request_review_trackingid": {
+    "message": "お問い合わせ伝票番号を入力してください"
+  },
+  "request_review_commodity_category": {
+    "message": "商品の種類"
+  },
+  "request_review_commodity_number": {
+    "message": "商品の数量"
+  },
+  "request_review_explain": {
+    "message": "コメント"
+  },
+  "request_review_page_size": {
+    "message": "{page}/ページ",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "excel_solicit_market": {
+    "message": "サイト"
+  },
+  "excel_solicit_asin": {
+    "message": "ASIN"
+  },
+  "excel_solicit_sku": {
+    "message": "SKU"
+  },
+  "excel_solicit_category": {
+    "message": "商品の種類"
+  },
+  "excel_solicit_amount": {
+    "message": "商品の数量"
+  },
+  "excel_solicit_order_number": {
+    "message": "注文番号"
+  },
+  "excel_solicit_purchase_time": {
+    "message": "購入時間"
+  },
+  "excel_solicit_order_status": {
+    "message": "注文状態"
+  },
+  "excel_solicit_invitation_status": {
+    "message": "レビュー招待状態"
+  },
+  "excel_solicit_explain": {
+    "message": "コメント"
+  },
+  "excel_solicit_result_title": {
+    "message": "ワンクリック招待结果"
+  },
+  "excel_solicit_one_click_result_title": {
+    "message": "ワンクリック招待结果"
+  },
+  "excel_solicit_latest_days": {
+    "message": "直近{index}日",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "cardimg_sellersprite_download_img_all": {
+    "message": "すべて"
+  },
+  "cardimg_sellersprite_download_relation_video": {
+    "message": "セラースプライト-関連動画ダウンロード"
+  },
+  "cardimg_sellersprite_download_img": {
+    "message": "セラースプライト-メイン画像、動画ダウンロード"
+  },
+  "cardimg_sellersprite_download_Aimg": {
+    "message": "セラースプライト- A+画像ダウンロード"
+  },
+  "cardimg_sellersprite_download_commentimg": {
+    "message": "セラースプライト-コメント画像ダウンロード"
+  },
+  "cardimg_download_img": {
+    "message": "{type}画像ダウンロード",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    }
+  },
+  "cardimg_download_relation_videos": {
+    "message": "関連動画ダウンロード"
+  },
+  "cardimg_download_img_tips": {
+    "message": "ワンクリックでA+画像を一括ダウンロード〜 <span style='color: #fb8c1e;'>（無料）</span>"
+  },
+  "cardimg_bulk_download": {
+    "message": "Listingメイン画像+動画を一括ダウンロード〜 <span style='color: #fb8c1e;'>（無料）</span>"
+  },
+  "cardimg_immediately_download": {
+    "message": "今すぐダウンロード"
+  },
+  "cardimg_download_loading": {
+    "message": "ダウンロード中です、今しばらくお待ちください"
+  },
+  "lqs_view_product_images": {
+    "message": "商品画像"
+  },
+  "lqs_view_click_close_LQS": {
+    "message": "クリックしてLQSを閉めます"
+  },
+  "lqs_view_Main_image_background": {
+    "message": "メイン画像の背景"
+  },
+  "lqs_view_image_dimensions": {
+    "message": "メイン画像・サイズ"
+  },
+  "lqs_view_listing_text": {
+    "message": "商品説明"
+  },
+  "lqs_view_images": {
+    "message": "画像"
+  },
+  "lqs_view_title": {
+    "message": "タイトル"
+  },
+  "lqs_view_bullets": {
+    "message": "箇条書き "
+  },
+  "lqs_view_description": {
+    "message": "説明記述"
+  },
+  "lqs_view_a_ebc": {
+    "message": "EBC"
+  },
+  "lqs_view_reviews": {
+    "message": "評価"
+  },
+  "lqs_view_rating": {
+    "message": "星評価"
+  },
+  "lqs_view_number_of_ratings": {
+    "message": "評価数"
+  },
+  "lqs_view_more_images": {
+    "message": "画像は7枚以上の方が望ましいです"
+  },
+  "lqs_view_white_background": {
+    "message": "メイン画像の背景は白の方が望ましいです"
+  },
+  "lqs_view_side1000px": {
+    "message": "メイン画像の最長辺は1600px以上の方が望ましいです"
+  },
+  "lqs_view_characters": {
+    "message": "商品タイトルは80文字以上の方が望ましいです"
+  },
+  "lqs_view_5_bullets": {
+    "message": "箇条書きは5つのが望ましいです"
+  },
+  "lqs_view_1000_characters": {
+    "message": "文字記述は1000文字以上の方が望ましいです"
+  },
+  "lqs_view_ebc": {
+    "message": "EBC"
+  },
+  "lqs_view_description_contains_pictures": {
+    "message": "商品の紹介には図解で記述のが望ましいです"
+  },
+  "lqs_view_rating_4": {
+    "message": "星評価は4.0点以上の方が望ましいです"
+  },
+  "lqs_view_ratings_10": {
+    "message": "評価の数は10以上の方が望ましいです"
+  },
+  "lqs_view_score": {
+    "message": "スコア"
+  },
+  "lqs_view_white": {
+    "message": "ホワイト"
+  },
+  "lqs_view_fan_white": {
+    "message": "白ではない"
+  },
+  "lqs_view_more_images_tips": {
+    "message": "画像の数は最低5枚、7枚以上のが望ましいです<br/> <a target='_blank' style='cursor: pointer;color:#FB8C1E' href='https://www.sellersprite.com/jp/help/how-to-optimize-listing-images'>Listing画像最適化ガイド</a>"
+  },
+  "lqs_view_white_background_tips": {
+    "message": "メイン画像は純白背景を採用すべきです<br/>RGB値は255、255、255<br/><a target='_blank' style='cursor: pointer;color:#FB8C1E' href='https://www.sellersprite.com/jp/help/how-to-optimize-listing-images'>Listing画像最適化ガイド</a>"
+  },
+  "lqs_view_side1000px_tips": {
+    "message": "メイン画像のサイズが1600*1600以上です<br/> この最小サイズを満たすことで、アマゾンでズーム機能を実現することができます。<a target='_blank' style='cursor: pointer;color:#FB8C1E' href='https://www.sellersprite.com/jp/help/how-to-optimize-listing-images'>Listing画像最適化ガイド </a>"
+  },
+  "lqs_view_characters_tips": {
+    "message": "商品タイトルは80文字から200文字の間(スペースを含む)になります。<br/> <a target='_blank' style='cursor: pointer;color:#FB8C1E' href='https://www.sellersprite.com/jp/help/how-to-optimize-listing-title'>Listingタイトル最適化ガイド</a>"
+  },
+  "lqs_view_5_bullets_tips": {
+    "message": "箇条書きは3つ以上、5つの方が望ましいです。<br/>箇条書きは、商品のセールスポイントを簡潔に示すことです。 <br/> <a target='_blank' style='cursor: pointer;color:#FB8C1E' href='https://www.sellersprite.com/jp/help/how-to-optimize-listing-bulletpoint'>Listing箇条書きの最適化ガイド</a>"
+  },
+  "lqs_view_1000_characters_tips": {
+    "message": "商品記述は1000文字以上で、商品のセールスポイントやサイズ明細を全面的に記述しべきです<br/>最大2000文字まで<br/><a target='_blank' style='cursor: pointer;color:#FB8C1E' href='https://www.sellersprite.com/jp/help/how-to-optimize-listing-description'>Listing商品記述の最適化ガイド</a>"
+  },
+  "lqs_view_ebc_tips": {
+    "message": "ブランド商品については、A+図解紹介をつけておきましょう。<br/> <a target='_blank' style='cursor: pointer;color:#FB8C1E' href='https://www.sellersprite.com/jp/help/how-to-optimize-listing-ebc'>A+ページ最適化ガイド</a>"
+  },
+  "lqs_view_rating_4_tips": {
+    "message": "Listing星評価は4.0点以下にならない方が良いです。そうでなければアフターサービスリスクが高いです。<br/><a target='_blank' style='cursor: pointer;color:#FB8C1E' href='https://www.sellersprite.com/jp/blog/review-logic-of-market-research'>記事：「商品レビューを研究する時は、一般のセラーはこれらの点に注目します」</a>"
+  },
+  "lqs_view_ratings_10_tips": {
+    "message": "Listing評価の数は10つを下回ることが望ましくないです。カスタマーは他の顧客の評価も信頼しているからです。<br/> <a target='_blank' style='cursor: pointer;color:#FB8C1E' href='https://www.sellersprite.com/jp/blog/review-logic-of-market-research'>記事：「商品レビューを研究する時は、一般のセラーはこれらの点に注目します」</a>"
+  },
+  "collection_add_my_list": {
+    "message": "ブックマーク"
+  },
+  "collection_successfully": {
+    "message": "ブックマーク済み"
+  },
+  "listing_reversing": {
+    "message": "トラフィック源をリサーチ"
+  },
+  "listing_quick_view_unfold": {
+    "message": "すべてを表示"
+  },
+  "listing_quick_view_fold": {
+    "message": "折りたたむ"
+  },
+  "full_screen_show": {
+    "message": "フルスクリ<br/>ーン表示"
+  },
+  "full_screen_show_off": {
+    "message": "フルスクリ<br/>ーンを終了"
+  },
+  "listing_builder_title": {
+    "message": "Listingエディター"
+  },
+  "listing_builder_title_tips": {
+    "message": "クリックすると、Web版のListingエディター機能へジャンプします。<br/>現在のListingのタイトルや箇条書きなどの項目を編集したり、ワードの割合を確認したりすることができます。"
+  },
+  "collection_successfully_tip": {
+    "message": "ブックマークに追加した後、ブラウザの右上にあるセラースプライトのロゴをクリックするとクイックビューできます.<br/> <a style='color: #ff9300' href='https://www.sellersprite.com/jp/help/add-to-favorite' target='_blank'>ご利用ガイドは、こちらをクリックしてください</a>"
+  },
+  "collection_add_tags": {
+    "message": "タグを追加することもできます"
+  },
+  "collection_new_tags": {
+    "message": "新タグを作成"
+  },
+  "collection_save_tags": {
+    "message": "タグを保存する"
+  },
+  "collection_input_tag_placeholder": {
+    "message": "新しいタグを入力してください"
+  },
+  "collection_edit_tag": {
+    "message": "お気に入りタブを編集"
+  },
+  "collection_table_tag": {
+    "message": "タグ"
+  },
+  "collection_Homepage": {
+    "message": "拡張機能(デフォルトページ)"
+  },
+  "launch_extension": {
+    "message": "拡張機能を起動"
+  },
+  "collection_My_List": {
+    "message": "マイブックマークリスト"
+  },
+  "collection_settings": {
+    "message": "設定"
+  },
+  "collection_official_website": {
+    "message": "セラースプライト公式サイト"
+  },
+  "collection_SellerSprite_extension": {
+    "message": "紹介動画"
+  },
+  "collection_Manage_My_List": {
+    "message": "ブックマークリスト管理"
+  },
+  "collection_SellerSprite_keepa": {
+    "message": "Keepa拡張機能代替を開く"
+  },
+  "collection_Rank": {
+    "message": "売れ筋ランキング"
+  },
+  "collection_Release": {
+    "message": "新着ランキング"
+  },
+  "collection_Shakers": {
+    "message": "人気度ランキング"
+  },
+  "collection_Wished_for": {
+    "message": "ほしい物ランキング"
+  },
+  "collection_Gifted": {
+    "message": "人気ギフトランキング"
+  },
+  "collection_search": {
+    "message": "検索"
+  },
+  "collection_seller_home_page": {
+    "message": "セラーHP"
+  },
+  "collection_seller_storefront": {
+    "message": "店舗"
+  },
+  "collection_Listing_Page": {
+    "message": "詳細ページ"
+  },
+  "collection_table_Order": {
+    "message": "順位"
+  },
+  "collection_table_Market": {
+    "message": "市場"
+  },
+  "collection_table_Name": {
+    "message": "名称"
+  },
+  "collection_table_Date": {
+    "message": "ブックマークした時間"
+  },
+  "collection_table_Actions": {
+    "message": "操作"
+  },
+  "collection_table_del": {
+    "message": "削除"
+  },
+  "collection_drag_sort": {
+    "message": "ドラッグ&ドロップでソートできます"
+  },
+  "collection_set_default_home": {
+    "message": "デフォルトのトップページに設定します"
+  },
+  "collection_default_home": {
+    "message": "このアドレスはデフォルトのトップページです"
+  },
+  "collection_SellerSprite_My_List": {
+    "message": "セラースプライト-ブックマークリスト"
+  },
+  "quick_search_RV_hover_tips": {
+    "message": "クリックすると、ASINのトラフィックワードを逆引きリサーチ <a target='_blank' href='https://www.sellersprite.com/jp/help/keyword-reverse-guide-of-extension'>動画+図解紹介</a>"
+  },
+  "quick_search_MI_hover_tips": {
+    "message": "クリックすると、すべてのコアキーワードとロングテールキーワードをマイニング <a target='_blank' href='https://www.sellersprite.com/jp/help/keyword-miner-guide-of-extension'>動画+図解紹介</a>"
+  },
+  "quick_search_RV": {
+    "message": "逆引きリサーチ"
+  },
+  "quick_search_MI": {
+    "message": "相関ワードマイニング"
+  },
+  "market_analysis": {
+    "message": "市場分析"
+  },
+  "market_analysis_tips": {
+    "message": "迅速に市場を洞察させるために、16以上の指標を含む市場分析レポートを作成します。<br/> <a style='color: #ff9300' href='https://www.sellersprite.com/jp/help/how-to-use-market-analysis' target='_blank'>詳しいことはここをクリックしてください。</a> "
+  },
+  "market_analysis_tips_ready": {
+    "message": "現在ページの見本商品数は{count}で、最初の100件の商品をロードしてから、分析レポートを作成することをお勧めします",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "market_analysis_tips_loading": {
+    "message": "分析レポート作成中、1 ~ 2分お待ちください"
+  },
+  "market_analysis_tips_success": {
+    "message": "市場分析レポートが作成されたので、"
+  },
+  "market_analysis_btn_auto_analysis": {
+    "message": "最初の100件の商品をロードし、分析レポートを作成"
+  },
+  "market_analysis_btn_analysis": {
+    "message": "直ちに分析レポートを作成"
+  },
+  "market_analysis_btn_view_report": {
+    "message": "すぐ見る"
+  },
+  "market_analysis_btn_view_immediately": {
+    "message": "今すぐ行く"
+  },
+  "market_analysis_btn_temporarily_ignoring": {
+    "message": "無視"
+  },
+  "market_analysis_loading": {
+    "message": "読み込み"
+  },
+  "market_analysis_report": {
+    "message": "分析レポート"
+  },
+  "market_analysis_loading_new": {
+    "message": "読み込み"
+  },
+  "market_analysis_report_new": {
+    "message": "分析レポート"
+  },
+  "reviews_img_download_text": {
+    "message": " レビュー画像ダウンロード"
+  },
+  "reviews_img_download_text_tips": {
+    "message": "ワンクリックでレビュー画像を一括ダウンロード〜<span style='color: #fb8c1e;'>（無料）<span>"
+  },
+  "reviews_img_download_text_load": {
+    "message": "{page} ページをロードする",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "reviews_img_download_load_more": {
+    "message": "ロードを続ける"
+  },
+  "filter_product_Sales_Status": {
+    "message": "販売状態"
+  },
+  "filter_product_Sales_Status_Y": {
+    "message": "販売可能"
+  },
+  "filter_product_Sales_Status_N": {
+    "message": "販売不可"
+  },
+  "filter_product_Sales_Status_tips": {
+    "message": "この商品の販売状態。例えば、「Currently Unavailable」と表示されると、その商品がアマゾンで販売不可な状態であると意味します。"
+  },
+  "filter_product_fulfilled": {
+    "message": "配送方式"
+  },
+  "filter_product_fulfilled_tips": {
+    "message": "第三者出品の商品(FBM)が多い細分化市場では、競争がそれほど大きくないか、在庫リスクが少ないということを示します Amazon自営が多い場合は要注意です"
+  },
+  "filter_product_launch_date": {
+    "message": "出品日付"
+  },
+  "filter_product_launch_date_tips": {
+    "message": "デフォルトでは、子ASINから取得された出品時間です <br/>セラーがこのデータを掲載されていない場合、最初のレビューの発表時間を出品時間とします<br/>一般的には、出品時間は直近6か月か1年の商品は、リスクが小さく、売れる可能性が高い(成長期市場である)です。"
+  },
+  "filter_product_other": {
+    "message": "アマゾン<br/>マーク"
+  },
+  "filter_product_other_tips": {
+    "message": "商品の標識です<br/>Best Seller：あるカテゴリーで売れ筋ランキング1位の商品<br/>Amazon‘s Choice：アマゾンが選んだ「おすすめ度が高く、合理的な価格で、すぐに出荷できる」商品です。特定のキーワードで1つのListingだけがこのマークを持つことができます。<br/>New Release：あるカテゴリーで新着ランキング1位の商品。<br/>Sponsored(SP)：アマゾンの有料プロモーション広告商品。"
+  },
+  "filter_product_seller_territory": {
+    "message": "セラー<br/>所在地"
+  },
+  "filter_product_seller_territory_tips": {
+    "message": "セラーが属する地域は、市場の競争度をある程度反映しています セラーが属する国を設定することで、その市場に属する国の割合を見ることができます"
+  },
+  "filter_product_min": {
+    "message": "最小値"
+  },
+  "filter_product_max": {
+    "message": "最大値"
+  },
+  "filter_product_select_time_options_30day": {
+    "message": "直近30日"
+  },
+  "filter_product_select_time_options": {
+    "message": "直近{index}月",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "filter_product_half_year": {
+    "message": "直近半年"
+  },
+  "filter_product_a_year": {
+    "message": "直近1年"
+  },
+  "filter_product_select_time_options_year": {
+    "message": "直近{index}年",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "filter_product_all_country": {
+    "message": "あらゆる国"
+  },
+  "filter_product_all": {
+    "message": "すべて"
+  },
+  "filter_product_view_by": {
+    "message": "フィルタ条件設定"
+  },
+  "filter_product_full_screen": {
+    "message": "全画面表示"
+  },
+  "filter_product_exit_full_screen": {
+    "message": "全画面表示を終了"
+  },
+  "filter_product_close_extension": {
+    "message": "拡張機能をオフ"
+  },
+  "filter_product_save": {
+    "message": "すぐ保存します"
+  },
+  "filter_param_setting_parameter_setting": {
+    "message": "データ列をカスタマイズ"
+  },
+  "display_param_setting_parameter_setting": {
+    "message": "パラメータ設定"
+  },
+  "display_param_setting_parameter": {
+    "message": "パラメータ"
+  },
+  "display_param_setting_PS": {
+    "message": "売上詳細"
+  },
+  "display_param_setting_quick_view": {
+    "message": "商品リストクイックビュー"
+  },
+  "display_param_setting_image": {
+    "message": "画像"
+  },
+  "display_param_setting_mark": {
+    "message": "商品ラベル"
+  },
+  "display_param_setting_title": {
+    "message": "商品タイトル"
+  },
+  "display_param_setting_brand": {
+    "message": "ブランド"
+  },
+  "display_param_setting_category": {
+    "message": "カテゴリー"
+  },
+  "display_param_setting_BSR": {
+    "message": "BSR"
+  },
+  "display_param_setting_price": {
+    "message": "価格"
+  },
+  "display_param_setting_rating": {
+    "message": "評価"
+  },
+  "display_param_setting_grade": {
+    "message": "等級"
+  },
+  "display_param_setting_review": {
+    "message": "評価数"
+  },
+  "display_param_setting_review_delta": {
+    "message": "評価月増"
+  },
+  "display_param_setting_review_rate": {
+    "message": "評価率"
+  },
+  "display_param_setting_qa": {
+    "message": "Q&A数"
+  },
+  "display_param_setting_sales_volume": {
+    "message": "直近30日 販売数"
+  },
+  "display_param_setting_sales_amount": {
+    "message": "直近30日 販売額"
+  },
+  "display_param_setting_profit": {
+    "message": "粗利益"
+  },
+  "display_param_setting_fba_fees": {
+    "message": "FBA"
+  },
+  "display_param_setting_available_on": {
+    "message": "出品日付"
+  },
+  "display_param_setting_sellers": {
+    "message": "セラー数"
+  },
+  "display_param_setting_buy_box_owner": {
+    "message": "Buyboxセラー"
+  },
+  "display_param_setting_seller_type": {
+    "message": "配送方法"
+  },
+  "display_param_setting_weight": {
+    "message": "重量"
+  },
+  "display_param_setting_dimension": {
+    "message": "体積"
+  },
+  "display_param_setting_variations": {
+    "message": "バリエーション数"
+  },
+  "display_param_setting_SKU": {
+    "message": "SKU"
+  },
+  "display_param_setting_submit_p": {
+    "message": "リサーチ   "
+  },
+  "display_param_setting_Reset_p": {
+    "message": "リセット"
+  },
+  "display_param_setting_submit": {
+    "message": "保存"
+  },
+  "display_param_setting_Reset": {
+    "message": "リセット"
+  },
+  "display_param_setting_cancel": {
+    "message": "キャンセル"
+  },
+  "btn_bran_check_title": {
+    "message": "ブランド検出"
+  },
+  "btn_brand_check_loading": {
+    "message": "検出中…"
+  },
+  "btn_bran_check_error": {
+    "message": "検出に失敗しました、後で再試行してください！"
+  },
+  "brand_inspection_tips": {
+    "message": "ブランド検出リストを開く"
+  },
+  "btn_bran_check_warm_prompt": {
+    "message": "Listingのタイトルと箇条書きにアマゾンのブランドワードがあるかどうか<br/>を自動的に検出して、自社商品に商標権侵害の恐れがあるかどうかを判断します。<br/>ブランドワードをクリックすると、ブランドのトップページにジャンプできます。<br/><a style='color: #ff9300' href='https://www.sellersprite.com/jp/help/amazon-trademark-protection' target='_blank'>詳しく</a>"
+  },
+  "brand_check_btn_tips_title": {
+    "message": "有料会員限定，<a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>プランをアップグレード</a>してから確認してください<br/>この機能の使い方が分からない？<a style='color: #ff9300' href='https://www.sellersprite.com/jp/help/amazon-trademark-protection' target='_blank'>ここをクリック！</a>"
+  },
+  "brand_inspection_list_title": {
+    "message": "ブランド検出リスト"
+  },
+  "brand_inspection_list_brand_name": {
+    "message": "ブランド名"
+  },
+  "brand_inspection_list_operation": {
+    "message": "アクション"
+  },
+  "brand_inspection_list_brand_url": {
+    "message": "アマゾンでブランドのトップページを見る"
+  },
+  "brand_inspection_list_nodata": {
+    "message": "ブランドリストはありません"
+  },
+  "brand_inspection_tips_fake": {
+    "message": "有料会員しか見れません，<a style='color: #ff9300' href='https://www.sellersprite.com/jp/price' target='_blank'>プランをアップグレード</a>してから確認してください"
+  },
+  "need_login_taobao_pop_title": {
+    "message": "ヒント"
+  },
+  "need_login_taobao_pop_desc": {
+    "message": "アクセスはまず「タオバオ」をロ<br/>グインする必要があり、タオバオページ<br/>を開きましたので、早速ログインしましょう!"
+  },
+  "need_login_taobao_pop_logged": {
+    "message": "既にログインした"
+  },
+  "need_login_taobao_pop_close": {
+    "message": "今はログインしない"
+  },
+  "need_verification_pop_desc": {
+    "message": "リクエストは、手動で検証する必要があります。<br/>検証ページを開いたので、早速検証しましょう！"
+  },
+  "need_verification_pop_done": {
+    "message": "検証済み"
+  },
+  "need_verification_pop_close": {
+    "message": "後で検証"
+  },
+  "analysis_btn_title": {
+    "message": "レビュー分析"
+  },
+  "analysis_btn_loading_title": {
+    "message": "収集中..."
+  },
+  "analysis_collecting_title": {
+    "message": "レビュー収集中！"
+  },
+  "analysis_collecting_finish_title": {
+    "message": "レビュー取得成功！"
+  },
+  "analysis_collecting_warning_title": {
+    "message": "レビュー取得失敗！"
+  },
+  "analysis_collecting_tips": {
+    "message": "商品数やレビュー数により、2〜5分程度でコレクションが完了します。現在の商品詳細ページは閉じないでください。"
+  },
+  "analysis_collecting_finish_tips": {
+    "message": "今すぐチェックすることができます<br/>Web版の「マーケット-レビュー分析」にてワンクリックリでチェックすることもできます"
+  },
+  "analysis_collecting_warning_tips": {
+    "message": "ネットワークをチェックしてから再度お試してみるか<br/>オンラインサービスセンターに連絡してサポートを受けることもできます"
+  },
+  "analysis_collecting_ok_btn": {
+    "message": "了解"
+  },
+  "analysis_popup_checkbox": {
+    "message": "14日以内にポップアップをブロック"
+  },
+  "market_analysis_confirm": {
+    "message": "かくにん"
+  },
+  "analysed_btn_title": {
+    "message": "レポートを見る"
+  },
+  "analysed_btn_tips_title": {
+    "message": "有料会員限定，<a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>プランをアップグレード</a>してから確認してください<br/>この機能の使い方が分からない？<a style='color: #ff9300' href='https://www.sellersprite.com/jp/help/review-analysis-for-beginners' target='_blank'>ここをクリック！</a>"
+  },
+  "reversing_btn_tips_title": {
+    "message": "してから確認してください<br/>この機能の使い方が分からない？<a style='color: #ff9300' href='https://www.sellersprite.com/jp/help/relevancy-traffic-for-beginners' target='_blank'>ここをクリック！</a>"
+  },
+  "review_download_btn_title": {
+    "message": "レビューダウンロード"
+  },
+  "review_downloading_btn_title": {
+    "message": "ダウンロード中..."
+  },
+  "review_trans_title_content": {
+    "message": "タイトルと内容を翻訳します"
+  },
+  "review_download_btn_reviews_translation": {
+    "message": "翻訳中"
+  },
+  "btn_review_analysis_warm_prompt": {
+    "message": "複数のバリエーションがある商品のレビューをスマート分析し、アマゾンセラーが売れ筋のバリエーションを特定できます。<br/>商品のセールスポイント、デメリット、応用シーンを素早く把握し、運営戦略を判断できます。<br/>レビュー分析機能を上手く活用するには、<a style='color: #ff9300' href='https://www.sellersprite.com/jp/help/review-analysis-for-beginners' target='_blank'>ここをクリック</a>"
+  },
+  "review_download_tips": {
+    "message": "クリックすると、レビュー内容を無料で一括ダウンロード〜 <a style='color: #fb8c1e; border-bottom: 1px dashed #fb8c1e;' target='_blank' href='https://www.sellersprite.com/jp/help/reviews-download-guide-of-extension'>動画+図解紹介</a>"
+  },
+  "shulex_review_btn": {
+    "message": "顧客インサイト"
+  },
+  "shulex_insight_btn": {
+    "message": "商品属性分析"
+  },
+  "view_top_400": {
+    "message": "Top400商品"
+  },
+  "view_top_400_tips": {
+    "message": "クリックしてこのカテゴリーのTOP100以降の商品を確認<br/>詳しい使い方：<a style='color: #fb8c1e; border-bottom: 1px dashed #fb8c1e;' target='_blank' href='https://www.sellersprite.com/v3/knowledge/feature/how-to-get-top400-product'>ここをクリック</a>"
+  },
+  "review_download_limit": {
+    "message": "前の{number}通だけダウンロード",
+    "placeholders": {
+      "number": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "time_limit_free": {
+    "message": "無料"
+  },
+  "btn_reversing_warm_prompt": {
+    "message": "クリックするとそのASINのトラフィック分析レポートが自動的に作成できます。<br/>Listingトラフィックの出所を把握しましょう。<a style='color: #ff9300' href='https://www.sellersprite.com/jp/help/relevancy-traffic-for-beginners' target='_blank'>ここをクリック</a>"
+  },
+  "successfully_added_bookmarks_tips_title": {
+    "message": "付箋追加成功！"
+  },
+  "successfully_added_bookmarks_tips_text": {
+    "message": "次回のリサーチは直接付箋から選ぶことができますよ~効率UP！"
+  },
+  "successfully_added_results_tips_title": {
+    "message": "追加成功！"
+  },
+  "successfully_added_results_tips_text": {
+    "message": "下部にある[結果のダウンロード]ボタンを使用して、<br/>各期間のランキングステータスをローカルに保存できます."
+  },
+  "notice_btn_title": {
+    "message": "詳しくチェック"
+  },
+  "main_must_update_title": {
+    "message": "セラースプライト拡張機能更新注意"
+  },
+  "main_must_update_now_version": {
+    "message": "Amazonのバージョンアップに伴い、セラースプライト拡張機能もv{version}にバージョンアップされました！",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "main_must_update_tips": {
+    "message": "お客様のご利用に支障をきたさないために、最新版にアップデートしてくださいね♪"
+  },
+  "main_must_update_down": {
+    "message": "ダウンロード 最新版"
+  },
+  "reversing_search_keywrod_compared": {
+    "message": "キーワード比較"
+  },
+  "reversing_search_keywrod_compared_tip": {
+    "message": "関連キーワードの検索数やクリック集中度などの指標を比較します。"
+  },
+  "module_keepa_searches": {
+    "message": "検索数"
+  },
+  "reversing_search_purchase_amount": {
+    "message": "販売数"
+  },
+  "reversing_search_purchase_rate": {
+    "message": "販売率"
+  },
+  "module_echarts_click_title": {
+    "message": "クリック集中度"
+  },
+  "module_echarts_ppc": {
+    "message": "PPC入札額"
+  },
+  "module_echarts_login_tip": {
+    "message": "ログインしてからご利用くださいね^ ^"
+  },
+  "module_echarts_google_title": {
+    "message": "Google Trends"
+  },
+  "module_relation_product_limit": {
+    "message": "比較が必要なキーワードを選んでください。最低2つ、最多5つを選んでください。"
+  },
+  "module_postal_code_tips_one": {
+    "message": "現在の郵便番号は未設置か現地の郵便番号ではありません。よりよく使えるために、以下の郵便番号をコピーして設置してください。"
+  },
+  "module_postal_code_tips_two": {
+    "message": "設定方法がわからない？"
+  },
+  "module_postal_code_tips_three": {
+    "message": "ここをクリック"
+  },
+  "module_postal_code_link": {
+    "message": "https://www.sellersprite.com/jp/help/addresses-setting-guide"
+  },
+  "module_echarts_group_close_tips": {
+    "message": "アマゾンの検索欄の右側にある「検索数」をクリックし<br/>ポップアップの中で再使用できますよ~"
+  },
+  "module_echarts_group_open_tips": {
+    "message": "有効にすると、アマゾンの検索結果<br/>ページにそのキーワードの過去の検索数のトレンドが表示されます。"
+  },
+  "module_echarts_group_open_text": {
+    "message": "検索トレンドを有効にします、"
+  },
+  "module_echarts_group_open_text_tip": {
+    "message": "有効にすると、アマゾンの検索結果ページにそのキーワードの過去の検索数のトレンドが表示されます。"
+  },
+  "module_echarts_group_yearly_growth": {
+    "message": "前年比成長率"
+  },
+  "module_echarts_group_chain_growth": {
+    "message": "連鎖成長率"
+  },
+  "module_echarts_group_three_month_growth": {
+    "message": "直近三ヶ月の月間検索数成長率"
+  },
+  "module_echarts_aba_rank": {
+    "message": "ABA順位"
+  },
+  "quick_view_ok": {
+    "message": "商品ライブラリに追加"
+  },
+  "quick_view_cancel": {
+    "message": "今はしない"
+  },
+  "choose_product_lib_title": {
+    "message": "商品ライブラリを選択"
+  },
+  "choose_product_lib_list_empty": {
+    "message": "まず商品ライブラリの作成から始めましょう！"
+  },
+  "choose_product_lib_create_title": {
+    "message": "商品ライブラリを作成"
+  },
+  "choose_product_lib_create_title_default": {
+    "message": "デフォルト商品ライブラリ"
+  },
+  "choose_product_lib_create_btn": {
+    "message": "作成＆追加"
+  },
+  "choose_product_lib_create_btn_tips": {
+    "message": "無料会員は10個まで商品ライブラリを作成できます。<br/><a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>プランをアップグレード</a> してご利用くださいね～"
+  },
+  "choose_product_lib_placeholder": {
+    "message": "商品ライブラリ名を入力"
+  },
+  "choose_product_lib_tips": {
+    "message": "デフォルトで今選択した、商品ライブラリに追加"
+  },
+  "choose_product_lib_manage": {
+    "message": "商品ライブラリ管理"
+  },
+  "choose_product_lib_info_one": {
+    "message": "その後に追加された商品は、デフォルトで"
+  },
+  "choose_product_lib_info_two": {
+    "message": "商品ライブラリに属されます。24時間後に自動的にリセットされますので、すぐにキャンセルしたい場合は、商品ライブラリで行ってください！"
+  },
+  "choose_product_lib_know": {
+    "message": "了解"
+  },
+  "choose_product_lib_manage_title": {
+    "message": "商品ライブラリ管理"
+  },
+  "choose_product_lib_table_empty": {
+    "message": "まだ何もないです～"
+  },
+  "choose_product_lib_table_name": {
+    "message": "商品ライブラリ名称"
+  },
+  "choose_product_lib_table_num": {
+    "message": "商品数"
+  },
+  "choose_product_lib_table_operation": {
+    "message": "操作"
+  },
+  "ipad_btn_operation": {
+    "message": "操作"
+  },
+  "choose_product_lib_table_edit": {
+    "message": "編集"
+  },
+  "choose_product_lib_table_delete": {
+    "message": "削除"
+  },
+  "choose_product_lib_table_save": {
+    "message": "保存"
+  },
+  "choose_product_lib_table_cancel": {
+    "message": "キャンセル"
+  },
+  "quick_view_popver_already_new_version": {
+    "message": "現在は最新版"
+  },
+  "roof_firefox_ad": {
+    "message": "セラースプライト広告"
+  },
+  "close_roof_ad": {
+    "message": "オフ"
+  },
+  "quick_view_go_to_listing": {
+    "message": "クリックして商品Listing詳細ページを開く"
+  },
+  "main_setting_translate_channel": {
+    "message": "翻訳ツール"
+  },
+  "main_setting_translate_channel_tips": {
+    "message": "翻訳ツールを選択することができます。選択しない場合、システムは翻訳するためにいずれかのツールを使用します。"
+  },
+  "main_setting_translate_channel_google": {
+    "message": "Google Translate"
+  },
+  "main_setting_translate_channel_bai_du": {
+    "message": "Baidu"
+  },
+  "main_setting_translate_channel_microsoft": {
+    "message": "Microsoft Translator"
+  },
+  "main_setting_translate_channel_you_dao": {
+    "message": "Youdao"
+  },
+  "comments_of_invite_btn": {
+    "message": "レビュー招待統計"
+  },
+  "invite_comments_immediately_btn": {
+    "message": "レビュー招待"
+  },
+  "fiters_invite_comments_status_ready": {
+    "message": "招待待ち"
+  },
+  "fiters_invite_comments_status_successfully": {
+    "message": "招待成功"
+  },
+  "fiters_invite_comments_status_not_available": {
+    "message": "招待可能時間外"
+  },
+  "fiters_invite_comments_status_refund_order": {
+    "message": "返金注文"
+  },
+  "fiters_invite_comments_status_feedback_less_3_stars": {
+    "message": "フィードバック星3以下"
+  },
+  "fiters_invite_comments_status_request_failed": {
+    "message": "請求失敗"
+  },
+  "fiters_invite_comments_status_others": {
+    "message": "そのほか"
+  },
+  "fiters_invite_comments_submit": {
+    "message": "確定"
+  },
+  "fiters_invite_comments_cancel": {
+    "message": "クリア"
+  },
+  "invite_comments_invited_num": {
+    "message": "招待済み"
+  },
+  "invite_comments_uninvited_num": {
+    "message": "招待待ち"
+  },
+  "invite_comments_allinvited_num": {
+    "message": "注文数"
+  },
+  "request_review_btn_order_loading_title": {
+    "message": "取得中…"
+  },
+  "request_review_btn_loading_title": {
+    "message": "招待中…"
+  },
+  "invite_comments_request_review_btn": {
+    "message": "ワンクリック招待"
+  },
+  "stop_invite_comments_request_review_btn": {
+    "message": "レビュー招待を中止"
+  },
+  "invite_comments_request_review_tips": {
+    "message": "直近90日以内にレビュー招待可能な注文をワンクリックでレビュー招待します。</br>招待条件：直近90日以内にレビュー招待されたことがない、フィードバックが星3つ以上、返金なし</br>レビュー招待中に注文画面を閉じないでください〜"
+  },
+  "invite_comments_table_list_request_review_tips": {
+    "message": "デフォルトでフィードバックが星3つ以下の注文や返金がある注文を除外することができますが、変更したい場合は「除外項目」でキャンセルすることができます。"
+  },
+  "invite_comments_chart_tips": {
+    "message": "この画像では、ワンクリック招待とカスタム招待の結果（重複削除済み）を示しています。より多くの結果は【カスタム招待】で確認することができます。</br> 結果はブラウザのみに保存されます。拡張機能をアンインストールすると、結果データを失う可能性があります。 データが失われることがないよう、オンラインで拡張機能のインストールとアップデートがおすすめです。"
+  },
+  "invite_comments_request_review_custom_btn": {
+    "message": "カスタム招待"
+  },
+  "invite_comments_request_review_custom_tips": {
+    "message": "カスタム条件によってフィルタリングとレビュー招待します"
+  },
+  "signin_form_google_login_error_message": {
+    "message": "Googleユーザーは、<a href='https://www.sellersprite.com/v2/me' target='_blank' style='color: #f28c00; border-bottom: 1px dashed #f28c00;'>パスワードを変更</a>してからログインして下さい。"
+  },
+  "invite_comments_query_order_status": {
+    "message": "注文状態"
+  },
+  "invite_comments_query_select_order_num": {
+    "message": "注文番号"
+  },
+  "invite_comments_query_select_product_num": {
+    "message": "出品ID"
+  },
+  "invite_comments_query_select_product_name": {
+    "message": "製品名"
+  },
+  "invite_comments_query_select_code_num": {
+    "message": "お問い合わせ伝票番号"
+  },
+  "invite_comments_query_sort_order_up": {
+    "message": "注文日(昇順)"
+  },
+  "invite_comments_query__sort_order_down": {
+    "message": "注文日(降順)"
+  },
+  "invite_comments_query_sort_deliver_up": {
+    "message": "出荷日(昇順)"
+  },
+  "invite_comments_query_sort_deliver_down": {
+    "message": "出荷日(降順)"
+  },
+  "invite_comments_query_sort_delivery_up": {
+    "message": "配送サービス(昇順)"
+  },
+  "invite_comments_query_sort_delivery_down": {
+    "message": "配送サービス(降順)"
+  },
+  "invite_comments_query_sort_status_up": {
+    "message": "状態(昇順)"
+  },
+  "invite_comments_query_sort_status_down": {
+    "message": "状態(降順)"
+  },
+  "invite_comments_btn__export_tips": {
+    "message": "現在の検索結果をエクスポートします。"
+  },
+  "invite_comments_chart_order_num": {
+    "message": "注文数"
+  },
+  "invite_comments_chart_invited": {
+    "message": "招待済み"
+  },
+  "invite_comments_chart_uninvited_num": {
+    "message": "招待待ち"
+  },
+  "invite_comments_chart_invited_failed": {
+    "message": "招待失敗"
+  },
+  "invite_comments_chart_invited_num": {
+    "message": "招待送信数:"
+  },
+  "invite_comments_chart_invited_month_num": {
+    "message": "直近30日間送信:"
+  },
+  "request_review_invitation": {
+    "message": "レビュー招待"
+  },
+  "request_review_filter_checkall": {
+    "message": "全選択"
+  },
+  "main_footer_btn_export_request_review": {
+    "message": "エクスポート"
+  },
+  "keyword_miner_result_sentence_one": {
+    "message": "結果"
+  },
+  "keyword_miner_result_sentence_two": {
+    "message": "通"
+  },
+  "keyword_miner_filter_keyword": {
+    "message": "キーワードを絞り込む"
+  },
+  "keyword_miner_compare": {
+    "message": "比較"
+  },
+  "keyword_miner_high_frequency": {
+    "message": "注目キーワード"
+  },
+  "keyword_miner_copy": {
+    "message": "コピー"
+  },
+  "keyword_miner_table_title_product_img": {
+    "message": "上位10商品の画像を表示"
+  },
+  "keyword_miner_table_relativity": {
+    "message": "相関度"
+  },
+  "keyword_miner_table_AC": {
+    "message": "AC推薦ワード"
+  },
+  "keyword_miner_table_AC_only": {
+    "message": "AC推薦ワード"
+  },
+  "keyword_miner_table_keyword_root": {
+    "message": "ルートマッチ"
+  },
+  "keyword_miner_table_keyword_root_only": {
+    "message": "語根を含むキーワードだけを示す"
+  },
+  "keyword_miner_table_ABA_rank": {
+    "message": "ABA順位"
+  },
+  "keyword_miner_table_ABA_rank2": {
+    "message": "ABA月順位<br/>週順位"
+  },
+  "keyword_miner_table_header_ABA_rank": {
+    "message": "ABA月順位"
+  },
+  "keyword_miner_table_keyword_month_search": {
+    "message": "月間検索数"
+  },
+  "keyword_miner_table_keyword_month_search_tips": {
+    "message": "クリックすると、このキーワードの検索トレンドを表示します。"
+  },
+  "keyword_miner_title_density": {
+    "message": "タイトル密度"
+  },
+  "keyword_miner_title_density_br": {
+    "message": "タイト<br>ル密度"
+  },
+  "keyword_miner_title_product_number": {
+    "message": "商品数"
+  },
+  "keyword_miner_table_supply_ratio": {
+    "message": "需給比"
+  },
+  "table_product_number_supply_ratio": {
+    "message": "需給比<br>商品数"
+  },
+  "keyword_miner_ad_product": {
+    "message": "広告ライバル商品数"
+  },
+  "keyword_miner_ad_product_br": {
+    "message": "広告ライバ<br>ル商品数"
+  },
+  "keyword_miner_monthly_search_trends": {
+    "message": "月間検索トレンド"
+  },
+  "keyword_miner_total_percentage_of_conversions": {
+    "message": "転換総数比率"
+  },
+  "keyword_miner_table_keyword_translate": {
+    "message": "キーワード翻訳"
+  },
+  "keyword_miner_table_ppc_price": {
+    "message": "PPC価格"
+  },
+  "keyword_miner_table_ppc_price_suggestion": {
+    "message": "推奨入札価格帯"
+  },
+  "keyword_miner_table_top_ten": {
+    "message": "トップ10 ASIN"
+  },
+  "keyword_miner_table_top_ten_image": {
+    "message": "トップ3 ASINイメージ"
+  },
+  "export_keyword_miner_table_top_ten_image": {
+    "message": "トップ3 ASINイメージダウンロード"
+  },
+  "keyword_miner_table_words": {
+    "message": "ワード"
+  },
+  "keyword_miner_table_frequency": {
+    "message": "頻度"
+  },
+  "keyword_miner_delete": {
+    "message": "削除"
+  },
+  "keyword_miner_msg_success": {
+    "message": "削除成功"
+  },
+  "keyword_miner_msg_warning": {
+    "message": "削除するキーワードを選択してください"
+  },
+  "keyword_miner_msg_error": {
+    "message": "削除に失敗しました、後で再試行してください"
+  },
+  "keyword_store_add_to_my_list": {
+    "message": "キーワードシソーラスへ追加"
+  },
+  "keyword_store_choose_a_keyword_folder": {
+    "message": "キーワードシソーラスを選択"
+  },
+  "keyword_store_add_keyword_tips": {
+    "message": "追加したいキーワードを選択して下さい！"
+  },
+  "keyword_store_add_Folder": {
+    "message": "新しいシソーラスを作成"
+  },
+  "keyword_store_enter_keyword_label": {
+    "message": "キーワードタグ"
+  },
+  "keyword_store_creat_a_label": {
+    "message": "新しいタグを作成"
+  },
+  "keyword_store_add_sucesss": {
+    "message": "追加成功"
+  },
+  "keyword_store_choose_a_folder": {
+    "message": "シソーラスを選択してください"
+  },
+  "keyword_store_save": {
+    "message": "作成"
+  },
+  "keyword_store_keyword_tips": {
+    "message": "シソーラス名を入力"
+  },
+  "keyword_store_tag_tips": {
+    "message": "新しいタグ名を入力"
+  },
+  "keyword_store_submit_btn": {
+    "message": "確認しました、提出！"
+  },
+  "keyword_store_keyword_empty_tips": {
+    "message": "シソーラス名は必須です"
+  },
+  "keyword_store_tag_empty_tips": {
+    "message": "新しいタグは必須です"
+  },
+  "keyword_store_add_to_keyword_list": {
+    "message": "シソーラスに追加"
+  },
+  "keyword_operate_filter_btn_keywords": {
+    "message": "キーワードを絞り込む"
+  },
+  "keyword_operate_filter_btn_start": {
+    "message": "フィルター開始"
+  },
+  "keyword_reverse_search_broad_match": {
+    "message": "部分マッチング"
+  },
+  "keyword_reverse_search_exact_match": {
+    "message": "フレーズマッチ"
+  },
+  "keyword_operate_filter_placeholder_muti": {
+    "message": "キーワードを入力しください（複数の場合は読点で区切る)"
+  },
+  "keyword_operate_filter_placeholder_pro": {
+    "message": "キーワードを入力しください"
+  },
+  "keyword_operate_filter_word_nums": {
+    "message": "言葉の数"
+  },
+  "error_not_support_tips_MI": {
+    "message": "１、右上の検索ボックスにキーワードを入力・リサーチするか、「Amazon検索結果ページ」を開いて自動リサーチをしてください。<br/>２、或いはアマゾンの<a target='_blank' href='https://www.amazon.com' style='color: #ff9001 !important'>アメリカサイト</a>,<a target='_blank' href='https://www.amazon.co.jp' style='color: #ff9001 !important'>日本サイト</a>,<a target='_blank' href='https://www.amazon.co.uk' style='color: #ff9001 !important'>イギリスサイト</a>,<a target='_blank' href='https://www.amazon.de' style='color: #ff9001 !important'>ドイツサイト</a>,<a target='_blank' href='https://www.amazon.fr' style='color: #ff9001 !important'>フランスサイト</a>,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target='_blank' href='https://www.amazon.it' style='color: #ff9001 !important'>イタリアサイト</a>,<a target='_blank' href='https://www.amazon.es' style='color: #ff9001 !important'>スペインサイト</a>,<a target='_blank' href='https://www.amazon.ca' style='color: #ff9001 !important'>カナダサイト</a>,<a target='_blank' href='https://www.amazon.in' style='color: #ff9001 !important'>インドサイト</a>で拡張機能を使ってください。"
+  },
+  "error_not_support_title_MI": {
+    "message": "アマゾンの商品詳細ページではないので、情報を自動取得することはできません。"
+  },
+  "error_empty_items_title_MI": {
+    "message": "一致するデータは見つかりませんでした。再検索のヒント："
+  },
+  "error_empty_items_tips_MI": {
+    "message": "このキーワードは月間検索ボリュームが少ないから、データは暫く収集されていません。<br/>他のキーワードで検索して見ましょう。"
+  },
+  "error_not_support_title_RV": {
+    "message": "アマゾンの商品詳細ページではないので、情報を自動取得することはできません。"
+  },
+  "error_not_support_tips_RV": {
+    "message": "１、Listingページに移動するか、拡張機能右上の検索ボックスにASINを入力する必要があります。<br/>２、或いはアマゾンの<a target='_blank' href='https://www.amazon.com' style='color: #ff9001 !important'>アメリカサイト</a>,<a target='_blank' href='https://www.amazon.co.jp' style='color: #ff9001 !important'>日本サイト</a>,<a target='_blank' href='https://www.amazon.co.uk' style='color: #ff9001 !important'>イギリスサイト</a>,<a target='_blank' href='https://www.amazon.de' style='color: #ff9001 !important'>ドイツサイト</a>,<a target='_blank' href='https://www.amazon.fr' style='color: #ff9001 !important'>フランスサイト</a>,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target='_blank' href='https://www.amazon.it' style='color: #ff9001 !important'>イタリアサイト</a>,<a target='_blank' href='https://www.amazon.es' style='color: #ff9001 !important'>スペインサイト</a>,<a target='_blank' href='https://www.amazon.ca' style='color: #ff9001 !important'>カナダサイト</a>,<a target='_blank' href='https://www.amazon.in' style='color: #ff9001 !important'>インドサイト</a>で拡張機能を使ってください。"
+  },
+  "module_PL_no_store": {
+    "message": "まだ、商品ライブラリを追加していません<br/>検索結果ページ、ランキングページを開いて、追加してみてください〜"
+  },
+  "module_PL_look_by_store": {
+    "message": "商品ライブラリ別に見る"
+  },
+  "module_PL_cancel_default": {
+    "message": "「{name}」へのデフォルトの追加をキャンセル",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "module_PL_store_link": {
+    "message": "https://www.sellersprite.com/jp/help/product-list-of-extension"
+  },
+  "module_PL_store_no_list": {
+    "message": "この商品ライブラリに追加された商品はありません。"
+  },
+  "module_PL_products_comparison": {
+    "message": "商品比較"
+  },
+  "module_PL_reverse_ASINs": {
+    "message": "ワード拡張"
+  },
+  "module_PL_reverse_ASINs_simple": {
+    "message": "ワード拡張"
+  },
+  "module_PL_keyword_comparison": {
+    "message": "ワード比較"
+  },
+  "module_PL_creat_URL": {
+    "message": "Link生成"
+  },
+  "module_PL_URL": {
+    "message": "アマゾンリンク"
+  },
+  "module_PL_copy": {
+    "message": "リンクをコピー"
+  },
+  "module_PL_open": {
+    "message": "リンクを開く"
+  },
+  "module_PL_compare_select_tips": {
+    "message": "比較する商品を最小2つ、最大5つまで選択してください。"
+  },
+  "module_PL_asin_select_tips": {
+    "message": "ASINを選択"
+  },
+  "module_PL_copy_to_libary": {
+    "message": "ライブラリに移動"
+  },
+  "module_PL_copy_to_libary_title": {
+    "message": "商品ライブラリに移動（複数選択可）"
+  },
+  "module_PL_sure_submit": {
+    "message": "確認済み、提出！"
+  },
+  "module_PL_delete_tips": {
+    "message": "削除したい商品を選択してください～"
+  },
+  "module_PL_analysis_tips": {
+    "message": "分析する商品を選択してください。最小1、最大100"
+  },
+  "module_PL_insight_tips": {
+    "message": "洞察する商品を選択してください。最小1、最大100"
+  },
+  "module_PL_batch_export_tips": {
+    "message": "エクスポートししたい商品(最小1つ、最多100つ)を選んでください"
+  },
+  "module_PL_analyze_tips": {
+    "message": "現在のサンプルは100以下ですが、分析を続けますか？"
+  },
+  "module_PL_analyze_cancel_btn": {
+    "message": "しない"
+  },
+  "module_PL_analyze_sure_btn": {
+    "message": "続く"
+  },
+  "module_PL_analyze_no_data_tips": {
+    "message": "分析したい商品を選択して下さい〜"
+  },
+  "module_PL_remark_title": {
+    "message": "備考情報記入"
+  },
+  "module_PL_remark_date": {
+    "message": "現在日時挿入"
+  },
+  "module_PL_remark_note": {
+    "message": "日常リサーチする時に、思いついた心得やタスクなどをここでメモを作成できます。"
+  },
+  "module_PL_remark_save": {
+    "message": "備考保存"
+  },
+  "module_PL_remark_clear": {
+    "message": "クリア"
+  },
+  "module_PL_product_add_time": {
+    "message": "商品ライブラリ追加日"
+  },
+  "module_PL_remark_add": {
+    "message": "備考追加"
+  },
+  "module_PL_remark_add_tips": {
+    "message": "入力内容は1000文字以内でお願いします。"
+  },
+  "module_main_move_tips": {
+    "message": "右のロゴ位置は上下にドラッグできます<br/>ロゴの上にマウスを置くと、機能ナビゲーションが表示され、クリックすると検索できます〜"
+  },
+  "module_main_first_add_product_tips": {
+    "message": "商品ライブラリへの追加に成功しました！<br/>右のロゴにマウスオーバーして、商品ライブラリをクリックすると確認できます！"
+  },
+  "module_main_start": {
+    "message": "了解しました！さっそく使ってみます！"
+  },
+  "module_main_start_btn": {
+    "message": "了解～ ヒントはもういらない"
+  },
+  "module_main_extension": {
+    "message": "拡張機能"
+  },
+  "common_preparing_data": {
+    "message": "データ準備中..."
+  },
+  "keyword_operate_filter_exclude_keywords": {
+    "message": "キーワードを排除する"
+  },
+  "keyword_operate_filter_include_keywords": {
+    "message": "含まれるキーワード"
+  },
+  "reversing_search_back_results_page": {
+    "message": "結果ページに戻す"
+  },
+  "reversing_search_back_results_page_all": {
+    "message": "一括で結果ページに戻す"
+  },
+  "reversing_search_look_delete_keyword": {
+    "message": "削除したワードを見る"
+  },
+  "reversing_search_delete_keywords_list": {
+    "message": "削除したキーワードリスト"
+  },
+  "keyword_root_tips": {
+    "message": "ボックスにチェックを入れて、現在の検索語根のみに基づいてキーワードを展開します。結果のキーワードには検索語が含まれます。"
+  },
+  "keyword_AC_tips": {
+    "message": "Amazon's Choice、チェックを入れてACロゴ付きのキーワードを絞り込みます。"
+  },
+  "keyword_relativity_tips": {
+    "message": "相関度の相対値、最高値＝100、最低値＝0.5<br>数値が高いほど、同型の競合商品の数が多いことを示します"
+  },
+  "keyword_percentage_tips": {
+    "message": "Amazon ABAデータのキーワード検索頻度週間ランキング"
+  },
+  "keyword_RV_ABA_week_rank_tips": {
+    "message": "Amazon ABAデータのキーワード検索頻度週間ランキング"
+  },
+  "keyword_MI_ABA_week_rank_tips": {
+    "message": "Amazon ABAデータのキーワード検索頻度月間ランキング"
+  },
+  "keyword_month_search_tips": {
+    "message": "1ヶ月以内に、例えば、2022年6月に、対象キーワードがAmazonで検索される回数を指します。"
+  },
+  "keyword_spr_tips": {
+    "message": "Sellersprite Product Rank、そのキーワード順位を検索結果の1ページ目に維持できる8日間の予測販売数です。"
+  },
+  "keyword_title_density_tips": {
+    "message": "そのキーワードはアマゾンの検索結果の1ページ目にある商品の中で、タイトルに該当キーワードが含まれている商品の数です。"
+  },
+  "keyword_purchase_tips": {
+    "message": "一か月間に、例えば、2023年7月に、対象キーワードで検索された後、ユーザーが商品を購入した回数を指します。"
+  },
+  "keyword_purchase_rate_tips": {
+    "message": "転換率＝販売数／検索数"
+  },
+  "keyword_product_number_tips": {
+    "message": "このキーワードが検索されたら、検索結果に表示された関連商品数量のことを指します。"
+  },
+  "keyword_supply_ratio_tips": {
+    "message": "需給比率=検索数(需要)/商品数(供給)"
+  },
+  "keyword_ad_product_tips": {
+    "message": "直近7日間で、キーワードの検索結果上位3ページに入った広告商品の総数を示します。"
+  },
+  "keyword_click_rate_tips": {
+    "message": "Top3ASINのクリック総数比率"
+  },
+  "keyword_conversion_share_tips": {
+    "message": "Top3ASINの転換総数"
+  },
+  "keyword_ppc_tips": {
+    "message": "アマゾンサイト内広告のBid価格、システムが「フレーズマッチング」のBid推奨価格と範囲を提供します。"
+  },
+  "keyword_word_nums_tips": {
+    "message": "キーワードフレーズの単語数は、スペースで区切られています。"
+  },
+  "keyword_exclude_keywords_tips": {
+    "message": "追加後のスクリーニング結果には、そのキーワードを含むフレーズは示しません。"
+  },
+  "keyword_include_keywords_tips": {
+    "message": "フィルタリングされた結果は、キーワードを含むフレーズのみを表示します。"
+  },
+  "module_PS_filter_variations_tips": {
+    "message": "バリエーション数：商品バリエーションの数"
+  },
+  "filter_include_keywords_tips": {
+    "message": "タイトルにキーワードを含む商品をフィルタリングします"
+  },
+  "filter_exclude_keywords_tips": {
+    "message": "タイトルにそのキーワードを含む商品を除外します。"
+  },
+  "filter_exclude_brand": {
+    "message": "ブランドを排除"
+  },
+  "filter_include_brand": {
+    "message": "ブランドを含む"
+  },
+  "filter_include_brand_tips": {
+    "message": "正確なブランド検索で、該当ブランドの商品をフィルタリングします（カンマで区切られる）"
+  },
+  "filter_exclude_brand_tips": {
+    "message": "このブランドの商品を除外します（カンマで区切られる）"
+  },
+  "filter_include_sealer_tips": {
+    "message": "正確なセラー検索で、該当セラーの商品をフィルタリングします（カンマで区切られる）"
+  },
+  "filter_exclude_sealer_tips": {
+    "message": "このセラーの商品を除外します（カンマで区切られる）"
+  },
+  "filter_include_sealer": {
+    "message": "セラーを含む"
+  },
+  "filter_sealer_placeholder": {
+    "message": "セラーを入力（カンマで区切られる）"
+  },
+  "filter_brand_placeholder": {
+    "message": "ブランドを入力（カンマで区切られる）"
+  },
+  "filter_exclude_sealer": {
+    "message": "セラーを排除"
+  },
+  "keyword_research_weekly_table_cv": {
+    "message": "転化"
+  },
+  "keyword_research_weekly_table_click": {
+    "message": "クリック"
+  },
+  "reversing_click_top_three_asin": {
+    "message": "クリック"
+  },
+  "reversing_conversion_top_three_asin": {
+    "message": "転換"
+  },
+  "shulex_dialog_content": {
+    "message": "一括レビュー分析と商品属性分析はSellerspriteとShulexによって共同開発され、AI連携版を別途購入することで、すぐに解除されます！ページジャンプ中..."
+  },
+  "shulex_dialog_btn_go": {
+    "message": "お得にゲット"
+  },
+  "shulex_dialog_btn_try": {
+    "message": "無料トライアルをGet"
+  },
+  "shulex_dialog_title_review": {
+    "message": "グローバル消費者トレンドを洞察し、AIが人気商品の誕生をサポート"
+  },
+  "shulex_dialog_intro_review": {
+    "message": "主要な電子商取引のレビューやソーシャルメディアの消費者フィードバックを30秒で分析"
+  },
+  "shulex_dialog_more_ja_left": {
+    "message": "詳細な情報を知りたい場合は、"
+  },
+  "shulex_dialog_more_ja_right": {
+    "message": "を参照してください"
+  },
+  "shulex_dialog_review": {
+    "message": "消費者洞察の説明"
+  },
+  "shulex_dialog_title_insight": {
+    "message": "タイミングを捉えて、市場シェアを獲得"
+  },
+  "shulex_dialog_intro_insight": {
+    "message": "1分間だけでカテゴリー・市場のトレンドを調査・洞察"
+  },
+  "shulex_dialog_insight": {
+    "message": "細分化市場の説明"
+  },
+  "shulex_dialog_agree": {
+    "message": "Shulexの"
+  },
+  "shulex_dialog_agree_policy": {
+    "message": "プライバシーポリシー"
+  },
+  "shulex_dialog_agree_and": {
+    "message": "と"
+  },
+  "shulex_dialog_agree_condition": {
+    "message": "サービス契約"
+  },
+  "shulex_dialog_agree_end": {
+    "message": "に同意し、Shulexのアクティベーションを承認します。"
+  },
+  "shulex_auth_failed": {
+    "message": "認証に失敗しました。後で再試行してください！"
+  },
+  "module_KC_this_page": {
+    "message": "指定ページ"
+  },
+  "module_KC_this_page_tips": {
+    "message": "該当キーワードにおける、指定したページ数範囲のランキング順位を検索できます。"
+  },
+  "module_KC_before_page": {
+    "message": "前の{page}ページ",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "nav_api": {
+    "message": "API"
+  },
+  "nav_api_tips": {
+    "message": "大量のデータ検索では、セラースプライトAPIインターフェースをワンクリックで解決！ここをクリックしてAPIインテリジェントコールを体験！"
+  },
+  "module_keepa_coupon_save_price": {
+    "message": "({num}割引後)",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "module_keepa_field_explain_tips_link": {
+    "message": "https://www.sellersprite.com/jp/help/keepa-tips-of-extension"
+  },
+  "global_check_option_tips": {
+    "message": "システムがSellerSprite拡張機能の重複インストールを検出しました。<br>最適な体験を得るために、古いバージョンをアンインストールし、最新版のみを残してくださいね〜"
+  },
+  "global_check_option_tips_btn": {
+    "message": "アンインストール"
+  },
+  "check_listing_btn": {
+    "message": "違反検出"
+  },
+  "check_listing_btn_tips": {
+    "message": "あなたの箇条書きがAmazonの新規則に適合しているかどうかを検出し、<br>適合していない場合はその理由を表示し、迅速に修正できるようにサポートします。"
+  },
+  "check_listing_optimization_btn": {
+    "message": "Listing最適化"
+  },
+  "check_listing_active_tips": {
+    "message": "不適合な句読点、絵文字や禁則ワードを削除してください。"
+  },
+  "check_listing_delete_punctuation": {
+    "message": "文末の句読点を削除してください"
+  },
+  "check_listing_delete_emoj": {
+    "message": "絵文字を削除してください。"
+  },
+  "check_listing_delete_illegal_words": {
+    "message": "不適切な用語を削除"
+  },
+  "check_listing_no_illegal": {
+    "message": "現在、違反情報はありません。"
+  },
+  "goods_source_filter": {
+    "message": "検索結果フィルタリング"
+  },
+  "goods_source_filter_show": {
+    "message": "フィルタ条件を表示"
+  },
+  "goods_source_filter_hide": {
+    "message": "フィルタ条件を非表示"
+  },
+  "goods_source_total_ep_score_level_1": {
+    "message": "星5つ"
+  },
+  "goods_source_total_ep_score_level_2": {
+    "message": "星4.5つ～星5.0つ"
+  },
+  "goods_source_total_ep_score_level_3": {
+    "message": "星4つ～星4.5つ"
+  },
+  "goods_source_total_ep_score_level_4": {
+    "message": "星4つ以下"
+  },
+  "goods_source_ship_in_today": {
+    "message": "当日発送"
+  },
+  "goods_source_ship_in_24": {
+    "message": "24時間以内発送"
+  },
+  "goods_source_ship_in_48": {
+    "message": "48時間以内発送"
+  },
+  "goods_source_new_7": {
+    "message": "7日間新商品追加"
+  },
+  "goods_source_new_30": {
+    "message": "30日間新商品追加"
+  },
+  "goods_source_1688_selection": {
+    "message": "厳選"
+  },
+  "goods_source_is_qqyx": {
+    "message": "グローバル厳選"
+  },
+  "goods_source_jxhy": {
+    "message": "卸売厳選"
+  },
+  "goods_source_wly_7": {
+    "message": "7日間無条件返品"
+  },
+  "goods_source_rzgc": {
+    "message": "認定工場"
+  },
+  "goods_source_yjdf": {
+    "message": "1個から代行発送可能"
+  },
+  "goods_source_yjbydf": {
+    "message": "送料無料対応（1個からの代行発送も送料無料）"
+  },
+  "goods_source_kjhp": {
+    "message": "越境select商品"
+  },
+  "goods_source_ssjggl": {
+    "message": "検索結果フィルタリング"
+  },
+  "goods_source_zsgltj": {
+    "message": "フィルタ条件を表示"
+  },
+  "goods_source_ycgltj": {
+    "message": "フィルタ条件を非表示"
+  },
+  "goods_source_zhtyf": {
+    "message": "総合体験スコア"
+  },
+  "goods_source_qxzzhtyf": {
+    "message": "総合体験スコアを選択してください"
+  },
+  "goods_source_24lsl": {
+    "message": "24時間以内集荷率"
+  },
+  "goods_source_24qxzlsl": {
+    "message": "24時間以内集荷率を選択してください"
+  },
+  "goods_source_48lsl": {
+    "message": "48時間以内集荷率"
+  },
+  "goods_source_48qxzlsl": {
+    "message": "48時間以内集荷率を選択してください"
+  },
+  "goods_source_fhsj": {
+    "message": "発送時間"
+  },
+  "goods_source_qxzfhsj": {
+    "message": "発送時間を選択してください"
+  },
+  "goods_source_sxsj": {
+    "message": "新商品追加時間"
+  },
+  "goods_source_qxzsxsj": {
+    "message": "新商品追加時間を選択してください"
+  },
+  "goods_source_zhtyf_tips": {
+    "message": "<p>総合体験スコアは、1688のサプライヤーのサービスレベルを評価するための指標であり、バイヤーがサプライヤーを選ぶ際に、そのサービスレベルと市場でのパフォーマンスを迅速に理解するのに役立ちます。</p><p>このスコアは主に、返品・交換の体験、品質の体験、物流のスピード、紛争解決、購買相談の総合的な評価に基づいて算出されます。</p>"
+  },
+  "goods_source_24lsl_tips": {
+    "message": "<p>24時間以内集荷率は、注文生成後の24時間以内にパッケージの集荷を成功させるサプライヤーの効率を測る重要な物流指標です。この指標は、サプライヤーの対応速度と物流処理能力を反映しており、買い手にとってサプライヤーの信頼性を評価する際の重要な要素となります。</p><p>具体的には、「24時間以内集荷率」とは以下を指します：</p><p>すべての出荷済み注文の中で、注文確認後24時間以内に物流会社によって実際に集荷された注文の割合です。</p><p>この割合が高いほど、サプライヤーの出荷速度と物流効率が高く、注文処理に対する買い手の満足度も高くなる可能性があります。</p>"
+  },
+  "goods_source_48lsl_tips": {
+    "message": "<p>48時間以内集荷率は、サプライヤーの物流効率を測る指標の一つで、すべての注文のうち、物流サービスが48時間以内に集荷し、物流システムに記録される注文の割合を示しています。</p><p>この指標は、サプライヤーが注文を確認してから物流が処理を開始するまでの速度と効率を反映しており、買い手がサプライヤーを選ぶ際の参考にもなります。</p>"
+  },
+  "goods_source_fhsj_tips": {
+    "message": "<p>発送時間とは、サプライヤーが注文を受け取ってから実際に商品を発送するまでにかかる時間を指します。この時間枠は、売り手の注文履行効率を測る重要な指標であり、買い手が商品を受け取るまでの予測を理解する上で非常に重要です。<br></p>"
+  },
+  "goods_source_sxsj_tips": {
+    "message": "<p>新商品追加時間とは、サプライヤーが1688プラットフォームで新商品を出品する周期を指します。</p><p>7日間新商品追加：これは、サプライヤーが7日ごとに商品カタログに新しい商品を追加することを意味します。この周期は、サプライヤーが頻繁に新商品を導入し、商品ラインの新鮮さと競争力を維持していることを示しています。</p><p>30日間新商品追加：これは、サプライヤーが毎月一度商品カタログを更新し、新しい商品を追加することを意味します。この周期は長めで、サプライヤーの商品更新頻度が低いことや、長い期間で複数の新商品をまとめて公開することを意味しているかもしれません。</p>"
+  },
+  "bullets_check_keyword_num": {
+    "message": "({num} 文字)",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  }
+}

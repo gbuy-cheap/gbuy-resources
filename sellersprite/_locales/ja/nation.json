@@ -1,0 +1,755 @@
+{
+  "nation_code_noun_OTHER": {
+    "message": "その他"
+  },
+  "nation_code_noun_UNKNOWN": {
+    "message": "不明"
+  },
+  "nation_code_noun_AD": {
+    "message": "アンドラ"
+  },
+  "nation_code_noun_AE": {
+    "message": "アラブ首長国連邦"
+  },
+  "nation_code_noun_AF": {
+    "message": "アフガニスタン"
+  },
+  "nation_code_noun_AG": {
+    "message": "アンティグア・バーブーダ"
+  },
+  "nation_code_noun_AI": {
+    "message": "アンギラ"
+  },
+  "nation_code_noun_AL": {
+    "message": "アルバニア"
+  },
+  "nation_code_noun_AM": {
+    "message": "アルメニア"
+  },
+  "nation_code_noun_AO": {
+    "message": "アンゴラ"
+  },
+  "nation_code_noun_AQ": {
+    "message": "南極"
+  },
+  "nation_code_noun_AR": {
+    "message": "アルゼンチン"
+  },
+  "nation_code_noun_AS": {
+    "message": "アメリカ領サモア"
+  },
+  "nation_code_noun_AT": {
+    "message": "オーストリア"
+  },
+  "nation_code_noun_AU": {
+    "message": "オーストラリア"
+  },
+  "nation_code_noun_AW": {
+    "message": "アルバ"
+  },
+  "nation_code_noun_AX": {
+    "message": "オーランド諸島"
+  },
+  "nation_code_noun_AZ": {
+    "message": "アゼルバイジャン"
+  },
+  "nation_code_noun_BA": {
+    "message": "ボスニア・ヘルツェゴビナ"
+  },
+  "nation_code_noun_BB": {
+    "message": "バルバドス"
+  },
+  "nation_code_noun_BD": {
+    "message": "バングラデシュ"
+  },
+  "nation_code_noun_BE": {
+    "message": "ベルギー"
+  },
+  "nation_code_noun_BF": {
+    "message": "ブルキナファソ"
+  },
+  "nation_code_noun_BG": {
+    "message": "ブルガリア"
+  },
+  "nation_code_noun_BH": {
+    "message": "バーレーン"
+  },
+  "nation_code_noun_BI": {
+    "message": "ブルンジ"
+  },
+  "nation_code_noun_BJ": {
+    "message": "ベナン"
+  },
+  "nation_code_noun_BL": {
+    "message": "サン・バルテルミー"
+  },
+  "nation_code_noun_BM": {
+    "message": "バミューダ"
+  },
+  "nation_code_noun_BN": {
+    "message": "ブルネイ・ダルサラーム"
+  },
+  "nation_code_noun_BO": {
+    "message": "ボリビア多民族国"
+  },
+  "nation_code_noun_BQ": {
+    "message": "ボネール、シント・ユースタティウスおよびサバ"
+  },
+  "nation_code_noun_BR": {
+    "message": "ブラジル"
+  },
+  "nation_code_noun_BS": {
+    "message": "バハマ"
+  },
+  "nation_code_noun_BT": {
+    "message": "ブータン"
+  },
+  "nation_code_noun_BV": {
+    "message": "ブーベ島"
+  },
+  "nation_code_noun_BW": {
+    "message": "ボツワナ"
+  },
+  "nation_code_noun_BY": {
+    "message": "ベラルーシ"
+  },
+  "nation_code_noun_BZ": {
+    "message": "ベリーズ"
+  },
+  "nation_code_noun_CA": {
+    "message": "カナダ"
+  },
+  "nation_code_noun_CC": {
+    "message": "ココス（キーリング）諸島"
+  },
+  "nation_code_noun_CD": {
+    "message": "コンゴ民主共和国"
+  },
+  "nation_code_noun_CF": {
+    "message": "中央アフリカ共和国"
+  },
+  "nation_code_noun_CG": {
+    "message": "コンゴ共和国"
+  },
+  "nation_code_noun_CH": {
+    "message": "スイス"
+  },
+  "nation_code_noun_CI": {
+    "message": "コートジボワール"
+  },
+  "nation_code_noun_CK": {
+    "message": "クック諸島"
+  },
+  "nation_code_noun_CL": {
+    "message": "チリ"
+  },
+  "nation_code_noun_CM": {
+    "message": "カメルーン"
+  },
+  "nation_code_noun_CN": {
+    "message": "中国"
+  },
+  "nation_code_noun_CO": {
+    "message": "コロンビア"
+  },
+  "nation_code_noun_CR": {
+    "message": "コスタリカ"
+  },
+  "nation_code_noun_CU": {
+    "message": "キューバ"
+  },
+  "nation_code_noun_CV": {
+    "message": "カーボベルデ"
+  },
+  "nation_code_noun_CW": {
+    "message": "キュラソー"
+  },
+  "nation_code_noun_CX": {
+    "message": "クリスマス島"
+  },
+  "nation_code_noun_CY": {
+    "message": "キプロス"
+  },
+  "nation_code_noun_CZ": {
+    "message": "チェコ"
+  },
+  "nation_code_noun_DE": {
+    "message": "ドイツ"
+  },
+  "nation_code_noun_DJ": {
+    "message": "ジブチ"
+  },
+  "nation_code_noun_DK": {
+    "message": "デンマーク"
+  },
+  "nation_code_noun_DM": {
+    "message": "ドミニカ国"
+  },
+  "nation_code_noun_DO": {
+    "message": "ドミニカ共和国"
+  },
+  "nation_code_noun_DZ": {
+    "message": "アルジェリア"
+  },
+  "nation_code_noun_EC": {
+    "message": "エクアドル"
+  },
+  "nation_code_noun_EE": {
+    "message": "エストニア"
+  },
+  "nation_code_noun_EG": {
+    "message": "エジプト"
+  },
+  "nation_code_noun_EH": {
+    "message": "西サハラ"
+  },
+  "nation_code_noun_ER": {
+    "message": "エリトリア"
+  },
+  "nation_code_noun_ES": {
+    "message": "スペイン"
+  },
+  "nation_code_noun_ET": {
+    "message": "エチオピア"
+  },
+  "nation_code_noun_FI": {
+    "message": "フィンランド"
+  },
+  "nation_code_noun_FJ": {
+    "message": "フィジー"
+  },
+  "nation_code_noun_FK": {
+    "message": "フォークランド（マルビナス）諸島"
+  },
+  "nation_code_noun_FM": {
+    "message": "ミクロネシア連邦"
+  },
+  "nation_code_noun_FO": {
+    "message": "フェロー諸島"
+  },
+  "nation_code_noun_FR": {
+    "message": "フランス"
+  },
+  "nation_code_noun_GA": {
+    "message": "ガボン"
+  },
+  "nation_code_noun_GB": {
+    "message": "イギリス"
+  },
+  "nation_code_noun_GD": {
+    "message": "グレナダ"
+  },
+  "nation_code_noun_GE": {
+    "message": "ジョージア"
+  },
+  "nation_code_noun_GF": {
+    "message": "フランス領ギアナ"
+  },
+  "nation_code_noun_GG": {
+    "message": "ガーンジー"
+  },
+  "nation_code_noun_GH": {
+    "message": "ガーナ"
+  },
+  "nation_code_noun_GI": {
+    "message": "ジブラルタル"
+  },
+  "nation_code_noun_GL": {
+    "message": "グリーンランド"
+  },
+  "nation_code_noun_GM": {
+    "message": "ガンビア"
+  },
+  "nation_code_noun_GN": {
+    "message": "ギニア"
+  },
+  "nation_code_noun_GP": {
+    "message": "グアドループ"
+  },
+  "nation_code_noun_GQ": {
+    "message": "赤道ギニア"
+  },
+  "nation_code_noun_GR": {
+    "message": "ギリシャ"
+  },
+  "nation_code_noun_GS": {
+    "message": "サウスジョージア・サウスサンドウィッチ諸島"
+  },
+  "nation_code_noun_GT": {
+    "message": "グアテマラ"
+  },
+  "nation_code_noun_GU": {
+    "message": "グアム"
+  },
+  "nation_code_noun_GW": {
+    "message": "ギニアビサウ"
+  },
+  "nation_code_noun_GY": {
+    "message": "ガイアナ"
+  },
+  "nation_code_noun_HK": {
+    "message": "中国香港"
+  },
+  "nation_code_noun_HM": {
+    "message": "ハード島とマクドナルド諸島"
+  },
+  "nation_code_noun_HN": {
+    "message": "ホンジュラス"
+  },
+  "nation_code_noun_HR": {
+    "message": "クロアチア"
+  },
+  "nation_code_noun_HT": {
+    "message": "ハイチ"
+  },
+  "nation_code_noun_HU": {
+    "message": "ハンガリー"
+  },
+  "nation_code_noun_ID": {
+    "message": "インドネシア"
+  },
+  "nation_code_noun_IE": {
+    "message": "アイルランド"
+  },
+  "nation_code_noun_IL": {
+    "message": "イスラエル"
+  },
+  "nation_code_noun_IM": {
+    "message": "マン島"
+  },
+  "nation_code_noun_IN": {
+    "message": "インド"
+  },
+  "nation_code_noun_IO": {
+    "message": "イギリス領インド洋地域"
+  },
+  "nation_code_noun_IQ": {
+    "message": "イラク"
+  },
+  "nation_code_noun_IR": {
+    "message": "イラン・イスラム共和国"
+  },
+  "nation_code_noun_IS": {
+    "message": "アイスランド"
+  },
+  "nation_code_noun_IT": {
+    "message": "イタリア"
+  },
+  "nation_code_noun_JE": {
+    "message": "ジャージー"
+  },
+  "nation_code_noun_JM": {
+    "message": "ジャマイカ"
+  },
+  "nation_code_noun_JO": {
+    "message": "ヨルダン"
+  },
+  "nation_code_noun_JP": {
+    "message": "日本"
+  },
+  "nation_code_noun_KE": {
+    "message": "ケニア"
+  },
+  "nation_code_noun_KG": {
+    "message": "キルギス"
+  },
+  "nation_code_noun_KH": {
+    "message": "カンボジア"
+  },
+  "nation_code_noun_KI": {
+    "message": "キリバス"
+  },
+  "nation_code_noun_KM": {
+    "message": "コモロ"
+  },
+  "nation_code_noun_KN": {
+    "message": "セントクリストファー・ネイビス"
+  },
+  "nation_code_noun_KP": {
+    "message": "朝鮮民主主義人民共和国"
+  },
+  "nation_code_noun_KR": {
+    "message": "大韓民国"
+  },
+  "nation_code_noun_KW": {
+    "message": "クウェート"
+  },
+  "nation_code_noun_KY": {
+    "message": "ケイマン諸島"
+  },
+  "nation_code_noun_KZ": {
+    "message": "カザフスタン"
+  },
+  "nation_code_noun_LA": {
+    "message": "ラオス人民民主共和国"
+  },
+  "nation_code_noun_LB": {
+    "message": "レバノン"
+  },
+  "nation_code_noun_LC": {
+    "message": "セントルシア"
+  },
+  "nation_code_noun_LI": {
+    "message": "リヒテンシュタイン"
+  },
+  "nation_code_noun_LK": {
+    "message": "スリランカ"
+  },
+  "nation_code_noun_LR": {
+    "message": "リベリア"
+  },
+  "nation_code_noun_LS": {
+    "message": "レソト"
+  },
+  "nation_code_noun_LT": {
+    "message": "リトアニア"
+  },
+  "nation_code_noun_LU": {
+    "message": "ルクセンブルク"
+  },
+  "nation_code_noun_LV": {
+    "message": "ラトビア"
+  },
+  "nation_code_noun_LY": {
+    "message": "リビア"
+  },
+  "nation_code_noun_MA": {
+    "message": "モロッコ"
+  },
+  "nation_code_noun_MC": {
+    "message": "モナコ"
+  },
+  "nation_code_noun_MD": {
+    "message": "モルドバ共和国"
+  },
+  "nation_code_noun_ME": {
+    "message": "モンテネグロ"
+  },
+  "nation_code_noun_MF": {
+    "message": "サン・マルタン（フランス領）"
+  },
+  "nation_code_noun_MG": {
+    "message": "マダガスカル"
+  },
+  "nation_code_noun_MH": {
+    "message": "マーシャル諸島"
+  },
+  "nation_code_noun_MK": {
+    "message": "北マケドニア"
+  },
+  "nation_code_noun_ML": {
+    "message": "マリ"
+  },
+  "nation_code_noun_MM": {
+    "message": "ミャンマー"
+  },
+  "nation_code_noun_MN": {
+    "message": "モンゴル"
+  },
+  "nation_code_noun_MO": {
+    "message": "中国マカオ"
+  },
+  "nation_code_noun_MP": {
+    "message": "北マリアナ諸島"
+  },
+  "nation_code_noun_MQ": {
+    "message": "マルティニーク"
+  },
+  "nation_code_noun_MR": {
+    "message": "モーリタニア"
+  },
+  "nation_code_noun_MS": {
+    "message": "モントセラト"
+  },
+  "nation_code_noun_MT": {
+    "message": "マルタ"
+  },
+  "nation_code_noun_MU": {
+    "message": "モーリシャス"
+  },
+  "nation_code_noun_MV": {
+    "message": "モルディブ"
+  },
+  "nation_code_noun_MW": {
+    "message": "マラウイ"
+  },
+  "nation_code_noun_MX": {
+    "message": "メキシコ"
+  },
+  "nation_code_noun_MY": {
+    "message": "マレーシア"
+  },
+  "nation_code_noun_MZ": {
+    "message": "モザンビーク"
+  },
+  "nation_code_noun_NA": {
+    "message": "ナミビア"
+  },
+  "nation_code_noun_NC": {
+    "message": "ニューカレドニア"
+  },
+  "nation_code_noun_NE": {
+    "message": "ニジェール"
+  },
+  "nation_code_noun_NF": {
+    "message": "ノーフォーク島"
+  },
+  "nation_code_noun_NG": {
+    "message": "ナイジェリア"
+  },
+  "nation_code_noun_NI": {
+    "message": "ニカラグア"
+  },
+  "nation_code_noun_NL": {
+    "message": "オランダ"
+  },
+  "nation_code_noun_NO": {
+    "message": "ノルウェー"
+  },
+  "nation_code_noun_NP": {
+    "message": "ネパール"
+  },
+  "nation_code_noun_NR": {
+    "message": "ナウル"
+  },
+  "nation_code_noun_NU": {
+    "message": "ニウエ"
+  },
+  "nation_code_noun_NZ": {
+    "message": "ニュージーランド"
+  },
+  "nation_code_noun_OM": {
+    "message": "オマーン"
+  },
+  "nation_code_noun_PA": {
+    "message": "パナマ"
+  },
+  "nation_code_noun_PE": {
+    "message": "ペルー"
+  },
+  "nation_code_noun_PF": {
+    "message": "フランス領ポリネシア"
+  },
+  "nation_code_noun_PG": {
+    "message": "パプアニューギニア"
+  },
+  "nation_code_noun_PH": {
+    "message": "フィリピン"
+  },
+  "nation_code_noun_PK": {
+    "message": "パキスタン"
+  },
+  "nation_code_noun_PL": {
+    "message": "ポーランド"
+  },
+  "nation_code_noun_PM": {
+    "message": "サンピエール島・ミクロン島"
+  },
+  "nation_code_noun_PN": {
+    "message": "ピトケアン"
+  },
+  "nation_code_noun_PR": {
+    "message": "プエルトリコ"
+  },
+  "nation_code_noun_PS": {
+    "message": "パレスチナ"
+  },
+  "nation_code_noun_PT": {
+    "message": "ポルトガル"
+  },
+  "nation_code_noun_PW": {
+    "message": "パラオ"
+  },
+  "nation_code_noun_PY": {
+    "message": "パラグアイ"
+  },
+  "nation_code_noun_QA": {
+    "message": "カタール"
+  },
+  "nation_code_noun_RE": {
+    "message": "レユニオン"
+  },
+  "nation_code_noun_RO": {
+    "message": "ルーマニア"
+  },
+  "nation_code_noun_RS": {
+    "message": "セルビア"
+  },
+  "nation_code_noun_RU": {
+    "message": "ロシア連邦"
+  },
+  "nation_code_noun_RW": {
+    "message": "ルワンダ"
+  },
+  "nation_code_noun_SA": {
+    "message": "サウジアラビア"
+  },
+  "nation_code_noun_SB": {
+    "message": "ソロモン諸島"
+  },
+  "nation_code_noun_SC": {
+    "message": "セーシェル"
+  },
+  "nation_code_noun_SD": {
+    "message": "スーダン"
+  },
+  "nation_code_noun_SE": {
+    "message": "スウェーデン"
+  },
+  "nation_code_noun_SG": {
+    "message": "シンガポール"
+  },
+  "nation_code_noun_SH": {
+    "message": "セントヘレナ・アセンションおよびトリスタンダクーニャ"
+  },
+  "nation_code_noun_SI": {
+    "message": "スロベニア"
+  },
+  "nation_code_noun_SJ": {
+    "message": "スヴァールバル諸島およびヤンマイエン島"
+  },
+  "nation_code_noun_SK": {
+    "message": "スロバキア"
+  },
+  "nation_code_noun_SL": {
+    "message": "シエラレオネ"
+  },
+  "nation_code_noun_SM": {
+    "message": "サンマリノ"
+  },
+  "nation_code_noun_SN": {
+    "message": "セネガル"
+  },
+  "nation_code_noun_SO": {
+    "message": "ソマリア"
+  },
+  "nation_code_noun_SR": {
+    "message": "スリナム"
+  },
+  "nation_code_noun_SS": {
+    "message": "南スーダン"
+  },
+  "nation_code_noun_ST": {
+    "message": "サントメ・プリンシペ"
+  },
+  "nation_code_noun_SV": {
+    "message": "エルサルバドル"
+  },
+  "nation_code_noun_SX": {
+    "message": "シント・マールテン（オランダ領）"
+  },
+  "nation_code_noun_SY": {
+    "message": "シリア・アラブ共和国"
+  },
+  "nation_code_noun_SZ": {
+    "message": "エスワティニ"
+  },
+  "nation_code_noun_TC": {
+    "message": "タークス・カイコス諸島"
+  },
+  "nation_code_noun_TD": {
+    "message": "チャド"
+  },
+  "nation_code_noun_TF": {
+    "message": "フランス領南方・南極地域"
+  },
+  "nation_code_noun_TG": {
+    "message": "トーゴ"
+  },
+  "nation_code_noun_TH": {
+    "message": "タイ"
+  },
+  "nation_code_noun_TJ": {
+    "message": "タジキスタン"
+  },
+  "nation_code_noun_TK": {
+    "message": "トケラウ"
+  },
+  "nation_code_noun_TL": {
+    "message": "東ティモール"
+  },
+  "nation_code_noun_TM": {
+    "message": "トルクメニスタン"
+  },
+  "nation_code_noun_TN": {
+    "message": "チュニジア"
+  },
+  "nation_code_noun_TO": {
+    "message": "トンガ"
+  },
+  "nation_code_noun_TR": {
+    "message": "トルコ"
+  },
+  "nation_code_noun_TT": {
+    "message": "トリニダード・トバゴ"
+  },
+  "nation_code_noun_TV": {
+    "message": "ツバル"
+  },
+  "nation_code_noun_TW": {
+    "message": "中国台湾"
+  },
+  "nation_code_noun_TZ": {
+    "message": "タンザニア"
+  },
+  "nation_code_noun_UA": {
+    "message": "ウクライナ"
+  },
+  "nation_code_noun_UG": {
+    "message": "ウガンダ"
+  },
+  "nation_code_noun_UM": {
+    "message": "合衆国領有小離島"
+  },
+  "nation_code_noun_US": {
+    "message": "アメリカ"
+  },
+  "nation_code_noun_UY": {
+    "message": "ウルグアイ"
+  },
+  "nation_code_noun_UZ": {
+    "message": "ウズベキスタン"
+  },
+  "nation_code_noun_VA": {
+    "message": "バチカン市国"
+  },
+  "nation_code_noun_VC": {
+    "message": "セントビンセントおよびグレナディーン諸島"
+  },
+  "nation_code_noun_VE": {
+    "message": "ベネズエラ・ボリバル共和国"
+  },
+  "nation_code_noun_VG": {
+    "message": "イギリス領ヴァージン諸島"
+  },
+  "nation_code_noun_VI": {
+    "message": "アメリカ領ヴァージン諸島"
+  },
+  "nation_code_noun_VN": {
+    "message": "ベトナム"
+  },
+  "nation_code_noun_VU": {
+    "message": "バヌアツ"
+  },
+  "nation_code_noun_WF": {
+    "message": "ウォリス・フツナ"
+  },
+  "nation_code_noun_WS": {
+    "message": "サモア"
+  },
+  "nation_code_noun_YE": {
+    "message": "イエメン"
+  },
+  "nation_code_noun_YT": {
+    "message": "マヨット"
+  },
+  "nation_code_noun_ZA": {
+    "message": "南アフリカ"
+  },
+  "nation_code_noun_ZM": {
+    "message": "ザンビア"
+  },
+  "nation_code_noun_ZW": {
+    "message": "ジンバブエ"
+  }
+}

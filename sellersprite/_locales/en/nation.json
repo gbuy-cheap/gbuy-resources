@@ -1,0 +1,755 @@
+{
+  "nation_code_noun_OTHER": {
+    "message": "Other"
+  },
+  "nation_code_noun_UNKNOWN": {
+    "message": "Unknown"
+  },
+  "nation_code_noun_AD": {
+    "message": "Andorra"
+  },
+  "nation_code_noun_AE": {
+    "message": "United Arab Emirates"
+  },
+  "nation_code_noun_AF": {
+    "message": "Afghanistan"
+  },
+  "nation_code_noun_AG": {
+    "message": "Antigua and Barbuda"
+  },
+  "nation_code_noun_AI": {
+    "message": "Anguilla"
+  },
+  "nation_code_noun_AL": {
+    "message": "Albania"
+  },
+  "nation_code_noun_AM": {
+    "message": "Armenia"
+  },
+  "nation_code_noun_AO": {
+    "message": "Angola"
+  },
+  "nation_code_noun_AQ": {
+    "message": "Antarctica"
+  },
+  "nation_code_noun_AR": {
+    "message": "Argentina"
+  },
+  "nation_code_noun_AS": {
+    "message": "American Samoa"
+  },
+  "nation_code_noun_AT": {
+    "message": "Austria"
+  },
+  "nation_code_noun_AU": {
+    "message": "Australia"
+  },
+  "nation_code_noun_AW": {
+    "message": "Aruba"
+  },
+  "nation_code_noun_AX": {
+    "message": "Åland Islands"
+  },
+  "nation_code_noun_AZ": {
+    "message": "Azerbaijan"
+  },
+  "nation_code_noun_BA": {
+    "message": "Bosnia and Herzegovina"
+  },
+  "nation_code_noun_BB": {
+    "message": "Barbados"
+  },
+  "nation_code_noun_BD": {
+    "message": "Bangladesh"
+  },
+  "nation_code_noun_BE": {
+    "message": "Belgium"
+  },
+  "nation_code_noun_BF": {
+    "message": "Burkina Faso"
+  },
+  "nation_code_noun_BG": {
+    "message": "Bulgaria"
+  },
+  "nation_code_noun_BH": {
+    "message": "Bahrain"
+  },
+  "nation_code_noun_BI": {
+    "message": "Burundi"
+  },
+  "nation_code_noun_BJ": {
+    "message": "Benin"
+  },
+  "nation_code_noun_BL": {
+    "message": "Saint Barthélemy"
+  },
+  "nation_code_noun_BM": {
+    "message": "Bermuda"
+  },
+  "nation_code_noun_BN": {
+    "message": "Brunei Darussalam"
+  },
+  "nation_code_noun_BO": {
+    "message": "Bolivia (Plurinational State of)"
+  },
+  "nation_code_noun_BQ": {
+    "message": "Bonaire, Sint Eustatius and Saba"
+  },
+  "nation_code_noun_BR": {
+    "message": "Brazil"
+  },
+  "nation_code_noun_BS": {
+    "message": "Bahamas"
+  },
+  "nation_code_noun_BT": {
+    "message": "Bhutan"
+  },
+  "nation_code_noun_BV": {
+    "message": "Bouvet Island"
+  },
+  "nation_code_noun_BW": {
+    "message": "Botswana"
+  },
+  "nation_code_noun_BY": {
+    "message": "Belarus"
+  },
+  "nation_code_noun_BZ": {
+    "message": "Belize"
+  },
+  "nation_code_noun_CA": {
+    "message": "Canada"
+  },
+  "nation_code_noun_CC": {
+    "message": "Cocos (Keeling) Islands"
+  },
+  "nation_code_noun_CD": {
+    "message": "Congo, Democratic Republic of the"
+  },
+  "nation_code_noun_CF": {
+    "message": "Central African Republic"
+  },
+  "nation_code_noun_CG": {
+    "message": "Congo"
+  },
+  "nation_code_noun_CH": {
+    "message": "Switzerland"
+  },
+  "nation_code_noun_CI": {
+    "message": "Côte d'Ivoire"
+  },
+  "nation_code_noun_CK": {
+    "message": "Cook Islands"
+  },
+  "nation_code_noun_CL": {
+    "message": "Chile"
+  },
+  "nation_code_noun_CM": {
+    "message": "Cameroon"
+  },
+  "nation_code_noun_CN": {
+    "message": "China"
+  },
+  "nation_code_noun_CO": {
+    "message": "Colombia"
+  },
+  "nation_code_noun_CR": {
+    "message": "Costa Rica"
+  },
+  "nation_code_noun_CU": {
+    "message": "Cuba"
+  },
+  "nation_code_noun_CV": {
+    "message": "Cabo Verde"
+  },
+  "nation_code_noun_CW": {
+    "message": "Curaçao"
+  },
+  "nation_code_noun_CX": {
+    "message": "Christmas Island"
+  },
+  "nation_code_noun_CY": {
+    "message": "Cyprus"
+  },
+  "nation_code_noun_CZ": {
+    "message": "Czechia"
+  },
+  "nation_code_noun_DE": {
+    "message": "Germany"
+  },
+  "nation_code_noun_DJ": {
+    "message": "Djibouti"
+  },
+  "nation_code_noun_DK": {
+    "message": "Denmark"
+  },
+  "nation_code_noun_DM": {
+    "message": "Dominica"
+  },
+  "nation_code_noun_DO": {
+    "message": "Dominican Republic"
+  },
+  "nation_code_noun_DZ": {
+    "message": "Algeria"
+  },
+  "nation_code_noun_EC": {
+    "message": "Ecuador"
+  },
+  "nation_code_noun_EE": {
+    "message": "Estonia"
+  },
+  "nation_code_noun_EG": {
+    "message": "Egypt"
+  },
+  "nation_code_noun_EH": {
+    "message": "Western Sahara"
+  },
+  "nation_code_noun_ER": {
+    "message": "Eritrea"
+  },
+  "nation_code_noun_ES": {
+    "message": "Spain"
+  },
+  "nation_code_noun_ET": {
+    "message": "Ethiopia"
+  },
+  "nation_code_noun_FI": {
+    "message": "Finland"
+  },
+  "nation_code_noun_FJ": {
+    "message": "Fiji"
+  },
+  "nation_code_noun_FK": {
+    "message": "Falkland Islands (Malvinas)"
+  },
+  "nation_code_noun_FM": {
+    "message": "Micronesia (Federated States of)"
+  },
+  "nation_code_noun_FO": {
+    "message": "Faroe Islands"
+  },
+  "nation_code_noun_FR": {
+    "message": "France"
+  },
+  "nation_code_noun_GA": {
+    "message": "Gabon"
+  },
+  "nation_code_noun_GB": {
+    "message": "United Kingdom"
+  },
+  "nation_code_noun_GD": {
+    "message": "Grenada"
+  },
+  "nation_code_noun_GE": {
+    "message": "Georgia"
+  },
+  "nation_code_noun_GF": {
+    "message": "French Guiana"
+  },
+  "nation_code_noun_GG": {
+    "message": "Guernsey"
+  },
+  "nation_code_noun_GH": {
+    "message": "Ghana"
+  },
+  "nation_code_noun_GI": {
+    "message": "Gibraltar"
+  },
+  "nation_code_noun_GL": {
+    "message": "Greenland"
+  },
+  "nation_code_noun_GM": {
+    "message": "Gambia"
+  },
+  "nation_code_noun_GN": {
+    "message": "Guinea"
+  },
+  "nation_code_noun_GP": {
+    "message": "Guadeloupe"
+  },
+  "nation_code_noun_GQ": {
+    "message": "Equatorial Guinea"
+  },
+  "nation_code_noun_GR": {
+    "message": "Greece"
+  },
+  "nation_code_noun_GS": {
+    "message": "South Georgia and the South Sandwich Islands"
+  },
+  "nation_code_noun_GT": {
+    "message": "Guatemala"
+  },
+  "nation_code_noun_GU": {
+    "message": "Guam"
+  },
+  "nation_code_noun_GW": {
+    "message": "Guinea-Bissau"
+  },
+  "nation_code_noun_GY": {
+    "message": "Guyana"
+  },
+  "nation_code_noun_HK": {
+    "message": "HK, China"
+  },
+  "nation_code_noun_HM": {
+    "message": "Heard Island and McDonald Islands"
+  },
+  "nation_code_noun_HN": {
+    "message": "Honduras"
+  },
+  "nation_code_noun_HR": {
+    "message": "Croatia"
+  },
+  "nation_code_noun_HT": {
+    "message": "Haiti"
+  },
+  "nation_code_noun_HU": {
+    "message": "Hungary"
+  },
+  "nation_code_noun_ID": {
+    "message": "Indonesia"
+  },
+  "nation_code_noun_IE": {
+    "message": "Ireland"
+  },
+  "nation_code_noun_IL": {
+    "message": "Israel"
+  },
+  "nation_code_noun_IM": {
+    "message": "Isle of Man"
+  },
+  "nation_code_noun_IN": {
+    "message": "India"
+  },
+  "nation_code_noun_IO": {
+    "message": "British Indian Ocean Territory"
+  },
+  "nation_code_noun_IQ": {
+    "message": "Iraq"
+  },
+  "nation_code_noun_IR": {
+    "message": "Iran (Islamic Republic of)"
+  },
+  "nation_code_noun_IS": {
+    "message": "Iceland"
+  },
+  "nation_code_noun_IT": {
+    "message": "Italy"
+  },
+  "nation_code_noun_JE": {
+    "message": "Jersey"
+  },
+  "nation_code_noun_JM": {
+    "message": "Jamaica"
+  },
+  "nation_code_noun_JO": {
+    "message": "Jordan"
+  },
+  "nation_code_noun_JP": {
+    "message": "Japan"
+  },
+  "nation_code_noun_KE": {
+    "message": "Kenya"
+  },
+  "nation_code_noun_KG": {
+    "message": "Kyrgyzstan"
+  },
+  "nation_code_noun_KH": {
+    "message": "Cambodia"
+  },
+  "nation_code_noun_KI": {
+    "message": "Kiribati"
+  },
+  "nation_code_noun_KM": {
+    "message": "Comoros"
+  },
+  "nation_code_noun_KN": {
+    "message": "Saint Kitts and Nevis"
+  },
+  "nation_code_noun_KP": {
+    "message": "Korea (Democratic People's Republic of)"
+  },
+  "nation_code_noun_KR": {
+    "message": "Korea, Republic of"
+  },
+  "nation_code_noun_KW": {
+    "message": "Kuwait"
+  },
+  "nation_code_noun_KY": {
+    "message": "Cayman Islands"
+  },
+  "nation_code_noun_KZ": {
+    "message": "Kazakhstan"
+  },
+  "nation_code_noun_LA": {
+    "message": "Lao People's Democratic Republic"
+  },
+  "nation_code_noun_LB": {
+    "message": "Lebanon"
+  },
+  "nation_code_noun_LC": {
+    "message": "Saint Lucia"
+  },
+  "nation_code_noun_LI": {
+    "message": "Liechtenstein"
+  },
+  "nation_code_noun_LK": {
+    "message": "Sri Lanka"
+  },
+  "nation_code_noun_LR": {
+    "message": "Liberia"
+  },
+  "nation_code_noun_LS": {
+    "message": "Lesotho"
+  },
+  "nation_code_noun_LT": {
+    "message": "Lithuania"
+  },
+  "nation_code_noun_LU": {
+    "message": "Luxembourg"
+  },
+  "nation_code_noun_LV": {
+    "message": "Latvia"
+  },
+  "nation_code_noun_LY": {
+    "message": "Libya"
+  },
+  "nation_code_noun_MA": {
+    "message": "Morocco"
+  },
+  "nation_code_noun_MC": {
+    "message": "Monaco"
+  },
+  "nation_code_noun_MD": {
+    "message": "Moldova, Republic of"
+  },
+  "nation_code_noun_ME": {
+    "message": "Montenegro"
+  },
+  "nation_code_noun_MF": {
+    "message": "Saint Martin (French part)"
+  },
+  "nation_code_noun_MG": {
+    "message": "Madagascar"
+  },
+  "nation_code_noun_MH": {
+    "message": "Marshall Islands"
+  },
+  "nation_code_noun_MK": {
+    "message": "North Macedonia"
+  },
+  "nation_code_noun_ML": {
+    "message": "Mali"
+  },
+  "nation_code_noun_MM": {
+    "message": "Myanmar"
+  },
+  "nation_code_noun_MN": {
+    "message": "Mongolia"
+  },
+  "nation_code_noun_MO": {
+    "message": "Macao, China"
+  },
+  "nation_code_noun_MP": {
+    "message": "Northern Mariana Islands"
+  },
+  "nation_code_noun_MQ": {
+    "message": "Martinique"
+  },
+  "nation_code_noun_MR": {
+    "message": "Mauritania"
+  },
+  "nation_code_noun_MS": {
+    "message": "Montserrat"
+  },
+  "nation_code_noun_MT": {
+    "message": "Malta"
+  },
+  "nation_code_noun_MU": {
+    "message": "Mauritius"
+  },
+  "nation_code_noun_MV": {
+    "message": "Maldives"
+  },
+  "nation_code_noun_MW": {
+    "message": "Malawi"
+  },
+  "nation_code_noun_MX": {
+    "message": "Mexico"
+  },
+  "nation_code_noun_MY": {
+    "message": "Malaysia"
+  },
+  "nation_code_noun_MZ": {
+    "message": "Mozambique"
+  },
+  "nation_code_noun_NA": {
+    "message": "Namibia"
+  },
+  "nation_code_noun_NC": {
+    "message": "New Caledonia"
+  },
+  "nation_code_noun_NE": {
+    "message": "Niger"
+  },
+  "nation_code_noun_NF": {
+    "message": "Norfolk Island"
+  },
+  "nation_code_noun_NG": {
+    "message": "Nigeria"
+  },
+  "nation_code_noun_NI": {
+    "message": "Nicaragua"
+  },
+  "nation_code_noun_NL": {
+    "message": "Netherlands"
+  },
+  "nation_code_noun_NO": {
+    "message": "Norway"
+  },
+  "nation_code_noun_NP": {
+    "message": "Nepal"
+  },
+  "nation_code_noun_NR": {
+    "message": "Nauru"
+  },
+  "nation_code_noun_NU": {
+    "message": "Niue"
+  },
+  "nation_code_noun_NZ": {
+    "message": "New Zealand"
+  },
+  "nation_code_noun_OM": {
+    "message": "Oman"
+  },
+  "nation_code_noun_PA": {
+    "message": "Panama"
+  },
+  "nation_code_noun_PE": {
+    "message": "Peru"
+  },
+  "nation_code_noun_PF": {
+    "message": "French Polynesia"
+  },
+  "nation_code_noun_PG": {
+    "message": "Papua New Guinea"
+  },
+  "nation_code_noun_PH": {
+    "message": "Philippines"
+  },
+  "nation_code_noun_PK": {
+    "message": "Pakistan"
+  },
+  "nation_code_noun_PL": {
+    "message": "Poland"
+  },
+  "nation_code_noun_PM": {
+    "message": "Saint Pierre and Miquelon"
+  },
+  "nation_code_noun_PN": {
+    "message": "Pitcairn"
+  },
+  "nation_code_noun_PR": {
+    "message": "Puerto Rico"
+  },
+  "nation_code_noun_PS": {
+    "message": "Palestine, State of"
+  },
+  "nation_code_noun_PT": {
+    "message": "Portugal"
+  },
+  "nation_code_noun_PW": {
+    "message": "Palau"
+  },
+  "nation_code_noun_PY": {
+    "message": "Paraguay"
+  },
+  "nation_code_noun_QA": {
+    "message": "Qatar"
+  },
+  "nation_code_noun_RE": {
+    "message": "Réunion"
+  },
+  "nation_code_noun_RO": {
+    "message": "Romania"
+  },
+  "nation_code_noun_RS": {
+    "message": "Serbia"
+  },
+  "nation_code_noun_RU": {
+    "message": "Russian Federation"
+  },
+  "nation_code_noun_RW": {
+    "message": "Rwanda"
+  },
+  "nation_code_noun_SA": {
+    "message": "Saudi Arabia"
+  },
+  "nation_code_noun_SB": {
+    "message": "Solomon Islands"
+  },
+  "nation_code_noun_SC": {
+    "message": "Seychelles"
+  },
+  "nation_code_noun_SD": {
+    "message": "Sudan"
+  },
+  "nation_code_noun_SE": {
+    "message": "Sweden"
+  },
+  "nation_code_noun_SG": {
+    "message": "Singapore"
+  },
+  "nation_code_noun_SH": {
+    "message": "Saint Helena, Ascension and Tristan da Cunha"
+  },
+  "nation_code_noun_SI": {
+    "message": "Slovenia"
+  },
+  "nation_code_noun_SJ": {
+    "message": "Svalbard and Jan Mayen"
+  },
+  "nation_code_noun_SK": {
+    "message": "Slovakia"
+  },
+  "nation_code_noun_SL": {
+    "message": "Sierra Leone"
+  },
+  "nation_code_noun_SM": {
+    "message": "San Marino"
+  },
+  "nation_code_noun_SN": {
+    "message": "Senegal"
+  },
+  "nation_code_noun_SO": {
+    "message": "Somalia"
+  },
+  "nation_code_noun_SR": {
+    "message": "Suriname"
+  },
+  "nation_code_noun_SS": {
+    "message": "South Sudan"
+  },
+  "nation_code_noun_ST": {
+    "message": "Sao Tome and Principe"
+  },
+  "nation_code_noun_SV": {
+    "message": "El Salvador"
+  },
+  "nation_code_noun_SX": {
+    "message": "Sint Maarten (Dutch part)"
+  },
+  "nation_code_noun_SY": {
+    "message": "Syrian Arab Republic"
+  },
+  "nation_code_noun_SZ": {
+    "message": "Eswatini"
+  },
+  "nation_code_noun_TC": {
+    "message": "Turks and Caicos Islands"
+  },
+  "nation_code_noun_TD": {
+    "message": "Chad"
+  },
+  "nation_code_noun_TF": {
+    "message": "French Southern Territories"
+  },
+  "nation_code_noun_TG": {
+    "message": "Togo"
+  },
+  "nation_code_noun_TH": {
+    "message": "Thailand"
+  },
+  "nation_code_noun_TJ": {
+    "message": "Tajikistan"
+  },
+  "nation_code_noun_TK": {
+    "message": "Tokelau"
+  },
+  "nation_code_noun_TL": {
+    "message": "Timor-Leste"
+  },
+  "nation_code_noun_TM": {
+    "message": "Turkmenistan"
+  },
+  "nation_code_noun_TN": {
+    "message": "Tunisia"
+  },
+  "nation_code_noun_TO": {
+    "message": "Tonga"
+  },
+  "nation_code_noun_TR": {
+    "message": "Turkey"
+  },
+  "nation_code_noun_TT": {
+    "message": "Trinidad and Tobago"
+  },
+  "nation_code_noun_TV": {
+    "message": "Tuvalu"
+  },
+  "nation_code_noun_TW": {
+    "message": "Taiwan, China"
+  },
+  "nation_code_noun_TZ": {
+    "message": "Tanzania, United Republic of"
+  },
+  "nation_code_noun_UA": {
+    "message": "Ukraine"
+  },
+  "nation_code_noun_UG": {
+    "message": "Uganda"
+  },
+  "nation_code_noun_UM": {
+    "message": "United States Minor Outlying Islands"
+  },
+  "nation_code_noun_US": {
+    "message": "United States"
+  },
+  "nation_code_noun_UY": {
+    "message": "Uruguay"
+  },
+  "nation_code_noun_UZ": {
+    "message": "Uzbekistan"
+  },
+  "nation_code_noun_VA": {
+    "message": "Holy See"
+  },
+  "nation_code_noun_VC": {
+    "message": "Saint Vincent and the Grenadines"
+  },
+  "nation_code_noun_VE": {
+    "message": "Venezuela (Bolivarian Republic of)"
+  },
+  "nation_code_noun_VG": {
+    "message": "Virgin Islands (British)"
+  },
+  "nation_code_noun_VI": {
+    "message": "Virgin Islands (U.S.)"
+  },
+  "nation_code_noun_VN": {
+    "message": "Viet Nam"
+  },
+  "nation_code_noun_VU": {
+    "message": "Vanuatu"
+  },
+  "nation_code_noun_WF": {
+    "message": "Wallis and Futuna"
+  },
+  "nation_code_noun_WS": {
+    "message": "Samoa"
+  },
+  "nation_code_noun_YE": {
+    "message": "Yemen"
+  },
+  "nation_code_noun_YT": {
+    "message": "Mayotte"
+  },
+  "nation_code_noun_ZA": {
+    "message": "South Africa"
+  },
+  "nation_code_noun_ZM": {
+    "message": "Zambia"
+  },
+  "nation_code_noun_ZW": {
+    "message": "Zimbabwe"
+  }
+}

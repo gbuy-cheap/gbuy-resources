@@ -1,0 +1,175 @@
+.flag-icon-background {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333333em;
+  line-height: 1em;
+}
+
+.flag-icon:before {
+  content: '\00a0';
+}
+
+.flag-icon.flag-icon-squared {
+  width: 1em;
+}
+
+.flag-icon-ae {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/4x3/ae.svg);
+}
+
+.flag-icon-ae.flag-icon-squared {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/1x1/ae.svg);
+}
+
+.flag-icon-au {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/4x3/au.svg);
+}
+
+.flag-icon-au.flag-icon-squared {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/1x1/au.svg);
+}
+
+.flag-icon-br {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/4x3/br.svg);
+}
+
+.flag-icon-br.flag-icon-squared {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/1x1/br.svg);
+}
+
+.flag-icon-ca {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/4x3/ca.svg);
+}
+
+.flag-icon-ca.flag-icon-squared {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/1x1/ca.svg);
+}
+
+.flag-icon-cn {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/4x3/cn.svg);
+}
+
+.flag-icon-cn.flag-icon-squared {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/1x1/cn.svg);
+}
+
+.flag-icon-de {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/4x3/de.svg);
+}
+
+.flag-icon-de.flag-icon-squared {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/1x1/de.svg);
+}
+
+.flag-icon-es {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/4x3/es.svg);
+}
+
+.flag-icon-es.flag-icon-squared {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/1x1/es.svg);
+}
+
+.flag-icon-fr {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/4x3/fr.svg);
+}
+
+.flag-icon-fr.flag-icon-squared {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/1x1/fr.svg);
+}
+
+.flag-icon-gb {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/4x3/gb.svg);
+}
+
+.flag-icon-gb.flag-icon-squared {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/1x1/gb.svg);
+}
+
+.flag-icon-in {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/4x3/in.svg);
+}
+
+.flag-icon-in.flag-icon-squared {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/1x1/in.svg);
+}
+
+.flag-icon-it {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/4x3/it.svg);
+}
+
+.flag-icon-it.flag-icon-squared {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/1x1/it.svg);
+}
+
+.flag-icon-jp {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/4x3/jp.svg);
+}
+
+.flag-icon-jp.flag-icon-squared {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/1x1/jp.svg);
+}
+
+.flag-icon-mx {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/4x3/mx.svg);
+}
+
+.flag-icon-mx.flag-icon-squared {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/1x1/mx.svg);
+}
+
+.flag-icon-nl {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/4x3/nl.svg);
+}
+
+.flag-icon-nl.flag-icon-squared {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/1x1/nl.svg);
+}
+
+.flag-icon-sa {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/4x3/sa.svg);
+}
+
+.flag-icon-sa.flag-icon-squared {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/1x1/sa.svg);
+}
+
+.flag-icon-se {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/4x3/se.svg);
+}
+
+.flag-icon-se.flag-icon-squared {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/1x1/se.svg);
+}
+
+.flag-icon-sg {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/4x3/sg.svg);
+}
+
+.flag-icon-sg.flag-icon-squared {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/1x1/sg.svg);
+}
+
+.flag-icon-tr {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/4x3/tr.svg);
+}
+
+.flag-icon-tr.flag-icon-squared {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/1x1/tr.svg);
+}
+
+.flag-icon-us {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/4x3/us.svg);
+}
+
+.flag-icon-us.flag-icon-squared {
+  background-image: url(chrome-extension://__MSG_@@extension_id__/assets/styles/flag-icon-css/flags/1x1/us.svg);
+}

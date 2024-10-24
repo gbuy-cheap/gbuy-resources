@@ -1,0 +1,431 @@
+{
+  "module_listing_product_info": {
+    "message": "Product Info"
+  },
+  "module_listing_keepa_trends": {
+    "message": "Keepa Trends"
+  },
+  "module_listing_station_sales": {
+    "message": "Marketplaces"
+  },
+  "module_listing_reverse_open": {
+    "message": "Reverse ASINs"
+  },
+  "module_listing_reverse_search": {
+    "message": "Keyword Explorer"
+  },
+  "module_listing_ad_insights": {
+    "message": "Ads Insights"
+  },
+  "module_listing_reversing": {
+    "message": "Keyword Distribution "
+  },
+  "module_listing_relation_keyword": {
+    "message": "Related Products "
+  },
+  "module_listing_review_analysis": {
+    "message": "AI Review Analysis"
+  },
+  "review_analysis_shulex_tips": {
+    "message": "Powered by Shulex VOC with AI, which analyzes the text of reviews and identifies key phrases that indicate a customer's pain point.<a href='https://www.voc.ai/features/voice-of-customer-analysis' target='_blank'>For more VOC features</a>"
+  },
+  "review_analysis_ss_tips": {
+    "message": "Generate a comprehensive analysis report based on all reviews of this listing, including detailed information of each variant, review trends, etc.<a href='https://www.sellersprite.com/v3/review-analysis/details?list=1455741&_sign=cgV9%2aBdWme19l1' target='_blank'>Please click here to see a sample report</a>"
+  },
+  "module_listing_review_analysis_ss": {
+    "message": "Generate SellerSprite Analysis Report"
+  },
+  "module_listing_review_analysis_send": {
+    "message": "SellerSprite Analysis Report"
+  },
+  "module_listing_listing_builder": {
+    "message": "Listing Builder"
+  },
+  "module_listing_Alibaba": {
+    "message": "Alibaba"
+  },
+  "module_listing_1688": {
+    "message": "1688"
+  },
+  "module_listing_all_asin_copy": {
+    "message": "Copy all Variation ASINs"
+  },
+  "module_listing_asin_copy": {
+    "message": "Copy"
+  },
+  "module_listing_seller_num": {
+    "message": "Sellers"
+  },
+  "quick_view_prime": {
+    "message": "Prime Price"
+  },
+  "quick_view_QA": {
+    "message": "Q&A"
+  },
+  "quick_view_trends_variant_compare": {
+    "message": "Variations"
+  },
+  "quick_view_trends_variant": {
+    "message": "Variation"
+  },
+  "quick_view_trends_parent_variant": {
+    "message": "P"
+  },
+  "quick_view_trends_parent_variant_tips": {
+    "message": "Parent ASIN sales are shown"
+  },
+  "quick_view_trends_child_variant": {
+    "message": "C"
+  },
+  "quick_view_trends_child_variant_tips": {
+    "message": "Child ASIN sales are shown"
+  },
+  "quick_view_trends_amz_variant_tips": {
+    "message": "The sales data is based on Amazon public data. It represents each variation's sales."
+  },
+  "quick_view_trends_variant_tips": {
+    "message": "<p>Variations: All variations of this product<br>SKU：It is used to identify product attribution details such as size, color, and any other pertinent information.<br>Price: Latest BuyBox price for each variant<br>Keywords: The number of keywords that made this ASIN appears on the first 3 search result pages in the last 30 days<br>Star Rating：Listing Rating Star<br>Number of Ratings：Total number of ratings<br>Reviews: Number of reviews for each variant<br>Review Ratio：The Ratio of this Child ASIN’s Reviews to Total Number of Reviews<br>FBA ：Fulfillment by Amazon (FBA) fees are calculated per unit, based on size and weight of the product<br>Date Available: The earliest discovery date for each variant.</p>"
+  },
+  "quick_view_trends_variant_sale_tips": {
+    "message": "<p>For monthly sales data, we have 2 calculations:<br>1. If Amazon has published the sales of the product, we will directly use the sales data published by Amazon;<br>2. Amazon does not publish sales data of the product. If the product's parent and child ASIN share the BSR rank, then it will estimate its sales in past 30 days through the BSR rank of the parent ASIN.</p>"
+  },
+  "quick_view_trends_variant_sale_week_tips": {
+    "message": "<p>Weekly sales data is from Amazon search page '400+ bought in past week'</p>"
+  },
+  "quick_view_trends_station_tips": {
+    "message": "<p>Marketplace: Where this product is sold<br>Seller: Current BuyBox sellers<br>Price: Latest BuyBox price<br>Sales: Estimated sales for the last 30 days<br>Revenue: Estimated revenue of this product in the corresponding marketplace for the last 30 days<br>Star Rating：Listing Rating Star<br>Number of Ratings：Total number of ratings<br>FBA Fee：Fulfillment by Amazon (FBA) fees are calculated per unit, based on size and weight of the product<br>Launch Time：The time of the earliest discovery of this ASIN</p>"
+  },
+  "quick_view_trends_explorer_tips": {
+    "message": "<p>Keyword Phrase: Search terms that buyers click or purchase the given ASIN, and this ASIN is one of the most clicked ASINs in the  search results. <br>Conversion: The conversion effects of this product for the associated keywords<br>ABA Rank: Search Frequency Rank，it is the rank (numeric) of a particular search term based on its weekly popularity <br>Rank Change: The number of ranks that the keyword has gained or lost this week<br>Rank Growth: The percentage representing the number of ranks that the keyword has gained or lost this week<br>Click Share: Percentage of clicks that the ASIN achieved in comparison to the total conversions based on the search results in the selected time frame.<br>Conversion Share: Percentage of conversions that the ASIN achieved in comparison to the total conversions based on the search results in the selected time frame.<br>Top 3 ASINs Concentration: Percentage of clicks that the top 3 clicked products received in comparison to the total clicks and  conversions based on the search results in the selected timeframe.<br>Most-Clicked 3 ASINs: Information regarding the 3 ASINs most-clicked by consumers after entering this keyword</p>"
+  },
+  "quick_view_trends_distribution_tips": {
+    "message": "<p>Product: All variations ASINs of this product<br>Keywords: The total number of keywords that made this ASIN appears on the first 3 search result pages in the last 30 days (de-emphasized)<br>Organic: This ASIN appears on the first 3 search result pages among organic results<br>AC: Amazon’s Choice is a label given to a product when Amazon believes it is the best match for a specific keyword<br>ER: The search terms for the ASIN appeared in the Editorial recommendations section<br>4+ Star: The search terms for the ASIN appeared in the 4+ star styles section<br>HR:  The search terms for the ASIN appeared in the Highly rated section<br>SP:  The search terms are the keywords this ASIN is using to run PPC advertising on Amazon<br>SP Video: The search terms are the keywords this ASIN is using to run video advertising on Amazon<br>SP Brand: Sponsored Brands are cost-per-click (CPC) ads that feature the brand logo, a custom headline and multiple products</p>"
+  },
+  "quick_view_trends_variant_table_sales": {
+    "message": "Monthly Sales"
+  },
+  "quick_view_trends_variant_table_sales_week": {
+    "message": "Weekly Sales"
+  },
+  "quick_view_traffic_words": {
+    "message": "Keywords"
+  },
+  "quick_view_reviews": {
+    "message": "Review Count"
+  },
+  "quick_view_reviews_proportion": {
+    "message": "Review %"
+  },
+  "quick_view_bestselling": {
+    "message": "BS"
+  },
+  "quick_view_bestselling_variant_tips": {
+    "message": "Best-Selling Variant"
+  },
+  "quick_view_reverse_search": {
+    "message": "No data, please try other similar products！"
+  },
+  "quick_view_review_analysis_tips": {
+    "message": "SellerSprite and Shulex have joined forces to provide you with the most comprehensive review analysis available.<br>With this feature, you can mine the full volume of reviews to quickly grasp product selling points, strengths and weaknesses, and usage scenarios.<a style='color: #ff9300' href='https://www.sellersprite.com/en/help/review-analysis-for-beginners' target='_blank'>Learn more</a>"
+  },
+  "quick_view_review_analysis_btn_title": {
+    "message": "Generate AI Analysis Report"
+  },
+  "quick_view_review_analysis_sellersprite": {
+    "message": "View SellerSprite Analysis Report"
+  },
+  "quick_view_main_img": {
+    "message": "Download Images"
+  },
+  "quick_view_search_sales": {
+    "message": "Product Research"
+  },
+  "quick_view_product_library": {
+    "message": "+ My List"
+  },
+  "quick_view_search_source_all_word": {
+    "message": "Keywords"
+  },
+  "traffic_source_table_type_source_NATURAL_SEARCHING": {
+    "message": "Organic"
+  },
+  "traffic_source_table_type_source_AMAZON_CHOICE": {
+    "message": "AC"
+  },
+  "traffic_source_table_type_source_EDITORIAL_RECOMMENDATIONS": {
+    "message": "ER"
+  },
+  "traffic_source_table_type_FOUR_STAR": {
+    "message": "4+ Star"
+  },
+  "traffic_source_table_type_SPONSOR_BRAND": {
+    "message": "Brand words"
+  },
+  "traffic_source_table_type_source_SPONSOR_BRAND": {
+    "message": "SP Brand"
+  },
+  "traffic_source_table_type_SPONSOR_VIDEO": {
+    "message": "Video words"
+  },
+  "traffic_source_table_type_source_SPONSOR_VIDEO": {
+    "message": "SP Video"
+  },
+  "traffic_source_table_type_source_HIGHLY_RATED": {
+    "message": "HR"
+  },
+  "traffic_source_table_type_source_ADS": {
+    "message": "SP"
+  },
+  "traffic_source_table_type_AMAZON_CHOICE": {
+    "message": "AC Column"
+  },
+  "traffic_source_table_type_EDITORIAL_RECOMMENDATIONS": {
+    "message": "ER Column"
+  },
+  "traffic_source_table_type_HIGHLY_RATED": {
+    "message": "HR Column"
+  },
+  "traffic_source_table_source_type_ADS": {
+    "message": "SP ad"
+  },
+  "traffic_source_table_source_type_SPONSOR_BRAND": {
+    "message": "Brand ad"
+  },
+  "traffic_source_table_source_type_SPONSOR_VIDEO": {
+    "message": "Video ad"
+  },
+  "quick_view_listing_date": {
+    "message": "Launch Date"
+  },
+  "quick_view_listing_seals_month": {
+    "message": "Sales Graph"
+  },
+  "quick_view_new_product_listing": {
+    "message": "NEW"
+  },
+  "quick_view_variation_compare_all": {
+    "message": "Click to view all results"
+  },
+  "quick_view_keyword_explorer_all": {
+    "message": "Click to view all results"
+  },
+  "traffic_source_look_related_traffic_words": {
+    "message": "View Keywords Distribution of this ASIN"
+  },
+  "traffic_source_look_all_traffic_words": {
+    "message": "View Keywords Distribution of this ASIN"
+  },
+  "traffic_source_all_keyword_tips": {
+    "message": "The results of Total Keywords are less than the sum of the distribution keywords, because there are repeated words in distributions."
+  },
+  "traffic_keyword_conversion_effect": {
+    "message": "Conversion"
+  },
+  "traffic_keyword_search_rank_growth": {
+    "message": "Rank Change"
+  },
+  "traffic_keyword_search_rank_rate": {
+    "message": "Rank Growth"
+  },
+  "traffic_keyword_click_share": {
+    "message": "Click Share"
+  },
+  "traffic_keyword_conversion_rate": {
+    "message": "Conversion Share"
+  },
+  "traffic_keyword_sum_conversion_rate": {
+    "message": "Top 3 ASINs<br>Concentration"
+  },
+  "traffic_keyword_click_asin_three": {
+    "message": "Most-Clicked<br>3 ASINs"
+  },
+  "listing_video_link": {
+    "message": "https://www.sellersprite.com/en/help/listing-page-of-extension"
+  },
+  "review_analysis_title": {
+    "message": "Your data is being analyzed..."
+  },
+  "review_analysis_btn": {
+    "message": "Go see!"
+  },
+  "review_analysis_checkbox": {
+    "message": "Agree"
+  },
+  "review_analysis_privacy_policy": {
+    "message": "Privacy Policy"
+  },
+  "review_analysis_condition": {
+    "message": "Terms of Service"
+  },
+  "review_analysis_privacy_policy_link": {
+    "message": "https://www.voc.ai/privacy-policy"
+  },
+  "review_analysis_condition_link": {
+    "message": "https://www.voc.ai/terms-and-condition"
+  },
+  "review_analysis_ing": {
+    "message": "The intelligent comment analysis report will be generated within a minute, please wait patiently."
+  },
+  "review_analysis_btn_tips": {
+    "message": "Please read and agree to the User Privacy Policy"
+  },
+  "quick_view_listing_position": {
+    "message": "Shown"
+  },
+  "quick_view_listing_position_top": {
+    "message": "at the top of the main image"
+  },
+  "quick_view_listing_position_bottom": {
+    "message": "at the bottom of the main image"
+  },
+  "review_analysis_btn_tips_l": {
+    "message": "The AI service is powered by"
+  },
+  "review_analysis_btn_tips_r": {
+    "message": "The AI service is powered by"
+  },
+  "excel_variation_image": {
+    "message": "Image"
+  },
+  "excel_variation_unit_date": {
+    "message": "{date}",
+    "placeholders": {
+      "label": {
+        "content": "$1",
+        "example": "2024-03"
+      }
+    }
+  },
+  "excel_variation_main_image": {
+    "message": "Image URL"
+  },
+  "excel_variation_main_overviews": {
+    "message": "Product Overview"
+  },
+  "excel_variation_price": {
+    "message": "price"
+  },
+  "excel_variation_monthUnits": {
+    "message": "30-day sales"
+  },
+  "excel_variation_weekUnits": {
+    "message": "Weekly Sales"
+  },
+  "excel_variation_keywords": {
+    "message": "Keywords"
+  },
+  "excel_variation_rating": {
+    "message": "Rating"
+  },
+  "excel_variation_ratings": {
+    "message": "Ratings"
+  },
+  "excel_variation_reviews": {
+    "message": "reviews"
+  },
+  "excel_variation_reviews_proportion": {
+    "message": "Review %"
+  },
+  "excel_variation_reviews_available": {
+    "message": "Date Available"
+  },
+  "variation_live_data_tips": {
+    "message": "Click ** below to get real-time data"
+  },
+  "variation_tips_table": {
+    "message": "We recommend logging into the buyer's account to get product review real-time data."
+  },
+  "variation_tips_table_close_known": {
+    "message": "Got !"
+  },
+  "excel_variation_reviews_available_days": {
+    "message": "Available days"
+  },
+  "quick_view_1688_factory": {
+    "message": "1688 Manufacturers"
+  },
+  "quick_view_taobao": {
+    "message": "Taobao Sourcing"
+  },
+  "quick_view_wangdiantong": {
+    "message": "WangDian Sourcing"
+  },
+  "quick_view_VOC": {
+    "message": "Exclusively for SellerSprite Members: Enjoy a Special 20% Discount on VOC!"
+  },
+  "quick_view_VOC_link": {
+    "message": "https://apps.voc.ai/app?utm=seller_sprite&lang=en"
+  },
+  "table_current_asin": {
+    "message": "Current ASIN"
+  },
+  "quick_child_sales": {
+    "message": "Variation Sold(30 days)"
+  },
+  "goods_source_1688_sourcing": {
+    "message": "1688 Sourcing"
+  },
+  "goods_source_search_by_pictures": {
+    "message": "Search by Pictures"
+  },
+  "goods_source_taobao_by_pictures": {
+    "message": "淘宝找货源"
+  },
+  "goods_source_comprehensive_ranking": {
+    "message": "Comprehensive Ranking"
+  },
+  "goods_source_turnover": {
+    "message": "Turnover"
+  },
+  "goods_source_transaction_price": {
+    "message": "Price"
+  },
+  "goods_source_next_page": {
+    "message": "Next"
+  },
+  "goods_source_first_page": {
+    "message": "First"
+  },
+  "goods_source_find_it_in_1688": {
+    "message": "Find it in 1688"
+  },
+  "goods_source_taobao_turnover": {
+    "message": "销量"
+  },
+  "goods_source_pieces_per_order": {
+    "message": "MOQ: {num} pieces",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "goods_source_btn_tips": {
+    "message": "Find similar products on Alibaba (based on picture similarity)"
+  },
+  "sbv_video_btn_tips": {
+    "message": "Download video"
+  },
+  "choose_img_title_tips": {
+    "message": "We've curated top-tier 1688 cross-border product sources tailored for you, excluding any potentially infringing or controversial items. While the results may vary slightly from those on 1688, you can easily navigate to the platform by clicking the button on the right."
+  },
+  "keepa_prime_price": {
+    "message": "Prime Price"
+  },
+  "keepa_coupon_price": {
+    "message": "Discount Price"
+  },
+  "keepa_fba_price": {
+    "message": "FBA Price"
+  },
+  "keepa_fbm_price": {
+    "message": "FBM Price"
+  },
+  "keepa_list_price": {
+    "message": "Listed Price"
+  },
+  "keepa_child_seals": {
+    "message": "Variation Sold"
+  }
+}

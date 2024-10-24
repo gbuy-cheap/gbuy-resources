@@ -1,0 +1,542 @@
+{
+  "best_sellers_product_num": {
+    "message": "Sample Size"
+  },
+  "best_sellers_product_brand": {
+    "message": "Brands"
+  },
+  "best_sellers_product_seller": {
+    "message": "Sellers"
+  },
+  "best_sellers_product_nums": {
+    "message": "Number of Products"
+  },
+  "best_sellers_product_new": {
+    "message": "New Products"
+  },
+  "best_sellers_product_bsr": {
+    "message": "Avg. BSR"
+  },
+  "best_sellers_market_analysis": {
+    "message": "Analyze Top 400 Products"
+  },
+  "best_sellers_tab_overview": {
+    "message": "Market Overview"
+  },
+  "best_sellers_tab_industry_sales": {
+    "message": "Sales Trends"
+  },
+  "best_sellers_tab_product_click": {
+    "message": "Listing Concentration"
+  },
+  "best_sellers_tab_brand_click": {
+    "message": "Brand Concentration"
+  },
+  "best_sellers_tab_seller_click": {
+    "message": "Seller Concentration"
+  },
+  "best_sellers_tab_price_spread": {
+    "message": "Price"
+  },
+  "best_sellers_tab_new_product": {
+    "message": "New Product Sales / Share"
+  },
+  "best_sellers_tab_seller_type": {
+    "message": "Fulfillment"
+  },
+  "best_sellers_tab_video_A": {
+    "message": "A+ Content and Video"
+  },
+  "best_sellers_tab_areas": {
+    "message": "Origin of Seller"
+  },
+  "best_sellers_tab_product_need": {
+    "message": "Product supply and demand"
+  },
+  "best_sellers_tab_change_rate": {
+    "message": "Rank Shift Ratio"
+  },
+  "best_sellers_tab_launch_trend": {
+    "message": "Launch Time Trends"
+  },
+  "best_sellers_tab_reviews": {
+    "message": "Number of Ratings"
+  },
+  "best_sellers_tab_rating": {
+    "message": "Rating"
+  },
+  "best_sellers_new_product_sales": {
+    "message": "New Product Sales"
+  },
+  "best_sellers_sales_rate": {
+    "message": "Sales Proportion"
+  },
+  "any_best_sellers_sales_rate": {
+    "message": "{index}Sales Proportion",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "US"
+      }
+    }
+  },
+  "best_sellers_sales_rate_avg": {
+    "message": "Avg. Sales Proportion"
+  },
+  "best_sellers_new_product_rate": {
+    "message": "Proportion of New Products"
+  },
+  "best_sellers_new_sales_rate": {
+    "message": "New Product Sales Proportion"
+  },
+  "best_sellers_new_sales_volume": {
+    "message": "New Item Revenue"
+  },
+  "best_sellers_volume_rate": {
+    "message": "Revenue Proportion"
+  },
+  "best_sellers_volume_rate_avg": {
+    "message": "Avg. Revenue Proportion"
+  },
+  "best_sellers_avg_weight": {
+    "message": "Avg. Product Weight"
+  },
+  "best_sellers_avg_gross_margin": {
+    "message": "Avg. Gross Margin"
+  },
+  "best_sellers_avg_size": {
+    "message": "Avg. Product Volume"
+  },
+  "best_sellers_avg_variants": {
+    "message": "Avg. number of variants"
+  },
+  "best_sellers_sales_distribution": {
+    "message": "Sales"
+  },
+  "best_sellers_volume_distribution": {
+    "message": "Revenue"
+  },
+  "reversing_rank": {
+    "message": "Ranking"
+  },
+  "reversing_rank_position": {
+    "message": "No. {num}",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "keyword_research_weekly_brand": {
+    "message": "Brand"
+  },
+  "keyword_research_weekly_seller": {
+    "message": "Seller"
+  },
+  "brands_seller_method": {
+    "message": "Fulfillment"
+  },
+  "ratings_and_reviews": {
+    "message": "Reviews/Rating"
+  },
+  "nation_code_adj_UNKNOWN": {
+    "message": "Unknown"
+  },
+  "brands_seller_products": {
+    "message": "Total number of items"
+  },
+  "brands_seller_brand_name": {
+    "message": "Brand Name"
+  },
+  "brands_seller_products_new": {
+    "message": "Products/New products"
+  },
+  "brands_seller_brand_sales": {
+    "message": "Monthly Sales of the Brand"
+  },
+  "brands_seller_brand_sales_rate": {
+    "message": "Sales Proportion of the Brand"
+  },
+  "brands_seller_brand_Revenue_rate": {
+    "message": "Monthly Revenue Proportion of the Brand"
+  },
+  "brands_seller_brand_Revenue": {
+    "message": "Monthly Revenue of the Brand"
+  },
+  "brands_seller_sellers_name": {
+    "message": "Seller Name"
+  },
+  "brands_seller_sellers_sales": {
+    "message": "Monthly Sales of the Seller"
+  },
+  "brands_seller_sellers_sales_rate": {
+    "message": "Sales Proportion of the Seller"
+  },
+  "brands_seller_sellers_Revenue_rate": {
+    "message": "Monthly Revenue Proportion of the Seller"
+  },
+  "brands_seller_sellers_Revenue": {
+    "message": "Monthly Revenue of the Seller"
+  },
+  "brands_seller_brand_click_list": {
+    "message": "Click the column to see the product list"
+  },
+  "brands_seller_brand_sales_new": {
+    "message": "New Product："
+  },
+  "brands_seller_brand_sales_new_none": {
+    "message": "Non-new Product："
+  },
+  "best_seller_brand_num": {
+    "message": "Number of brands："
+  },
+  "brands_seller_brand_flagship_rate": {
+    "message": "Brand Flagship Stores Proportion："
+  },
+  "brands_seller_brand_flagship_sales_rate": {
+    "message": "Brand Flagship Stores Revenue Proportion："
+  },
+  "best_seller_sellers_num": {
+    "message": "Number of Sellers："
+  },
+  "best_seller_sellers_click": {
+    "message": "Seller Concentration："
+  },
+  "best_seller_sellers_amazon_rate": {
+    "message": "Amazon Sales："
+  },
+  "best_seller_sellers_amazon_sales_rate": {
+    "message": "Amazon Sales Proportion："
+  },
+  "best_seller_new_sales_rate": {
+    "message": "New Item Sales / Share"
+  },
+  "best_seller_FBA_sales_rate": {
+    "message": "Fulfillment"
+  },
+  "best_seller_up_price": {
+    "message": "The highest price"
+  },
+  "best_seller_lower_price": {
+    "message": "The lowest price"
+  },
+  "best_seller_new_avg_price": {
+    "message": "Avg. Price of New Product"
+  },
+  "best_seller_new_up_price": {
+    "message": "The highest price of new product"
+  },
+  "best_seller_new_lower_price": {
+    "message": "The lowest price of new product"
+  },
+  "brands_delivery_asin": {
+    "message": "ASINs Proportion"
+  },
+  "brands_delivery_seals": {
+    "message": "Monthly Sales Proportion"
+  },
+  "sales_rate_fba": {
+    "message": "FBA"
+  },
+  "sales_rate_fbm": {
+    "message": "FBM"
+  },
+  "sales_rate_amazon": {
+    "message": "AMZ"
+  },
+  "sales_rate_amazon_key": {
+    "message": "AMZ"
+  },
+  "sales_rate_na": {
+    "message": "Unknown"
+  },
+  "video_A_sales_volume_rate": {
+    "message": "A+ and Video"
+  },
+  "video_A_pie": {
+    "message": "A+ and Video"
+  },
+  "no_video_A_sales_volume_rate": {
+    "message": "Proportion of sales with A+,but no video"
+  },
+  "no_video_A_pie": {
+    "message": "With A+,but no video"
+  },
+  "video_no_A_sales_volume_rate": {
+    "message": "Proportion of sales with video,but no A+"
+  },
+  "video_no_A_pie": {
+    "message": "With video,but no A+"
+  },
+  "no_video_no_A_sales_volume_rate": {
+    "message": "Proportion of sales without A+ and no video"
+  },
+  "no_video_no_A_pie": {
+    "message": "Without A+ and video"
+  },
+  "new_video_A_sales_volume_rate": {
+    "message": "Proportion of new products sales with A+ and video"
+  },
+  "new_video_A_pie": {
+    "message": "With A+ and video"
+  },
+  "new_no_video_A_sales_volume_rate": {
+    "message": "Proportion of new products sales with A+, but no video"
+  },
+  "new_no_video_A_pie": {
+    "message": "With A+, but no video"
+  },
+  "new_video_no_A_sales_volume_rate": {
+    "message": "Proportion of new products sales with video, but no A+ "
+  },
+  "new_video_no_A_pie": {
+    "message": "With video, but no A+"
+  },
+  "new_no_video_no_A_sales_volume_rate": {
+    "message": "Proportion of new products sales without A+ and videos"
+  },
+  "new_no_video_no_A_pie": {
+    "message": "Without A+ and videos"
+  },
+  "video_A_rate": {
+    "message": "Product with A+ and Video"
+  },
+  "video_A_sales_rate": {
+    "message": "Product sales with A+ and Video"
+  },
+  "new_video_A_rate": {
+    "message": "New product with A+ and Video"
+  },
+  "new_video_A_sales_rate": {
+    "message": "New product sales with A+ and Video"
+  },
+  "video_tips_sales": {
+    "message": "Product Sales"
+  },
+  "sellers_type_sales_rate": {
+    "message": "Origin of Seller"
+  },
+  "search_buy_rate": {
+    "message": "Search-to-Buy ratio"
+  },
+  "sales_rate_rate_us": {
+    "message": "Share of sales by U.S. sellers"
+  },
+  "sales_rate_rate_cn": {
+    "message": "Share of sales by Chinese sellers"
+  },
+  "sales_rate_rate_un": {
+    "message": "Unknown"
+  },
+  "best_sellers_change_rate": {
+    "message": "Rank Shift Ratio"
+  },
+  "best_sellers_change_rate_month_avg": {
+    "message": "Rank Shift Ratio over the last 30 days"
+  },
+  "best_sellers_rating_avg": {
+    "message": "Avg. Rating"
+  },
+  "best_sellers_rating_max": {
+    "message": "Highest Rating"
+  },
+  "best_sellers_rating_min": {
+    "message": "Lowest Rating"
+  },
+  "best_sellers_rating_new": {
+    "message": "Avg. Rating of New Product"
+  },
+  "best_sellers_sales_avg_rate": {
+    "message": "Sales Proportion"
+  },
+  "best_sellers_date_range": {
+    "message": "Date range"
+  },
+  "best_sellers_nation": {
+    "message": "Origin of Seller"
+  },
+  "page_view": {
+    "message": "GlanceViews"
+  },
+  "market_average": {
+    "message": "In this market"
+  },
+  "market_average_category": {
+    "message": "In this category"
+  },
+  "best_sellers_reviews_max": {
+    "message": "The Most Ratings"
+  },
+  "best_sellers_reviews_min": {
+    "message": "The Min number of Ratings"
+  },
+  "best_sellers_reviews_new": {
+    "message": "Avg. Rating of New Product"
+  },
+  "best_sellers_reviews_start": {
+    "message": "Min Number of Ratings"
+  },
+  "best_sellers_reviews_step": {
+    "message": "X-Axis StepSize"
+  },
+  "best_sellers_reviews_submit": {
+    "message": "Reanalyse"
+  },
+  "best_sellers_reviews_range": {
+    "message": "Ratings Interval"
+  },
+  "nation_code_US": {
+    "message": "US"
+  },
+  "best_sellers_shelf_time": {
+    "message": "Launch Year"
+  },
+  "best_sellers_product_list": {
+    "message": "Product List"
+  },
+  "best_sellers_sales_tips": {
+    "message": "The Number of Units Sold (FBA + FBM) in the past 30 days within the sample range."
+  },
+  "best_sellers_revenue_tips": {
+    "message": "The revenue sold (FBA + FBM) in the past 30 days within the sample range."
+  },
+  "best_sellers_product_click_tips": {
+    "message": "The total sales of the top {day} Listings is T, the total sales of samples is A, then Commodity Concentration = T/A.",
+    "placeholders": {
+      "day": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "best_sellers_blank_click_tips": {
+    "message": "The total sales of the top {day} brands is T, the total sales of samples is A, then Brand Concentration = T/A.",
+    "placeholders": {
+      "day": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "best_sellers_seller_click_tips": {
+    "message": "The total sales of the top {day} sellers is T, the total sales of samples is A, then Seller Concentration = T/A.",
+    "placeholders": {
+      "day": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "best_sellers_new_sales_tips": {
+    "message": "The upper number represents the new products' total monthly unit sales/ all the products' Monthly Unit Sales in the past 30 days.<br>The lower number represents the new products' total monthly unit sales within the sample range."
+  },
+  "best_sellers_avg_price_tips": {
+    "message": "Average product price in the sample chosen."
+  },
+  "best_sellers_fba_tips": {
+    "message": "The sales volume of products with FBA delivery type for the total sales of sample products."
+  },
+  "best_sellers_A_video_tips": {
+    "message": "The proportion of A+ products in samples."
+  },
+  "best_sellers_nation_tips": {
+    "message": "Statistics of the seller location in the sample range."
+  },
+  "best_sellers_return_tips": {
+    "message": "Return Ratio, Number of units of products returned vs total unit purchases in the selected browse node in 6 months.<br>Search-to-Buy Ratio, the number of ASINs purchased in samples / the number of ASINs displayed in the search category node in the past 6 months."
+  },
+  "best_sellers_release_day_tips": {
+    "message": "Average Listing Age for the samples."
+  },
+  "best_sellers_reviews_tips": {
+    "message": "Average Listing reviews for the samples."
+  },
+  "best_sellers_rating_tips": {
+    "message": "Average Listing rating for the samples."
+  },
+  "best_sellers_rang": {
+    "message": "Top"
+  },
+  "best_sellers_rang_3": {
+    "message": "3 products"
+  },
+  "best_sellers_rang_5": {
+    "message": "5 products"
+  },
+  "best_sellers_rang_10": {
+    "message": "10 products"
+  },
+  "best_sellers_rang_20": {
+    "message": "20 products"
+  },
+  "best_sellers_video_url": {
+    "message": "https://www.sellersprite.com/en/help/market-overview-of-extension"
+  },
+  "brands_seller_brand_flagship": {
+    "message": "Brand Flagship Store"
+  },
+  "refresh_page_tips": {
+    "message": "There are less than 100 samples for market analysis, it is recommended to refresh to obtain complete data."
+  },
+  "refresh_page_tips_btn": {
+    "message": "Refresh"
+  },
+  "price_coupon": {
+    "message": "Coupon"
+  },
+  "library_open_web_link": {
+    "message": "Go to Web Page-My Product List"
+  },
+  "bs_return_rate_click": {
+    "message": "Click to view historical trends"
+  },
+  "bs_return_rate": {
+    "message": "Return rate"
+  },
+  "bs_return_rate_history_chart": {
+    "message": "Return rate historical trends in this category"
+  },
+  "bs_return_rate_reason_rate": {
+    "message": "Reasons for returns"
+  },
+  "bs_return_rate_reason_copy": {
+    "message": "Copy this data"
+  },
+  "bs_first_tips_content": {
+    "message": "Click thumbnail for details."
+  },
+  "qa_tips_content": {
+    "message": "Search Q&A before downloading."
+  },
+  "aq_tips_no_result": {
+    "message": "Unable to download as no related Q&A found."
+  },
+  "seals_parent_data": {
+    "message": "Units Sold"
+  },
+  "seals_child_data": {
+    "message": "Variation Sold"
+  },
+  "seals_child_data_en": {
+    "message": "Variation <br>Sold"
+  },
+  "product_grid_table": {
+    "message": "List"
+  },
+  "product_grid_list": {
+    "message": "Grid"
+  },
+  "product_grid_list_variation": {
+    "message": "Chart"
+  },
+  "bs_main_tips_fake": {
+    "message": "For Paid Users, <a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>Upgrade Account</a>."
+  },
+  "show_icon_for_btn": {
+    "message": "Icons View"
+  },
+  "show_icon_for_btn_false": {
+    "message": "Words View"
+  }
+}

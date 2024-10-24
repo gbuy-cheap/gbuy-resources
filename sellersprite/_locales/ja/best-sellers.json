@@ -1,0 +1,542 @@
+{
+  "best_sellers_product_num": {
+    "message": "見本数"
+  },
+  "best_sellers_product_brand": {
+    "message": "ブランド"
+  },
+  "best_sellers_product_seller": {
+    "message": "セラー"
+  },
+  "best_sellers_product_nums": {
+    "message": "商品数"
+  },
+  "best_sellers_product_new": {
+    "message": "新商品数"
+  },
+  "best_sellers_product_bsr": {
+    "message": "平均BSR"
+  },
+  "best_sellers_market_analysis": {
+    "message": "Top400商品分析"
+  },
+  "best_sellers_tab_overview": {
+    "message": "市場概要"
+  },
+  "best_sellers_tab_industry_sales": {
+    "message": "市場販売"
+  },
+  "best_sellers_tab_product_click": {
+    "message": "商品集中度"
+  },
+  "best_sellers_tab_brand_click": {
+    "message": "ブランド集中度"
+  },
+  "best_sellers_tab_seller_click": {
+    "message": "セラー集中度"
+  },
+  "best_sellers_tab_price_spread": {
+    "message": "価格分布"
+  },
+  "best_sellers_tab_new_product": {
+    "message": "新商品販売数/割合"
+  },
+  "best_sellers_tab_seller_type": {
+    "message": "セラータイプ"
+  },
+  "best_sellers_tab_video_A": {
+    "message": "A+動画"
+  },
+  "best_sellers_tab_areas": {
+    "message": "セラー所在地分布"
+  },
+  "best_sellers_tab_product_need": {
+    "message": "商品需給"
+  },
+  "best_sellers_tab_change_rate": {
+    "message": "ランキング変化率"
+  },
+  "best_sellers_tab_launch_trend": {
+    "message": "発売トレンド"
+  },
+  "best_sellers_tab_reviews": {
+    "message": "評価数"
+  },
+  "best_sellers_tab_rating": {
+    "message": "星評価"
+  },
+  "best_sellers_new_product_sales": {
+    "message": "新商品販売数"
+  },
+  "best_sellers_sales_rate": {
+    "message": "販売数割合"
+  },
+  "any_best_sellers_sales_rate": {
+    "message": "{index}販売数割合",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "us"
+      }
+    }
+  },
+  "best_sellers_sales_rate_avg": {
+    "message": "平均販売数割合"
+  },
+  "best_sellers_new_product_rate": {
+    "message": "新商品割合"
+  },
+  "best_sellers_new_sales_rate": {
+    "message": "新商品販売数割合"
+  },
+  "best_sellers_new_sales_volume": {
+    "message": "新商品販売額"
+  },
+  "best_sellers_volume_rate": {
+    "message": "販売額割合"
+  },
+  "best_sellers_volume_rate_avg": {
+    "message": "平均販売額割合"
+  },
+  "best_sellers_avg_weight": {
+    "message": "平均重量"
+  },
+  "best_sellers_avg_gross_margin": {
+    "message": "平均粗利益率"
+  },
+  "best_sellers_avg_size": {
+    "message": "平均体積"
+  },
+  "best_sellers_avg_variants": {
+    "message": "平均バリエーション数"
+  },
+  "best_sellers_sales_distribution": {
+    "message": "販売数分布"
+  },
+  "best_sellers_volume_distribution": {
+    "message": "販売額分布"
+  },
+  "reversing_rank": {
+    "message": "ランキング"
+  },
+  "reversing_rank_position": {
+    "message": "第{num}位",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "keyword_research_weekly_brand": {
+    "message": "ブランド"
+  },
+  "keyword_research_weekly_seller": {
+    "message": "セラー"
+  },
+  "brands_seller_method": {
+    "message": "セラータイプ"
+  },
+  "ratings_and_reviews": {
+    "message": "評価数/星評価"
+  },
+  "nation_code_adj_UNKNOWN": {
+    "message": "未知"
+  },
+  "brands_seller_products": {
+    "message": "商品総数"
+  },
+  "brands_seller_brand_name": {
+    "message": "ブランド名"
+  },
+  "brands_seller_products_new": {
+    "message": "商品数/新商品"
+  },
+  "brands_seller_brand_sales": {
+    "message": "ブランド月間販売数"
+  },
+  "brands_seller_brand_sales_rate": {
+    "message": "ブランド販売数割合"
+  },
+  "brands_seller_brand_Revenue_rate": {
+    "message": "ブランド販売額割合"
+  },
+  "brands_seller_brand_Revenue": {
+    "message": "ブランド月間販売額"
+  },
+  "brands_seller_sellers_name": {
+    "message": "セラー名"
+  },
+  "brands_seller_sellers_sales": {
+    "message": "セラー月間販売数"
+  },
+  "brands_seller_sellers_sales_rate": {
+    "message": "セラー販売数割合"
+  },
+  "brands_seller_sellers_Revenue_rate": {
+    "message": "セラー販売額割合"
+  },
+  "brands_seller_sellers_Revenue": {
+    "message": "セラー月間販売額"
+  },
+  "brands_seller_brand_click_list": {
+    "message": "クリックして商品リストを見る"
+  },
+  "brands_seller_brand_sales_new": {
+    "message": "新商品："
+  },
+  "brands_seller_brand_sales_new_none": {
+    "message": "新商品以外："
+  },
+  "best_seller_brand_num": {
+    "message": "ブランド数："
+  },
+  "brands_seller_brand_flagship_rate": {
+    "message": "ブランド旗艦店割合："
+  },
+  "brands_seller_brand_flagship_sales_rate": {
+    "message": "ブランド旗艦店販売数割合："
+  },
+  "best_seller_sellers_num": {
+    "message": "セラー数："
+  },
+  "best_seller_sellers_click": {
+    "message": "セラー集中度："
+  },
+  "best_seller_sellers_amazon_rate": {
+    "message": "Amazon直販割合："
+  },
+  "best_seller_sellers_amazon_sales_rate": {
+    "message": "Amazon直販販売数割合："
+  },
+  "best_seller_new_sales_rate": {
+    "message": "新商品販売数/割合"
+  },
+  "best_seller_FBA_sales_rate": {
+    "message": "FBA販売数割合"
+  },
+  "best_seller_up_price": {
+    "message": "最高価格"
+  },
+  "best_seller_lower_price": {
+    "message": "最低価格"
+  },
+  "best_seller_new_avg_price": {
+    "message": "新商品平均価格"
+  },
+  "best_seller_new_up_price": {
+    "message": "新商品最高価格"
+  },
+  "best_seller_new_lower_price": {
+    "message": "新商品最低価格"
+  },
+  "brands_delivery_asin": {
+    "message": "ASIN数割合"
+  },
+  "brands_delivery_seals": {
+    "message": "月間販売数割合"
+  },
+  "sales_rate_fba": {
+    "message": "FBA販売数割合"
+  },
+  "sales_rate_fbm": {
+    "message": "FBM販売数割合"
+  },
+  "sales_rate_amazon": {
+    "message": "Amazon直販販売数割合"
+  },
+  "sales_rate_amazon_key": {
+    "message": "Amazon直販"
+  },
+  "sales_rate_na": {
+    "message": "未知"
+  },
+  "video_A_sales_volume_rate": {
+    "message": "A+あり、動画ある"
+  },
+  "video_A_pie": {
+    "message": "A+あり、動画ある"
+  },
+  "no_video_A_sales_volume_rate": {
+    "message": "A+あり、動画なし販売数割合"
+  },
+  "no_video_A_pie": {
+    "message": "A+あり、動画なし"
+  },
+  "video_no_A_sales_volume_rate": {
+    "message": "A+なし、動画ある販売数割合"
+  },
+  "video_no_A_pie": {
+    "message": "A+なし、動画ある"
+  },
+  "no_video_no_A_sales_volume_rate": {
+    "message": "A+なし、動画なし販売数割合"
+  },
+  "no_video_no_A_pie": {
+    "message": "A+なし、動画なし販売数割合"
+  },
+  "new_video_A_sales_volume_rate": {
+    "message": "新商品A+あり、動画ある販売数割合"
+  },
+  "new_video_A_pie": {
+    "message": "新商品A+あり、動画ある"
+  },
+  "new_no_video_A_sales_volume_rate": {
+    "message": "新商品A+あり、動画なし販売数割合"
+  },
+  "new_no_video_A_pie": {
+    "message": "新商品A+あり、動画なし"
+  },
+  "new_video_no_A_sales_volume_rate": {
+    "message": "新商品A+なし、動画ある販売数割合"
+  },
+  "new_video_no_A_pie": {
+    "message": "新商品A+なし、動画ある"
+  },
+  "new_no_video_no_A_sales_volume_rate": {
+    "message": "新商品A+なし、動画なし販売数割合"
+  },
+  "new_no_video_no_A_pie": {
+    "message": "新商品A+なし、動画なし"
+  },
+  "video_A_rate": {
+    "message": "A+動画割合"
+  },
+  "video_A_sales_rate": {
+    "message": "A+動画販売数割合"
+  },
+  "new_video_A_rate": {
+    "message": "新商品A+動画割合"
+  },
+  "new_video_A_sales_rate": {
+    "message": "新商品A+動画販売数割合"
+  },
+  "video_tips_sales": {
+    "message": "商品販売数"
+  },
+  "sellers_type_sales_rate": {
+    "message": "セラー所在地販売数割合"
+  },
+  "search_buy_rate": {
+    "message": "検索購入比率"
+  },
+  "sales_rate_rate_us": {
+    "message": "米国販売数割合"
+  },
+  "sales_rate_rate_cn": {
+    "message": "中国販売数割合"
+  },
+  "sales_rate_rate_un": {
+    "message": "未知販売数割合"
+  },
+  "best_sellers_change_rate": {
+    "message": "ランキング変化率"
+  },
+  "best_sellers_change_rate_month_avg": {
+    "message": "直近30日間平均ランキング変化率"
+  },
+  "best_sellers_rating_avg": {
+    "message": "平均星評価"
+  },
+  "best_sellers_rating_max": {
+    "message": "最高星評価"
+  },
+  "best_sellers_rating_min": {
+    "message": "最低星評価"
+  },
+  "best_sellers_rating_new": {
+    "message": "新商品平均星評価"
+  },
+  "best_sellers_sales_avg_rate": {
+    "message": "平均販売数割合"
+  },
+  "best_sellers_date_range": {
+    "message": "時間範囲"
+  },
+  "best_sellers_nation": {
+    "message": "セラー所在地"
+  },
+  "page_view": {
+    "message": "閲覧数"
+  },
+  "market_average": {
+    "message": "市場平均値"
+  },
+  "market_average_category": {
+    "message": "同カテゴリー平均値"
+  },
+  "best_sellers_reviews_max": {
+    "message": "最高評価数"
+  },
+  "best_sellers_reviews_min": {
+    "message": "最低評価数"
+  },
+  "best_sellers_reviews_new": {
+    "message": "新商品平均評価数"
+  },
+  "best_sellers_reviews_start": {
+    "message": "初期評価数"
+  },
+  "best_sellers_reviews_step": {
+    "message": "範囲"
+  },
+  "best_sellers_reviews_submit": {
+    "message": "再分析"
+  },
+  "best_sellers_reviews_range": {
+    "message": "評価数分布"
+  },
+  "nation_code_US": {
+    "message": "アメリカ"
+  },
+  "best_sellers_shelf_time": {
+    "message": "出品時間"
+  },
+  "best_sellers_product_list": {
+    "message": "商品リスト"
+  },
+  "best_sellers_sales_tips": {
+    "message": "サンプル範囲内の全商品の直近30日間の販売数合計"
+  },
+  "best_sellers_revenue_tips": {
+    "message": "サンプル範囲内の全商品の直近30日間の販売額合計"
+  },
+  "best_sellers_product_click_tips": {
+    "message": "トップ商品（販売数top{day}）の合計販売数をTで表示します。見本商品の合計販売数をAで表示します。商品集中度＝T/Aとなります。",
+    "placeholders": {
+      "day": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "best_sellers_blank_click_tips": {
+    "message": "トップブランド（販売数top{day}）の合計販売数をXで表します。見本商品の合計販売数をBで表します。ブランド集中度＝X/Bとなります。",
+    "placeholders": {
+      "day": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "best_sellers_seller_click_tips": {
+    "message": "头トップセラー（販売数top{day}）の合計販売数をZで表します。見本商品の合計販売数をCで表します。セラー集中度＝Z/Cとなります。",
+    "placeholders": {
+      "day": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "best_sellers_new_sales_tips": {
+    "message": "第一行：サンプル範囲内の新商品の直近30日間の販売数合計/サンプル範囲内の商品の直近30日間の総販売数に占める割合<br>第二行：サンプル範囲内の新商品の直近30日間の販売額合計"
+  },
+  "best_sellers_avg_price_tips": {
+    "message": "サンプル範囲内の全商品の最新のBuyBox価格の平均値"
+  },
+  "best_sellers_fba_tips": {
+    "message": "サンプル範囲内のFBA出荷タイプの商品の販売数が、サンプル商品の総販売数に占める割合"
+  },
+  "best_sellers_A_video_tips": {
+    "message": "サンプル範囲内のA+ページと動画紹介がある商品の販売数が、サンプル商品の総販売数に占める割合"
+  },
+  "best_sellers_nation_tips": {
+    "message": "サンプル範囲内の各国（または各地域）に帰属する販売者の商品販売数が、サンプル商品の販売総数に占める割合"
+  },
+  "best_sellers_return_tips": {
+    "message": "第一行：返品率。直近6ヶ月間のサンプル範囲内の全ASINの購入総数に対する返品数の比率<br>第二行：検索購入比例。直近6ヶ月、カテゴリー検索に表示されたASIN数と、このカテゴリー内で購入されたASIN"
+  },
+  "best_sellers_release_day_tips": {
+    "message": "サンプル範囲内の商品の販売時間の平均値"
+  },
+  "best_sellers_reviews_tips": {
+    "message": "サンプル範囲内の商品Listingの評価数の平均値"
+  },
+  "best_sellers_rating_tips": {
+    "message": "サンプル範囲内の商品Listingの星評価の平均値"
+  },
+  "best_sellers_rang": {
+    "message": "トップ商品"
+  },
+  "best_sellers_rang_3": {
+    "message": "前3名"
+  },
+  "best_sellers_rang_5": {
+    "message": "前5名"
+  },
+  "best_sellers_rang_10": {
+    "message": "前10名"
+  },
+  "best_sellers_rang_20": {
+    "message": "前20名"
+  },
+  "best_sellers_video_url": {
+    "message": "https://www.sellersprite.com/jp/v3/knowledge/feature/market-overview-of-extension"
+  },
+  "brands_seller_brand_flagship": {
+    "message": "ブランド旗艦店"
+  },
+  "refresh_page_tips": {
+    "message": "市場分析サンプルは100未満です。完全なデータを得るにはリロードして下さい。"
+  },
+  "refresh_page_tips_btn": {
+    "message": "リロード"
+  },
+  "price_coupon": {
+    "message": "クーポン"
+  },
+  "library_open_web_link": {
+    "message": "Web版-商品ライブラリを開く"
+  },
+  "bs_return_return_rate_click": {
+    "message": "クリックして過去のトレンドを見る"
+  },
+  "bs_return_rate": {
+    "message": "返品率"
+  },
+  "bs_return_rate_history_chart": {
+    "message": "カテゴリー返品率履歴トレンド"
+  },
+  "bs_return_rate_reason_rate": {
+    "message": "返品理由割合"
+  },
+  "bs_return_rate_reason_copy": {
+    "message": "返品理由をコピー"
+  },
+  "bs_first_tips_content": {
+    "message": "サムネイルをクリックして詳細データを確認"
+  },
+  "qa_tips_content": {
+    "message": "ダウンロードする前に、まずQ&Aを検索してみてくださいね〜"
+  },
+  "aq_tips_no_result": {
+    "message": "関連するQ&Aが検索されず、ダウンロードできません。"
+  },
+  "seals_parent_data": {
+    "message": "販売数(親)"
+  },
+  "seals_child_data": {
+    "message": "販売数(子)"
+  },
+  "seals_child_data_en": {
+    "message": "販売数(子)"
+  },
+  "product_grid_table": {
+    "message": "リスト"
+  },
+  "product_grid_list": {
+    "message": "拡大図"
+  },
+  "product_grid_list_variation": {
+    "message": "図形"
+  },
+  "bs_main_tips_fake": {
+    "message": "有料会員限定，<a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>プランをアップグレード</a>してから確認してください"
+  },
+  "show_icon_for_btn": {
+    "message": "アイコン表示"
+  },
+  "show_icon_for_btn_false": {
+    "message": "ボタン表示"
+  }
+}

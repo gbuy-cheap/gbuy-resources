@@ -1,0 +1,342 @@
+.v-enter,
+.v-leave-to {
+    opacity: 0
+}
+
+.v-enter-active,
+.v-leave-active {
+    transition: all .5s ease
+}
+
+body {
+    margin: 0
+}
+
+.pop-cont {
+    min-width: 274px;
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0px 1px 5px 0px #c3c3c3;
+    border: 1px solid #c1bfbf;
+    display: flex
+}
+
+.pop-cont .title-popext {
+    height: 44px;
+    border-bottom: 1px solid #e8eaed;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 14px
+}
+
+.pop-cont .title-popext .title-popext-img {
+    width: auto;
+    height: 24px;
+    display: block
+}
+
+.pop-cont .el-cascader-menu__list {
+    max-width: 350px !important
+}
+
+.pop-cont .el-cascader-node__label {
+    max-width: 230px;
+    padding: 0px !important
+}
+
+.pop-cont-left {
+    width: 274px;
+    border-right: 1px solid #e8eaed
+}
+
+.pop-cont-left .pop-cont-left-content {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column
+}
+
+.disabled {
+    cursor: no-drop
+}
+
+.disabled .bstext {
+    text-align: left !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 5px;
+    cursor: no-drop;
+    font-size: 12px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(197, 195, 195, .5)
+}
+
+.disabled .bstext:hover {
+    color: rgba(197, 195, 195, .5) !important
+}
+
+.disabled:hover {
+    background: none !important
+}
+
+.disabled:hover .iconarrow {
+    color: rgba(197, 195, 195, .5)
+}
+
+.pop-cont-right {
+    background: #fff;
+    width: 274px
+}
+
+.pop-cont-right .pop-cont-right-context {
+    position: relative
+}
+
+.pop-cont-right .switch-controls {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: #abb3bb;
+    transform: scale(0.9)
+}
+
+.pop-left-mylist {
+    min-height: 150px;
+    max-height: 315px;
+    overflow-y: auto
+}
+
+.text-center-manage {
+    text-align: center;
+    margin: 8px auto 14px
+}
+
+.collection-manage-mylist {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    color: #666;
+    border-radius: 4px;
+    min-width: 100px;
+    padding: 0 6px;
+    height: 26px;
+    line-height: 26px;
+    border: 1px #e1e2e5 solid;
+    font-size: 13px
+}
+
+.collection-manage-mylist:hover {
+    color: #e27204;
+    border-color: #e27204
+}
+
+.title-popext-node {
+    box-sizing: border-box;
+    width: 274px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 12px
+}
+
+.title-popext-node:hover {
+    background: #f3f3f5
+}
+
+.title-popext-node:hover .iconarrow {
+    color: #fb8c1e
+}
+
+.title-popext-node .iconarrow {
+    position: absolute;
+    right: 10px;
+    color: #666
+}
+
+.bstext {
+    text-align: left !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: PingFang-SC-Medium, PingFang-SC;
+    font-weight: 500;
+    color: #3f4245
+}
+
+.bstext:hover {
+    color: #fb8c1e
+}
+
+.nonedata {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666
+}
+
+.beforeLogin {
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.beforeLogin:hover {
+    color: #fb8c1e
+}
+
+.bottom-login-box {
+    padding: 16px 14px;
+    height: auto
+}
+
+.bottom-login-box:hover {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.flex-user-infor {
+    height: 0px !important;
+    display: none !important;
+    padding: 0 0 0 14px;
+    cursor: pointer
+}
+
+.flex-user-infor .nickname-member-grade {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: #3f4245
+}
+
+.hide-nickname-more {
+    font-size: 12px;
+    font-weight: 500;
+    color: #6a6e72 !important;
+    display: block;
+    text-align: left;
+    margin: 0 -2px 0 0 !important
+}
+
+.guest-span-btn {
+    display: inline-block;
+    padding: 0 5px !important;
+    height: 21px;
+    line-height: 19px;
+    font-size: .725rem;
+    font-size: 12px;
+    font-weight: 500;
+    transform: scale(0.7);
+    color: #fff;
+    border-radius: 2px;
+    min-width: 38px;
+    text-align: center !important;
+    margin: 4px 0 0
+}
+
+.guest-span-btn.guest-span-green {
+    background-color: #00c9a7
+}
+
+.guest-span-btn.guest-span-red {
+    background-color: #fa3232
+}
+
+.btn-ext {
+    display: block;
+    height: 40px;
+    background: #ff9001;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    outline: none;
+    width: 100%;
+    border: none
+}
+
+.btn-ext:hover {
+    box-shadow: rgba(251, 140, 30, .35) 0px 4px 11px;
+    background-color: #ec7906 !important
+}
+
+.switch-controls[data-v-47d72b47] .el-switch {
+    margin-left: 6px
+}
+
+.switch-controls[data-v-47d72b47] .el-switch .el-switch__core {
+    height: 18px;
+    width: 27px
+}
+
+.switch-controls[data-v-47d72b47] .el-switch .el-switch__core .el-switch__action {
+    width: 12px;
+    height: 12px;
+    top: 2px
+}
+
+.switch-controls[data-v-47d72b47] .el-switch.is-checked .el-switch__core .el-switch__action {
+    margin-left: -14px
+}
+
+.free-trial[data-v-47d72b47] {
+    height: 0px !important;
+    display: none !important;
+    background: #f6f7f9
+}
+
+.free-trial .title[data-v-47d72b47] {
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #3f4245
+}
+
+.free-trial .link[data-v-47d72b47] {
+    color: #ff9300
+}
+
+.free-trial[data-v-47d72b47] .el-input-group__append {
+    color: #fff;
+    background: #ff9001;
+    height: 40px
+}
+
+.free-trial[data-v-47d72b47] .el-input-group__append:hover {
+    box-shadow: 0 4px 11px rgba(251, 140, 30, .35);
+    background-color: #ec7906 !important
+}
+
+.free-trial[data-v-47d72b47] .el-input.is-disabled .el-input__inner {
+    padding-left: 10px;
+    background: #fff;
+    color: #9fa3a8;
+    border: 1px solid #dadee3;
+    height: 38px
+}
+
+.free-trial[data-v-47d72b47] .el-input.is-disabled .el-input__wrapper {
+    padding: 0 !important;
+    box-shadow: none !important
+}
+
+.free-trial .middle-two-px[data-v-47d72b47] {
+    margin-right: 4px
+}

@@ -1,0 +1,5581 @@
+{
+  "main_short_name": {
+    "message": "卖家精灵"
+  },
+  "main_logo_hover_tips": {
+    "message": "点我查看当前页面所有ASIN的详细数据 <a target='_blank' href='https://www.sellersprite.com/cn/help/competitor-lookup-of-extension'>视频+图文教程</a>"
+  },
+  "main_data_sources": {
+    "message": "数据来源"
+  },
+  "main_name": {
+    "message": "卖家精灵 - 亚马逊关键词优化，大数据选品专家"
+  },
+  "main_tooltips": {
+    "message": "卖家精灵(SellerSprite.COM)插件"
+  },
+  "main_description": {
+    "message": "卖家精灵（SellerSprite）基于大数据和人工智能技术，为卖家提供一站式选品、关键词优化、产品监控等运营工具，帮助卖家洞察行业商机、高效选品、打造高分Listing。"
+  },
+  "main_website_url": {
+    "message": "https://www.sellersprite.com/cn"
+  },
+  "main_qa_website_url": {
+    "message": "https://www.sellersprite.com/v3/knowledge/feature/extension-faq"
+  },
+  "main_header_logo": {
+    "message": "/assets/images/logo/header-logo.png"
+  },
+  "main_header_to_official_website": {
+    "message": "进入卖家精灵官网"
+  },
+  "main_header_module_RV": {
+    "message": "关键词反查"
+  },
+  "main_header_module_MI": {
+    "message": "关键词挖掘"
+  },
+  "main_header_module_PS": {
+    "message": "产品查询"
+  },
+  "main_header_module_KC": {
+    "message": "关键词收录"
+  },
+  "main_header_module_CS": {
+    "message": "自定义邀评"
+  },
+  "main_header_module_PL": {
+    "message": "产品库"
+  },
+  "main_header_contact_us": {
+    "message": "在线咨询"
+  },
+  "main_header_contact_us_tips": {
+    "message": "点击去官网留言，我们会在一个工作日内回复您。 <br/> 如果您需要当即解答，请进入<a style='color: #ff9300' href='https://www.sellersprite.com/cn/' target='_blank'>官网</a>，点击右下角进行咨询。"
+  },
+  "main_header_contact_us_url": {
+    "message": "https://www.sellersprite.com/chat"
+  },
+  "main_header_marketplace_us": {
+    "message": "美国站"
+  },
+  "main_header_marketplace_jp": {
+    "message": "日本站"
+  },
+  "main_header_marketplace_uk": {
+    "message": "英国站"
+  },
+  "main_header_marketplace_de": {
+    "message": "德国站"
+  },
+  "main_header_marketplace_fr": {
+    "message": "法国站"
+  },
+  "main_header_marketplace_it": {
+    "message": "意大利"
+  },
+  "main_header_marketplace_es": {
+    "message": "西班牙"
+  },
+  "main_header_marketplace_ca": {
+    "message": "加拿大"
+  },
+  "main_header_marketplace_in": {
+    "message": "印度站"
+  },
+  "main_header_marketplace_mx": {
+    "message": "墨西哥"
+  },
+  "main_header_marketplace_au": {
+    "message": "澳大利亚"
+  },
+  "main_header_marketplace_ae": {
+    "message": "阿联酋"
+  },
+  "main_header_marketplace_nl": {
+    "message": "荷兰站"
+  },
+  "main_header_marketplace_se": {
+    "message": "瑞典站"
+  },
+  "main_header_marketplace_sa": {
+    "message": "沙特站"
+  },
+  "main_header_marketplace_sg": {
+    "message": "新加坡"
+  },
+  "main_header_marketplace_br": {
+    "message": "巴西站"
+  },
+  "main_header_marketplace_tr": {
+    "message": "土耳其"
+  },
+  "main_header_marketplace_translate": {
+    "message": "你当前开启了翻译，或启用亚马逊默认翻译，可能影响部分数据的正确展示"
+  },
+  "main_header_marketplace_click_here": {
+    "message": "点击了解"
+  },
+  "main_header_marketplace_click_here_url": {
+    "message": "https://www.sellersprite.com/cn/help/about-browser-translation"
+  },
+  "main_header_input_error_asin": {
+    "message": "请输入正确的子ASIN, 如 B071NDT5Q3"
+  },
+  "main_header_input_error_keywords": {
+    "message": "请输入正确的检索关键词，如 iphone case"
+  },
+  "main_header_input_error_empty": {
+    "message": "请输入产品代码，或 产品关键词"
+  },
+  "main_header_search_placeholder_RV": {
+    "message": "主人~请输入子ASIN"
+  },
+  "main_header_search_placeholder_MI": {
+    "message": "主人~请输入关键词"
+  },
+  "main_header_search_placeholder_PS": {
+    "message": "关键词 或 ASIN"
+  },
+  "main_header_search_placeholder_PSK": {
+    "message": "主人~请输入关键词"
+  },
+  "main_header_search_placeholder_PSA": {
+    "message": "主人~请输入ASIN"
+  },
+  "main_header_search_placeholder_PSB": {
+    "message": "主人~请输入品牌"
+  },
+  "main_header_search_placeholder_PSS": {
+    "message": "主人~请输入卖家"
+  },
+  "main_header_search_tips_PSK": {
+    "message": "点击可输入多个关键词，最多可输入20个"
+  },
+  "main_header_search_tips_PSA": {
+    "message": "点击可输入多个ASIN，最多可输入200个父(子)体ASIN"
+  },
+  "main_header_search_tips_MI": {
+    "message": "点击可输入多个关键词，最多可输入20个"
+  },
+  "main_header_search_tips_RV": {
+    "message": "点击可输入多个ASIN，最多可输入200个父(子)体ASIN"
+  },
+  "main_header_search_tips_PSB": {
+    "message": "点击可输入多个品牌，最多可输入20个"
+  },
+  "main_header_search_tips_PSS": {
+    "message": "点击可输入多个卖家，最多可输入20个"
+  },
+  "main_header_search_over_tips_asin": {
+    "message": "主人~ 最多可查询200个ASIN，已为您自动清除超出的ASIN"
+  },
+  "main_header_search_over_tips_keyword": {
+    "message": "主人~ 最多可查询20个关键词，已为您自动清除超出的关键词"
+  },
+  "main_header_search_over_tips_brand": {
+    "message": "主人~ 最多可查询20个品牌，已为您自动清除超出的品牌"
+  },
+  "main_header_search_over_tips_seller": {
+    "message": "主人~ 最多可查询20个卖家，已为您自动清除超出的卖家"
+  },
+  "main_header_search_placeholder_asin": {
+    "message": "最多输入200个ASIN，回车提交单个ASIN；或直接从txt或Excel按列复制粘贴"
+  },
+  "main_header_search_placeholder_keyword": {
+    "message": "最多输入20个关键词，回车提交单个关键词；或直接从txt或Excel按列复制粘贴"
+  },
+  "main_header_search_placeholder_brand": {
+    "message": "最多输入20个品牌，回车提交单个品牌；或直接从txt或Excel按列复制粘贴"
+  },
+  "main_header_search_placeholder_seller": {
+    "message": "最多输入20个卖家，回车提交单个卖家；或直接从txt或Excel按列复制粘贴"
+  },
+  "main_header_search_batch_btn_clear": {
+    "message": "清除"
+  },
+  "main_header_search_batch_btn_comfirm": {
+    "message": "确定"
+  },
+  "main_header_search_word_tips": {
+    "message": "已录入{num}/{limt}个{type}",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "2"
+      },
+      "limt": {
+        "content": "$1",
+        "example": "2"
+      },
+      "type": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "main_header_search_over_asin": {
+    "message": "已录入{num}/200个ASIN",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "main_header_search_over_keyword": {
+    "message": "已录入{num}/20个关键词",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "main_header_search_over_brand": {
+    "message": "已录入{num}/20个品牌",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "main_header_search_over_seller": {
+    "message": "已录入{num}/20个卖家",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "main_header_search_enter_word_tips": {
+    "message": "请输入{type} 如:{example}",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "2"
+      },
+      "example": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "main_header_search_enter_word_tips2": {
+    "message": "{type} 如:{example}",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "2"
+      },
+      "example": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "main_header_search_batch_placeholder": {
+    "message": "父(子)体ASIN或产品链接，如 BOOFLYWNYQ"
+  },
+  "main_footer_btn_refresh": {
+    "message": "刷新"
+  },
+  "main_footer_btn_export": {
+    "message": "导出"
+  },
+  "main_footer_btn_export_keepa": {
+    "message": "导出"
+  },
+  "main_footer_btn_export_batch": {
+    "message": "导出明细"
+  },
+  "main_footer_btn_export_batch_tips": {
+    "message": "批量导出所选产品近3年的历史销量数据，一次最多可导出100个ASIN"
+  },
+  "main_footer_btn_collection": {
+    "message": "将此页面添加为默认打开页"
+  },
+  "main_footer_btn_video": {
+    "message": "教程"
+  },
+  "main_footer_btn_video_href": {
+    "message": "https://www.sellersprite.com/cn/help/tour-of-sellersprite-extension"
+  },
+  "main_footer_btn_setting": {
+    "message": "设置"
+  },
+  "main_footer_btn_copy": {
+    "message": "复制到剪贴板"
+  },
+  "main_footer_btn_google_trend": {
+    "message": "Google趋势"
+  },
+  "main_footer_btn_download_reviews": {
+    "message": "评论下载"
+  },
+  "main_footer_btn_reviews_translation": {
+    "message": "翻译中"
+  },
+  "main_footer_translation_title_cont": {
+    "message": "翻译标题和内容 "
+  },
+  "main_footer_translation_title_cont_tips": {
+    "message": "主人~ 翻译不可用解决方案如下：<br/>1. Google翻译(系统默认使用)<br/>&nbsp;&nbsp;&nbsp;&nbsp;开启代理(最高效)。或修改host，点击 <a href='https://www.sellersprite.com/cn/help/how-to-use-google-translation' target='_blank' style='color: #fb8c1e; font-size: 12px; border-bottom: 1px #fb8c1e dashed !important;'>查看帮助</a>"
+  },
+  "main_footer_translation_title": {
+    "message": "翻译商品标题 "
+  },
+  "main_footer_btn_download_qa": {
+    "message": "Q&A下载"
+  },
+  "QA_download_video": {
+    "message": "同时下载Q&A视频"
+  },
+  "QA_download_tips": {
+    "message": "点我免费批量下载Q&A内容 <a style='color: #fb8c1e; border-bottom: 1px dashed #fb8c1e;' target='_blank' href='https://www.sellersprite.com/cn/help/reviews-download-guide-of-extension'>视频+图文教程</a>"
+  },
+  "QA_download_dialog_title": {
+    "message": "Title"
+  },
+  "main_footer_btn_title_word_frequency": {
+    "message": "标题词频"
+  },
+  "main_footer_btn_title_word": {
+    "message": "复制标题词"
+  },
+  "main_footer_KC_found_items": {
+    "message": "共 <strong class='text-danger'>{total}</strong> 个关键词， 其中 <strong class='text-primary'>{count}</strong> 个关键词被收录",
+    "placeholders": {
+      "total": {
+        "content": "$1",
+        "example": "1000"
+      },
+      "count": {
+        "content": "$2",
+        "example": "500"
+      }
+    }
+  },
+  "main_footer_btn_batch_delete_error": {
+    "message": "请选择要删除的产品！"
+  },
+  "main_footer_btn_batch_add_error": {
+    "message": "主人~ 选择您需要加入的产品吧！"
+  },
+  "main_footer_help": {
+    "message": "插件无法使用？点击这里解决"
+  },
+  "main_footer_signin_or_signup": {
+    "message": "登录/注册"
+  },
+  "main_footer_user_focus_goods": {
+    "message": "我关注的商品"
+  },
+  "main_footer_user_focus_goods_link": {
+    "message": "https://www.sellersprite.com/cn/v2/product-tracking"
+  },
+  "main_footer_go_web_home": {
+    "message": "进入网页版"
+  },
+  "main_footer_go_web_home_link": {
+    "message": "https://www.sellersprite.com/cn/"
+  },
+  "main_footer_go_web_qa": {
+    "message": "社区/问答"
+  },
+  "main_footer_go_web_qa_link": {
+    "message": "https://www.sellersprite.com/cn/bbs"
+  },
+  "main_footer_exit": {
+    "message": "退出登录"
+  },
+  "main_footer_exit_title": {
+    "message": "退出当前账号"
+  },
+  "main_footer_child_account": {
+    "message": "子账号"
+  },
+  "main_footer_premium_paid_member": {
+    "message": "付费会员"
+  },
+  "main_footer_member_I": {
+    "message": "独立会员"
+  },
+  "main_footer_member_S": {
+    "message": "标准会员"
+  },
+  "main_footer_member_A": {
+    "message": "高级会员"
+  },
+  "main_footer_member_V": {
+    "message": "VIP会员"
+  },
+  "main_footer_member_T": {
+    "message": "体验版"
+  },
+  "main_footer_member_TM": {
+    "message": "体验版"
+  },
+  "main_footer_free_membership": {
+    "message": "免费会员"
+  },
+  "main_footer_expiredDays_member": {
+    "message": "剩余{day}天",
+    "placeholders": {
+      "day": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "main_tips_fake": {
+    "message": "仅限付费用户，<a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>升级套餐</a> 后即可查看"
+  },
+  "main_tips_warm_tips": {
+    "message": "温馨提示"
+  },
+  "main_tips_search_loading": {
+    "message": "查询过程可能持续1-2分钟，请耐心等待~"
+  },
+  "main_tips_listing_loading": {
+    "message": "产品列表加载中，请耐心等待~"
+  },
+  "main_tips_no_more": {
+    "message": "已全部加载"
+  },
+  "main_tips_no_more_limit": {
+    "message": "免费会员可查看前<b style='color: red;font-style: normal;'>{num}</b>条，<a href='https://www.sellersprite.com/price' target='_blank'>升级套餐</a>后可查看全部",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "main_tips_no_data": {
+    "message": "主人-暂无数据哦！"
+  },
+  "main_tips_cant_get_data": {
+    "message": "无法获取到该数据"
+  },
+  "main_tips_copy_success": {
+    "message": "复制成功"
+  },
+  "main_tips_move_success": {
+    "message": "移动成功"
+  },
+  "main_tips_copy_failed": {
+    "message": "复制失败，请重试"
+  },
+  "main_tips_copy_failed_no_data": {
+    "message": "当前无数据，无法复制"
+  },
+  "main_tips_collection_success": {
+    "message": "添加成功"
+  },
+  "main_tips_downloading": {
+    "message": "下载中"
+  },
+  "main_tips_enable_inventory_stock": {
+    "message": "开启库存监控"
+  },
+  "main_tips_disable_inventory_stock": {
+    "message": "关闭库存监控"
+  },
+  "main_tips_disable_marketplace": {
+    "message": "暂不支持该站点"
+  },
+  "main_tips_version_too_low": {
+    "message": "当前版本较低，请升级插件后查看数据，<a href='https://www.sellersprite.com/v2/extension/upgrading?language=zh_CN' target='_blank'>点我下载</a>"
+  },
+  "main_tips_request_failed": {
+    "message": "请求异常，请稍后重试"
+  },
+  "main_setting_title": {
+    "message": "卖家精灵 - 偏好设置"
+  },
+  "main_setting_logo": {
+    "message": "/assets/images/logo/logo-cn.png"
+  },
+  "main_setting_Example": {
+    "message": "示例图"
+  },
+  "main_setting_inventory_stats_img": {
+    "message": "https://static.sellersprite.com/docs/202103/inventory_cn.jpg"
+  },
+  "main_setting_inventory_stats": {
+    "message": "库存监控功能"
+  },
+  "main_setting_inventory_stats_tips": {
+    "message": "库存监控通过加购方式判别当前库存，开启库存监控后系统会自动加购并清除购物车所有商品"
+  },
+  "main_setting_quick_view_img": {
+    "message": "https://static.sellersprite.com/docs/202103/quick_view_cn.jpg"
+  },
+  "main_setting_quick_view": {
+    "message": "快速预览（BSR和卖家数等）"
+  },
+  "main_setting_quick_view_tips": {
+    "message": "开启后可能会加大电脑负荷，导致页面卡顿。如有影响可关闭"
+  },
+  "main_setting_mini_trend_img": {
+    "message": "https://static.sellersprite.com/docs/202103/mini_trend_cn.jpg"
+  },
+  "main_setting_mini_trend": {
+    "message": "列表页-趋势缩略图"
+  },
+  "main_setting_mini_trend_tips": {
+    "message": "插件列表页-趋势缩略图(销量趋势、搜索趋势)，加载时可能会导致页面卡顿，如有影响可关闭"
+  },
+  "main_setting_lqs_view_img": {
+    "message": "https://static.sellersprite.com/docs/202103/lqs_cn.jpg"
+  },
+  "main_setting_lqs_view": {
+    "message": "质量得分"
+  },
+  "main_setting_lqs_view_tips": {
+    "message": "开启后可以即时查看Listing质量得分，方便自有Listing体检，以及竞品评估"
+  },
+  "main_setting_collection_listing": {
+    "message": "愿意共享亚马逊公开信息"
+  },
+  "main_setting_collection_listing_tips": {
+    "message": "愿意共享公开数据（如 产品价格、BSR信息、商品标题）给我们以改善数据显示的及时性"
+  },
+  "main_setting_phrase_name": {
+    "message": "名词解释"
+  },
+  "main_setting_phrase_name_tips": {
+    "message": "开启后可以看到插件的各个名词解释"
+  },
+  "main_setting_on": {
+    "message": "开启"
+  },
+  "main_setting_off": {
+    "message": "关闭"
+  },
+  "main_setting_allow": {
+    "message": "同意"
+  },
+  "main_setting_disallow": {
+    "message": "拒绝"
+  },
+  "main_setting_unregistered": {
+    "message": "还没注册卖家精灵? "
+  },
+  "module_MI_tips_title": {
+    "message": "主人~ 网页版“关键词挖掘”功能更强大，赶快前往使用吧！"
+  },
+  "module_MI_tips_content": {
+    "message": "1、以词拓词-寻找相关关键词和长尾词，快速构建精准关键词库<br/>2、词频分析-方便卖家进行关键词属性分类，挖掘产品细分场景<br/>3、广告投放-筛选有效关键词，打造高分Listing、优化PPC广告<br/>4、大词拓小词-深挖细分长尾词，深耕垂直品类，为选品作参考"
+  },
+  "module_RV_thead_keywords": {
+    "message": "流量词"
+  },
+  "module_RV_table_AC_tips": {
+    "message": "该关键词的搜索结果下，有商品拥有Amazon's Choice标识"
+  },
+  "module_RV_table_ABA_week_rank": {
+    "message": "ABA周排名"
+  },
+  "module_RV_table_ABA_week_rank_tips": {
+    "message": "<p>数据来源于亚马逊ABA数据的关键词搜索频率排名（Search Frequency Rank）</p><p>数字越小表示排名越靠前，搜索量越高</p><p><br></p><p>列表页的搜索量排名是最新一周的数据</p><p>鼠标悬浮在排名数字上可以看到当前数据对应的时间</p>"
+  },
+  "module_RV_table_ABA_week_data_time": {
+    "message": "数据时间"
+  },
+  "module_RV_table_ABA_week_data_week": {
+    "message": "第{num}周",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "module_RV_table_keyword_type": {
+    "message": "流量词类型"
+  },
+  "module_RV_table_keyword_type_tips": {
+    "message": "该ASIN在对应关键词的搜索结果下曝光的具体位置"
+  },
+  "module_RV_table_conversion_and_traffic": {
+    "message": "流量&转化"
+  },
+  "module_RV_table_conversion_and_traffic_tips": {
+    "message": "根据关键词的流量大小和自然排名划分的流量类别<br/>以及产品在不同关键词的下各种转化效果"
+  },
+  "module_RV_table_keyword_distribution": {
+    "message": "流量分布"
+  },
+  "module_RV_table_keyword_distribution_tips": {
+    "message": "该关键词为ASIN带来的自然流量和广告流量占比"
+  },
+  "module_RV_table_keyword_distribution_org": {
+    "message": "自然"
+  },
+  "module_RV_table_keyword_distribution_ad": {
+    "message": "广告"
+  },
+  "module_RV_table_clickRate": {
+    "message": "流量占比"
+  },
+  "module_RV_table_impressions": {
+    "message": "预估周曝光量"
+  },
+  "module_table_impressions": {
+    "message": "展示量<br>点击量"
+  },
+  "module_table_impressions_filter": {
+    "message": "展示量"
+  },
+  "module_table_impressions_click": {
+    "message": "点击量"
+  },
+  "module_excel_impressions": {
+    "message": "展示量"
+  },
+  "module_excel_clicks": {
+    "message": "点击量"
+  },
+  "module_table_impressions_filter_tips": {
+    "message": "指一个自然月，比如2024年3月，在某个关键词搜索结果页中所有ASIN的总展示次数"
+  },
+  "module_table_impressions_tips": {
+    "message": "上行：展示量，指一个自然月，比如2024年3月，在某个关键词搜索结果页中所有ASIN的总展示次数<br>下行：点击量，指一个自然月，比如2024年3月，在某个关键词搜索结果页中被点击的总次数"
+  },
+  "module_table_impressions_click_tips": {
+    "message": "指一个自然月，比如2024年3月，在某个关键词搜索结果页中被点击的总次数"
+  },
+  "module_RV_table_type": {
+    "message": "关键词类型"
+  },
+  "module_RV_table_conversion": {
+    "message": "转化效果"
+  },
+  "module_RV_table_distribution": {
+    "message": "流量词类型"
+  },
+  "module_RV_table_organic_share": {
+    "message": "自然流量占比"
+  },
+  "module_RV_table_sponsored_share": {
+    "message": "广告流量占比"
+  },
+  "module_RV_table_clickRate_tips": {
+    "message": "<p style=\"\">指的是产品通过不同流量词获得的曝光量占比，也就是不同关键词为产品带来的流量大小</p><p style=\"\">比如某个ASIN下关键词yoga mat的流量占比为12.59%，则表示该ASIN近30天的搜索曝光流量有12.59%来自于关键词yoga mat</p><p style=\"\"><br></p><p style=\"font-size: 13px;\">扩展阅读：<a href=\"https://www.sellersprite.com/cn/help/how-to-understand-click-share\" target=\"_blank\" style=\"color: rgb(255, 156, 0);\">如何了解不同关键词为产品带来的流量大小？</a></p>"
+  },
+  "reversing_table_type_NATURAL_SEARCHING": {
+    "message": "自然搜索词"
+  },
+  "reversing_table_type_AMAZON_CHOICE": {
+    "message": "AC推荐词"
+  },
+  "reversing_table_type_EDITORIAL_RECOMMENDATIONS": {
+    "message": "ER推荐词"
+  },
+  "reversing_table_type_FOUR_STAR": {
+    "message": "4星推荐词"
+  },
+  "reversing_table_type_HIGHLY_RATED": {
+    "message": "HR推荐词"
+  },
+  "reversing_table_type_SPONSOR_BRAND": {
+    "message": "品牌广告词"
+  },
+  "reversing_table_type_SPONSOR_VIDEO": {
+    "message": "视频广告词"
+  },
+  "reversing_table_type_ADS": {
+    "message": "SP广告词"
+  },
+  "reversing_table_rank_position": {
+    "message": "自然排名"
+  },
+  "reversing_table_rank_page": {
+    "message": "自然排名页码"
+  },
+  "reversing_table_rank_updated_time": {
+    "message": "更新时间"
+  },
+  "reversing_table_rank_position_tips": {
+    "message": "该ASIN在此关键词下的自然搜索排名（绝对位置）"
+  },
+  "reversing_table_keyword_types_PRIMARY": {
+    "message": "主要流量词"
+  },
+  "reversing_table_keyword_types_PRECISE": {
+    "message": "精准流量词"
+  },
+  "reversing_table_keyword_types_PRECISE_LONG_TAIL": {
+    "message": "精准长尾词"
+  },
+  "reversing_table_conversion_types_EXCELLENT": {
+    "message": "转化优质词"
+  },
+  "reversing_table_conversion_types_STABLE": {
+    "message": "转化平稳词"
+  },
+  "reversing_table_conversion_types_LOST": {
+    "message": "转化流失词"
+  },
+  "reversing_table_conversion_types_INVALID": {
+    "message": "无效曝光词"
+  },
+  "reversing_table_ad_rank_position": {
+    "message": "广告排名"
+  },
+  "reversing_table_ad_rank_page": {
+    "message": "广告排名页码"
+  },
+  "reversing_table_ad_rank_updated_time": {
+    "message": "更新时间"
+  },
+  "reversing_table_ad_rank_position_tips": {
+    "message": "该ASIN的广告位在此关键词下的排名位置（绝对位置）"
+  },
+  "reversing_table_today": {
+    "message": "今日"
+  },
+  "reversing_table_yesterday": {
+    "message": "昨日"
+  },
+  "reversing_table_num_day": {
+    "message": "{num}天前",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "reversing_table_page_rank": {
+    "message": "第{num}页",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "reversing_rank": {
+    "message": "排名"
+  },
+  "reversing_table_no_rank_tips": {
+    "message": "关键词{keyword}，近期未被收录或未进入自然搜索结果前3页",
+    "placeholders": {
+      "keyword": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "reversing_table_no_ad_rank_tips": {
+    "message": "关键词{keyword}，近期未投放SP广告或SP广告未进入搜索结果前3页",
+    "placeholders": {
+      "keyword": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "reversing_no_rank": {
+    "message": "前3页无排名"
+  },
+  "reversing_format_time": {
+    "message": "中{date1}\n美{date2}",
+    "placeholders": {
+      "date1": {
+        "content": "$1",
+        "example": ""
+      },
+      "date2": {
+        "content": "$2",
+        "example": ""
+      }
+    }
+  },
+  "main_common_short_year": {
+    "message": "年"
+  },
+  "main_common_short_month": {
+    "message": "月"
+  },
+  "main_common_short_day": {
+    "message": "日"
+  },
+  "module_RV_go_extend": {
+    "message": "查看所有变体流量词"
+  },
+  "module_RV_go_website": {
+    "message": "前往卖家精灵-网页版查看结果"
+  },
+  "module_RV_tips_title": {
+    "message": "主人~ 网页版“关键词反查”功能更强大，赶快前往使用吧！"
+  },
+  "module_RV_tips_content": {
+    "message": "1、关键词反查能够查询任意ASIN的流量词以及搜索流量来源<br/>2、可以用于分析竞品的流量词和流量结构，优化自己的流量入口<br/>3、或者跟踪自己产品的流量现状和关键词表现，调整关键词策略"
+  },
+  "module_RV_tips_btn": {
+    "message": "很棒，立即体验"
+  },
+  "module_RV_video_tips": {
+    "message": "视频+图文教程"
+  },
+  "module_RV_video_link": {
+    "message": "https://www.sellersprite.com/cn/help/keyword-reverse-guide-of-extension"
+  },
+  "module_RV_tips": {
+    "message": "https://www.sellersprite.com/cn/help/keyword-reverse-tips-of-extension"
+  },
+  "module_MI_video_link": {
+    "message": "https://www.sellersprite.com/cn/help/keyword-miner-guide-of-extension"
+  },
+  "module_RV_tbody_search_at_amazon_title": {
+    "message": "去亚马逊搜索该关键词"
+  },
+  "module_RV_search_trend_btn_weekly": {
+    "message": "按周"
+  },
+  "module_RV_search_trend_btn_monthly": {
+    "message": "按月"
+  },
+  "module_RV_search_trend_title": {
+    "message": "关键词搜索趋势"
+  },
+  "module_RV_search_trend_keyword": {
+    "message": "关键词"
+  },
+  "module_RV_search_trend_purchases": {
+    "message": "购买量"
+  },
+  "module_RV_search_trend_searches": {
+    "message": "搜索量"
+  },
+  "module_RV_search_trend_rate": {
+    "message": "购买率"
+  },
+  "module_RV_search_trend_tips": {
+    "message": "灰色购买率曲线代表预测值，之前是真实值"
+  },
+  "module_RV_search_trend_tips_searches": {
+    "message": "月搜索量"
+  },
+  "module_RV_search_trend_tips_searches_tips": {
+    "message": "月搜索量"
+  },
+  "module_RV_search_trend_tips_growth_rate": {
+    "message": "环比变化"
+  },
+  "module_RV_top_keyword": {
+    "message": "高频词"
+  },
+  "module_MI_thead_click_concentration": {
+    "message": "点击集中度"
+  },
+  "module_MI_thead_click_concentration_br": {
+    "message": "点击集中度"
+  },
+  "module_MI_thead_click_concentration_tips": {
+    "message": "点击查看该关键词点击、转化占比趋势"
+  },
+  "module_MI_thead_ppc": {
+    "message": "PPC竞价"
+  },
+  "module_MI_thead_ppc_tips": {
+    "message": "点击查看该关键词竞价趋势"
+  },
+  "module_MI_thead_operation": {
+    "message": "操作"
+  },
+  "module_MI_tbody_view_google_trend_title": {
+    "message": "查看该关键词的Google趋势"
+  },
+  "module_MI_analysis_chart_tips_products": {
+    "message": "产品数量"
+  },
+  "module_MI_analysis_chart_tips_proportion": {
+    "message": "数量占比"
+  },
+  "module_MI_analysis_chart_tips_amount": {
+    "message": "数量"
+  },
+  "module_MI_analysis_chart_tips_no_reviews": {
+    "message": "无评分数"
+  },
+  "module_MI_analysis_chart_tips_no_bsr": {
+    "message": "无BSR"
+  },
+  "module_MI_analysis_chart_tips_below": {
+    "message": "{num}以下",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "module_MI_analysis_chart_tips_above": {
+    "message": "{num}以上",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "module_MI_click_concentration": {
+    "message": "点击集中度"
+  },
+  "module_MI_chart_ppc_bid": {
+    "message": "PPC竞价(词组匹配)"
+  },
+  "module_MI_chart_ppc_bid_nodata_tips": {
+    "message": "(该月PPC竞价数据将在月底更新)"
+  },
+  "module_MI_click_concentration_keyword": {
+    "message": "关键词"
+  },
+  "module_MI_click_concentration_legend": {
+    "message": "点击集中度"
+  },
+  "module_MI_click_conversion_share": {
+    "message": "转化占比"
+  },
+  "module_MI_click_rate": {
+    "message": "点击占比"
+  },
+  "module_MI_max_cpc_bid_name_legend": {
+    "message": "最大值"
+  },
+  "module_MI_min_cpc_bid_name_legend": {
+    "message": "最小值"
+  },
+  "module_MI_cpc_bid_name_legend": {
+    "message": "建议竞价"
+  },
+  "module_MI_google_trend_title": {
+    "message": "Google Trends"
+  },
+  "module_MI_google_trend_keyword": {
+    "message": "关键词"
+  },
+  "module_MI_google_trend_tips_to_google": {
+    "message": "去Google Trends网站查看"
+  },
+  "module_MI_google_trend_module_web": {
+    "message": "Google网页搜索"
+  },
+  "module_MI_google_trend_module_shopping": {
+    "message": "Google购物搜索"
+  },
+  "module_MI_google_trend_1_year": {
+    "message": "近1年"
+  },
+  "module_MI_google_trend_3_year": {
+    "message": "近3年"
+  },
+  "module_MI_google_trend_5_year": {
+    "message": "全部"
+  },
+  "module_MI_google_trend_search_interest": {
+    "message": "搜索指数"
+  },
+  "module_MI_google_trend_btn_save_as_image": {
+    "message": "保存为图片"
+  },
+  "module_MI_google_trend_tips_empty_data": {
+    "message": "数据正在抓取中...<br/>建议您稍后重新打开或<a class='link' target='_blank' href='{link}'>前往Google Trends网站查看<a/>",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "module_PS_tips": {
+    "message": "BSR排名：该ASIN的Best  Sellers  Rank，可能是父体的，无大类排名时可能是某小类目<br/>点击BSR数字，可以查看历史BSR趋势<br/>价格：最新的BuyBox价格<br/>留评率：上个自然月评分数增长值/该月销量  *  100%<br/>月评新增：产品该月内的新增评分数<br/>销量趋势：最近1年各月的销量走势，鼠标悬停可以查看各月预估销量<br/>近30天销量：最近30天的预估销量；比如现在是2020年10月30日，则近30天销量，是10月01日至10月30日这个时间段的预估销量<br/>点击数字，可以查看最近三年的历史销量走势<br/>近30天销售额：最近30天的预估销售额；比如现在是2020年10月30日，则近30天销售额，是10月01日至10月30日这个时间段的预估销售额<br/>毛利率：产品毛利率，毛利率  =  商品售价*1  -  亚马逊佣金  -  FBA运费<br/>点击毛利率数字，可打开利润计算器<br/>所有字段的详细解释，请<a target='_blank' href='https://www.sellersprite.com/cn/help/product-tips-of-extension'>点击这里<a/>"
+  },
+  "module_PS_thead_product_info": {
+    "message": "产品信息"
+  },
+  "module_PS_thead_field_explain": {
+    "message": "数据解释"
+  },
+  "module_PS_thead_field_explain_link": {
+    "message": "https://www.sellersprite.com/cn/help/product-tips-of-extension"
+  },
+  "module_LIB_thead_field_explain_link": {
+    "message": "https://www.sellersprite.com/v3/knowledge/feature/product-list-tips-of-extension"
+  },
+  "module_MI_thead_field_explain_link": {
+    "message": "https://www.sellersprite.com/cn/help/keyword-miner-tips-of-extension"
+  },
+  "module_RV_thead_field_explain_link": {
+    "message": "https://www.sellersprite.com/cn/help/keyword-reverse-tips-of-extension"
+  },
+  "module_PS_bottom_tips": {
+    "message": "~ 主人，我是有底线的 ~"
+  },
+  "module_PS_thead_brand": {
+    "message": "品牌"
+  },
+  "module_PS_thead_category": {
+    "message": "品类"
+  },
+  "module_PS_thead_bsr": {
+    "message": "BSR"
+  },
+  "module_PS_thead_bsr_tips": {
+    "message": "大类BSR(Best Sellers Rank)，也就是该子ASIN在Listing页面最新的大类排名"
+  },
+  "module_PS_thead_price": {
+    "message": "价格"
+  },
+  "module_PS_thead_price_tips": {
+    "message": "该产品的最新售价"
+  },
+  "module_PS_thead_rating": {
+    "message": "评分"
+  },
+  "module_PS_thead_rating_tips": {
+    "message": "该产品的最新评分值"
+  },
+  "module_PS_thead_review": {
+    "message": "评分数"
+  },
+  "module_PS_thead_trend_review": {
+    "message": "评分数"
+  },
+  "module_PS_thead_review_tips": {
+    "message": "该产品的最新评分数(ratings数量)"
+  },
+  "module_PS_thead_review_rate": {
+    "message": "留评率"
+  },
+  "module_PS_thead_review_rate_tips": {
+    "message": "该产品近30天的留评率=近30天的新增评分数/近30天的总销量"
+  },
+  "module_PS_thead_pop_review_rate": {
+    "message": "近30天留评率(销量)"
+  },
+  "module_PS_thead_grade": {
+    "message": "评级"
+  },
+  "module_PS_thead_review_delta": {
+    "message": "月评新增"
+  },
+  "module_PS_thead_review_delta_tips": {
+    "message": "该产品近30天的新增评分数"
+  },
+  "module_PS_thead_questions": {
+    "message": "Q&A数"
+  },
+  "module_PS_thead_questions_tips": {
+    "message": "该产品的最新Q&A数"
+  },
+  "module_PS_thead_sales_trend": {
+    "message": "销量趋势(父)"
+  },
+  "module_PS_thead_sales_variation_trend": {
+    "message": "销量趋势(子)"
+  },
+  "module_PS_sales_variation_trend": {
+    "message": "销量趋势(子)"
+  },
+  "module_PS_thead_sales_volume_title": {
+    "message": "销量"
+  },
+  "module_PS_thead_sales_volume_P": {
+    "message": "销量(父)"
+  },
+  "module_PS_thead_sales_volume_title_tips": {
+    "message": "近30天销量"
+  },
+  "module_PS_thead_sales_volume": {
+    "message": "近30天<br/>销量"
+  },
+  "module_PS_thead_sales_child_volume": {
+    "message": "近30天<br/>子体销量"
+  },
+  "module_PS_thead_sales_volume_tips": {
+    "message": "该产品父体近30天的总销量(FBA+FBM)"
+  },
+  "module_PS_thead_sales_child_volume_tips": {
+    "message": "子体近30天的销量，数据来源于亚马逊搜索页"
+  },
+  "module_PS_thead_sales_amount_title": {
+    "message": "销售额"
+  },
+  "module_PS_thead_sales_child_amount_title": {
+    "message": "子体销量<br>销售额"
+  },
+  "module_PS_thead_sales_amount_title_tips": {
+    "message": "近30天销售额"
+  },
+  "module_PS_thead_sales_amount": {
+    "message": "近30天<br/>销售额"
+  },
+  "module_PS_thead_sales_amount_tips": {
+    "message": "该产品父体近30天的总销售额(FBA+FBM)"
+  },
+  "module_PS_thead_profit_rate": {
+    "message": "毛利率"
+  },
+  "module_PS_thead_profit_rate_tips": {
+    "message": "从商品售价中扣除佣金和FBA费用后，剩余金额占商品售价的比例"
+  },
+  "module_PS_thead_fba_cost": {
+    "message": "FBA"
+  },
+  "module_PS_thead_available_on_br": {
+    "message": "上架时间"
+  },
+  "module_PS_thead_fba_cost_tips": {
+    "message": "该产品的亚马逊物流基础服务费，系统根据体积和重量进行计算"
+  },
+  "module_PS_thead_available_on": {
+    "message": "上架时间"
+  },
+  "module_PS_thead_sellers": {
+    "message": "卖家"
+  },
+  "module_PS_thead_sellers_tips": {
+    "message": "该产品Buybox下的所有跟卖卖家数量"
+  },
+  "module_PS_thead_variations": {
+    "message": "变体数"
+  },
+  "module_PS_thead_fulfilled": {
+    "message": "配送"
+  },
+  "module_PS_thead_fulfilled_tips": {
+    "message": "FBA：Fulfilment by amazon，亚马逊自发货<br/>FBM：Fulfillment by Merchant，卖家自发货<br/>AMZ：Ships from Amazon and Sold by Amazon.com，亚马逊自营"
+  },
+  "module_PS_tbody_product_info_tips": {
+    "message": "去亚马逊查看"
+  },
+  "module_PS_tbody_product_signboard_has_AC": {
+    "message": "该Listing有Amazon's Choice标识，关键词：<a href='/s?k={desc}' target='_blank' style='border-bottom: 1px #fd963c dashed !important;'>{desc}</a>",
+    "placeholders": {
+      "desc": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "module_PS_tbody_product_signboard_AC": {
+    "message": "该Listing有Amazon's Choice标识"
+  },
+  "module_PS_tbody_product_signboard_SP": {
+    "message": "该商品投放了Sponsored Product广告"
+  },
+  "module_PS_tbody_product_signboard_SPB": {
+    "message": "该产品投放了品牌广告。PPC广告的一种，一般在搜索结果页的顶部或底部出现"
+  },
+  "module_PS_tbody_product_signboard_SPV": {
+    "message": "该产品投放了视频广告。PPC广告的一种，一般在搜索结果页的中间位置出现"
+  },
+  "module_PS_tbody_product_signboard_ER": {
+    "message": "该产品在搜索结果页的编辑推荐展位出现。该展位展示的是博主、网红等第三方撰写的产品推荐文章及其产品"
+  },
+  "module_PS_tbody_product_signboard_HR": {
+    "message": "该产品在搜索结果页的高度评价展位出现。该展位展示的是亚马逊基于星级评分和客户评分数量选出的高评价产品"
+  },
+  "module_PS_tbody_product_signboard_4S": {
+    "message": "该产品是Amazon 4-star中的产品。Amazon 4-star是亚马逊旗下的实体商店，产品来自于亚马逊网站上顶级类别中精选出的4星或以上的产品"
+  },
+  "module_PS_tbody_product_signboard_has_BS": {
+    "message": "该Listing是{desc}的Best Seller",
+    "placeholders": {
+      "desc": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "module_PS_tbody_product_signboard_BS": {
+    "message": "该Listing有Best Seller标识"
+  },
+  "module_PS_tbody_product_signboard_has_NR": {
+    "message": "该Listing有New Release标识，所在类目：{desc}",
+    "placeholders": {
+      "desc": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "module_PS_tbody_product_signboard_NR": {
+    "message": "该Listing有New Release标识"
+  },
+  "module_PS_tbody_product_signboard_LTD": {
+    "message": "Limited time deal，表示该商品参加了“7天促销”活动"
+  },
+  "module_PS_tbody_product_signboard_EBC": {
+    "message": "该商品有A+页面"
+  },
+  "module_PS_tbody_product_signboard_ABS": {
+    "message": "该商品有品牌故事"
+  },
+  "module_PS_tbody_product_signboard_V": {
+    "message": "该商品有视频介绍"
+  },
+  "module_PS_tbody_brand_tips": {
+    "message": "打开品牌查询页面"
+  },
+  "module_PS_tbody_category_tips": {
+    "message": "点击展开完整类目路径"
+  },
+  "module_PS_tbody_close_category_tips": {
+    "message": "点击收起类目路径"
+  },
+  "module_PS_tbody_bsr_tips": {
+    "message": "数字蓝色表示大类目排名，红色表示小类目排名<br/>点击数字可查看历史趋势"
+  },
+  "module_PS_tbody_product_trend": {
+    "message": "产品趋势"
+  },
+  "module_PS_tbody_profit_calculator": {
+    "message": "利润计算器"
+  },
+  "module_PS_tbody_delete_product": {
+    "message": "从列表删除该产品"
+  },
+  "module_PS_tbody_view_same_category": {
+    "message": "浏览同类目"
+  },
+  "module_PS_tbody_view_same_category_tips": {
+    "message": "去亚马逊访问该类目"
+  },
+  "module_PS_tbody_BS_list": {
+    "message": "BS榜单"
+  },
+  "module_PS_tbody_BS_list_tips": {
+    "message": "去亚马逊访问该类目"
+  },
+  "module_PS_tbody_market_analysis": {
+    "message": "市场分析"
+  },
+  "module_PS_tbody_market_analysis_tips": {
+    "message": "查看市场分析图表"
+  },
+  "module_PS_tbody_alibaba": {
+    "message": "Alibaba"
+  },
+  "module_PS_tbody_alibaba_tips": {
+    "message": "去阿里巴巴找货源(基于图片相似度)"
+  },
+  "module_PS_tbody_1688": {
+    "message": "1688"
+  },
+  "module_PS_tbody_1688_tips": {
+    "message": "去1688寻找货源"
+  },
+  "module_PS_tbody_1688_loading": {
+    "message": "跳转1688中"
+  },
+  "module_PS_tbody_1688_loading_tips": {
+    "message": "正在请求1688，稍后自动打开新窗口展示结果"
+  },
+  "module_PS_tbody_1688_need_login": {
+    "message": "1688"
+  },
+  "module_PS_tbody_1688_need_login_tips": {
+    "message": "登录淘宝后重试"
+  },
+  "module_PS_tbody_1688_error": {
+    "message": "跳转1688出错"
+  },
+  "module_PS_tbody_1688_error_tips": {
+    "message": "请求1688出错，请稍后再试或者联系客服"
+  },
+  "module_PS_tbody_taobao": {
+    "message": "淘宝"
+  },
+  "module_PS_tbody_taobao_tips": {
+    "message": "去淘宝寻找货源"
+  },
+  "module_PS_tbody_taobao_loading": {
+    "message": "跳转淘宝中"
+  },
+  "module_PS_tbody_taobao_loading_tips": {
+    "message": "正在请求淘宝，稍后自动打开新窗口展示结果"
+  },
+  "module_PS_tbody_taobao_error": {
+    "message": "跳转淘宝出错"
+  },
+  "module_PS_tbody_taobao_error_tips": {
+    "message": "请求淘宝出错，请稍后再试或者联系客服"
+  },
+  "module_PS_tbody_chinese_category_label": {
+    "message": "中文类目名"
+  },
+  "module_PS_tbody_weight": {
+    "message": "重量"
+  },
+  "module_PS_tbody_dimension": {
+    "message": "体积"
+  },
+  "module_PS_tbody_variations": {
+    "message": "变体数"
+  },
+  "module_PS_tbody_sellers": {
+    "message": "卖家"
+  },
+  "module_PS_tbody_sellers_tips": {
+    "message": "去亚马逊查看跟卖卖家"
+  },
+  "module_PS_tbody_buy_box_owner": {
+    "message": "BuyBox卖家"
+  },
+  "module_PS_tbody_buy_box_owner_tips": {
+    "message": "去亚马逊查此卖家"
+  },
+  "module_PS_tbody_business_name": {
+    "message": "公司名称"
+  },
+  "module_PS_tbody_business_type": {
+    "message": "公司类型"
+  },
+  "module_PS_tbody_trade_number": {
+    "message": "注册交易码"
+  },
+  "module_PS_tbody_vat_number": {
+    "message": "VAT"
+  },
+  "module_PS_tbody_phone": {
+    "message": "电话号码"
+  },
+  "module_PS_tbody_business_address": {
+    "message": "办公地址"
+  },
+  "module_PS_tbody_capital": {
+    "message": "注册资本"
+  },
+  "module_PS_tbody_manger": {
+    "message": "主管经理"
+  },
+  "module_PS_tbody_seller_station_Feedback": {
+    "message": "Feedback"
+  },
+  "module_PS_tbody_seller_station": {
+    "message": "{stationName}卖家",
+    "placeholders": {
+      "stationName": {
+        "content": "$1",
+        "example": "中国"
+      }
+    }
+  },
+  "module_PS_tbody_tips_years": {
+    "message": "{years}年",
+    "placeholders": {
+      "years": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "module_PS_tbody_tips_years_months": {
+    "message": "{years}年{months}个月",
+    "placeholders": {
+      "years": {
+        "content": "$1",
+        "example": "1"
+      },
+      "months": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "module_PS_tbody_tips_half_years": {
+    "message": "{years}年半",
+    "placeholders": {
+      "years": {
+        "content": "$1",
+        "example": "1"
+      },
+      "months": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "module_PS_tbody_tips_half_of_year": {
+    "message": "半年",
+    "placeholders": {
+      "months": {
+        "content": "$2",
+        "example": "6"
+      }
+    }
+  },
+  "module_PS_tbody_tips_above_year": {
+    "message": "{years}年以上",
+    "placeholders": {
+      "years": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "module_PS_tbody_tips_years_months_days": {
+    "message": "{years}年{months}个月({days}天)",
+    "placeholders": {
+      "years": {
+        "content": "$1",
+        "example": "1"
+      },
+      "months": {
+        "content": "$2",
+        "example": "3"
+      },
+      "days": {
+        "content": "$3",
+        "example": "421"
+      }
+    }
+  },
+  "module_PS_tbody_tips_years_days": {
+    "message": "{years}年({days}天)",
+    "placeholders": {
+      "years": {
+        "content": "$1",
+        "example": "1"
+      },
+      "days": {
+        "content": "$2",
+        "example": "421"
+      }
+    }
+  },
+  "module_PS_tbody_tips_months": {
+    "message": "{months}个月",
+    "placeholders": {
+      "months": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "module_PS_tbody_tips_months_days": {
+    "message": "{months}个月({days}天)",
+    "placeholders": {
+      "months": {
+        "content": "$1",
+        "example": "3"
+      },
+      "days": {
+        "content": "$2",
+        "example": "421"
+      }
+    }
+  },
+  "module_PS_tbody_pop_days": {
+    "message": "{days}天",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "module_PS_tbody_pop_years_month": {
+    "message": "{years}年{months}个月({allDays}天)",
+    "placeholders": {
+      "years": {
+        "content": "$1",
+        "example": "1"
+      },
+      "months": {
+        "content": "$1",
+        "example": "3"
+      },
+      "allDays": {
+        "content": "$3",
+        "example": "421"
+      }
+    }
+  },
+  "module_PS_tbody_pop_months_days": {
+    "message": "{months}个月{days}天({allDays}天)",
+    "placeholders": {
+      "months": {
+        "content": "$1",
+        "example": "3"
+      },
+      "days": {
+        "content": "$2",
+        "example": "421"
+      },
+      "allDays": {
+        "content": "$3",
+        "example": "421"
+      }
+    }
+  },
+  "module_PS_tbody_pop_years_months_days": {
+    "message": "{years}年{months}个月{days}天({allDays}天)",
+    "placeholders": {
+      "years": {
+        "content": "$1",
+        "example": "1"
+      },
+      "months": {
+        "content": "$2",
+        "example": "3"
+      },
+      "days": {
+        "content": "$3",
+        "example": "421"
+      },
+      "allDays": {
+        "content": "$4",
+        "example": "421"
+      }
+    }
+  },
+  "module_PS_tbody_tips_track": {
+    "message": "加入监控（<a href='https://www.sellersprite.com/cn/v2/product-tracking' target='_blank'>网页版-产品监控</a>可查看）"
+  },
+  "module_PS_tbody_tips_track_succeed": {
+    "message": "监控成功，可前往<a href='https://www.sellersprite.com/cn/v2/product-tracking' target='_blank'>网页版-产品监控</a>查看"
+  },
+  "module_PS_footer_count": {
+    "message": "加载数据 {count} 条",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "module_PS_footer_count_update": {
+    "message": "，<a href='https://www.sellersprite.com/price' target='_blank'>升级套餐</a>后可加载更多"
+  },
+  "module_PS_tips_row_monthsale": {
+    "message": "查看日销量详细<br/>其它蓝色数字也都可以点击看趋势哦"
+  },
+  "module_PS_tips_row_month_sale_avg": {
+    "message": "日销量：{dayUnits}/天，点击查看详细<br/>其它蓝色数字也都可以点击看趋势哦",
+    "placeholders": {
+      "dayUnits": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "module_PS_tips_row_sellers": {
+    "message": "点击查看跟卖列表"
+  },
+  "module_PS_tips_row_rate": {
+    "message": "查看历史留评趋势<br/>留评率 = 当月新增评分数量/当月销量"
+  },
+  "module_PS_tips_row_calculator": {
+    "message": "打开利润计算器"
+  },
+  "module_PS_pop_echart_reference": {
+    "message": "5日均线"
+  },
+  "module_PS_pop_echart_Ranking": {
+    "message": "排名"
+  },
+  "module_PS_pop_echart_bsrTips": {
+    "message": "点击BSR标签，可突出显示"
+  },
+  "module_PS_pop_echart_bsr_tag_tips": {
+    "message": "点击顶部BSR标签，可单独显示"
+  },
+  "module_PS_footer_load_more": {
+    "message": "加载更多"
+  },
+  "module_PS_footer_load_all": {
+    "message": "已加载全部"
+  },
+  "module_PS_summary_count": {
+    "message": "ASIN数量"
+  },
+  "module_PS_summary_count_tips": {
+    "message": "指列表页查询出所有产品的数量总和"
+  },
+  "module_PS_summary_all_sales_volume": {
+    "message": "总销量"
+  },
+  "module_PS_summary_all_sales_volume_tips": {
+    "message": "当前页面上所有产品近30天的销量总和，平均销量=销量总和/产品数<br/>如果列表中某些产品没有销量则不会计入,您可以通过删除列表产品获得更精准的数据分析"
+  },
+  "module_PS_summary_avg_sales_volume": {
+    "message": "平均销量"
+  },
+  "module_PS_summary_avg_sales_volume_tips": {
+    "message": "平均销量 = 销量总和/产品数，如果列表中某些产品没有销量则不会计入<br/>您可以通过删除列表产品获得更准确的数据分析；底部左侧为最低销量，右侧为最高销量"
+  },
+  "module_PS_summary_all_sales_amount": {
+    "message": "总销售额"
+  },
+  "module_PS_summary_all_sales_amount_tips": {
+    "message": "当前页面上所有产品近30天的销售额总和，平均销售额=销售额总和/产品数<br/>如果列表中某些产品没有销量则不会计入"
+  },
+  "module_PS_summary_avg_sales_amount": {
+    "message": "平均销售额"
+  },
+  "module_PS_summary_avg_sales_amount_tips": {
+    "message": "平均销售额 = 销售额总和/产品数，如果列表中某些产品没有月销售额则不会计入<br/>底部左侧为最低销售额，右侧为最高销售额"
+  },
+  "module_PS_summary_avg_BSR": {
+    "message": "平均BSR"
+  },
+  "module_PS_summary_avg_BSR_tips": {
+    "message": "平均BSR = BSR总和/产品数，如果列表中某些产品没有大类BSR则不会计入<br/>底部左侧为最小BSR值，右侧为最大BSR值"
+  },
+  "module_PS_summary_avg_price": {
+    "message": "平均价格"
+  },
+  "module_PS_summary_avg_price_tips": {
+    "message": "平均价格 = 价格总和/产品数，您可以通过删除列表产品获得更准确的平均价格值<br/>底部左侧为最低价格，右侧为最高价格"
+  },
+  "module_PS_summary_avg_rating": {
+    "message": "平均评分"
+  },
+  "module_PS_summary_avg_rating_tips": {
+    "message": "平均评分 = 评分总和/产品数，您可以通过平均评分判断该列表下产品被市场的认可程度<br/>底部左侧为最低评分值，右侧为最高评分值"
+  },
+  "module_PS_summary_avg_review": {
+    "message": "平均评分数"
+  },
+  "module_PS_summary_avg_review_tips": {
+    "message": "平均评分数 = 评分数总和/产品数，您可以通过评分数判断产品打造的难度<br/>底部左侧为最小评分数，右侧为最大评分数"
+  },
+  "module_PS_summary_avg_available_on": {
+    "message": "平均上架天数"
+  },
+  "module_PS_summary_avg_available_on_tips": {
+    "message": "平均上架天数 = 上架天数总和/产品数，您可以通过平均上架天数判断列表下产品的生命周期<br/>底部左侧为商品最新上架天数，右侧为商品最早上架天数"
+  },
+  "module_PS_chart_title_sales_volume": {
+    "message": "月销量"
+  },
+  "module_PS_chart_title_sales_amount": {
+    "message": "月销售额"
+  },
+  "module_PS_chart_title_BSR": {
+    "message": "BSR"
+  },
+  "module_PS_chart_title_price": {
+    "message": "价格"
+  },
+  "module_PS_chart_title_rating": {
+    "message": "评分"
+  },
+  "module_PS_chart_title_review": {
+    "message": "评分数"
+  },
+  "module_MI_RV_chart_title_review_rating": {
+    "message": "评论数(评分)"
+  },
+  "pr_chart_title_review_rating": {
+    "message": "评分/评分数"
+  },
+  "module_PS_chart_title_available_on": {
+    "message": "上架天数"
+  },
+  "module_PS_sales_trend_title": {
+    "message": "月销量"
+  },
+  "module_PS_sales_trend_sales_volume": {
+    "message": "月销量"
+  },
+  "module_PS_trend_monthly_sales": {
+    "message": "当月销量"
+  },
+  "module_PS_sales_trend_sales_amount": {
+    "message": "月销售额"
+  },
+  "module_PS_sales_trend_daily_sales": {
+    "message": "日销量"
+  },
+  "module_PS_sales_trend_daily_sales_5MA": {
+    "message": "日销量5日均线"
+  },
+  "module_PS_BSR_trend_title": {
+    "message": "BSR排名"
+  },
+  "module_PS_BSR_trend_BSR": {
+    "message": "BSR"
+  },
+  "module_PS_BSR_trend_BSR_NOT": {
+    "message": "不可用"
+  },
+  "module_PS_daily_sales_trend_title": {
+    "message": "日销量"
+  },
+  "module_PS_parent_changes_finally": {
+    "message": "子体({asin})变动{time}次，最终被合并到父体({pasin})，导致销量发生异常",
+    "placeholders": {
+      "pasin": {
+        "content": "$1",
+        "example": "2"
+      },
+      "asin": {
+        "content": "$2",
+        "example": "2"
+      },
+      "time": {
+        "content": "$3",
+        "example": "2"
+      }
+    }
+  },
+  "module_PS_parent_changes_from": {
+    "message": "子体({asin})从父体({pasin})拆分，导致销量发生异常",
+    "pasin": {
+      "content": "$1",
+      "example": "2"
+    },
+    "asin": {
+      "content": "$2",
+      "example": "2"
+    }
+  },
+  "module_PS_parent_changes_to": {
+    "message": "子体({asin})被合并到父体({pasin})，导致销量发生异常",
+    "pasin": {
+      "content": "$1",
+      "example": "2"
+    },
+    "asin": {
+      "content": "$2",
+      "example": "2"
+    }
+  },
+  "module_PS_sales_bug": {
+    "message": "销量异常原因"
+  },
+  "module_PS_price_trend_title": {
+    "message": "价格"
+  },
+  "module_PS_price_trend_price": {
+    "message": "价格"
+  },
+  "module_PS_review_trend_title": {
+    "message": "评分"
+  },
+  "module_PS_review_trend_review": {
+    "message": "评分数"
+  },
+  "module_PS_review_trend_rating": {
+    "message": "评分值"
+  },
+  "module_PS_review_rate_trend_title": {
+    "message": "留评率"
+  },
+  "module_PS_review_rate_trend_review_delta": {
+    "message": "当月评分数增长值"
+  },
+  "module_PS_review_rate_trend_review_rate": {
+    "message": "当月留评率"
+  },
+  "module_PS_question_trend_title": {
+    "message": "Q&A数"
+  },
+  "module_PS_question_trend_question": {
+    "message": "Q&A"
+  },
+  "module_PS_trend_tips_monthly_sales": {
+    "message": "当月销量"
+  },
+  "module_PS_trend_display_by_year": {
+    "message": "分年显示"
+  },
+  "module_PS_trend_tips_monthly_revenue": {
+    "message": "月销售额"
+  },
+  "module_PS_empty_cont": {
+    "message": "您当前设置了过滤条件，导致查询无数据！"
+  },
+  "module_PS_empty_cont_now": {
+    "message": "立即"
+  },
+  "module_PS_empty_cont_reset": {
+    "message": "重置条件"
+  },
+  "module_PS_grade_tips_A": {
+    "message": "90%-100%的真实评分(fakespot.com)"
+  },
+  "module_PS_grade_tips_B": {
+    "message": "80-89%的真实评分(fakespot.com)"
+  },
+  "module_PS_grade_tips_C": {
+    "message": "65%-79%的真实评分(fakespot.com)"
+  },
+  "module_PS_grade_tips_D": {
+    "message": "45%-64%的真实评分(fakespot.com)"
+  },
+  "module_PS_grade_tips_F": {
+    "message": "45%以下的真实评分(fakespot.com)"
+  },
+  "module_PS_calculator_title": {
+    "message": "卖家精灵-FBA利润计算器"
+  },
+  "module_PS_open_calculator": {
+    "message": "打开网页版利润计算器"
+  },
+  "module_PS_calculator_revenue": {
+    "message": "销售收入"
+  },
+  "module_PS_calculator_revenue_item_price": {
+    "message": "商品售价"
+  },
+  "module_PS_calculator_revenue_ship_price": {
+    "message": "收取买家的运费"
+  },
+  "module_PS_calculator_product_cost": {
+    "message": "产品成本"
+  },
+  "module_PS_calculator_purchasing_cost": {
+    "message": "采购成本"
+  },
+  "module_PS_calculator_ship_to_amazon": {
+    "message": "头程运费"
+  },
+  "module_PS_calculator_vat": {
+    "message": "VAT费用"
+  },
+  "module_PS_calculator_other_cost": {
+    "message": "其他成本"
+  },
+  "module_PS_calculator_market_cost": {
+    "message": "营销成本"
+  },
+  "module_PS_calculator_PPC_cost": {
+    "message": "站内广告"
+  },
+  "module_PS_calculator_int_promo_cost": {
+    "message": "站内促销成本"
+  },
+  "module_PS_calculator_ext_marketing_cost": {
+    "message": "站外营销成本"
+  },
+  "module_PS_calculator_others": {
+    "message": "其他成本"
+  },
+  "module_PS_calculator_after_sales_cost": {
+    "message": "售后成本"
+  },
+  "module_PS_calculator_goods_status": {
+    "message": "商品是否损坏"
+  },
+  "module_PS_calculator_goods_status_Y": {
+    "message": "已损坏"
+  },
+  "module_PS_calculator_goods_status_N": {
+    "message": "未损坏"
+  },
+  "module_PS_calculator_return_rate": {
+    "message": "退货率"
+  },
+  "module_PS_calculator_amazon_fees": {
+    "message": "亚马逊扣费"
+  },
+  "module_PS_calculator_category": {
+    "message": "商品类别"
+  },
+  "module_PS_calculator_referral_fees": {
+    "message": "销售佣金"
+  },
+  "module_PS_calculator_fba_fees": {
+    "message": "FBA运费"
+  },
+  "module_PS_calculator_sales": {
+    "message": "销量"
+  },
+  "module_PS_calculator_piece": {
+    "message": "件"
+  },
+  "module_PS_calculator_exchange_rate": {
+    "message": "汇率"
+  },
+  "module_PS_calculator_net_profit": {
+    "message": "利润"
+  },
+  "module_PS_calculator_total_revenue": {
+    "message": "总收入"
+  },
+  "module_PS_calculator_total_cost": {
+    "message": "总成本"
+  },
+  "module_PS_calculator_profit_rate": {
+    "message": "净利率"
+  },
+  "module_PS_calculator_tips_revenue": {
+    "message": "商品收入包含商品售价和收取的买家运费2个部分<br/>商品售价：表示当前商品的价格<br/>收取买家的运费：表示买家购买商品时所给的运费，由于买家地区不同会导致运费浮动"
+  },
+  "module_PS_calculator_tips_product_cost": {
+    "message": "商品成本包含采购成本和头程运费<br/>采购成本可前往1688查看相似产品估算"
+  },
+  "module_PS_calculator_tips_market_cost": {
+    "message": "营销成本包含站内广告和其他营销成本<br/>站内广告前期投入可以设置为50%（ACOS值），通过此方式查看前期投入成本<br/>其他营销成本，如：Google广告、Facebook广告等站外推广成本，以及刷单、测评等"
+  },
+  "module_PS_calculator_tips_after_sales": {
+    "message": "售后成本主要包含退货率。正常来讲，产品退货率尽量保持在10%以下<br/>售后成本(商品未损坏) = (FBA运费 + 亚马逊佣金 * 20%) * 退货率<br/>售后成本(商品已损坏) = (商品成本 + FBA运费 + 亚马逊佣金 * 20%) * 退货率"
+  },
+  "module_PS_calculator_tips_amazon_fees": {
+    "message": "亚马逊扣费包含亚马逊佣金和FBA运费<br/>亚马逊佣金：系统根据不同类目自动填充<br/>FBA运费：系统根据体积和重量进行计算并自动填充<br/>提示：以上数值也可自行修改"
+  },
+  "module_PS_calculator_tips_sales": {
+    "message": "产品每月销量，可以以竞品为蓝本预估销量"
+  },
+  "module_PS_calculator_tips_exchange_rate": {
+    "message": "当前汇率从中国银行官方获取，每日更新一次<br/>由于更新频次的差别，会导致与百度搜索的汇率不一样<br/>中国银行官方汇率：<a style='text-decoration:none' href='https://www.boc.cn/sourcedb/whpj/'>https://www.boc.cn/sourcedb/whpj/</a>"
+  },
+  "module_PS_report_btn_analysis": {
+    "message": "市场分析"
+  },
+  "module_PS_report_btn_analysis_use_tips": {
+    "message": "一键生成包含16+维度的市场分析报告，快速洞察市场。 <a href='https://www.sellersprite.com/cn/help/how-to-use-market-analysis' target='_blank'>视频+图文教程</a>"
+  },
+  "module_PS_report_btn_analysis_tips": {
+    "message": "当前不在“搜索结果页”和“畅销榜”，无法进行市场分析"
+  },
+  "module_PS_report_btn_processing": {
+    "message": "生成中"
+  },
+  "module_PS_report_btn_view": {
+    "message": "查看报告"
+  },
+  "module_PS_report_text_samples_is_less": {
+    "message": "当前样本不足100"
+  },
+  "module_PS_report_text_load_more": {
+    "message": "建议您点击插件底部 “加载更多” 按钮，来准备更多样本"
+  },
+  "module_PS_report_btn_add": {
+    "message": "先去准备"
+  },
+  "module_PS_report_btn_add_tips": {
+    "message": "去点击插件底部“加载更多”，加载完毕后再点击市场分析"
+  },
+  "module_PS_report_btn_analyze_now": {
+    "message": "强制分析"
+  },
+  "module_PS_report_btn_analyze_now_tips": {
+    "message": "以当前样本做分析报告会导致失真，请谨慎选择"
+  },
+  "module_PS_report_text_completed": {
+    "message": "市场报告已生成！"
+  },
+  "module_PS_report_text_view_now": {
+    "message": "您可以立即查看"
+  },
+  "module_PS_report_text_view_later": {
+    "message": "也可以打开Web后台“选市场 - 插件端报告”一键查询"
+  },
+  "module_PS_report_btn_view_now": {
+    "message": "立即查看"
+  },
+  "module_PS_sale_trend_export_excel_tips": {
+    "message": "导出excel"
+  },
+  "module_PS_filter": {
+    "message": "按类型查看"
+  },
+  "module_PS_filter_other_OTHER": {
+    "message": "无"
+  },
+  "module_PS_remove_asin": {
+    "message": "列表ASIN去重"
+  },
+  "excel_saleTrendChart_yearly_data": {
+    "message": "年数据"
+  },
+  "excel_saleTrendChart_yearly_compare_data": {
+    "message": "销量分年对比"
+  },
+  "excel_product_compare_data": {
+    "message": "变体对比"
+  },
+  "excel_saleTrendChart_month": {
+    "message": "月份"
+  },
+  "excel_saleTrendChart_year": {
+    "message": "年份"
+  },
+  "excel_saleTrendChart_units": {
+    "message": "销量"
+  },
+  "excel_saleTrendChart_amount": {
+    "message": "销售额"
+  },
+  "excel_monthsaleTrendChart_day": {
+    "message": "时间"
+  },
+  "excel_monthsaleTrendChart_sale": {
+    "message": "日销量"
+  },
+  "excel_monthsaleTrendChart_bsr": {
+    "message": "BSR排名"
+  },
+  "excel_bsrTrendChart_bsr": {
+    "message": "BSR排名[{label}]",
+    "placeholders": {
+      "label": {
+        "content": "$1",
+        "example": "Kitchen"
+      }
+    }
+  },
+  "excel_searchTrendChart_keyword": {
+    "message": "关键词"
+  },
+  "excel_searchTrendChart_month": {
+    "message": "月份"
+  },
+  "excel_searchTrendChart_abaMonth": {
+    "message": "ABA月排名"
+  },
+  "excel_searchTrendChart_searchMonth": {
+    "message": "搜索量"
+  },
+  "excel_searchTrendChart_growthMonth": {
+    "message": "搜索增长率"
+  },
+  "excel_searchTrendChart_purchases": {
+    "message": "购买量"
+  },
+  "excel_searchTrendChart_rate": {
+    "message": "购买率"
+  },
+  "excel_searchTrendChart_impressions": {
+    "message": "展示量"
+  },
+  "excel_searchTrendChart_impressions_click": {
+    "message": "点击量"
+  },
+  "excel_searchTrendChart_products": {
+    "message": "商品数"
+  },
+  "excel_searchTrendChart_supplyDemandRatio": {
+    "message": "需供比"
+  },
+  "excel_searchTrendChart_monopolyClickRate": {
+    "message": "点击集中度"
+  },
+  "excel_searchTrendChart_goodsValue": {
+    "message": "货流值"
+  },
+  "excel_searchTrendChart_avgPrice": {
+    "message": "均价"
+  },
+  "excel_searchTrendChart_avgReviews": {
+    "message": "评分数"
+  },
+  "excel_searchTrendChart_avgRating": {
+    "message": "评分值"
+  },
+  "excel_searchTrendChart_bid": {
+    "message": "PPC价格"
+  },
+  "excel_searchTrendChart_departments": {
+    "message": "所属类目"
+  },
+  "excel_searchTrendChart_week": {
+    "message": "周"
+  },
+  "excel_searchTrendChart_abaWeek": {
+    "message": "ABA周排名"
+  },
+  "excel_searchTrendChart_searchWeek": {
+    "message": "周搜索量"
+  },
+  "module_KC_search_variation": {
+    "message": "查询变体"
+  },
+  "module_KC_search_variation_guest_tips": {
+    "message": "仅限付费用户，<a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>升级套餐</a>后即可使用"
+  },
+  "module_KC_input_asin_placeholder": {
+    "message": "最多输入200个ASIN，一行一个ASIN，回车换行"
+  },
+  "module_KC_input_error_empty": {
+    "message": "请按要求输入需要查询的产品ASIN！"
+  },
+  "module_KC_input_error_bad_asin": {
+    "message": "目前只支持以B0开头的ASIN关键词查询"
+  },
+  "module_KC_textarea_keywords_placeholder": {
+    "message": "一行一个关键词，回车换行，比如:\napple slicer\napple corer"
+  },
+  "module_KC_textarea_error_empty": {
+    "message": "请输入想要检索的关键词"
+  },
+  "module_KC_textarea_error_limit": {
+    "message": "抱歉，最多只能检索{limit_num}个关键词！",
+    "placeholders": {
+      "limit_num": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "module_KC_button_search": {
+    "message": "开始检索"
+  },
+  "module_KC_button_search_history": {
+    "message": "我的书签"
+  },
+  "module_KC_button_import": {
+    "message": "从关键词监控导入关键词"
+  },
+  "module_KC_search_history_pop_keyword_num": {
+    "message": "关键词数"
+  },
+  "module_KC_search_history_pop_btn_del": {
+    "message": "批量删除"
+  },
+  "module_main_loading_pic_default": {
+    "message": "/assets/images/loading/loading-pic.png"
+  },
+  "module_main_loading_pic_failed": {
+    "message": "/assets/images/loading/loading-pic-fail.png"
+  },
+  "module_KC_button_reset": {
+    "message": "清空条件"
+  },
+  "module_KC_thead_keyword": {
+    "message": "关键词"
+  },
+  "module_KC_thead_child_asin": {
+    "message": "子ASIN"
+  },
+  "module_KC_thead_page": {
+    "message": "当前页码"
+  },
+  "module_KC_thead_page_tips": {
+    "message": "上行：搜索该关键词时，被检索ASIN所出现的页数或绝对位置(含有广告位)<br/>下行：搜索该关键词时，被检索ASIN所出现的页数或绝对位置(排除广告位)<br/><br/>爬虫会从第1页开始逐页检索，每秒钟更新当前爬行页数，直到检索到末页或找到该ASIN为止<br/>绝对位置是基于当前页码和页面所在位置，比如第3页第5位(每页18条)，则绝对位置  =  2*18+5=41"
+  },
+  "module_KC_thead_position": {
+    "message": "绝对位置"
+  },
+  "module_KC_thead_position_tips": {
+    "message": "绝对位置表示排名的坑位排序。<br/>比如，当前排名在第3页第5位(每页48条)，则绝对位置=2*48+5=101（从第一页第1个坑位计算）。"
+  },
+  "module_KC_thead_results": {
+    "message": "商品数"
+  },
+  "module_KC_thead_search_volume": {
+    "message": "月搜索量"
+  },
+  "module_KC_thead_purchase_rate": {
+    "message": "购买率"
+  },
+  "module_KC_thead_purchase_purchases_rate": {
+    "message": "购买量/购买率"
+  },
+  "module_KC_tips_error": {
+    "message": "抓取数据失败，请排查网络"
+  },
+  "module_KC_tbody_page": {
+    "message": "第{page}页",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "module_KC_tbody_page_null": {
+    "message": "前{page}页无排名",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "module_KC_tbody_index": {
+    "message": "第{index}位",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "module_KC_tbody_SP_title": {
+    "message": "该商品投放了该关键词的Sponsored Product广告"
+  },
+  "module_KC_tbody_SB_title": {
+    "message": "该商品投放了该关键词的Sponsored Product Brand广告"
+  },
+  "module_KC_tbody_SBV_title": {
+    "message": "该商品投放了该关键词的Sponsored Product Video广告"
+  },
+  "module_KC_tbody_HR_title": {
+    "message": "该商品投放了该关键词的Highly Rated广告"
+  },
+  "module_KC_tbody_AC_title": {
+    "message": "搜索该关键词，商品有Amazon's Choice标识"
+  },
+  "module_KC_remark_no_data": {
+    "message": "主人~ 您暂未保存标签哦！"
+  },
+  "module_KC_import_no_data": {
+    "message": "主人~ 您还没添加关键词监控哦！"
+  },
+  "module_KC_import": {
+    "message": "从监控导入"
+  },
+  "module_KC_import_tips": {
+    "message": "从关键词监控&产品监控导入"
+  },
+  "module_KC_import_product_info": {
+    "message": "产品信息"
+  },
+  "module_KC_import_keyword_num": {
+    "message": "关键词数"
+  },
+  "module_KC_import_date": {
+    "message": "最近更新"
+  },
+  "module_KC_import_open_station_tips": {
+    "message": "主人~ 需打开{station}查排名哦！",
+    "placeholders": {
+      "station": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "module_KC_import_open_link": {
+    "message": "点击立即打开"
+  },
+  "module_KC_remark_save": {
+    "message": "立即保存"
+  },
+  "module_KC_video_title": {
+    "message": "视频+图文教程"
+  },
+  "module_KC_video_link": {
+    "message": "https://www.sellersprite.com/cn/help/keyword-checker-guide-of-extension"
+  },
+  "module_KC_remark_title": {
+    "message": "保存书签"
+  },
+  "module_KC_remark_label": {
+    "message": "书签名"
+  },
+  "module_KC_remark_placeholder": {
+    "message": "请输入书签名(非必填)"
+  },
+  "module_KC_remark_title_tips": {
+    "message": "将该搜索条件，保存至书签"
+  },
+  "module_KC_remark_title_tips_forbid": {
+    "message": "请输入关键词后，再保存书签."
+  },
+  "module_KC_remark_title_change": {
+    "message": "从书签选择"
+  },
+  "signin_form_privacy_policy": {
+    "message": "隐私政策"
+  },
+  "signin_form_terms": {
+    "message": "服务条款"
+  },
+  "signin_form_login_again_tips": {
+    "message": "您的账号在其他地方登录，您可以通过扫码或账号重新登录"
+  },
+  "signin_form_title": {
+    "message": "卖家精灵用户登录"
+  },
+  "signin_form_mobile_placeholder": {
+    "message": "手机号/邮箱/子账号"
+  },
+  "signin_form_mobile_regex": {
+    "message": "^(1[3{'|'}4{'|'}5{'|'}6{'|'}7{'|'}8{'|'}9]\\d{'{'}9{'}'}){'|'}([\\w\\-\\.]{'{'}2,30{'}'}{'@'}[0-9A-Za-z\\-]{'{'}1,{'}'}\\.[a-zA-Z]{'{'}2,{'}'}(\\.[a-zA-Z]{'{'}2,{'}'})?){'|'}([\\w{'|'}-]*){'$'}"
+  },
+  "signin_form_password_placeholder": {
+    "message": "密 码"
+  },
+  "signin_form_btn_forget_password": {
+    "message": "找回密码"
+  },
+  "signin_form_link_forget_password": {
+    "message": "/w/user/forgot-phone"
+  },
+  "signin_form_btn_signing": {
+    "message": "登录中..."
+  },
+  "signin_form_btn_signin_now": {
+    "message": "立即登录"
+  },
+  "signin_form_btn_signin_web_login": {
+    "message": "同步网页端账号"
+  },
+  "signin_form_btn_signin_phone_login": {
+    "message": "我要手动登录"
+  },
+  "signin_form_btn_signin_third_part": {
+    "message": "其他登录方式"
+  },
+  "signin_form_btn_signup_now": {
+    "message": "立即注册"
+  },
+  "signin_form_link_signup_now": {
+    "message": "/w/user/signup"
+  },
+  "signin_form_btn_back_home": {
+    "message": "前往官网"
+  },
+  "signin_form_btn_delete_account": {
+    "message": "注销账户"
+  },
+  "signin_form_validate_account_required": {
+    "message": "请输入登录账号"
+  },
+  "signin_form_validate_password_required": {
+    "message": "请输入登录密码(至少6位)"
+  },
+  "signin_form_response_error_message": {
+    "message": "系统返回输出错误, 请稍后再试"
+  },
+  "enable_disable_extension": {
+    "message": "激活/禁用插件"
+  },
+  "collect_enable_disable_extension": {
+    "message": "激活/禁用"
+  },
+  "error_code": {
+    "message": "错误代码"
+  },
+  "error_not_support_title_PS": {
+    "message": "抱歉，产品查询遇到问题"
+  },
+  "error_not_support_tips_PS": {
+    "message": "1、产品查询支持ASIN、产品标题；<br/>2、当您在亚马逊网站时，插件会自动查询当前页的ASIN；"
+  },
+  "error_empty_items_title_RV": {
+    "message": "未能找到该ASIN的流量关键词，可能原因及建议："
+  },
+  "error_empty_items_tips_RV": {
+    "message": "该ASIN比较新，最近1-2个月才上架，系统尚未收录；<br/>该ASIN搜索流量太低，没有达到收录要求；<br/>我们还没有收录亚马逊该国；<br/>您可以尝试在右上角输入同类产品ASIN查询；"
+  },
+  "error_empty_items_title_PS": {
+    "message": "未能找到相关ASIN的销量数据，可能原因及建议："
+  },
+  "error_empty_items_tips_PS": {
+    "message": "1、该ASIN创建不久，系统尚未收录；<br/>2、该ASIN销量或排名太低，没有达到收录要求；<br/>3、我们还没有收录亚马逊相关产品的销量；<br/>4、您可以尝试在右上角输入该ASIN变体或竞品ASIN查询；<br/>5、可能您安装过其他插件引起了冲突，请关闭其他插件再试试"
+  },
+  "module_keepa_hover_tips": {
+    "message": "点我可查看产品历史趋势哦~ <a href='https://www.sellersprite.com/cn/help/keepa-extension-guide' target='_blank'>视频+图文教程</a>"
+  },
+  "module_keepa_ext_name": {
+    "message": "Keepa历史趋势"
+  },
+  "module_keepa_ext_name_title_subtext": {
+    "message": "关键词优化 | 大数据选品"
+  },
+  "module_keepa_title_buybox_price": {
+    "message": "Buybox价格"
+  },
+  "module_keepa_title_price": {
+    "message": "价格"
+  },
+  "module_keepa_title_prime_price": {
+    "message": "Prime价格"
+  },
+  "module_keepa_title_coupon_price": {
+    "message": "Coupon价格"
+  },
+  "module_keepa_title_coupon_discount": {
+    "message": "Coupon折扣"
+  },
+  "module_keepa_title_deal_price": {
+    "message": "Deal价格"
+  },
+  "module_keepa_title_deal_price_info": {
+    "message": "Deal价格信息"
+  },
+  "module_keepa_title_fba_price": {
+    "message": "FBA价格"
+  },
+  "module_keepa_title_fbm_price": {
+    "message": "FBM价格"
+  },
+  "module_keepa_title_list_price": {
+    "message": "划线价格"
+  },
+  "module_keepa_title_monthly_units": {
+    "message": "子体销量"
+  },
+  "module_keepa_title_bsr_ranking": {
+    "message": "BSR排名"
+  },
+  "module_keepa_title_big_bsr_ranking": {
+    "message": "大类BSR"
+  },
+  "module_keepa_title_small_bsr_ranking": {
+    "message": "小类BSR"
+  },
+  "module_keepa_title_rating": {
+    "message": "评分"
+  },
+  "module_keepa_title_reviews": {
+    "message": "评分数"
+  },
+  "module_keepa_title_seller": {
+    "message": "卖家数"
+  },
+  "module_keepa_reverse_the_chart": {
+    "message": "BSR坐标反向"
+  },
+  "module_keepa_tips_new_version": {
+    "message": "发现新版本，<a href=''>立即升级</a>"
+  },
+  "module_keepa_tips_loading": {
+    "message": "卖家精灵插件加载中，请稍候..."
+  },
+  "module_keepa_tips_notice": {
+    "message": "卖家精灵现在支持选市场功能啦！尝鲜点击链接：<a target='_blank' href='http://www.sellersprite.com/cn?utm_source=ext_keepa'>www.sellersprite.com<a/>"
+  },
+  "module_keepa_tips_login": {
+    "message": "<span style='color:#86929E'>主人~ 卖家精灵插件需要登录才能使用哦！<a style='cursor: pointer;color:#FB8C1E'  id='user_login'>立即登录</a><span>"
+  },
+  "module_keepa_tips_upgrade": {
+    "message": "<span style='color:#86929E'>主人~ 目前您使用的插件版本过低，请前往插件应用市场升级版本！<a style='cursor: pointer;color:#FB8C1E'>立即升级</a><span>"
+  },
+  "module_keepa_tips_no_data": {
+    "message": "暂无查询结果！您可以尝试查询其他相似ASIN"
+  },
+  "module_keepa_btn_close": {
+    "message": "关闭卖家精灵插件"
+  },
+  "module_keepa_btn_open": {
+    "message": "打开卖家精灵插件"
+  },
+  "module_keepa_btn_area_zoom": {
+    "message": "区域缩放"
+  },
+  "module_keepa_btn_area_reset": {
+    "message": "区域缩放还原"
+  },
+  "module_keepa_btn_area_minimize": {
+    "message": "最小化"
+  },
+  "module_keepa_btn_restore": {
+    "message": "还原"
+  },
+  "module_keepa_btn_check_all": {
+    "message": "全选"
+  },
+  "module_keepa_btn_check_no": {
+    "message": "清空"
+  },
+  "module_keepa_btn_save_as_image": {
+    "message": "保存为图片"
+  },
+  "module_keepa_btn_save_as_excel": {
+    "message": "导出excel"
+  },
+  "module_keepa_btn_select_range": {
+    "message": "范围："
+  },
+  "module_keepa_btn_select_range_7": {
+    "message": "近7天"
+  },
+  "module_keepa_btn_select_range_30": {
+    "message": "近1个月"
+  },
+  "module_keepa_btn_select_range_90": {
+    "message": "近3个月"
+  },
+  "module_keepa_btn_select_range_180": {
+    "message": "近6个月"
+  },
+  "module_keepa_btn_select_range_365": {
+    "message": "最近一年"
+  },
+  "module_keepa_btn_select_range_all": {
+    "message": "全部({day}天)",
+    "placeholders": {
+      "day": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "module_inventory_open_settings": {
+    "message": "打开卖家精灵插件设置"
+  },
+  "module_inventory_header": {
+    "message": "卖家精灵-库存监控"
+  },
+  "module_inventory_view_inventory": {
+    "message": "查看库存"
+  },
+  "module_inventory_total_inventory": {
+    "message": "总库存"
+  },
+  "module_inventory_view_all_sellers": {
+    "message": "查看所有卖家"
+  },
+  "module_inventory_view_FBA_only": {
+    "message": "只看FBA的卖家"
+  },
+  "module_inventory_view_FBM_only": {
+    "message": "只看FBM的卖家"
+  },
+  "module_inventory_view_AMZ_only": {
+    "message": "只看AMZ的卖家"
+  },
+  "module_inventory_store_feedbacky": {
+    "message": "店铺评价"
+  },
+  "module_inventory_type": {
+    "message": "类型"
+  },
+  "module_inventory": {
+    "message": "库存"
+  },
+  "module_inventory_view_seller_information": {
+    "message": "点击查看卖家信息"
+  },
+  "module_inventory_title": {
+    "message": "剩余库存"
+  },
+  "module_inventory_btn_title": {
+    "message": "查看详细"
+  },
+  "module_inventory_dialog_tips": {
+    "message": "左上角为总库存，点击总库存、FBA、FBM等可分别查看该类型下库存情况<br/>注意：同一卖家不同价格会存在库存不同的情况，查看库存时请结合价格与卖家名称<br/><br/>右侧为库存快照，可帮助您快速查看BuyBox库存变化，以及每日销量(销量=昨日库存-今日库存)<br/>库存快照会在加载后保存，如果您要跟踪每日库存变化则需要每天打开该产品"
+  },
+  "module_inventory_tips": {
+    "message": "顶部剩余库存为当前子ASIN的库存，如果库存显示为999+则表示当前库存超过999<br/>底部为其他跟卖卖家的库存监控，列表中有黄色底标志的为当前BuyBox的库存<br/>注意：同一卖家不同价格会存在库存不同的情况，查看库存时请结合价格与卖家名称<br/><br/>如果出现以下情况可能导致无法监控库存：<br/>1、该商品是限购产品<br/>2、商品库存大于999<br/><br/>右侧为库存快照，可帮助您快速查看BuyBox库存变化，以及每日销量(销量=昨日库存-今日库存)<br/>库存快照会在加载后保存，如果您要跟踪每日库存变化则需要每天打开该产品"
+  },
+  "module_inventory_body_limit_purchase": {
+    "message": "限购"
+  },
+  "module_inventory_snapshot": {
+    "message": "库存快照"
+  },
+  "module_inventory_date": {
+    "message": "日期"
+  },
+  "module_inventory_copy": {
+    "message": "复制(可粘贴到Excel中)"
+  },
+  "module_inventory_inventory": {
+    "message": "当日库存"
+  },
+  "module_inventory_sales": {
+    "message": "日销量"
+  },
+  "module_inventory_follow_up": {
+    "message": "点击查看跟卖列表 "
+  },
+  "excel_PS_image": {
+    "message": "图片"
+  },
+  "excel_PS_badges": {
+    "message": "亚马逊标识"
+  },
+  "excel_PS_asin": {
+    "message": "ASIN"
+  },
+  "excel_PS_parent_asin": {
+    "message": "父ASIN"
+  },
+  "excel_PS_url": {
+    "message": "商品详情页链接"
+  },
+  "excel_PS_image_url": {
+    "message": "商品主图"
+  },
+  "excel_PS_brand": {
+    "message": "品牌"
+  },
+  "excel_PS_overviews": {
+    "message": "详细参数"
+  },
+  "excel_PS_brand_url": {
+    "message": "品牌链接"
+  },
+  "excel_PS_title": {
+    "message": "商品标题"
+  },
+  "excel_PS_departments": {
+    "message": "所属类目"
+  },
+  "excel_PS_category_path": {
+    "message": "类目路径"
+  },
+  "excel_PS_category": {
+    "message": "大类目"
+  },
+  "excel_PS_bsr": {
+    "message": "大类BSR"
+  },
+  "excel_PS_bsr_CV": {
+    "message": "大类BSR增长数"
+  },
+  "excel_PS_bsr_CR": {
+    "message": "大类BSR增长率"
+  },
+  "excel_PS_sub_category": {
+    "message": "小类目"
+  },
+  "excel_PS_sub_category_BSR": {
+    "message": "小类BSR"
+  },
+  "excel_PS_sales_volume": {
+    "message": "月销量"
+  },
+  "excel_PS_sales_volume_growth": {
+    "message": "月销量增长率"
+  },
+  "excel_PS_sub_sales_volume": {
+    "message": "子体销量"
+  },
+  "excel_PS_sub_sales_amount": {
+    "message": "子体销售额"
+  },
+  "excel_PS_sales_amount": {
+    "message": "月销售额"
+  },
+  "excel_PS_price": {
+    "message": "价格"
+  },
+  "excel_PS_prime_price": {
+    "message": "Prime价格"
+  },
+  "excel_PS_coupon": {
+    "message": "Coupon"
+  },
+  "excel_PS_profit": {
+    "message": "毛利率"
+  },
+  "excel_PS_fba_fees": {
+    "message": "FBA"
+  },
+  "excel_PS_rating": {
+    "message": "评分"
+  },
+  "excel_PS_review": {
+    "message": "评分数"
+  },
+  "excel_PS_review_rate": {
+    "message": "留评率"
+  },
+  "excel_PS_review_delta": {
+    "message": "月新增\n评分数"
+  },
+  "excel_PS_grade": {
+    "message": "评级"
+  },
+  "excel_PS_questions": {
+    "message": "Q&A数"
+  },
+  "excel_PS_date_available": {
+    "message": "上架时间"
+  },
+  "excel_PS_available_days": {
+    "message": "上架天数"
+  },
+  "excel_PS_variations": {
+    "message": "变体数"
+  },
+  "excel_PS_sellers": {
+    "message": "卖家数"
+  },
+  "excel_PS_seller_name": {
+    "message": "Buybox卖家"
+  },
+  "excel_PS_buy_box_type": {
+    "message": "BuyBox类型"
+  },
+  "excel_PS_seller_nation": {
+    "message": "卖家所属地"
+  },
+  "excel_PS_seller_info": {
+    "message": "卖家信息"
+  },
+  "excel_PS_seller_info_business_name": {
+    "message": "公司名称"
+  },
+  "excel_PS_seller_info_business_type": {
+    "message": "公司类型"
+  },
+  "excel_PS_seller_info_trade_number": {
+    "message": "注册交易码"
+  },
+  "excel_PS_seller_info_vat_number": {
+    "message": "VAT"
+  },
+  "excel_PS_seller_info_phone": {
+    "message": "电话号码"
+  },
+  "excel_PS_seller_info_address": {
+    "message": "办公地址"
+  },
+  "excel_PS_seller_info_capital": {
+    "message": "注册资本"
+  },
+  "excel_PS_seller_info_manger": {
+    "message": "主管经理"
+  },
+  "excel_PS_seller_type": {
+    "message": "配送方式"
+  },
+  "excel_PS_seller_url": {
+    "message": "卖家首页"
+  },
+  "excel_PS_BS": {
+    "message": "Best Seller标识"
+  },
+  "excel_PS_AC": {
+    "message": "Amazon's Choice"
+  },
+  "excel_PS_NR": {
+    "message": "New Release标识"
+  },
+  "excel_PS_EBC": {
+    "message": "A+页面"
+  },
+  "excel_PS_Video": {
+    "message": "视频介绍"
+  },
+  "excel_PS_SP": {
+    "message": "SP广告"
+  },
+  "excel_PS_ABS": {
+    "message": "品牌故事"
+  },
+  "excel_PS_SPB": {
+    "message": "品牌广告"
+  },
+  "excel_PS_LTD": {
+    "message": "7天促销"
+  },
+  "excel_PS_AC_Keyword": {
+    "message": "AC关键词"
+  },
+  "excel_PS_weight": {
+    "message": "重量"
+  },
+  "excel_PS_dimension": {
+    "message": "体积"
+  },
+  "excel_PS_remark": {
+    "message": "备注"
+  },
+  "excel_PS_history_sales": {
+    "message": "产品历史月销量"
+  },
+  "excel_PS_history_amounts": {
+    "message": "产品历史月销售额"
+  },
+  "excel_KC_keywords": {
+    "message": "关键词"
+  },
+  "excel_KC_child_asin": {
+    "message": "子ASIN"
+  },
+  "excel_KC_AD": {
+    "message": "是否AD"
+  },
+  "excel_KC_sub_ASIN": {
+    "message": "子ASIN"
+  },
+  "excel_KC_badge": {
+    "message": "广告类型"
+  },
+  "excel_KC_ADR": {
+    "message": "广告排名"
+  },
+  "excel_KC_current_page_ad": {
+    "message": "当前页码(含ad)"
+  },
+  "excel_KC_current_page": {
+    "message": "当前页码"
+  },
+  "excel_KC_page_value": {
+    "message": "第{page}页",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "excel_KC_page_value_null": {
+    "message": "前{page}页无排名",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "excel_KC_index_value": {
+    "message": "第{index}位",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "excel_KC_position_ad": {
+    "message": "绝对位置(含ad)"
+  },
+  "excel_KC_position": {
+    "message": "绝对位置"
+  },
+  "excel_KC_results": {
+    "message": "商品数"
+  },
+  "excel_KC_weekly_search_rank": {
+    "message": "ABA周排名"
+  },
+  "excel_KC_searches": {
+    "message": "月搜索量"
+  },
+  "excel_KC_purchase_rate": {
+    "message": "购买率"
+  },
+  "excel_KC_ad_rank": {
+    "message": "广告排名"
+  },
+  "excel_KC_nature_rank": {
+    "message": "自然排名"
+  },
+  "excel_RE_author": {
+    "message": "评论人"
+  },
+  "excel_RE_author_avatar": {
+    "message": "头像地址"
+  },
+  "excel_RE_nation": {
+    "message": "所属国家"
+  },
+  "excel_RE_author_link": {
+    "message": "评论人主页"
+  },
+  "excel_RE_verified": {
+    "message": "VP评论"
+  },
+  "excel_RE_title": {
+    "message": "标题"
+  },
+  "excel_RE_title_translate": {
+    "message": "标题(翻译)"
+  },
+  "excel_RE_content": {
+    "message": "内容"
+  },
+  "excel_RE_content_translate": {
+    "message": "内容(翻译)"
+  },
+  "excel_RE_vine": {
+    "message": "Vine Voice评论"
+  },
+  "excel_RE_sku": {
+    "message": "型号"
+  },
+  "excel_RE_rating": {
+    "message": "星级"
+  },
+  "excel_RE_helpful": {
+    "message": "赞同数"
+  },
+  "excel_RE_images": {
+    "message": "图片数量"
+  },
+  "excel_RE_images_url": {
+    "message": "图片地址"
+  },
+  "excel_RE_video": {
+    "message": "是否有视频"
+  },
+  "excel_RE_video_url": {
+    "message": "视频地址"
+  },
+  "excel_RE_url": {
+    "message": "评论链接"
+  },
+  "excel_RE_influencer_url": {
+    "message": "红人计划链接"
+  },
+  "excel_RE_marketplace": {
+    "message": "站点"
+  },
+  "excel_RE_date": {
+    "message": "评论时间"
+  },
+  "excel_QA_translation_title_cont": {
+    "message": "翻译问题和回答"
+  },
+  "excel_QA_question": {
+    "message": "问题"
+  },
+  "excel_QA_ASIN": {
+    "message": "ASIN"
+  },
+  "excel_QA_question_translate": {
+    "message": "问题(翻译)"
+  },
+  "excel_QA_answer": {
+    "message": "回答"
+  },
+  "excel_QA_answer_translate": {
+    "message": "回答(翻译)"
+  },
+  "excel_QA_url": {
+    "message": "QA 链接"
+  },
+  "excel_QA_nation": {
+    "message": "所属国家"
+  },
+  "excel_QA_replier": {
+    "message": "回复人"
+  },
+  "excel_QA_date": {
+    "message": "回复时间"
+  },
+  "excel_QA_video_name": {
+    "message": "视频名称"
+  },
+  "excel_keepa_date": {
+    "message": "日期"
+  },
+  "excel_export_note_site": {
+    "message": "卖家精灵官网：https://www.sellersprite.com"
+  },
+  "excel_export_note_mobile": {
+    "message": "客服电话：139-8227-0926(谭先生)"
+  },
+  "excel_export_note_wechat": {
+    "message": "微信客服"
+  },
+  "excel_export_note_guide_extension": {
+    "message": "插件使用指南：https://www.sellersprite.com/cn/help/chrome-guide"
+  },
+  "excel_export_note_video_extension": {
+    "message": "插件视频教程：https://www.sellersprite.com/cn/help/tour-of-sellersprite-extension"
+  },
+  "excel_export_note_guide_reverse": {
+    "message": "关键词反查-使用帮助：https://www.sellersprite.com/cn/help/reverse-asin-guide-v2"
+  },
+  "excel_export_note_video_reverse": {
+    "message": "关键词反查-视频教程：https://www.sellersprite.com/cn/help/keyword-reverse-video-tutorial"
+  },
+  "excel_export_note_guide_mining": {
+    "message": "关键词挖掘-使用帮助：https://www.sellersprite.com/cn/blog/what-is-dynamic-keywords-mining-of-sellersprite"
+  },
+  "excel_export_note_video_mining": {
+    "message": "关键词挖掘-视频教程：https://www.sellersprite.com/cn/help/keyword-miner-video-tutorial-01"
+  },
+  "excel_export_note_video_checker": {
+    "message": "关键词收录-视频教程：https://www.sellersprite.com/v3/knowledge/feature/keyword-checker-guide-of-extension"
+  },
+  "excel_export_remark_update": {
+    "message": "备注：\n BSR/评分数/评分/问答/变体数/卖家数 等数据，都是取的\"最近更新\"当日的数字"
+  },
+  "excel_export_remark_reviews": {
+    "message": "备注：\n 分析SKU时，建议您将型号排序，或是按型号“筛选”，来确认哪种型号畅销"
+  },
+  "excel_export_note_slogan": {
+    "message": "选 词 选 品 选 市 场，就 上 卖 家 精 灵"
+  },
+  "global_robot_detecting": {
+    "message": "机器人检测"
+  },
+  "global_robot_placeholder_captcha_input": {
+    "message": "图形验证码,点击刷新"
+  },
+  "global_robot_i_am_not": {
+    "message": "我不是机器人"
+  },
+  "global_robot_wrong_code": {
+    "message": "验证码错误，请重新输入"
+  },
+  "global_robot_is_incognito": {
+    "message": "请关闭\"无痕模式\"，后再输入"
+  },
+  "global_robot_block_cookies": {
+    "message": "请检查\"允许所有Cookie\"是否已开启"
+  },
+  "bullets_download_translation_title": {
+    "message": "翻译产品标题及卖点"
+  },
+  "feature_bullets_download": {
+    "message": "下载产品卖点"
+  },
+  "feature_bullets_download_translation": {
+    "message": "翻译中..."
+  },
+  "bullets_download_btn_tips_title": {
+    "message": "仅限付费用户，<a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>升级套餐</a>后即可使用"
+  },
+  "excel_bullets_image": {
+    "message": "图片"
+  },
+  "excel_bullets_asin": {
+    "message": "ASIN"
+  },
+  "excel_bullets_title": {
+    "message": "标题"
+  },
+  "excel_bullets_title_translate": {
+    "message": "标题(翻译)"
+  },
+  "excel_bullets_features": {
+    "message": "产品卖点"
+  },
+  "excel_bullets_features_translate": {
+    "message": "产品卖点(翻译)"
+  },
+  "excel_bullets_overviews": {
+    "message": "详细参数"
+  },
+  "quick_view_open_settings": {
+    "message": "如果“快速预览”卡顿，建议禁用该功能<br/>点击图标设置"
+  },
+  "quick_view_open_enable_settings": {
+    "message": "如需开启“快速预览”，点击图标设置"
+  },
+  "quick_view_similar": {
+    "message": "找相似"
+  },
+  "btn_link_check_patent": {
+    "message": "查专利"
+  },
+  "quick_view_brand": {
+    "message": "品牌"
+  },
+  "quick_view_ad": {
+    "message": "广告洞察"
+  },
+  "quick_view_traffic": {
+    "message": "关联流量"
+  },
+  "quick_view_keyword_reverse": {
+    "message": "查出单词"
+  },
+  "quick_view_popver_reversing_keyword": {
+    "message": "反查该商品流量词"
+  },
+  "quick_view_popver_show_setting": {
+    "message": "展示参数设置"
+  },
+  "quick_view_new_product": {
+    "message": "新品定义"
+  },
+  "quick_view_new_product_month_one": {
+    "message": "1个月"
+  },
+  "quick_view_new_product_month_three": {
+    "message": "3个月"
+  },
+  "quick_view_new_product_month_six": {
+    "message": "6个月"
+  },
+  "quick_view_new_product_month_twelve": {
+    "message": "12个月"
+  },
+  "quick_view_popver_btn_show_setting": {
+    "message": "展示按钮设置"
+  },
+  "quick_view_popver_now_version": {
+    "message": "当前版本"
+  },
+  "quick_view_popver_update_extension": {
+    "message": "点我升级插件"
+  },
+  "quick_view_popver_find_new_version": {
+    "message": "发现新版本"
+  },
+  "quick_view_brand_tip": {
+    "message": "站内搜索该品牌"
+  },
+  "quick_view_brand_open_window_tip_one": {
+    "message": "打开TRADEMARKS ON CALL查商标"
+  },
+  "quick_view_brand_open_window_tip_two": {
+    "message": "打开USPTO查商标"
+  },
+  "quick_view_brand_open_window_tip_three": {
+    "message": "平台只检测英文商标，其他语言商标可能查询无果"
+  },
+  "quick_view_brand_open_window_fail_tip": {
+    "message": "第三方访问失败，请打开代理或稍后再试"
+  },
+  "quick_view_seller_name": {
+    "message": "卖家"
+  },
+  "quick_view_seller_name_tip": {
+    "message": "进入到卖家首页"
+  },
+  "quick_view_seller_list_tip": {
+    "message": "点击查看跟卖列表"
+  },
+  "quick_view_bsr_tip": {
+    "message": "查看该类目畅销榜"
+  },
+  "quick_view_click_seed": {
+    "message": "点击查看"
+  },
+  "quick_view_weight": {
+    "message": "重量"
+  },
+  "quick_view_dimensions": {
+    "message": "尺寸"
+  },
+  "quick_view_available": {
+    "message": "上架时间"
+  },
+  "quick_view_new": {
+    "message": "新品"
+  },
+  "quick_view_all_keywords": {
+    "message": "全部流量词"
+  },
+  "quick_view_all_keywords_tips": {
+    "message": "近30天内为该ASIN带来曝光的所有搜索流量词（已去重）"
+  },
+  "quick_view_nature_keywords": {
+    "message": "自然搜索词"
+  },
+  "quick_view_nature_keywords_tips": {
+    "message": "近30天内为该ASIN带来曝光的自然流量词"
+  },
+  "quick_view_ad_keywords": {
+    "message": "广告流量词"
+  },
+  "quick_view_ad_keywords_tips": {
+    "message": "近30天内为该ASIN带来曝光的广告流量词，包括品牌广告、视频广告、HR推荐词、SP广告"
+  },
+  "quick_view_search_keywords": {
+    "message": "搜索推荐词"
+  },
+  "quick_view_search_keywords_tips": {
+    "message": "近30天内为该ASIN带来曝光的亚马逊推荐流量，包括AC专栏、ER专栏、4星专栏"
+  },
+  "quick_view_keywords_reverse": {
+    "message": "关键词反查"
+  },
+  "quick_view_ad_insights": {
+    "message": "广告洞察"
+  },
+  "quick_view_keywords_relation": {
+    "message": "关联流量"
+  },
+  "quick_view_market_research": {
+    "message": "市场分析"
+  },
+  "quick_view_keywords_aba": {
+    "message": "查出单词"
+  },
+  "quick_view_product_bullet": {
+    "message": "产品卖点"
+  },
+  "quick_view_product_description": {
+    "message": "产品概要"
+  },
+  "quick_view_you_mai_yun": {
+    "message": "优麦云"
+  },
+  "quick_view_alibaba": {
+    "message": "Alibaba"
+  },
+  "quick_view_1688": {
+    "message": "1688找货源"
+  },
+  "quick_view_add_success": {
+    "message": "添加成功"
+  },
+  "quick_view_add_error": {
+    "message": "添加失败，请稍后重试"
+  },
+  "quick_view_add_repeat_name_error": {
+    "message": "主人~ 该产品库已存在，更换其他名称哦！"
+  },
+  "quick_view_add_name_warning": {
+    "message": "产品库名称不支持特殊字符，请输入文字、字母或数字"
+  },
+  "quick_view_fulfilled": {
+    "message": "配送"
+  },
+  "quick_view_sellers": {
+    "message": "卖家"
+  },
+  "quick_view_fba": {
+    "message": "FBA费用"
+  },
+  "quick_view_margin": {
+    "message": "毛利率"
+  },
+  "quick_view_num_of_variation": {
+    "message": "变体数"
+  },
+  "quick_view_sku": {
+    "message": "SKU"
+  },
+  "quick_view_price": {
+    "message": "价格"
+  },
+  "quick_view_price_new": {
+    "message": "价格"
+  },
+  "quick_view_price_prime": {
+    "message": "Prime价格"
+  },
+  "quick_view_variations": {
+    "message": "变体"
+  },
+  "quick_view_add_to_product_list": {
+    "message": "加入产品库"
+  },
+  "quick_view_add_to_product_list_tips": {
+    "message": "主人~ 免费会员加入产品库额度已满！您可以<a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>升级套餐</a>后使用"
+  },
+  "quick_view_add_to_product_list_tips_only_words": {
+    "message": "主人~ 免费会员加入产品库额度已满！您可以升级套餐后使用"
+  },
+  "quick_view_cancel_default_tips_one": {
+    "message": "当前默认添加至“{name}”，",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "quick_view_cancel_default_tips_two": {
+    "message": "点我取消默认添加"
+  },
+  "quick_view_grade": {
+    "message": "评分(评分数)"
+  },
+  "quick_view_Lqs": {
+    "message": "Listing质量得分"
+  },
+  "quick_view_monthly_sales": {
+    "message": "近30天销量"
+  },
+  "quick_view_monthly_sales_tips": {
+    "message": "数据可能有延时，请参考“历史趋势”"
+  },
+  "quick_view_monthly_sales_tips_none": {
+    "message": "数据未准备好，请稍后再试"
+  },
+  "quick_view_bullet": {
+    "message": "产品卖点"
+  },
+  "quick_view_description": {
+    "message": "产品概要"
+  },
+  "quick_view_trend": {
+    "message": "历史趋势"
+  },
+  "quick_view_trend_sales_volume": {
+    "message": "历史销量"
+  },
+  "quick_view_analysis": {
+    "message": "市场分析"
+  },
+  "quick_view_open_listing_batch": {
+    "message": "批量打开详细页"
+  },
+  "quick_view_open_listing_batch_tips": {
+    "message": "点击即打开当前所有产品的Listing详情页<br/>加载可能需要1首歌的时间，请耐心等待哦~"
+  },
+  "quick_view_analysis_tips_one": {
+    "message": "主人~ 以上为当前页"
+  },
+  "quick_view_analysis_tips_two": {
+    "message": " 个商品的分析结果，"
+  },
+  "quick_view_analysis_tips_three": {
+    "message": " 升级套餐可分析更多商品"
+  },
+  "quick_view_analysis_tips_link": {
+    "message": "点我分析更多商品"
+  },
+  "quick_view_search_num": {
+    "message": "搜索结果产品数统计"
+  },
+  "quick_view_search_num_tips": {
+    "message": "搜索结果数越多，表示关键词前3页的产品波动越大<br>说明该细分市场还未固化，没有被某些产品霸占<br>例：自然369/48<br>369表示近30天内，搜索结果前3页的自然位共出现过369个产品<br>48表示当前页共有48个自然位<br>用369/48*3(前3页)，得到的数值越大，表示该关键词自然位的竞争越激烈"
+  },
+  "quick_view_search_num_explain": {
+    "message": "(近30天，共有<span style='font-size: 13px'>{num}</span>个产品进入搜索结果前3页)",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "quick_view_search_total": {
+    "message": "总数"
+  },
+  "quick_view_search_total_tips": {
+    "message": "总数"
+  },
+  "quick_view_search_nature": {
+    "message": "自然"
+  },
+  "quick_view_search_nature_tips": {
+    "message": "进入前3页自然位的产品数/当前页自然位的数量"
+  },
+  "quick_view_search_sp_tips": {
+    "message": "进入前3页SP广告位的产品数/当前页SP广告位的数量"
+  },
+  "quick_view_search_sb_tips": {
+    "message": "进入前3页品牌广告位的产品数/当前页品牌广告位的数量"
+  },
+  "quick_view_search_sbv_tips": {
+    "message": "进入前3页视频广告位的产品数/当前页视频广告位的数量"
+  },
+  "quick_view_search_hr_tips": {
+    "message": "进入前3页Highly Rated专栏的产品数/当前页Highly Rated专栏的坑位数量"
+  },
+  "quick_view_search_ac_tips": {
+    "message": "进入前3页Amazon's Choice专栏的产品数/当前页Amazon's Choice专栏的坑位数量"
+  },
+  "quick_view_search_er_tips": {
+    "message": "进入前3页Editorial recommendations专栏的产品数/当前页Editorial recommendations专栏的坑位数量"
+  },
+  "quick_view_search_four_star_tips": {
+    "message": "进入前3页4+ star styles专栏的产品数/当前页4+ star styles专栏的坑位数量"
+  },
+  "quick_view_search_four_star": {
+    "message": "4星"
+  },
+  "quick_view_reversing": {
+    "message": "流量来源"
+  },
+  "quick_view_seller_space": {
+    "message": "优麦云"
+  },
+  "quick_view_tips_need_login": {
+    "message": "登录后可见~"
+  },
+  "quick_view_video_url": {
+    "message": "https://www.sellersprite.com/v3/knowledge/feature/search-result-of-extension"
+  },
+  "quick_view_tips_fba": {
+    "message": "根据产品的长宽高及重量和类别，计算的FBA配送费用"
+  },
+  "quick_view_tips_margin": {
+    "message": "从商品售价中扣除佣金和FBA费用后，剩余金额占商品售价的比例<br/><br/>例如，商品售价 = $100.00、佣金 = $20.00、FBA费用 = $15.00<br/>那么，毛利率 =（100 - 20 - 15）/ 100 = 65%"
+  },
+  "quick_view_tips_lqs": {
+    "message": "通过商品图片、描述、评价三个维度，计算的得分<br/>满分10分，得分越高表明Listing质量越高<br/><br/>鼠标悬停到右侧小图标，可查看得分明细"
+  },
+  "quick_view_loading_timeout": {
+    "message": "主人~您当前网络较慢"
+  },
+  "quick_view_loading_timeout_solution": {
+    "message": "点击"
+  },
+  "quick_view_loading_timeout_help": {
+    "message": "帮您解决"
+  },
+  "quick_view_loading_timeout_solution_url": {
+    "message": "https://www.sellersprite.com/cn/help/how-to-solve-internet-lag"
+  },
+  "quick_view_loading_failed_bsr": {
+    "message": "BSR信息被亚马逊拦截，点击获取"
+  },
+  "quick_view_loading_failed_bsr_solution": {
+    "message": "解决方案"
+  },
+  "quick_view_loading_failed_bsr_solution_url": {
+    "message": "https://www.sellersprite.com/cn/help/how-to-get-bsr-of-extension"
+  },
+  "quick_view_loading_failed": {
+    "message": "获取产品信息失败，点击获取 "
+  },
+  "quick_view_loading_failed_solution": {
+    "message": "解决方案"
+  },
+  "quick_view_loading_failed_solution_url": {
+    "message": "https://www.sellersprite.com/cn/help/how-to-get-bsr-of-extension"
+  },
+  "quick_view_loading_failed_not_included": {
+    "message": "该ASIN未收录"
+  },
+  "quick_view_loading_failed_not_included_solution": {
+    "message": "如需获取实时数据，请打开 "
+  },
+  "quick_view_loading_failed_not_included_solution_link": {
+    "message": "偏好设置"
+  },
+  "quick_view_BSR_not_realtime_one": {
+    "message": "主人~您当前网络较慢或被亚马逊拦截"
+  },
+  "quick_view_BSR_not_realtime_two": {
+    "message": "已为您更换至后台数据，系统会继续尝试爬取实时数据并展示"
+  },
+  "quick_view_BSR_not_realtime_three": {
+    "message": "如需快速获取实时数据"
+  },
+  "quick_view_BSR_not_realtime_solution_link": {
+    "message": "https://www.sellersprite.com/cn/help/how-to-solve-internet-lag"
+  },
+  "quick_searches_searches": {
+    "message": "月搜索量"
+  },
+  "quick_searches_link": {
+    "message": "打开卖家精灵-网页版"
+  },
+  "quick_searches_search_trend": {
+    "message": "搜索趋势"
+  },
+  "quick_searches_google_trend": {
+    "message": "Google Trends"
+  },
+  "data_report_filter_market": {
+    "message": "市场分析概览"
+  },
+  "data_report_filter_product": {
+    "message": "搜索结果产品数统计"
+  },
+  "data_report_filter_trend": {
+    "message": "趋势图"
+  },
+  "context_menu_CC": {
+    "message": "清除缓存"
+  },
+  "context_menu_ST": {
+    "message": "偏好设置"
+  },
+  "context_menu_PS": {
+    "message": "产品查询： %s"
+  },
+  "context_menu_RV": {
+    "message": "关键词反查： %s"
+  },
+  "context_menu_PS2": {
+    "message": "产品查询: "
+  },
+  "context_menu_RV2": {
+    "message": "关键词反查: "
+  },
+  "context_menu_MI_dynamic": {
+    "message": "动态挖掘： %s"
+  },
+  "context_menu_MI_static": {
+    "message": "静态挖掘： %s"
+  },
+  "request_review_success": {
+    "message": "已邀请"
+  },
+  "request_review_alreadyInvited": {
+    "message": "此订单已请求评论"
+  },
+  "request_review_notime": {
+    "message": "不在可邀时间内"
+  },
+  "request_review_invitation_all": {
+    "message": "本页一键邀请邮件"
+  },
+  "request_review_inspect_feedback": {
+    "message": "正在检查feedback"
+  },
+  "request_review_in_progress": {
+    "message": "正在邀请..."
+  },
+  "request_review_loading": {
+    "message": "正在加载订单,请稍后..."
+  },
+  "request_review_select_time": {
+    "message": "请选择查询时间"
+  },
+  "request_review_select_sales_channel": {
+    "message": "销售渠道"
+  },
+  "request_review_select_sort1": {
+    "message": "按订单日期升序查询"
+  },
+  "request_review_select_sort2": {
+    "message": "按订单日期降序查询"
+  },
+  "request_review_select_sort3": {
+    "message": "按发货日期升序查询"
+  },
+  "request_review_select_sort4": {
+    "message": "按发货日期降序查询"
+  },
+  "request_review_select_one_time": {
+    "message": "最近1天"
+  },
+  "request_review_select_time_options": {
+    "message": "最近{index}天",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "request_review_custom_time": {
+    "message": "自定义日期"
+  },
+  "request_review_start_time": {
+    "message": "开始日期"
+  },
+  "request_review_end_time": {
+    "message": "结束日期"
+  },
+  "request_review_select_delivery": {
+    "message": "请选择送货方式"
+  },
+  "request_review_onekey_invitation": {
+    "message": "一键邀请"
+  },
+  "request_review_invitation_conduct": {
+    "message": "邀请中"
+  },
+  "request_review_invitation_end": {
+    "message": "邀请完成"
+  },
+  "request_review_feedback": {
+    "message": "排除feedback低于{num}星的订单",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "request_review_refund": {
+    "message": "排除退款的订单"
+  },
+  "request_review_excluded": {
+    "message": "邀评排除项"
+  },
+  "request_review_site": {
+    "message": "站点"
+  },
+  "request_review_exclude_asin": {
+    "message": "排除这些ASIN"
+  },
+  "request_review_refund_loading_text": {
+    "message": "正在加载退款订单"
+  },
+  "request_review_purchase_time": {
+    "message": "购买时间"
+  },
+  "request_review_order_number": {
+    "message": "订单号"
+  },
+  "request_review_order_status": {
+    "message": "订单状态"
+  },
+  "request_review_invitation_status": {
+    "message": "邀请状态"
+  },
+  "request_review_refund_order": {
+    "message": "退款订单"
+  },
+  "request_review_payment_order": {
+    "message": "付款完成"
+  },
+  "request_review_canceled_order": {
+    "message": "取消订单"
+  },
+  "request_review_waiting_order": {
+    "message": "待付款"
+  },
+  "request_review_shipping_order": {
+    "message": "配送中"
+  },
+  "request_review_complete_order": {
+    "message": "完成"
+  },
+  "request_review_invitation_order": {
+    "message": "邀请成功"
+  },
+  "request_review_invitation_order_tip": {
+    "message": "邀评邮件已成功发送"
+  },
+  "request_review_invited_order": {
+    "message": "已邀请"
+  },
+  "request_review_invited_order_tip": {
+    "message": "曾经邀请并已发送邮件，本次未发送邮件"
+  },
+  "request_review_nottime_order": {
+    "message": "不在可邀时间内"
+  },
+  "request_review_nottime_order_tip": {
+    "message": "可邀时间为货到之后的5-30天"
+  },
+  "request_review_other_order": {
+    "message": "其他"
+  },
+  "request_review_other_order_tip": {
+    "message": "等待中、取消、完成状态的订单，无法发送邀评"
+  },
+  "request_review_refund_order_tip": {
+    "message": "该订单为退款订单，未邀请评论"
+  },
+  "request_review_request_aborted": {
+    "message": "请求失败"
+  },
+  "request_review_bad_feedback": {
+    "message": "差评"
+  },
+  "request_review_soliciting": {
+    "message": "邀请中"
+  },
+  "request_review_request_aborted_tip": {
+    "message": "邀请评论失败"
+  },
+  "request_review_actions": {
+    "message": "操作"
+  },
+  "request_review_successful": {
+    "message": "邀评已成功发送!"
+  },
+  "request_review_successful_title": {
+    "message": "本次邀评检测 <b>{num}</b> 条",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "request_review_strip": {
+    "message": "条"
+  },
+  "request_review_successful_success": {
+    "message": "成功"
+  },
+  "request_review_successful_fail": {
+    "message": "未邀请"
+  },
+  "request_review_successful_fail_detailed": {
+    "message": "未邀请明细"
+  },
+  "request_review_feedback_below_three": {
+    "message": "Feedback为3星以下"
+  },
+  "request_review_successful_success_tip": {
+    "message": "成功条数包含本次邀请成功的及曾经邀请过的"
+  },
+  "request_review_successful_fail_tip": {
+    "message": "未邀请条数包含(不在可邀时间内,退款订单,Feedback三星以下,等待中,取消,完成,请求失败)等订单"
+  },
+  "request_review_understand": {
+    "message": "知道了"
+  },
+  "request_review_remind_title": {
+    "message": "当前一键邀请{num}条,所选查询日期内共有{total}条",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "request_review_remind_cont": {
+    "message": "如需全部邀请,请先点击全部加载按钮"
+  },
+  "request_review_load_all": {
+    "message": "加载全部"
+  },
+  "request_review_load_all_tip": {
+    "message": "条数过多时,全部加载需要花较长时间"
+  },
+  "request_review_invitation_num": {
+    "message": "邀请当前{num}条",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "request_review_footerbar_cont": {
+    "message": "当前页共 {page} 条, 总共 {total} 条 ",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "0"
+      },
+      "total": {
+        "content": "$2",
+        "example": "0"
+      }
+    }
+  },
+  "request_review_asin": {
+    "message": "ASIN 选填"
+  },
+  "request_review_search": {
+    "message": "搜索"
+  },
+  "request_review_not_data": {
+    "message": "暂无数据"
+  },
+  "request_review_login": {
+    "message": "请先登录"
+  },
+  "request_review_order_id": {
+    "message": "订单编号"
+  },
+  "request_review_enter_order_id": {
+    "message": "请输入订单编号"
+  },
+  "request_review_sku": {
+    "message": "请输入SKU"
+  },
+  "request_review_email": {
+    "message": "请输入email"
+  },
+  "request_review_listingid": {
+    "message": "请输入商品编号"
+  },
+  "request_review_productname": {
+    "message": "请输入商品名称"
+  },
+  "request_review_trackingid": {
+    "message": "请输入追踪编码"
+  },
+  "request_review_commodity_category": {
+    "message": "商品种类"
+  },
+  "request_review_commodity_number": {
+    "message": "商品数量"
+  },
+  "request_review_explain": {
+    "message": "备注"
+  },
+  "request_review_page_size": {
+    "message": "{page}条/页 ",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "excel_solicit_market": {
+    "message": "站点"
+  },
+  "excel_solicit_asin": {
+    "message": "ASIN"
+  },
+  "excel_solicit_sku": {
+    "message": "SKU"
+  },
+  "excel_solicit_category": {
+    "message": "商品种类"
+  },
+  "excel_solicit_amount": {
+    "message": "商品数量"
+  },
+  "excel_solicit_order_number": {
+    "message": "订单号"
+  },
+  "excel_solicit_purchase_time": {
+    "message": "购买时间"
+  },
+  "excel_solicit_order_status": {
+    "message": "订单状态"
+  },
+  "excel_solicit_invitation_status": {
+    "message": "邀请状态"
+  },
+  "excel_solicit_explain": {
+    "message": "备注"
+  },
+  "excel_solicit_result_title": {
+    "message": "邀评结果"
+  },
+  "excel_solicit_one_click_result_title": {
+    "message": "一键邀评结果"
+  },
+  "excel_solicit_latest_days": {
+    "message": "最近{index}天",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "cardimg_sellersprite_download_img_all": {
+    "message": "全选"
+  },
+  "cardimg_sellersprite_download_relation_video": {
+    "message": "卖家精灵-关联视频下载"
+  },
+  "cardimg_sellersprite_download_img": {
+    "message": "卖家精灵-主图、视频下载"
+  },
+  "cardimg_sellersprite_download_Aimg": {
+    "message": "卖家精灵-A+图片下载"
+  },
+  "cardimg_sellersprite_download_commentimg": {
+    "message": "卖家精灵-评论图片下载"
+  },
+  "cardimg_download_img": {
+    "message": "{type}图片下载",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    }
+  },
+  "cardimg_download_relation_videos": {
+    "message": "关联视频下载"
+  },
+  "cardimg_download_img_tips": {
+    "message": "点我一键批量下载A+图片 <span style='color: #fb8c1e;'>（免费的哦~）</span>"
+  },
+  "cardimg_bulk_download": {
+    "message": "批量下载主图+视频 <span style='color: #fb8c1e;'>（免费的哦~）</span>"
+  },
+  "cardimg_immediately_download": {
+    "message": "立即下载"
+  },
+  "cardimg_download_loading": {
+    "message": "下载中,请稍后"
+  },
+  "lqs_view_product_images": {
+    "message": "商品图片"
+  },
+  "lqs_view_click_close_LQS": {
+    "message": "点击可关闭质量得分"
+  },
+  "lqs_view_Main_image_background": {
+    "message": "主图背景"
+  },
+  "lqs_view_image_dimensions": {
+    "message": "主图尺寸"
+  },
+  "lqs_view_listing_text": {
+    "message": "商品描述"
+  },
+  "lqs_view_images": {
+    "message": "图片"
+  },
+  "lqs_view_title": {
+    "message": "标题"
+  },
+  "lqs_view_bullets": {
+    "message": "五点描述"
+  },
+  "lqs_view_description": {
+    "message": "长描述"
+  },
+  "lqs_view_a_ebc": {
+    "message": "EBC"
+  },
+  "lqs_view_reviews": {
+    "message": "评价"
+  },
+  "lqs_view_rating": {
+    "message": "评分"
+  },
+  "lqs_view_number_of_ratings": {
+    "message": "评分数"
+  },
+  "lqs_view_more_images": {
+    "message": "图片最好7张及以上"
+  },
+  "lqs_view_white_background": {
+    "message": "主图背景应为白色"
+  },
+  "lqs_view_side1000px": {
+    "message": "主图最长边不低于1600px"
+  },
+  "lqs_view_characters": {
+    "message": "标题要大于80字符"
+  },
+  "lqs_view_5_bullets": {
+    "message": "卖点不应低于5条"
+  },
+  "lqs_view_1000_characters": {
+    "message": "文字描述需大于1000字符"
+  },
+  "lqs_view_ebc": {
+    "message": "EBC"
+  },
+  "lqs_view_description_contains_pictures": {
+    "message": "产品介绍要有图文描述"
+  },
+  "lqs_view_rating_4": {
+    "message": "评分值4.0及以上"
+  },
+  "lqs_view_ratings_10": {
+    "message": "评分数10个及以上"
+  },
+  "lqs_view_score": {
+    "message": "质量得分"
+  },
+  "lqs_view_white": {
+    "message": "白色"
+  },
+  "lqs_view_fan_white": {
+    "message": "非白色"
+  },
+  "lqs_view_more_images_tips": {
+    "message": "图片数量不低于5张，最好是7张以上<br/> Listing图片优化指南，<a target='_blank' style='cursor: pointer;color:#FB8C1E' href='https://www.sellersprite.com/cn/help/how-to-optimize-listing-images'>点击这里</a>"
+  },
+  "lqs_view_white_background_tips": {
+    "message": "主图背景应该是白色<br/>RGB 色值为 255、255、255<br/>Listing图片优化指南，<a target='_blank' style='cursor: pointer;color:#FB8C1E' href='https://www.sellersprite.com/cn/help/how-to-optimize-listing-images'>点击这里</a>"
+  },
+  "lqs_view_side1000px_tips": {
+    "message": "主图尺寸不低于1600*1600<br/>满足此最小尺寸要求可在亚马逊上实现缩放功能<br/> Listing图片优化指南，<a target='_blank' style='cursor: pointer;color:#FB8C1E' href='https://www.sellersprite.com/cn/help/how-to-optimize-listing-images'>点击这里</a>"
+  },
+  "lqs_view_characters_tips": {
+    "message": "产品标题应该在80-200字符之间(包括空格)<br/> Listing标题优化指南<a target='_blank' style='cursor: pointer;color:#FB8C1E' href='https://www.sellersprite.com/cn/help/how-to-optimize-listing-title'>点击这里</a>"
+  },
+  "lqs_view_5_bullets_tips": {
+    "message": "五点描述不应该低于3条，最好是5条<br/>从具体的角度简洁明了地描述产品的核心卖点 <br/> Listing五点描述优化指南<a target='_blank' style='cursor: pointer;color:#FB8C1E' href='https://www.sellersprite.com/cn/help/how-to-optimize-listing-bulletpoint'>点击这里</a>"
+  },
+  "lqs_view_1000_characters_tips": {
+    "message": "产品描述，应该大于1000字符，全面描述产品的卖点以及尺寸明细<br/>最多不超过2000字符<br/>Listing产品描述优化指南<a target='_blank' style='cursor: pointer;color:#FB8C1E' href='https://www.sellersprite.com/cn/help/how-to-optimize-listing-description'>点击这里</a>"
+  },
+  "lqs_view_ebc_tips": {
+    "message": "对于有品牌备案的产品，最好创建A+商品描述<br/> A+页面优化指南<a target='_blank' style='cursor: pointer;color:#FB8C1E' href='https://www.sellersprite.com/cn/help/how-to-optimize-listing-ebc'>点击这里</a>"
+  },
+  "lqs_view_rating_4_tips": {
+    "message": "Listing评分值最好不要低于4.0分，否则会有很大的售后风险<br/> 深入阅读:<a target='_blank' style='cursor: pointer;color:#FB8C1E' href='https://www.sellersprite.com/cn/blog/review-logic-of-market-research'>产品评论背后的逻辑</a>"
+  },
+  "lqs_view_ratings_10_tips": {
+    "message": "Listing评分数量最好不要低于10条，买家更相信其它用户对它的评价<br/> 深入阅读:<a target='_blank' style='cursor: pointer;color:#FB8C1E' href='https://www.sellersprite.com/cn/blog/review-logic-of-market-research'>产品评论背后的逻辑</a>"
+  },
+  "collection_add_my_list": {
+    "message": "收藏"
+  },
+  "collection_successfully": {
+    "message": "已收藏"
+  },
+  "listing_reversing": {
+    "message": "查流量来源"
+  },
+  "listing_quick_view_unfold": {
+    "message": "展开"
+  },
+  "listing_quick_view_fold": {
+    "message": "收起"
+  },
+  "full_screen_show": {
+    "message": "全屏<br/>展示"
+  },
+  "full_screen_show_off": {
+    "message": "退出<br/>全屏"
+  },
+  "listing_builder_title": {
+    "message": "Listing编辑器"
+  },
+  "listing_builder_title_tips": {
+    "message": "点击后跳转至网页端的Listing编辑器功能<br/>对当前Listing的标题、五点描述等字段进行编辑或检测埋词占比"
+  },
+  "collection_successfully_tip": {
+    "message": "加入收藏后，点击浏览器右上角的卖家精灵Logo即可快速浏览。<br/> 快速上手教程，<a style='color: #ff9300' href='https://www.sellersprite.com/cn/help/add-to-favorite ' target='_blank'>点击这里</a>"
+  },
+  "collection_add_tags": {
+    "message": "您还可以加入标签"
+  },
+  "collection_new_tags": {
+    "message": "创建新标签"
+  },
+  "collection_save_tags": {
+    "message": "保存标签"
+  },
+  "collection_input_tag_placeholder": {
+    "message": "输入新标签"
+  },
+  "collection_edit_tag": {
+    "message": "编辑收藏标签"
+  },
+  "collection_table_tag": {
+    "message": "标签"
+  },
+  "collection_Homepage": {
+    "message": "启动插件(打开默认首页)"
+  },
+  "launch_extension": {
+    "message": "打开插件"
+  },
+  "collection_My_List": {
+    "message": "我的收藏列表"
+  },
+  "collection_settings": {
+    "message": "偏好设置"
+  },
+  "collection_official_website": {
+    "message": "卖家精灵官网"
+  },
+  "collection_SellerSprite_extension": {
+    "message": "帮助教程(视频讲解)"
+  },
+  "collection_Manage_My_List": {
+    "message": "管理收藏列表"
+  },
+  "collection_SellerSprite_keepa": {
+    "message": "打开Keepa插件替代"
+  },
+  "collection_Rank": {
+    "message": "畅销榜"
+  },
+  "collection_Release": {
+    "message": "新品榜"
+  },
+  "collection_Shakers": {
+    "message": "飙升榜"
+  },
+  "collection_Wished_for": {
+    "message": "心愿榜"
+  },
+  "collection_Gifted": {
+    "message": "礼品榜"
+  },
+  "collection_search": {
+    "message": "搜索"
+  },
+  "collection_seller_home_page": {
+    "message": "卖家首页"
+  },
+  "collection_seller_storefront": {
+    "message": "店铺页"
+  },
+  "collection_Listing_Page": {
+    "message": "详情页"
+  },
+  "collection_table_Order": {
+    "message": "顺序"
+  },
+  "collection_table_Market": {
+    "message": "市场"
+  },
+  "collection_table_Name": {
+    "message": "名称"
+  },
+  "collection_table_Date": {
+    "message": "收藏时间"
+  },
+  "collection_table_Actions": {
+    "message": "操作"
+  },
+  "collection_table_del": {
+    "message": "删除"
+  },
+  "collection_drag_sort": {
+    "message": "拖拽可排序"
+  },
+  "collection_set_default_home": {
+    "message": "设置为默认首页"
+  },
+  "collection_default_home": {
+    "message": "该地址为默认首页"
+  },
+  "collection_SellerSprite_My_List": {
+    "message": "卖家精灵 - 收藏列表 "
+  },
+  "quick_search_RV_hover_tips": {
+    "message": "点我一键反查ASIN的流量词 <a target='_blank' href='https://www.sellersprite.com/cn/help/keyword-reverse-guide-of-extension'>视频+图文教程</a>"
+  },
+  "quick_search_MI_hover_tips": {
+    "message": "点我一键挖掘所有核心关键词和长尾关键词 <a target='_blank' href='https://www.sellersprite.com/cn/help/keyword-miner-guide-of-extension'>视频+图文教程</a>"
+  },
+  "quick_search_RV": {
+    "message": "关键词反查"
+  },
+  "quick_search_MI": {
+    "message": "挖掘相关词"
+  },
+  "market_analysis": {
+    "message": "市场分析"
+  },
+  "market_analysis_tips": {
+    "message": "生成一份包含16+维度的市场分析报告，帮您快速洞察市场 详细了解，<a style='color: #ff9300' href='https://www.sellersprite.com/cn/help/how-to-use-market-analysis' target='_blank'>点击这里</a>"
+  },
+  "market_analysis_tips_ready": {
+    "message": "当前页面样本数为{count}，建议您先加载前100商品，然后再生成分析报告",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "market_analysis_tips_loading": {
+    "message": "报告生成中，可能还要等1-2分钟"
+  },
+  "market_analysis_tips_success": {
+    "message": "市场分析报告已生成，您可以"
+  },
+  "market_analysis_btn_auto_analysis": {
+    "message": "加载前100商品并生成报告"
+  },
+  "market_analysis_btn_analysis": {
+    "message": "立即生成报告"
+  },
+  "market_analysis_btn_view_report": {
+    "message": "立即查看"
+  },
+  "market_analysis_btn_view_immediately": {
+    "message": "立即前往"
+  },
+  "market_analysis_btn_temporarily_ignoring": {
+    "message": "暂不理会"
+  },
+  "market_analysis_loading": {
+    "message": "加载"
+  },
+  "market_analysis_loading_new": {
+    "message": "加载并生成报告"
+  },
+  "market_analysis_report_new": {
+    "message": "当前样本生成报告"
+  },
+  "market_analysis_confirm": {
+    "message": "确定"
+  },
+  "market_analysis_report": {
+    "message": "生成报告"
+  },
+  "reviews_img_download_text": {
+    "message": "评论图片下载"
+  },
+  "reviews_img_download_text_tips": {
+    "message": "点我一键批量下载评论图片<span style='color: #fb8c1e;'>（免费的哦~）<span>"
+  },
+  "reviews_img_download_text_load": {
+    "message": "加载第 {page} 页",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "reviews_img_download_load_more": {
+    "message": "加载更多"
+  },
+  "filter_product_Sales_Status": {
+    "message": "可售状态"
+  },
+  "filter_product_Sales_Status_Y": {
+    "message": "可售"
+  },
+  "filter_product_Sales_Status_N": {
+    "message": "不可售"
+  },
+  "filter_product_Sales_Status_tips": {
+    "message": "该产品在前台是否处于可售状态，如Listing出现Currently Unavailable，则代表产品当前为不可售状态"
+  },
+  "filter_product_fulfilled": {
+    "message": "配送方式"
+  },
+  "filter_product_fulfilled_tips": {
+    "message": "如果一个细分市场很多第三方发货的产品(FBM)，那么说明竞争不那么大或者库存风险不大<br/>如果很多Amazon自营的就要当心了"
+  },
+  "filter_product_launch_date": {
+    "message": "上架时间"
+  },
+  "filter_product_launch_date_tips": {
+    "message": "默认是取自该子ASIN的上架时间<br/>如果该值卖家没有开放，则取该Listing下第一个评论的发表时间<br/>一般来说，选择上架时间普遍集中在最近6个月或1年的产品风险较小并且有爆款潜质(市场还处于成长期)"
+  },
+  "filter_product_other": {
+    "message": "亚马逊<br/>标识"
+  },
+  "filter_product_other_tips": {
+    "message": "产品拥有的标识<br/>Best Seller：某类目下销量排名第1的产品<br/>Amazon‘s Choice：亚马逊筛选出的“推荐评级高、价格合理、可以立即发货”的产品。特定关键词下只有一个Listing能拥有该标识<br/>New Release：某类目下销量排名第1的新产品<br/>Sponsored(SP)：亚马逊商品付费推广广告"
+  },
+  "filter_product_seller_territory": {
+    "message": "卖家<br/>所属地"
+  },
+  "filter_product_seller_territory_tips": {
+    "message": "卖家所属地在一定程度上可以反映市场的竞争度<br/>您可以通过设置卖家所属国家查看该市场下国家的占比情况"
+  },
+  "filter_product_min": {
+    "message": "最小值"
+  },
+  "filter_product_max": {
+    "message": "最大值"
+  },
+  "filter_product_select_time_options_30day": {
+    "message": "近30天"
+  },
+  "filter_product_select_time_options": {
+    "message": "近{index}个月",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "filter_product_half_year": {
+    "message": "近半年"
+  },
+  "filter_product_a_year": {
+    "message": "近1年"
+  },
+  "filter_product_select_time_options_year": {
+    "message": "近{index}年",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "filter_product_all_country": {
+    "message": "不限国家"
+  },
+  "filter_product_all": {
+    "message": "不限"
+  },
+  "filter_product_view_by": {
+    "message": "过滤条件设置"
+  },
+  "filter_product_full_screen": {
+    "message": "网页全屏"
+  },
+  "filter_product_exit_full_screen": {
+    "message": "退出全屏"
+  },
+  "filter_product_close_extension": {
+    "message": "关闭插件"
+  },
+  "filter_product_save": {
+    "message": "立即保存"
+  },
+  "filter_param_setting_parameter_setting": {
+    "message": "自定义数据列"
+  },
+  "display_param_setting_parameter_setting": {
+    "message": "数据参数设置"
+  },
+  "display_param_setting_parameter": {
+    "message": "数据参数"
+  },
+  "display_param_setting_PS": {
+    "message": "产品查询"
+  },
+  "display_param_setting_quick_view": {
+    "message": "快速预览"
+  },
+  "display_param_setting_image": {
+    "message": "图片"
+  },
+  "display_param_setting_mark": {
+    "message": "商品标识"
+  },
+  "display_param_setting_title": {
+    "message": "商品标题"
+  },
+  "display_param_setting_brand": {
+    "message": "品牌"
+  },
+  "display_param_setting_category": {
+    "message": "品类"
+  },
+  "display_param_setting_BSR": {
+    "message": "BSR"
+  },
+  "display_param_setting_price": {
+    "message": "价格"
+  },
+  "display_param_setting_rating": {
+    "message": "评分"
+  },
+  "display_param_setting_grade": {
+    "message": "评级"
+  },
+  "display_param_setting_review": {
+    "message": "评分数"
+  },
+  "display_param_setting_review_delta": {
+    "message": "月评新增"
+  },
+  "display_param_setting_review_rate": {
+    "message": "留评率"
+  },
+  "display_param_setting_qa": {
+    "message": "Q&A数"
+  },
+  "display_param_setting_sales_volume": {
+    "message": "近30天销量"
+  },
+  "display_param_setting_sales_amount": {
+    "message": "近30天销售额"
+  },
+  "display_param_setting_profit": {
+    "message": "毛利率"
+  },
+  "display_param_setting_fba_fees": {
+    "message": "FBA"
+  },
+  "display_param_setting_available_on": {
+    "message": "上架时间"
+  },
+  "display_param_setting_sellers": {
+    "message": "卖家数"
+  },
+  "display_param_setting_buy_box_owner": {
+    "message": "Buybox卖家"
+  },
+  "display_param_setting_seller_type": {
+    "message": "配送方式"
+  },
+  "display_param_setting_weight": {
+    "message": "重量"
+  },
+  "display_param_setting_dimension": {
+    "message": "体积"
+  },
+  "display_param_setting_variations": {
+    "message": "变体数"
+  },
+  "display_param_setting_SKU": {
+    "message": "SKU"
+  },
+  "display_param_setting_submit_p": {
+    "message": "立即查询"
+  },
+  "display_param_setting_Reset_p": {
+    "message": "重置条件"
+  },
+  "display_param_setting_submit": {
+    "message": "保存"
+  },
+  "display_param_setting_Reset": {
+    "message": "重置"
+  },
+  "display_param_setting_cancel": {
+    "message": "取消"
+  },
+  "btn_bran_check_title": {
+    "message": "品牌检测"
+  },
+  "btn_brand_check_loading": {
+    "message": "检测中…"
+  },
+  "btn_bran_check_error": {
+    "message": "检测失败，请稍后重试哦！"
+  },
+  "btn_bran_check_warm_prompt": {
+    "message": "在Listing标题和五点描述中自动检测是否存在亚马逊品牌词<br/>以判断自己的产品是否有品牌侵权的可能<br/>点击品牌词可跳转到品牌首页, <a style='color: #ff9300' href='https://www.sellersprite.com/cn/help/amazon-trademark-protection' target='_blank'>了解详情</a>"
+  },
+  "brand_check_btn_tips_title": {
+    "message": "仅限付费用户，<a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>升级套餐</a> 后即可查看<br/>还不知道如何使用该功能？<a style='color: #ff9300' href='https://www.sellersprite.com/cn/help/amazon-trademark-protection' target='_blank'>点我学习</a>"
+  },
+  "brand_inspection_tips": {
+    "message": "打开品牌检测列表"
+  },
+  "brand_inspection_list_title": {
+    "message": "品牌检测列表"
+  },
+  "brand_inspection_list_brand_name": {
+    "message": "品牌名"
+  },
+  "brand_inspection_list_operation": {
+    "message": "操作"
+  },
+  "brand_inspection_list_brand_url": {
+    "message": "去亚马逊查看品牌首页"
+  },
+  "brand_inspection_list_nodata": {
+    "message": "暂无品牌列表"
+  },
+  "brand_inspection_tips_fake": {
+    "message": "仅付费用户可见，<a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>升级套餐</a> 后即可查看"
+  },
+  "need_login_taobao_pop_title": {
+    "message": "温馨提示"
+  },
+  "need_login_taobao_pop_desc": {
+    "message": "请求需先登录淘宝<br/>已为您打开淘宝登录页，快快登录吧！"
+  },
+  "need_login_taobao_pop_logged": {
+    "message": "我已登录"
+  },
+  "need_login_taobao_pop_close": {
+    "message": "暂不登录"
+  },
+  "need_verification_pop_desc": {
+    "message": "请求需先手动验证<br/>已为您打开验证页面，快快验证吧！"
+  },
+  "need_verification_pop_done": {
+    "message": "我已验证"
+  },
+  "need_verification_pop_close": {
+    "message": "暂不验证"
+  },
+  "analysis_btn_title": {
+    "message": "评论分析"
+  },
+  "analysis_btn_loading_title": {
+    "message": "收集中…"
+  },
+  "analysis_collecting_title": {
+    "message": "评论收集中！"
+  },
+  "analysis_collecting_finish_title": {
+    "message": "评论收集成功！"
+  },
+  "analysis_collecting_warning_title": {
+    "message": "评论收集失败！"
+  },
+  "analysis_collecting_tips": {
+    "message": "基于商品数和评论数，大概2-5分钟收集完毕<br/>请不要关闭当前Listing详细页"
+  },
+  "analysis_collecting_finish_tips": {
+    "message": "您可以立即查看<br/>也可以打开Web后台“选品精灵 - 评论分析”一键查询"
+  },
+  "analysis_collecting_warning_tips": {
+    "message": "请检查网络后再尝试，或联系在线客服为您解决"
+  },
+  "analysis_collecting_ok_btn": {
+    "message": "我已知晓"
+  },
+  "analysis_popup_checkbox": {
+    "message": "14天内不再弹窗"
+  },
+  "analysed_btn_title": {
+    "message": "查看报告"
+  },
+  "analysed_btn_tips_title": {
+    "message": "仅限付费用户，<a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>升级套餐</a> 后即可查看<br/>还不知道如何使用该功能？<a style='color: #ff9300' href='https://www.sellersprite.com/cn/help/review-analysis-for-beginners' target='_blank'>点我学习</a>"
+  },
+  "reversing_btn_tips_title": {
+    "message": "还不知道如何使用该功能？<a style='color: #ff9300' href='https://www.sellersprite.com/cn/help/relevancy-traffic-for-beginners' target='_blank'>点我学习</a>"
+  },
+  "review_download_btn_title": {
+    "message": "评论下载"
+  },
+  "review_downloading_btn_title": {
+    "message": "下载中..."
+  },
+  "review_trans_title_content": {
+    "message": "翻译标题和内容"
+  },
+  "review_download_btn_reviews_translation": {
+    "message": "翻译中"
+  },
+  "btn_review_analysis_warm_prompt": {
+    "message": "对多变体产品进行智能评论分析，帮助亚马逊卖家确定畅销变体<br/>快速掌握产品卖点、缺点及应用场景，赋能产品开发及运营<br/>评论分析的更多使用技巧，请<a style='color: #ff9300' href='https://www.sellersprite.com/cn/help/review-analysis-for-beginners' target='_blank'>点击了解</a>"
+  },
+  "review_download_tips": {
+    "message": "点我免费批量下载评论内容 <a style='color: #fb8c1e; border-bottom: 1px dashed #fb8c1e;' target='_blank' href='https://www.sellersprite.com/cn/help/reviews-download-guide-of-extension'>视频+图文教程</a>"
+  },
+  "shulex_review_btn": {
+    "message": "批量评论分析"
+  },
+  "shulex_insight_btn": {
+    "message": "产品属性分析"
+  },
+  "view_top_400": {
+    "message": "查看Top400产品"
+  },
+  "view_top_400_tips": {
+    "message": "点击查看该类目TOP100以后的产品<br/>详细使用方法：<a style='color: #fb8c1e; border-bottom: 1px dashed #fb8c1e;' target='_blank' href='https://www.sellersprite.com/v3/knowledge/feature/how-to-get-top400-product'>点击了解</a>"
+  },
+  "review_download_limit": {
+    "message": "仅下载前{number}条",
+    "placeholders": {
+      "number": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "time_limit_free": {
+    "message": "限免"
+  },
+  "btn_reversing_warm_prompt": {
+    "message": "点击后自动生成该ASIN的流量分析报告<br/>全面掌握Listing流量来源，让站内流量有迹可循，请<a style='color: #ff9300' href='https://www.sellersprite.com/cn/help/relevancy-traffic-for-beginners' target='_blank'>点击了解</a>"
+  },
+  "successfully_added_bookmarks_tips_title": {
+    "message": "书签添加成功！"
+  },
+  "successfully_added_bookmarks_tips_text": {
+    "message": "下次查询您可以直接从书签选择哦~ 省时又省力"
+  },
+  "successfully_added_results_tips_title": {
+    "message": "结果保存成功！"
+  },
+  "successfully_added_results_tips_text": {
+    "message": "您可以通过底部“结果下载“按钮，将各个时段排名情况保存至本地"
+  },
+  "notice_btn_title": {
+    "message": "了解详情"
+  },
+  "main_must_update_title": {
+    "message": "卖家精灵插件强制更新提醒"
+  },
+  "main_must_update_now_version": {
+    "message": "亚马逊改版频繁，我们也不得不紧跟脚步(T＿T) 卖家精灵插件已更新至v{version}版本",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "main_must_update_tips": {
+    "message": "现在可以继续支持您在亚马逊上的流畅使用了~（旧版本即将被弃用......）"
+  },
+  "main_must_update_down": {
+    "message": "下载并安装 新版插件"
+  },
+  "reversing_search_keywrod_compared": {
+    "message": "关键词对比"
+  },
+  "reversing_search_keywrod_compared_tip": {
+    "message": "对相关关键词纵向对比搜索量、点击集中度等指标"
+  },
+  "module_keepa_searches": {
+    "message": "搜索量"
+  },
+  "reversing_search_purchase_amount": {
+    "message": "购买量"
+  },
+  "reversing_search_purchase_rate": {
+    "message": "购买率"
+  },
+  "module_echarts_click_title": {
+    "message": "点击集中度"
+  },
+  "module_echarts_ppc": {
+    "message": "PPC竞价"
+  },
+  "module_echarts_google_title": {
+    "message": "Google趋势"
+  },
+  "module_echarts_login_tip": {
+    "message": "主人！插件需要登录才能使用哦~ "
+  },
+  "module_relation_product_limit": {
+    "message": "请选择需要对比的关键词，最少2个，最多可选5个"
+  },
+  "module_postal_code_tips_one": {
+    "message": "当前邮编未设置或不是当地邮编，为不影响使用体验，请复制以下邮编并设置"
+  },
+  "module_postal_code_tips_two": {
+    "message": "不知道如何设置？"
+  },
+  "module_postal_code_tips_three": {
+    "message": "点我了解"
+  },
+  "module_postal_code_link": {
+    "message": "https://www.sellersprite.com/cn/help/addresses-setting-guide"
+  },
+  "module_echarts_group_close_tips": {
+    "message": "点击“亚马逊搜索框”右侧的搜索量<br/>在弹窗里可以再次启用哦~"
+  },
+  "module_echarts_group_open_tips": {
+    "message": "开启后，在亚马逊搜索结果页<br />会直接展示该关键词历史搜索量趋势"
+  },
+  "module_echarts_group_open_text": {
+    "message": "启用搜索趋势"
+  },
+  "module_echarts_group_open_text_tip": {
+    "message": "开启后，在亚马逊搜索结果页会直接展示该关键词历史搜索量趋势"
+  },
+  "module_echarts_group_yearly_growth": {
+    "message": "同比增长率"
+  },
+  "module_echarts_group_chain_growth": {
+    "message": "环比增长率"
+  },
+  "module_echarts_group_three_month_growth": {
+    "message": "近三月增长率"
+  },
+  "module_echarts_aba_rank": {
+    "message": "ABA排名"
+  },
+  "quick_view_ok": {
+    "message": "添加至产品库"
+  },
+  "quick_view_cancel": {
+    "message": "暂不需要"
+  },
+  "choose_product_lib_title": {
+    "message": "选择产品库"
+  },
+  "choose_product_lib_list_empty": {
+    "message": "主人~ 先创建一个产品库吧！"
+  },
+  "choose_product_lib_create_title": {
+    "message": "新建产品库"
+  },
+  "choose_product_lib_create_title_default": {
+    "message": "默认产品库"
+  },
+  "choose_product_lib_create_btn": {
+    "message": "创建并添加"
+  },
+  "choose_product_lib_create_btn_tips": {
+    "message": "主人~ 免费会员最多可创建10个产品库<br/>您可以 <a style='color: #ff9300' href='https://www.sellersprite.com/price' target='_blank'>升级套餐</a> 后使用"
+  },
+  "choose_product_lib_placeholder": {
+    "message": "主人~ 请输入产品库名称"
+  },
+  "choose_product_lib_tips": {
+    "message": "默认添加至当前选择的产品库"
+  },
+  "choose_product_lib_manage": {
+    "message": "产品库管理"
+  },
+  "choose_product_lib_info_one": {
+    "message": "主人~ 之后添加的产品，默认在"
+  },
+  "choose_product_lib_info_two": {
+    "message": "产品库，24小时后自动重置，如需马上取消请前往产品调研库哦！"
+  },
+  "choose_product_lib_know": {
+    "message": "我已知晓"
+  },
+  "choose_product_lib_manage_title": {
+    "message": "产品库管理"
+  },
+  "choose_product_lib_table_empty": {
+    "message": "主人~ 产品库空空如也呢！"
+  },
+  "choose_product_lib_table_name": {
+    "message": "产品库名称"
+  },
+  "choose_product_lib_table_num": {
+    "message": "产品数量"
+  },
+  "choose_product_lib_table_operation": {
+    "message": "操作"
+  },
+  "ipad_btn_operation": {
+    "message": "操作组"
+  },
+  "choose_product_lib_table_edit": {
+    "message": "编辑"
+  },
+  "choose_product_lib_table_delete": {
+    "message": "删除"
+  },
+  "choose_product_lib_table_save": {
+    "message": "保存"
+  },
+  "choose_product_lib_table_cancel": {
+    "message": "取消"
+  },
+  "quick_view_popver_already_new_version": {
+    "message": "已是最新版本"
+  },
+  "roof_firefox_ad": {
+    "message": "卖家精灵广告"
+  },
+  "close_roof_ad": {
+    "message": "狠狠地关闭"
+  },
+  "quick_view_go_to_listing": {
+    "message": "点击打开该商品Listing详细页"
+  },
+  "main_setting_translate_channel": {
+    "message": "翻译渠道"
+  },
+  "main_setting_translate_channel_tips": {
+    "message": "可自行选择一个翻译渠道，如不选择，则系统将默认使用其中任一渠道进行翻译"
+  },
+  "main_setting_translate_channel_google": {
+    "message": "谷歌（需代理，准确度高）"
+  },
+  "main_setting_translate_channel_bai_du": {
+    "message": "百度"
+  },
+  "main_setting_translate_channel_microsoft": {
+    "message": "微软（无需代理，不能大批量翻译）"
+  },
+  "main_setting_translate_channel_you_dao": {
+    "message": "有道"
+  },
+  "comments_of_invite_btn": {
+    "message": "邀评统计"
+  },
+  "invite_comments_immediately_btn": {
+    "message": "立即邀评"
+  },
+  "fiters_invite_comments_status_ready": {
+    "message": "未邀请"
+  },
+  "fiters_invite_comments_status_successfully": {
+    "message": "邀请成功"
+  },
+  "fiters_invite_comments_status_not_available": {
+    "message": "不在可邀时间"
+  },
+  "fiters_invite_comments_status_refund_order": {
+    "message": "退款订单"
+  },
+  "fiters_invite_comments_status_feedback_less_3_stars": {
+    "message": "Feedback为3星以下"
+  },
+  "fiters_invite_comments_status_request_failed": {
+    "message": "邀请失败"
+  },
+  "fiters_invite_comments_status_others": {
+    "message": "其他"
+  },
+  "fiters_invite_comments_submit": {
+    "message": "确定"
+  },
+  "fiters_invite_comments_cancel": {
+    "message": "取消"
+  },
+  "invite_comments_invited_num": {
+    "message": "已邀评"
+  },
+  "invite_comments_uninvited_num": {
+    "message": "未邀评"
+  },
+  "invite_comments_allinvited_num": {
+    "message": "订单量"
+  },
+  "request_review_btn_order_loading_title": {
+    "message": "抓取订单中…"
+  },
+  "request_review_btn_loading_title": {
+    "message": "邀评中…"
+  },
+  "invite_comments_request_review_btn": {
+    "message": "一键邀评"
+  },
+  "stop_invite_comments_request_review_btn": {
+    "message": "中断邀评"
+  },
+  "invite_comments_request_review_tips": {
+    "message": "一键邀评订单时间在近90天可邀评的订单</br>邀评条件：近90天未邀评过、feedback不低于3星、未退款</br>邀评过程中请勿关闭订单页哦~"
+  },
+  "invite_comments_table_list_request_review_tips": {
+    "message": "邀评您筛选出的订单，默认排除feedback低于3星和退款的订单</br>若需更改，可在“邀评排除项”取消"
+  },
+  "invite_comments_chart_tips": {
+    "message": "通过一键邀评、自定义邀评的结果，去重展示在此图中，更多结果，可在【自定义邀评】中查看</br>您的邀评结果仅保存在浏览器中，若卸载插件，则结果数据会丢失哦。推荐您在线安装和更新插件，数据永不丢失~"
+  },
+  "invite_comments_request_review_custom_btn": {
+    "message": "自定义邀评"
+  },
+  "invite_comments_request_review_custom_tips": {
+    "message": "根据您的自定义条件进行筛选、邀评"
+  },
+  "signin_form_google_login_error_message": {
+    "message": "Google用户需在网页端<a href='https://www.sellersprite.com/v2/me' target='_blank' style='color: #f28c00; border-bottom: 1px dashed #f28c00;'>修改密码</a>后，使用邮箱+密码登录."
+  },
+  "invite_comments_query_order_status": {
+    "message": "订单状态"
+  },
+  "invite_comments_query_select_order_num": {
+    "message": "订单编号"
+  },
+  "invite_comments_query_select_product_num": {
+    "message": "商品编号"
+  },
+  "invite_comments_query_select_product_name": {
+    "message": "商品名称"
+  },
+  "invite_comments_query_select_code_num": {
+    "message": "追踪编码"
+  },
+  "invite_comments_query_sort_order_up": {
+    "message": "订单日期(升序)"
+  },
+  "invite_comments_query__sort_order_down": {
+    "message": "订单日期(降序)"
+  },
+  "invite_comments_query_sort_deliver_up": {
+    "message": "发货日期(升序)"
+  },
+  "invite_comments_query_sort_deliver_down": {
+    "message": "发货日期(降序)"
+  },
+  "invite_comments_query_sort_delivery_up": {
+    "message": "配送服务(升序)"
+  },
+  "invite_comments_query_sort_delivery_down": {
+    "message": "配送服务(降序)"
+  },
+  "invite_comments_query_sort_status_up": {
+    "message": "状态(升序)"
+  },
+  "invite_comments_query_sort_status_down": {
+    "message": "状态(降序)"
+  },
+  "invite_comments_btn__export_tips": {
+    "message": "导出当前查询结果"
+  },
+  "invite_comments_chart_order_num": {
+    "message": "订单量"
+  },
+  "invite_comments_chart_invited": {
+    "message": "已邀评"
+  },
+  "invite_comments_chart_uninvited_num": {
+    "message": "未邀评"
+  },
+  "invite_comments_chart_invited_failed": {
+    "message": "邀评失败"
+  },
+  "invite_comments_chart_invited_num": {
+    "message": "已发送邀评数:"
+  },
+  "invite_comments_chart_invited_month_num": {
+    "message": "近30天发送:"
+  },
+  "request_review_invitation": {
+    "message": "邀请评论"
+  },
+  "request_review_filter_checkall": {
+    "message": "全选"
+  },
+  "main_footer_btn_export_request_review": {
+    "message": "导出邀评结果"
+  },
+  "keyword_miner_result_sentence_one": {
+    "message": "为您找到"
+  },
+  "keyword_miner_result_sentence_two": {
+    "message": "条结果"
+  },
+  "keyword_miner_filter_keyword": {
+    "message": "筛选关键词"
+  },
+  "keyword_miner_compare": {
+    "message": "对比"
+  },
+  "keyword_miner_high_frequency": {
+    "message": "高频词"
+  },
+  "keyword_miner_copy": {
+    "message": "复制"
+  },
+  "keyword_miner_table_title_product_img": {
+    "message": "展示前10产品图"
+  },
+  "keyword_miner_table_relativity": {
+    "message": "相关度"
+  },
+  "keyword_miner_table_AC": {
+    "message": "AC推荐词"
+  },
+  "keyword_miner_table_AC_only": {
+    "message": "仅查看AC推荐词"
+  },
+  "keyword_miner_table_keyword_root": {
+    "message": "词根匹配"
+  },
+  "keyword_miner_table_keyword_root_only": {
+    "message": "仅包含词根的关键词"
+  },
+  "keyword_miner_table_ABA_rank": {
+    "message": "ABA排名"
+  },
+  "keyword_miner_table_ABA_rank2": {
+    "message": "ABA月排名<br/>周排名"
+  },
+  "keyword_miner_table_header_ABA_rank": {
+    "message": "ABA月排名"
+  },
+  "keyword_miner_table_keyword_month_search": {
+    "message": "月搜索量"
+  },
+  "keyword_miner_table_keyword_month_search_tips": {
+    "message": "点击查看该关键词搜索趋势"
+  },
+  "keyword_miner_title_density": {
+    "message": "标题密度"
+  },
+  "keyword_miner_title_density_br": {
+    "message": "标题密度"
+  },
+  "keyword_miner_title_product_number": {
+    "message": "商品数"
+  },
+  "keyword_miner_table_supply_ratio": {
+    "message": "需供比"
+  },
+  "table_product_number_supply_ratio": {
+    "message": "需供比<br>商品数"
+  },
+  "keyword_miner_ad_product": {
+    "message": "广告竞品数"
+  },
+  "keyword_miner_ad_product_br": {
+    "message": "广告竞品数"
+  },
+  "keyword_miner_monthly_search_trends": {
+    "message": "月搜索趋势"
+  },
+  "keyword_miner_total_percentage_of_conversions": {
+    "message": "转化总占比"
+  },
+  "keyword_miner_table_keyword_translate": {
+    "message": "关键词翻译"
+  },
+  "keyword_miner_table_ppc_price": {
+    "message": "PPC价格"
+  },
+  "keyword_miner_table_ppc_price_suggestion": {
+    "message": "建议竞价范围"
+  },
+  "keyword_miner_table_top_ten": {
+    "message": "前十ASIN"
+  },
+  "keyword_miner_table_top_ten_image": {
+    "message": "前三产品图"
+  },
+  "export_keyword_miner_table_top_ten_image": {
+    "message": "导出前3产品图"
+  },
+  "keyword_miner_table_words": {
+    "message": "词语"
+  },
+  "keyword_miner_table_frequency": {
+    "message": "出现频次"
+  },
+  "keyword_miner_delete": {
+    "message": "删除"
+  },
+  "keyword_miner_msg_success": {
+    "message": "删除成功"
+  },
+  "keyword_miner_msg_warning": {
+    "message": "请选择要删除的关键词"
+  },
+  "keyword_miner_msg_error": {
+    "message": "删除失败，请稍后重试。"
+  },
+  "keyword_store_add_to_my_list": {
+    "message": "加入关键词词库"
+  },
+  "keyword_store_choose_a_keyword_folder": {
+    "message": "选择关键词词库"
+  },
+  "keyword_store_add_keyword_tips": {
+    "message": "主人~ 选择您需要加入的关键词吧！"
+  },
+  "keyword_store_add_Folder": {
+    "message": "新建词库"
+  },
+  "keyword_store_enter_keyword_label": {
+    "message": "关键词标签"
+  },
+  "keyword_store_creat_a_label": {
+    "message": "创建新标签"
+  },
+  "keyword_store_add_sucesss": {
+    "message": "添加成功"
+  },
+  "keyword_store_choose_a_folder": {
+    "message": "请选择词库"
+  },
+  "keyword_store_save": {
+    "message": "新建"
+  },
+  "keyword_store_keyword_tips": {
+    "message": "主人~ 请输入词库名称"
+  },
+  "keyword_store_tag_tips": {
+    "message": "主人~ 请输入新标签名称"
+  },
+  "keyword_store_submit_btn": {
+    "message": "已确认，提交吧！"
+  },
+  "keyword_store_keyword_empty_tips": {
+    "message": "词库名称不能为空"
+  },
+  "keyword_store_tag_empty_tips": {
+    "message": "新标签不能为空"
+  },
+  "keyword_store_add_to_keyword_list": {
+    "message": "加入词库"
+  },
+  "keyword_operate_filter_btn_keywords": {
+    "message": "筛选关键词"
+  },
+  "keyword_operate_filter_btn_start": {
+    "message": "开始筛选"
+  },
+  "keyword_reverse_search_broad_match": {
+    "message": "广泛匹配"
+  },
+  "keyword_reverse_search_exact_match": {
+    "message": "词组匹配"
+  },
+  "keyword_operate_filter_placeholder_muti": {
+    "message": "请输入关键词，多个以逗号区分"
+  },
+  "keyword_operate_filter_placeholder_pro": {
+    "message": "请输入关键词，多个以逗号区分"
+  },
+  "keyword_operate_filter_word_nums": {
+    "message": "单词个数"
+  },
+  "keyword_operate_filter_searches_tips": {
+    "message": "<p>月搜索量，指的是一个自然月的月搜索量，比如2022年6月，该关键词在亚马逊站内的搜索总次数</p><p>您现在看到的是上个月的月搜索量，每月月初更新上个月的数据</p>"
+  },
+  "keyword_operate_filter_spr_tips": {
+    "message": "<p>SellerSprite Product Rank，能够让该关键词排名维持在搜索结果第1页的8天预估单量</p><p>比如SPR=280，则代表产品8天内该关键词下的出单量需要达到280，才能让该关键词排名维持在搜索结果第1页</p><p><br></p><p>SPR数值越大，表示让关键词排名维持在首页的单量要求更高，竞争更激烈</p><p>扩展阅读：<a href=\"https://www.sellersprite.com/cn/help/how-to-understand-spr\" target=\"_blank\" style=\"color: rgb(255, 156, 0);\">如何让关键词排名快速上首页？</a><br></p>"
+  },
+  "keyword_operate_filter_title_density_tips": {
+    "message": "<p>该关键词在亚马逊搜索结果第1页的产品中，标题包含该关键词的产品数量</p><p>比如标题密度为12，则代表该关键词的搜索结果第1页中，共有12个产品的标题包含了该关键词</p><p>&nbsp;</p><p>扩展阅读：<a href=\"https://www.sellersprite.com/cn/help/how-to-understand-title-density\" target=\"_blank\" style=\"color: rgb(255, 156, 0);\">如何利用标题密度找出竞品核心关键词？</a><br></p>"
+  },
+  "keyword_operate_filter_purchase_tips": {
+    "message": "<p>指一个自然月，比如2023年7月，在亚马逊站内搜索该关键词后产生购买的次数</p><p>比如：某用户搜索iphone charger，然后1次购买了1个iphone充电器，2条数据线(关联推荐的商品)，则购买量=1</p>"
+  },
+  "keyword_operate_filter_purchase_rate_tips": {
+    "message": "<p>购买率=购买量/搜索量，指的是在买家输入该搜索词并点击此细分市场中的任意商品后，商品购买数量占买家输入该搜索词总次数的比例，<a href=\"https://www.sellersprite.com/cn/help/how-to-understand-purchase-rate\" target=\"_blank\" style=\"color: rgb(255, 156, 0);\">详细了解</a></p><p><br></p><p>比如关键词wireless charger，一个月内被搜索了120万次，共产生了1.6万件销售(未必全部是无线充电器，也可能是数据线)</p><p>则该词的购买率 = 1.6万/120万=1.33%</p>"
+  },
+  "keyword_operate_filter_product_number_tips": {
+    "message": "<p>商品数，指搜索该关键词后出现了多少相关产品(All Departments类目)</p><p>比如：1-48 of over 1,000 results for \"ipad stand\"</p><p><br></p><p>基于IP地址的不同，各地区IP呈现的搜索结果数都不同，所以您在亚马逊前台搜索的结果数可能也会存在差别，<a href=\"https://www.sellersprite.com/cn/help/amazon-search-results\" target=\"_blank\" style=\"color: rgb(255, 156, 0);\">详细解释</a></p>"
+  },
+  "keyword_operate_filter_supply_ratio_tips": {
+    "message": "<p>需供比 = 搜索量(需求) / 商品数(供应)</p><p>在同类市场中，需供比值越高，则代表该市场需求越强劲</p><p><br></p><p>比如关键词phone holder的月搜索量为69,465，商品数为14,875</p><p>则该关键词对应细分市场的需供比为69,465/14,875=4.7</p>"
+  },
+  "keyword_operate_filter_ad_tips": {
+    "message": "<p>表示近7天内进入过该关键词搜索结果前3页的广告产品总数</p><p>包括SP广告、HR广告、品牌广告和视频广告</p>"
+  },
+  "keyword_operate_filter_click_rate_tips": {
+    "message": "<p>点击集中度，指该关键词下点击排名前三ASIN的点击总占比</p><p>数据来源于亚马逊后台ABA报告，一般来说，点击集中度越高，该词垄断程度越高</p><p>扩展阅读：<a href=\"https://www.sellersprite.com/v3/knowledge/feature/how-to-understand-click-concentration\" target=\"_blank\" style=\"color: rgb(255, 156, 0);\">如何快速判断细分市场垄断程度？</a></p><p><br></p><p>假设点击前三ASIN的点击共享分别是13.9%、12.4%、11.1%</p><p>则前三ASIN点击总占比=13.9%+12.4%+11.1%=37.4%</p>"
+  },
+  "keyword_operate_filter_conversion_share_tips": {
+    "message": "<p>前三ASIN转化总占比，指的是该关键词下点击排名前三ASIN的转化共享之和</p><p>（转化共享，指的是该ASIN在这个关键词下的销量占整个词销量的比例）</p><p>数据来源于亚马逊后台ABA报告，一般来说，前三ASIN的转化总占比越高，该词垄断程度越高</p><p><br></p><p>假设点击前三ASIN的转化共享分别是18.4%、10.9%、5.6%</p><p>则前三ASIN转化总占比=18.4%+10.9%+5.6%=34.9%</p>"
+  },
+  "keyword_operate_filter_ppc_tips": {
+    "message": "<p>亚马逊站内广告Bid价格，系统提供【词组匹配】的Bid建议价格以及范围</p><p>关键词出价是市场竞争度、市场成熟度的直接反映，也是营销费用的反映</p><p><br></p><p>在站内广告投放时，您可以优先选择低竞争高需求的关键词，也就是出价较低而搜索量较高的关键词</p><p>视频介绍：<a href=\"https://www.sellersprite.com/cn/blog/sellersprite-new-function-for-ppc-pricing\" target=\"_blank\" style=\"color: rgb(255, 156, 0);\">点击这里</a></p>"
+  },
+  "keyword_operate_filter_word_nums_tips": {
+    "message": "<p>关键词词组的单词个数，以空格区分；只能输入整数</p><p>比如iphone11 case单词个数为2，airpods pro case单词个数为3</p>"
+  },
+  "keyword_operate_filter_exclude_keywords": {
+    "message": "排除关键词"
+  },
+  "keyword_operate_filter_include_keywords": {
+    "message": "包含关键词"
+  },
+  "keyword_operate_filter_include_keywords_tips": {
+    "message": "<p>支持多个关键词或词组输入查询，多词用英文逗号,隔开，如: child, kids</p><p><br></p><p>添加后的筛选结果中仅展示包含该关键词的词组</p><p>比如输入holder，则筛选结果中仅展示包含holder一词的词组</p>"
+  },
+  "keyword_operate_filter_exclude_keywords_tips": {
+    "message": "<p>支持多个关键词或词组输入查询，多词用英文逗号,隔开，如: child, kids</p><p><br></p><p>添加后的筛选结果中不会有任何包含该关键词或该词组的结果出现</p><p>比如输入phone，则筛选结果中不会出现任何包含phone的词组</p>"
+  },
+  "error_not_support_tips_MI": {
+    "message": "1、您可以在右上角搜索框输入关键词查询，或者打开“亚马逊搜索结果页”自动查询<br/>2、也可前往亚马逊<a target='_blank' href='https://www.amazon.com' style='color: #ff9001'>美国站</a>,<a target='_blank' href='https://www.amazon.co.jp' style='color: #ff9001'>日本站</a>,<a target='_blank' href='https://www.amazon.co.uk' style='color: #ff9001'>英国站</a>,<a target='_blank' href='https://www.amazon.de' style='color: #ff9001'>德国站</a>,<a target='_blank' href='https://www.amazon.fr' style='color: #ff9001'>法国站</a>,<a target='_blank' href='https://www.amazon.it' style='color: #ff9001'>意大利站</a>,<a target='_blank' href='https://www.amazon.es' style='color: #ff9001'>西班牙站</a>,<a target='_blank' href='https://www.amazon.ca' style='color: #ff9001'>加拿大站</a>,<a target='_blank' href='https://www.amazon.in' style='color: #ff9001'>印度站</a>使用插件；"
+  },
+  "error_not_support_title_MI": {
+    "message": "当前不在亚马逊搜索结果页，无法自动查询"
+  },
+  "error_empty_items_title_MI": {
+    "message": "未能找到相关关键词，可能原因及建议："
+  },
+  "error_empty_items_tips_MI": {
+    "message": "该关键词月度搜索量过低；<br/>您可以尝试在右上角输入其他关键词查询；"
+  },
+  "error_not_support_tips_RV": {
+    "message": "1、需要进入Listing页或在插件右上角搜索框输入ASIN查询<br/>2、也可前往亚马逊<a target='_blank' href='https://www.amazon.com' style='color: #ff9001'>美国站</a>,<a target='_blank' href='https://www.amazon.co.jp' style='color: #ff9001'>日本站</a>,<a target='_blank' href='https://www.amazon.co.uk' style='color: #ff9001'>英国站</a>,<a target='_blank' href='https://www.amazon.de' style='color: #ff9001'>德国站</a>,<a target='_blank' href='https://www.amazon.fr' style='color: #ff9001'>法国站</a>,<a target='_blank' href='https://www.amazon.it' style='color: #ff9001'>意大利站</a>,<a target='_blank' href='https://www.amazon.es' style='color: #ff9001'>西班牙站</a>,<a target='_blank' href='https://www.amazon.ca' style='color: #ff9001'>加拿大站</a>,<a target='_blank' href='https://www.amazon.in' style='color: #ff9001'>印度站</a>使用插件；"
+  },
+  "error_not_support_title_RV": {
+    "message": "当前不在亚马逊Listing页面，无法自动查询"
+  },
+  "module_PL_no_store": {
+    "message": "主人~ 您还未添加产品库<br/>快快打开搜索结果页、榜单页添加试试吧！"
+  },
+  "module_PL_look_by_store": {
+    "message": "按产品库查看"
+  },
+  "module_PL_cancel_default": {
+    "message": "取消默认添置至'{name}'",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "module_PL_store_link": {
+    "message": "https://www.sellersprite.com/v3/knowledge/feature/product-list-of-extension"
+  },
+  "module_PL_store_no_list": {
+    "message": "主人~ 该产品库还未添加产品哦！"
+  },
+  "module_PL_products_comparison": {
+    "message": "产品对比"
+  },
+  "module_PL_reverse_ASINs": {
+    "message": "批量拓展流量词"
+  },
+  "module_PL_reverse_ASINs_simple": {
+    "message": "拓展流量词"
+  },
+  "module_PL_keyword_comparison": {
+    "message": "流量词对比"
+  },
+  "module_PL_creat_URL": {
+    "message": "生成亚马逊链接"
+  },
+  "module_PL_URL": {
+    "message": "亚马逊链接"
+  },
+  "module_PL_copy": {
+    "message": "复制链接"
+  },
+  "module_PL_open": {
+    "message": "打开链接"
+  },
+  "module_PL_compare_select_tips": {
+    "message": "请选择需要对比的产品，最少2个，最多可选5个"
+  },
+  "module_PL_asin_select_tips": {
+    "message": "请选择ASIN"
+  },
+  "module_PL_copy_to_libary": {
+    "message": "移动至产品库"
+  },
+  "module_PL_copy_to_libary_title": {
+    "message": "移动至产品库(可多选)"
+  },
+  "module_PL_sure_submit": {
+    "message": "已确定，提交吧！"
+  },
+  "module_PL_delete_tips": {
+    "message": "主人~ 选择您需要删除的产品吧！"
+  },
+  "module_PL_analysis_tips": {
+    "message": "请选择要分析的产品，最少1个，最多可选100个"
+  },
+  "module_PL_insight_tips": {
+    "message": "请选择要洞察的产品，最少1个，最多可选100个"
+  },
+  "module_PL_batch_export_tips": {
+    "message": "请选择需要导出销量的产品，最少1个，最多可选100个"
+  },
+  "module_PL_analyze_tips": {
+    "message": "主人~ 当前样本不足100，需要继续分析吗？"
+  },
+  "module_PL_analyze_cancel_btn": {
+    "message": "暂不分析"
+  },
+  "module_PL_analyze_sure_btn": {
+    "message": "继续分析"
+  },
+  "module_PL_analyze_no_data_tips": {
+    "message": "主人~ 选择您需要分析的产品吧！"
+  },
+  "module_PL_remark_title": {
+    "message": "备注信息填写"
+  },
+  "module_PL_remark_date": {
+    "message": "插入当前日期"
+  },
+  "module_PL_remark_note": {
+    "message": "日常走查时，对发现的心得体会以及待处理事项，都可以在这儿填写备忘"
+  },
+  "module_PL_remark_save": {
+    "message": "保存备注"
+  },
+  "module_PL_remark_clear": {
+    "message": "清空备注"
+  },
+  "module_PL_product_add_time": {
+    "message": "首次加入时间"
+  },
+  "module_PL_remark_add": {
+    "message": "添加备注"
+  },
+  "module_PL_remark_add_tips": {
+    "message": "输入内容不能超过1000个字哦！"
+  },
+  "module_main_move_tips": {
+    "message": "主人~ 右侧Logo可上下拖动位置<br/>鼠标放置Logo可看功能导航，点击就可以查询啦~"
+  },
+  "module_main_first_add_product_tips": {
+    "message": "主人~ 您的产品已成功加入产品库<br/>鼠标触发右侧Logo，点击产品库查看哦~"
+  },
+  "module_main_start": {
+    "message": "知道了~ 开始吧"
+  },
+  "module_main_start_btn": {
+    "message": "知道了~ 不再提示"
+  },
+  "module_main_extension": {
+    "message": "插件"
+  },
+  "common_preparing_data": {
+    "message": "数据准备中..."
+  },
+  "reversing_search_back_results_page": {
+    "message": "放回结果页"
+  },
+  "reversing_search_back_results_page_all": {
+    "message": "批量放回结果页"
+  },
+  "reversing_search_look_delete_keyword": {
+    "message": "查看删除的词"
+  },
+  "reversing_search_delete_keywords_list": {
+    "message": "删除的关键词清单"
+  },
+  "keyword_root_tips": {
+    "message": "勾选后默认使用静态挖掘进行查询，即基于当前查询词根扩展关键词，得到的关键词包含搜索词"
+  },
+  "keyword_AC_tips": {
+    "message": "Amazon's Choice，勾选后可以筛选出拥有AC标识的关键词"
+  },
+  "keyword_relativity_tips": {
+    "message": "相关度的相对值，最高=100，最低=0.5<br>数值越大，表示同款竞品数越多"
+  },
+  "keyword_percentage_tips": {
+    "message": "指的是产品通过不同流量词获得的曝光量占比"
+  },
+  "keyword_RV_ABA_week_rank_tips": {
+    "message": "亚马逊ABA数据的关键词搜索频率周排名"
+  },
+  "keyword_MI_ABA_week_rank_tips": {
+    "message": "亚马逊ABA数据的关键词搜索频率月度排名"
+  },
+  "keyword_month_search_tips": {
+    "message": "指的是一个自然月的月搜索量，比如2022年6月，该关键词在亚马逊站内的搜索总次数"
+  },
+  "keyword_spr_tips": {
+    "message": "SellerSprite Product Rank，能够让该关键词排名维持在搜索结果第1页的8天预估单量"
+  },
+  "keyword_title_density_tips": {
+    "message": "该关键词在亚马逊搜索结果第1页的产品中，标题包含该关键词的产品数量"
+  },
+  "keyword_purchase_tips": {
+    "message": "指一个自然月，比如2023年7月，在亚马逊站内搜索该关键词后产生购买的次数"
+  },
+  "keyword_purchase_rate_tips": {
+    "message": "购买率=购买量/(关键词)搜索量"
+  },
+  "keyword_product_number_tips": {
+    "message": "商品数，指搜索该关键词后出现了多少相关产品(All Departments类目)"
+  },
+  "keyword_supply_ratio_tips": {
+    "message": "需供比 = 搜索量(需求) / 商品数(供应)"
+  },
+  "keyword_ad_product_tips": {
+    "message": "表示近7天内进入过该关键词搜索结果前3页的广告产品总数"
+  },
+  "keyword_click_rate_tips": {
+    "message": "指该关键词下点击排名前三ASIN的点击总占比"
+  },
+  "keyword_conversion_share_tips": {
+    "message": "指该关键词下点击排名前三ASIN的转化共享之和"
+  },
+  "keyword_ppc_tips": {
+    "message": "亚马逊站内广告Bid价格，系统提供【词组匹配】的Bid建议价格以及范围"
+  },
+  "keyword_word_nums_tips": {
+    "message": "关键词词组的单词个数，以空格区分；只能输入整数"
+  },
+  "keyword_exclude_keywords_tips": {
+    "message": "添加后的筛选结果中不会有任何包含该关键词的词组出现"
+  },
+  "keyword_include_keywords_tips": {
+    "message": "添加后的筛选结果中仅展示包含该关键词的词组"
+  },
+  "module_PS_filter_variations_tips": {
+    "message": "产品变体数量"
+  },
+  "filter_include_keywords_tips": {
+    "message": "筛选出标题中包含该关键词的产品"
+  },
+  "filter_exclude_keywords_tips": {
+    "message": "排除标题中包含该关键词的产品"
+  },
+  "filter_exclude_brand": {
+    "message": "排除品牌"
+  },
+  "filter_include_brand": {
+    "message": "包含品牌"
+  },
+  "filter_include_brand_tips": {
+    "message": "精确的品牌搜索，筛选出该品牌的产品，多个以逗号分隔"
+  },
+  "filter_exclude_brand_tips": {
+    "message": "排除该品牌的产品，多个以逗号分隔"
+  },
+  "filter_include_sealer_tips": {
+    "message": "精确的卖家搜索，筛选出该卖家的产品，多个以逗号分隔"
+  },
+  "filter_exclude_sealer_tips": {
+    "message": "排除该卖家的产品，多个以逗号分隔"
+  },
+  "filter_include_sealer": {
+    "message": "包含卖家"
+  },
+  "filter_sealer_placeholder": {
+    "message": "输入卖家，多个以逗号区分"
+  },
+  "filter_brand_placeholder": {
+    "message": "输入品牌，多个以逗号区分"
+  },
+  "filter_exclude_sealer": {
+    "message": "排除卖家"
+  },
+  "keyword_research_weekly_table_cv": {
+    "message": "转化"
+  },
+  "keyword_research_weekly_table_click": {
+    "message": "点击"
+  },
+  "reversing_click_top_three_asin": {
+    "message": "点击"
+  },
+  "reversing_conversion_top_three_asin": {
+    "message": "转化"
+  },
+  "shulex_dialog_content": {
+    "message": "批量评论分析和产品属性分析由卖家精灵&Shulex联合出品，即将跳转单独购买AI领先版套餐解锁功能"
+  },
+  "shulex_dialog_btn_go": {
+    "message": "抢购优惠"
+  },
+  "shulex_dialog_btn_try": {
+    "message": "领取免费试用"
+  },
+  "shulex_dialog_title_review": {
+    "message": "先人一步掘金评论分析-深挖爆品背后的成功因素"
+  },
+  "shulex_dialog_intro_review": {
+    "message": "1000条评论，1分钟分析，立即得出：更简单更清晰的消费者洞察报告！"
+  },
+  "shulex_dialog_more": {
+    "message": "想要了解更多详细内容，前往"
+  },
+  "shulex_dialog_review": {
+    "message": "消费者洞察说明"
+  },
+  "shulex_dialog_title_insight": {
+    "message": "先人一步找到细分市场大机会，智能监控热销榜单"
+  },
+  "shulex_dialog_intro_insight": {
+    "message": "同一品类下，什么款式好卖？什么颜色小众且热销？赶紧来看看！"
+  },
+  "shulex_dialog_insight": {
+    "message": "细分市场说明"
+  },
+  "shulex_dialog_agree": {
+    "message": "同意Shulex"
+  },
+  "shulex_dialog_agree_policy": {
+    "message": "隐私政策"
+  },
+  "shulex_dialog_agree_and": {
+    "message": "和"
+  },
+  "shulex_dialog_agree_condition": {
+    "message": "服务协议"
+  },
+  "shulex_dialog_agree_end": {
+    "message": "，并授权开通Shulex"
+  },
+  "shulex_auth_failed": {
+    "message": "授权失败，请稍后重试！"
+  },
+  "module_KC_this_page": {
+    "message": "指定页码"
+  },
+  "module_KC_this_page_tips": {
+    "message": "可查询对应关键词在指定页码范围内的排名位置"
+  },
+  "module_KC_before_page": {
+    "message": "前{page}页",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "nav_api": {
+    "message": "API接口"
+  },
+  "nav_api_tips": {
+    "message": "探索海量数据，API接口一键搞定。快快点击体验吧！"
+  },
+  "module_keepa_coupon_save_price": {
+    "message": "(save {num}后)",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "module_keepa_field_explain_tips_link": {
+    "message": "https://www.sellersprite.com/v3/knowledge/feature/keepa-tips-of-extension"
+  },
+  "global_check_option_tips": {
+    "message": "主人~系统检测到您同时启用了多个卖家精灵插件<br>为了最佳体验，请前往卸载多余版本，仅保留最新版哦~"
+  },
+  "global_check_option_tips_btn": {
+    "message": "前往卸载"
+  },
+  "check_listing_btn": {
+    "message": "违规检测"
+  },
+  "check_listing_btn_tips": {
+    "message": "检测您的五点描述是否符合亚马逊新规，<br>若不符合则会展示原因，帮助您快速修改!"
+  },
+  "check_listing_optimization_btn": {
+    "message": "listing优化"
+  },
+  "check_listing_active_tips": {
+    "message": "请删除不合规的标点、emoji表情或违禁词"
+  },
+  "check_listing_delete_punctuation": {
+    "message": "请删除句末标点符号"
+  },
+  "check_listing_delete_emoj": {
+    "message": "请删除emoji表情"
+  },
+  "check_listing_delete_illegal_words": {
+    "message": "请删除不合规的违禁词"
+  },
+  "check_listing_no_illegal": {
+    "message": "暂无违规信息"
+  },
+  "goods_source_filter": {
+    "message": "搜索结果过滤"
+  },
+  "goods_source_filter_show": {
+    "message": "展示过滤条件"
+  },
+  "goods_source_filter_hide": {
+    "message": "隐藏过滤条件"
+  },
+  "goods_source_total_ep_score_level_1": {
+    "message": "5星"
+  },
+  "goods_source_total_ep_score_level_2": {
+    "message": "4.5星-5.0星"
+  },
+  "goods_source_total_ep_score_level_3": {
+    "message": "4星-4.5星"
+  },
+  "goods_source_total_ep_score_level_4": {
+    "message": "4星以下"
+  },
+  "goods_source_ship_in_today": {
+    "message": "当日发货"
+  },
+  "goods_source_ship_in_24": {
+    "message": "24小时发货"
+  },
+  "goods_source_ship_in_48": {
+    "message": "48小时发货"
+  },
+  "goods_source_new_7": {
+    "message": "7天上新"
+  },
+  "goods_source_new_30": {
+    "message": "30天上新"
+  },
+  "goods_source_1688_selection": {
+    "message": "严选"
+  },
+  "goods_source_is_qqyx": {
+    "message": "全球严选"
+  },
+  "goods_source_jxhy": {
+    "message": "分销严选"
+  },
+  "goods_source_wly_7": {
+    "message": "7天无理由"
+  },
+  "goods_source_rzgc": {
+    "message": "认证工厂"
+  },
+  "goods_source_yjdf": {
+    "message": "支持一件代发"
+  },
+  "goods_source_yjbydf": {
+    "message": "支持包邮（一件代发包邮）"
+  },
+  "goods_source_kjhp": {
+    "message": "跨境select货盘"
+  },
+  "goods_source_ssjggl": {
+    "message": "搜索结果过滤"
+  },
+  "goods_source_zsgltj": {
+    "message": "展示过滤条件"
+  },
+  "goods_source_ycgltj": {
+    "message": "隐藏过滤条件"
+  },
+  "goods_source_zhtyf": {
+    "message": "综合体验分"
+  },
+  "goods_source_qxzzhtyf": {
+    "message": "请选择综合体验分"
+  },
+  "goods_source_24lsl": {
+    "message": "24小时揽收率"
+  },
+  "goods_source_24qxzlsl": {
+    "message": "请选择24小时揽收率"
+  },
+  "goods_source_48lsl": {
+    "message": "48小时揽收率"
+  },
+  "goods_source_48qxzlsl": {
+    "message": "请选择48小时揽收率"
+  },
+  "goods_source_fhsj": {
+    "message": "发货时间"
+  },
+  "goods_source_qxzfhsj": {
+    "message": "请选择发货时间"
+  },
+  "goods_source_sxsj": {
+    "message": "上新时间"
+  },
+  "goods_source_qxzsxsj": {
+    "message": "请选择上新时间"
+  },
+  "goods_source_zhtyf_tips": {
+    "message": "<p>综合体验分是用来衡量1688供应商服务水平的一个指标，可以帮助买家在选择供应商时，快速了解供应商的服务水平和市场表现。</p><p>这个分数主要基于退换体验、品质体验、物流时效、纠纷解决、采购咨询综合得出。</p>"
+  },
+  "goods_source_24lsl_tips": {
+    "message": "<p>24小时揽收率是一个关键的物流指标，用来衡量供应商在订单生成后的24小时内成功进行包裹揽收的效率。这个指标反映了供应商的响应速度和物流处理能力，对买家来说是衡量供应商可靠性的一个重要因素。</p><p>具体来说，\"24小时揽收率\"指的是：</p><p>在所有已发货的订单中，有多少比例的订单是在订单确认后的24小时内被物流公司实际揽收的；</p><p>这个比例越高，说明供应商的发货速度和物流效率越高，买家对订单处理的满意度也可能越高。</p>"
+  },
+  "goods_source_48lsl_tips": {
+    "message": "<p>48小时揽收率是衡量供应商物流效率的一个指标，它表示在所有订单中，能够被物流服务在48小时内成功揽收并记录在物流系统中的订单所占的比例。</p><p>这个指标反映了供应商从订单确认到物流接手处理的速度和效率，同时也为买家提供选择供应商时的参考依据。</p>"
+  },
+  "goods_source_fhsj_tips": {
+    "message": "<p>发货时间指的是供应商从接收到订单开始，到实际将商品发出所需的时间。这个时间窗口是衡量卖家履行订单效率的重要指标，对买家了解何时能收到商品至关重要。</p>"
+  },
+  "goods_source_sxsj_tips": {
+    "message": "<p>上新时间指的是供应商在1688平台上架新产品的时间周期：</p><p>7天上新：这意味着供应商每7天就会在其产品目录中添加新的商品。这个周期显示了供应商较快的产品更新频率，表明他们经常引入新产品，保持产品线的新鲜度和竞争力。</p><p>30天上新：指的是供应商每月更新一次产品目录，添加新产品。这个周期较长，可能意味着供应商的产品更新频率较低，或者是他们选择在较长的时间段内积累多款新产品后统一发布。</p>"
+  },
+  "bullets_check_keyword_num": {
+    "message": "({num} 字符)",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  }
+}

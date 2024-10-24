@@ -1,0 +1,192 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 3,
+  "name": "__MSG_main_name__",
+  "description": "__MSG_main_description__",
+  "default_locale": "en",
+  "version": "4.5.9",
+  "icons": {
+    "16": "assets/images/icons/icon-16.png",
+    "24": "assets/images/icons/icon-24.png",
+    "32": "assets/images/icons/icon-32.png",
+    "48": "assets/images/icons/icon-48.png",
+    "64": "assets/images/icons/icon-64.png",
+    "128": "assets/images/icons/icon-128.png",
+    "256": "assets/images/icons/icon-256.png",
+    "512": "assets/images/icons/icon-512.png",
+    "1024": "assets/images/icons/icon-1024.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "assets/images/icons/icon-16.png",
+      "32": "assets/images/icons/icon-32.png",
+      "48": "assets/images/icons/icon-48.png"
+    },
+    "default_popup": "popup/index.html"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "cookies",
+    "contextMenus",
+    "declarativeNetRequest",
+    "identity"
+  ],
+  "host_permissions": [
+    "https://www.amazon.com/*",
+    "https://www.amazon.co.jp/*",
+    "https://www.amazon.co.uk/*",
+    "https://www.amazon.de/*",
+    "https://www.amazon.fr/*",
+    "https://www.amazon.es/*",
+    "https://www.amazon.it/*",
+    "https://www.amazon.ca/*",
+    "https://www.amazon.in/*",
+    "https://www.amazon.com.mx/*",
+    "https://www.amazon.com.au/*",
+    "https://www.amazon.ae/*",
+    "https://www.amazon.nl/*",
+    "https://www.amazon.se/*",
+    "https://www.amazon.sa/*",
+    "https://www.amazon.sg/*",
+    "https://www.amazon.com.br/*",
+    "https://www.amazon.com.tr/*",
+    "https://sellercentral.amazon.com/orders*",
+    "https://sellercentral.amazon.co.jp/orders*",
+    "https://sellercentral.amazon.co.uk/orders*",
+    "https://sellercentral.amazon.de/orders*",
+    "https://sellercentral.amazon.fr/orders*",
+    "https://sellercentral.amazon.es/orders*",
+    "https://sellercentral.amazon.it/orders*",
+    "https://sellercentral.amazon.ca/orders*",
+    "https://sellercentral.amazon.in/orders*",
+    "https://sellercentral.amazon.com.mx/orders*",
+    "https://sellercentral.amazon.com.au/orders*",
+    "https://sellercentral.amazon.ae/orders*",
+    "https://sellercentral.amazon.nl/orders*",
+    "https://sellercentral.amazon.se/orders*",
+    "https://sellercentral.amazon.sa/orders*",
+    "https://sellercentral.amazon.sg/orders*",
+    "https://sellercentral-japan.amazon.com/orders*",
+    "https://sellercentral-europe.amazon.com/orders*",
+    "https://www.sellersprite.com/*",
+    "https://*.1688.com/*",
+    "https://m.media-amazon.com/*",
+    "https://images-na.ssl-images-amazon.com/*",
+    "https://trustwerty.com/*",
+    "https://www.google-analytics.com/*",
+    "https://translate.googleapis.com/*",
+    "https://trends.google.com/*",
+    "https://api.cognitive.microsofttranslator.com/*",
+    "https://edge.microsoft.com/*",
+    "https://apps.voc.ai/*"
+  ],
+  "background": {
+    "service_worker": "background/index.js"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "chunk-vendors.js",
+        "chunk-common.js",
+        "content/index.js",
+        "assets/fontjs.js",
+        "assets/exceljs.min.js"
+      ],
+      "css": [
+        "chunk-common.css",
+        "content/index.css",
+        "assets/styles/flag-icon-css/css/flag-icon.min.css"
+      ],
+      "run_at": "document_end",
+      "matches": [
+        "https://www.amazon.com/*",
+        "https://www.amazon.co.jp/*",
+        "https://www.amazon.co.uk/*",
+        "https://www.amazon.de/*",
+        "https://www.amazon.fr/*",
+        "https://www.amazon.es/*",
+        "https://www.amazon.it/*",
+        "https://www.amazon.ca/*",
+        "https://www.amazon.in/*",
+        "https://www.amazon.com.mx/*",
+        "https://www.amazon.com.au/*",
+        "https://www.amazon.ae/*",
+        "https://www.amazon.nl/*",
+        "https://www.amazon.se/*",
+        "https://www.amazon.sa/*",
+        "https://www.amazon.sg/*",
+        "https://www.amazon.com.br/*",
+        "https://www.amazon.com.tr/*",
+        "https://sellercentral.amazon.com/orders*",
+        "https://sellercentral.amazon.co.jp/orders*",
+        "https://sellercentral.amazon.co.uk/orders*",
+        "https://sellercentral.amazon.de/orders*",
+        "https://sellercentral.amazon.fr/orders*",
+        "https://sellercentral.amazon.es/orders*",
+        "https://sellercentral.amazon.it/orders*",
+        "https://sellercentral.amazon.ca/orders*",
+        "https://sellercentral.amazon.in/orders*",
+        "https://sellercentral.amazon.com.mx/orders*",
+        "https://sellercentral.amazon.com.au/orders*",
+        "https://sellercentral.amazon.ae/orders*",
+        "https://sellercentral.amazon.nl/orders*",
+        "https://sellercentral.amazon.se/orders*",
+        "https://sellercentral.amazon.sa/orders*",
+        "https://sellercentral.amazon.sg/orders*",
+        "https://sellercentral-japan.amazon.com/orders*",
+        "https://sellercentral-europe.amazon.com/orders*"
+      ]
+    },
+    {
+      "js": [
+        "chunk-vendors.js",
+        "chunk-common.js",
+        "content/web.js"
+      ],
+      "matches": [
+        "https://www.sellersprite.com/*"
+      ],
+      "run_at": "document_end"
+    },
+    {
+      "js": [
+        "chunk-vendors.js",
+        "chunk-common.js",
+        "content/open-1688.js"
+      ],
+      "matches": [
+        "https://*.1688.com/*"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "options_page": "options/index.html",
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "/assets/*"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "rule-trustwerty",
+        "enabled": true,
+        "path": "rules/rule-trustwerty.json"
+      }
+    ]
+  },
+  "oauth2": {
+    "client_id": "84356059972-fhtdt93mipsffeil57c9dcoqf3af3996.apps.googleusercontent.com",
+    "scopes": [
+      "https://accounts.google.com/o/oauth2/v2/auth"
+    ]
+  }
+}
