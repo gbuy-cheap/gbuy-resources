@@ -1,86 +1,86 @@
 let onlyOnceLogStock = !0;
 const scanner = function() {
-  function V(F, x) {
-    const z = {};
+  function X(F, x) {
+    const A = {};
     if (null == document.body) {
-      z.status = 599;
+      A.status = 599;
     } else {
       if (document.body.textContent.match("you're not a robot")) {
-        z.status = 403;
+        A.status = 403;
       } else {
-        for (var P = document.evaluate("//comment()", document, null, XPathResult.ANY_TYPE, null), O = P.iterateNext(), M = ""; O;) {
-          M += O, O = P.iterateNext();
+        for (var O = document.evaluate("//comment()", document, null, XPathResult.ANY_TYPE, null), N = O.iterateNext(), K = ""; N;) {
+          K += N, N = O.iterateNext();
         }
-        if (M.match(/automated access|api-services-support@/)) {
-          z.status = 403;
+        if (K.match(/automated access|api-services-support@/)) {
+          A.status = 403;
         } else {
-          if (M.match(/ref=cs_503_link/)) {
-            z.status = 503;
+          if (K.match(/ref=cs_503_link/)) {
+            A.status = 503;
           } else {
             if (F.scrapeFilters && 0 < F.scrapeFilters.length) {
-              P = {};
-              O = null;
-              let I = "", g = null;
-              const J = {};
-              M = {};
-              let W = !1;
-              const S = function(a, d, f) {
-                var e = [];
+              O = {};
+              N = null;
+              let H = "", f = null;
+              const I = {};
+              K = {};
+              let Y = !1;
+              const R = function(a, e, g) {
+                var d = [];
                 if (!a.selectors || 0 == a.selectors.length) {
                   if (!a.regExp) {
-                    return I = "invalid selector, sel/regexp", !1;
+                    return H = "invalid selector, sel/regexp", !1;
                   }
-                  e = document.getElementsByTagName("html")[0].innerHTML.match(new RegExp(a.regExp, "i"));
-                  if (!e || e.length < a.reGroup) {
-                    f = "regexp fail: html - " + a.name + f;
+                  d = document.getElementsByTagName("html")[0].innerHTML.match(new RegExp(a.regExp, "i"));
+                  if (!d || d.length < a.reGroup) {
+                    g = "regexp fail: html - " + a.name + g;
                     if (!1 === a.optional) {
-                      return I = f, !1;
+                      return H = g, !1;
                     }
-                    g += " // " + f;
+                    f += " // " + g;
                     return !0;
                   }
-                  return e[a.reGroup];
+                  return d[a.reGroup];
                 }
                 let c = [];
                 a.selectors.find(l => {
-                  l = d.querySelectorAll(l);
+                  l = e.querySelectorAll(l);
                   return 0 < l.length ? (c = l, !0) : !1;
                 });
                 if (0 === c.length) {
                   if (!0 === a.optional) {
                     return !0;
                   }
-                  I = "selector no match: " + a.name + f;
+                  H = "selector no match: " + a.name + g;
                   return !1;
                 }
                 if (a.parentSelector && (c = [c[0].parentNode.querySelector(a.parentSelector)], null == c[0])) {
                   if (!0 === a.optional) {
                     return !0;
                   }
-                  I = "parent selector no match: " + a.name + f;
+                  H = "parent selector no match: " + a.name + g;
                   return !1;
                 }
                 if ("undefined" != typeof a.multiple && null != a.multiple && (!0 === a.multiple && 1 > c.length || !1 === a.multiple && 1 < c.length)) {
-                  if (!W) {
-                    return W = !0, S(a, d, f);
+                  if (!Y) {
+                    return Y = !0, R(a, e, g);
                   }
-                  f = "selector multiple mismatch: " + a.name + f + " found: " + c.length;
+                  g = "selector multiple mismatch: " + a.name + g + " found: " + c.length;
                   if (!1 === a.optional) {
                     a = "";
                     for (var h in c) {
                       !c.hasOwnProperty(h) || 1000 < a.length || (a += " - " + h + ": " + c[h].outerHTML + " " + c[h].getAttribute("class") + " " + c[h].getAttribute("id"));
                     }
-                    I = f + a + " el: " + d.getAttribute("class") + " " + d.getAttribute("id");
+                    H = g + a + " el: " + e.getAttribute("class") + " " + e.getAttribute("id");
                     return !1;
                   }
-                  g += " // " + f;
+                  f += " // " + g;
                   return !0;
                 }
                 if (a.isListSelector) {
-                  return J[a.name] = c, !0;
+                  return I[a.name] = c, !0;
                 }
                 if (!a.attribute) {
-                  return I = "selector attribute undefined?: " + a.name + f, !1;
+                  return H = "selector attribute undefined?: " + a.name + g, !1;
                 }
                 for (let l in c) {
                   if (c.hasOwnProperty(l)) {
@@ -92,11 +92,11 @@ const scanner = function() {
                       a.childNode = Number(a.childNode);
                       h = k.childNodes;
                       if (h.length < a.childNode) {
-                        f = "childNodes fail: " + h.length + " - " + a.name + f;
+                        g = "childNodes fail: " + h.length + " - " + a.name + g;
                         if (!1 === a.optional) {
-                          return I = f, !1;
+                          return H = g, !1;
                         }
-                        g += " // " + f;
+                        f += " // " + g;
                         return !0;
                       }
                       k = h[a.childNode];
@@ -104,79 +104,79 @@ const scanner = function() {
                     h = null;
                     h = "text" == a.attribute ? k.textContent : "html" == a.attribute ? k.innerHTML : k.getAttribute(a.attribute);
                     if (!h || 0 == h.length || 0 == h.replace(/(\r\n|\n|\r)/gm, "").replace(/^\s+|\s+$/g, "").length) {
-                      f = "selector attribute null: " + a.name + f;
+                      g = "selector attribute null: " + a.name + g;
                       if (!1 === a.optional) {
-                        return I = f, !1;
+                        return H = g, !1;
                       }
-                      g += " // " + f;
+                      f += " // " + g;
                       return !0;
                     }
                     if (a.regExp) {
                       k = h.match(new RegExp(a.regExp, "i"));
                       if (!k || k.length < a.reGroup) {
-                        f = "regexp fail: " + h + " - " + a.name + f;
+                        g = "regexp fail: " + h + " - " + a.name + g;
                         if (!1 === a.optional) {
-                          return I = f, !1;
+                          return H = g, !1;
                         }
-                        g += " // " + f;
+                        f += " // " + g;
                         return !0;
                       }
-                      e.push(k[a.reGroup]);
+                      d.push(k[a.reGroup]);
                     } else {
-                      e.push(h);
+                      d.push(h);
                     }
                     if (!a.multiple) {
                       break;
                     }
                   }
                 }
-                a.multiple || (e = e[0]);
-                return e;
+                a.multiple || (d = d[0]);
+                return d;
               };
               let D = document, b = !1;
               for (let a in F.scrapeFilters) {
                 if (b) {
                   break;
                 }
-                let d = F.scrapeFilters[a], f = d.pageVersionTest;
-                var q = [], u = !1;
-                for (const e of f.selectors) {
-                  if (q = document.querySelectorAll(e), 0 < q.length) {
+                let e = F.scrapeFilters[a], g = e.pageVersionTest;
+                var r = [], u = !1;
+                for (const d of g.selectors) {
+                  if (r = document.querySelectorAll(d), 0 < r.length) {
                     u = !0;
                     break;
                   }
                 }
                 if (u) {
-                  if ("undefined" != typeof f.multiple && null != f.multiple) {
-                    if (!0 === f.multiple && 2 > q.length) {
+                  if ("undefined" != typeof g.multiple && null != g.multiple) {
+                    if (!0 === g.multiple && 2 > r.length) {
                       continue;
                     }
-                    if (!1 === f.multiple && 1 < q.length) {
+                    if (!1 === g.multiple && 1 < r.length) {
                       continue;
                     }
                   }
-                  if (f.attribute && (u = null, u = "text" == f.attribute ? "" : q[0].getAttribute(f.attribute), null == u)) {
+                  if (g.attribute && (u = null, u = "text" == g.attribute ? "" : r[0].getAttribute(g.attribute), null == u)) {
                     continue;
                   }
-                  O = a;
-                  for (let e in d) {
+                  N = a;
+                  for (let d in e) {
                     if (b) {
                       break;
                     }
-                    q = d[e];
-                    if (q.name != f.name) {
-                      if (q.parentList) {
+                    r = e[d];
+                    if (r.name != g.name) {
+                      if (r.parentList) {
                         u = [];
-                        if ("undefined" != typeof J[q.parentList]) {
-                          u = J[q.parentList];
+                        if ("undefined" != typeof I[r.parentList]) {
+                          u = I[r.parentList];
                         } else {
-                          if (!0 === S(d[q.parentList], D, a)) {
-                            u = J[q.parentList];
+                          if (!0 === R(e[r.parentList], D, a)) {
+                            u = I[r.parentList];
                           } else {
                             break;
                           }
                         }
-                        M[q.parentList] || (M[q.parentList] = []);
+                        K[r.parentList] || (K[r.parentList] = []);
                         for (let c in u) {
                           if (b) {
                             break;
@@ -184,39 +184,39 @@ const scanner = function() {
                           if (!u.hasOwnProperty(c)) {
                             continue;
                           }
-                          let h = S(q, u[c], a);
+                          let h = R(r, u[c], a);
                           if (!1 === h) {
                             b = !0;
                             break;
                           }
                           if (!0 !== h) {
-                            if (M[q.parentList][c] || (M[q.parentList][c] = {}), q.multiple) {
+                            if (K[r.parentList][c] || (K[r.parentList][c] = {}), r.multiple) {
                               for (let k in h) {
-                                h.hasOwnProperty(k) && !q.keepBR && (h[k] = h[k].replace(/(\r\n|\n|\r)/gm, " ").replace(/^\s+|\s+$/g, "").replace(/\s{2,}/g, " "));
+                                h.hasOwnProperty(k) && !r.keepBR && (h[k] = h[k].replace(/(\r\n|\n|\r)/gm, " ").replace(/^\s+|\s+$/g, "").replace(/\s{2,}/g, " "));
                               }
                               h = h.join("\u271c\u271c");
-                              M[q.parentList][c][q.name] = h;
+                              K[r.parentList][c][r.name] = h;
                             } else {
-                              M[q.parentList][c][q.name] = q.keepBR ? h : h.replace(/(\r\n|\n|\r)/gm, " ").replace(/^\s+|\s+$/g, "").replace(/\s{2,}/g, " ");
+                              K[r.parentList][c][r.name] = r.keepBR ? h : h.replace(/(\r\n|\n|\r)/gm, " ").replace(/^\s+|\s+$/g, "").replace(/\s{2,}/g, " ");
                             }
                           }
                         }
                       } else {
-                        u = S(q, D, a);
+                        u = R(r, D, a);
                         if (!1 === u) {
                           b = !0;
                           break;
                         }
                         if (!0 !== u) {
-                          if (q.multiple) {
+                          if (r.multiple) {
                             for (let c in u) {
-                              u.hasOwnProperty(c) && !q.keepBR && (u[c] = u[c].replace(/(\r\n|\n|\r)/gm, " ").replace(/^\s+|\s+$/g, "").replace(/\s{2,}/g, " "));
+                              u.hasOwnProperty(c) && !r.keepBR && (u[c] = u[c].replace(/(\r\n|\n|\r)/gm, " ").replace(/^\s+|\s+$/g, "").replace(/\s{2,}/g, " "));
                             }
                             u = u.join();
                           } else {
-                            q.keepBR || (u = u.replace(/(\r\n|\n|\r)/gm, " ").replace(/^\s+|\s+$/g, "").replace(/\s{2,}/g, " "));
+                            r.keepBR || (u = u.replace(/(\r\n|\n|\r)/gm, " ").replace(/^\s+|\s+$/g, "").replace(/\s{2,}/g, " "));
                           }
-                          P[q.name] = u;
+                          O[r.name] = u;
                         }
                       }
                     }
@@ -224,56 +224,56 @@ const scanner = function() {
                   b = !0;
                 }
               }
-              if (null == O) {
-                I += " // no pageVersion matched", z.status = 308, z.payload = [g, I, F.dbg1 ? document.getElementsByTagName("html")[0].innerHTML : ""];
+              if (null == N) {
+                H += " // no pageVersion matched", A.status = 308, A.payload = [f, H, F.dbg1 ? document.getElementsByTagName("html")[0].innerHTML : ""];
               } else {
-                if ("" === I) {
-                  z.payload = [g];
-                  z.scrapedData = P;
-                  for (let a in M) {
-                    z[a] = M[a];
+                if ("" === H) {
+                  A.payload = [f];
+                  A.scrapedData = O;
+                  for (let a in K) {
+                    A[a] = K[a];
                   }
                 } else {
-                  z.status = 305, z.payload = [g, I, F.dbg2 ? document.getElementsByTagName("html")[0].innerHTML : ""];
+                  A.status = 305, A.payload = [f, H, F.dbg2 ? document.getElementsByTagName("html")[0].innerHTML : ""];
                 }
               }
             } else {
-              z.status = 306;
+              A.status = 306;
             }
           }
         }
       }
     }
-    x(z);
+    x(A);
   }
-  let X = !0;
-  window.self === window.top && (X = !1);
-  window.sandboxHasRun && (X = !1);
-  X && (window.sandboxHasRun = !0, window.addEventListener("message", function(F) {
+  let Z = !0;
+  window.self === window.top && (Z = !1);
+  window.sandboxHasRun && (Z = !1);
+  Z && (window.sandboxHasRun = !0, window.addEventListener("message", function(F) {
     if (F.source == window.parent && F.data && (F.origin == "chrome-extension://" + chrome.runtime.id || F.origin.startsWith("moz-extension://") || F.origin.startsWith("safari-extension://"))) {
       var x = F.data.value;
       "data" == F.data.key && x.url && x.url == document.location && setTimeout(function() {
         null == document.body ? setTimeout(function() {
-          V(x, function(z) {
-            window.parent.postMessage({sandbox:z}, "*");
+          X(x, function(A) {
+            window.parent.postMessage({sandbox:A}, "*");
           });
-        }, 1500) : V(x, function(z) {
-          window.parent.postMessage({sandbox:z}, "*");
+        }, 1500) : X(x, function(A) {
+          window.parent.postMessage({sandbox:A}, "*");
         });
       }, 800);
     }
   }, !1), window.parent.postMessage({sandbox:document.location + "", isUrlMsg:!0}, "*"));
-  window.addEventListener("error", function(F, x, z, P, O) {
-    "ipbakfmnjdenbmoenhicfmoojdojjjem" != chrome.runtime.id && "blfpbjkajgamcehdbehfdioapoiibdmc" != chrome.runtime.id || console.log(O);
+  window.addEventListener("error", function(F, x, A, O, N) {
+    "ipbakfmnjdenbmoenhicfmoojdojjjem" != chrome.runtime.id && "blfpbjkajgamcehdbehfdioapoiibdmc" != chrome.runtime.id || console.log(N);
     return !1;
   });
-  return {scan:V};
+  return {scan:X};
 }();
 (function() {
-  let V = !1, X = !1;
+  let X = !1, Z = !1;
   const F = window.opera || -1 < navigator.userAgent.indexOf(" OPR/");
   var x = -1 < navigator.userAgent.toLowerCase().indexOf("firefox");
-  const z = -1 < navigator.userAgent.toLowerCase().indexOf("edge/"), P = /Apple Computer/.test(navigator.vendor) && /Safari/.test(navigator.userAgent), O = !F && !x && !z & !P, M = x ? "Firefox" : P ? "Safari" : O ? "Chrome" : F ? "Opera" : z ? "Edge" : "Unknown", q = chrome.runtime.getManifest().version;
+  const A = -1 < navigator.userAgent.toLowerCase().indexOf("edge/"), O = /Apple Computer/.test(navigator.vendor) && /Safari/.test(navigator.userAgent), N = !F && !x && !A & !O, K = x ? "Firefox" : O ? "Safari" : N ? "Chrome" : F ? "Opera" : A ? "Edge" : "Unknown", r = chrome.runtime.getManifest().version;
   let u = !1;
   try {
     u = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent);
@@ -281,21 +281,21 @@ const scanner = function() {
   }
   if (!window.keepaHasRun) {
     window.keepaHasRun = !0;
-    var I = 0;
-    chrome.runtime.onMessage.addListener((b, a, d) => {
+    var H = 0;
+    chrome.runtime.onMessage.addListener((b, a, e) => {
       switch(b.key) {
         case "updateToken":
-          g.iframeStorage ? g.iframeStorage.contentWindow.postMessage({origin:"keepaContentScript", key:"updateTokenWebsite", value:b.value}, g.iframeStorage.src) : window.postMessage({origin:"keepaContentScript", key:"updateTokenWebsite", value:b.value}, "*");
+          f.iframeStorage ? f.iframeStorage.contentWindow.postMessage({origin:"keepaContentScript", key:"updateTokenWebsite", value:b.value}, f.iframeStorage.src) : window.postMessage({origin:"keepaContentScript", key:"updateTokenWebsite", value:b.value}, "*");
       }
     });
     window.addEventListener("message", function(b) {
       if ("undefined" == typeof b.data.sandbox) {
         if ("https://keepa.com" == b.origin || "https://test.keepa.com" == b.origin || "https://dyn.keepa.com" == b.origin) {
           if (b.data.hasOwnProperty("origin") && "keepaIframe" == b.data.origin) {
-            g.handleIFrameMessage(b.data.key, b.data.value, function(a) {
+            f.handleIFrameMessage(b.data.key, b.data.value, function(a) {
               try {
                 b.source.postMessage({origin:"keepaContentScript", key:b.data.key, value:a, id:b.data.id}, b.origin);
-              } catch (d) {
+              } catch (e) {
               }
             });
           } else {
@@ -305,14 +305,14 @@ const scanner = function() {
                 return;
               }
               if (2 < a.length) {
-                let d = 2;
-                const f = a.length;
-                for (; d < f; d++) {
-                  a[1] += "," + a[d];
+                let e = 2;
+                const g = a.length;
+                for (; e < g; e++) {
+                  a[1] += "," + a[e];
                 }
               }
-              g.handleIFrameMessage(a[0], a[1], function(d) {
-                b.source.postMessage({origin:"keepaContentScript", value:d}, b.origin);
+              f.handleIFrameMessage(a[0], a[1], function(e) {
+                b.source.postMessage({origin:"keepaContentScript", value:e}, b.origin);
               });
             }
           }
@@ -321,25 +321,25 @@ const scanner = function() {
           let a;
           try {
             a = JSON.parse(b.data);
-          } catch (d) {
+          } catch (e) {
             return;
           }
-          (a = a.asin) && "null" != a && /([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/.test(a) && (a != g.ASIN ? (g.ASIN = a, g.swapIFrame()) : 0 != I ? (window.clearTimeout(I), I = 1) : I = window.setTimeout(function() {
-            g.swapIFrame();
+          (a = a.asin) && /^([BC][A-Z0-9]{9}|\d{9}(!?X|\d))$/.test(a.trim()) && (a != f.ASIN ? (f.ASIN = a, f.swapIFrame()) : 0 != H ? (window.clearTimeout(H), H = 1) : H = window.setTimeout(function() {
+            f.swapIFrame();
           }, 1000));
         }
       }
     });
-    var g = {domain:0, iframeStorage:null, ASIN:null, tld:"", placeholder:"", cssFlex:function() {
+    var f = {domain:0, iframeStorage:null, ASIN:null, tld:"", placeholder:"", cssFlex:function() {
       let b = "flex";
-      const a = ["flex", "-webkit-flex", "-moz-box", "-webkit-box", "-ms-flexbox"], d = document.createElement("flexelement");
-      for (let f in a) {
+      const a = ["flex", "-webkit-flex", "-moz-box", "-webkit-box", "-ms-flexbox"], e = document.createElement("flexelement");
+      for (let g in a) {
         try {
-          if ("undefined" != d.style[a[f]]) {
-            b = a[f];
+          if ("undefined" != e.style[a[g]]) {
+            b = a[g];
             break;
           }
-        } catch (e) {
+        } catch (d) {
         }
       }
       return b;
@@ -377,300 +377,304 @@ const scanner = function() {
           return -1;
       }
     }, revealWorking:!1, juvecOnlyOnce:!1, revealMapOnlyOnce:!1, revealCache:{}, revealMAP:function() {
-      g.revealMapOnlyOnce || (g.revealMapOnlyOnce = !0, chrome.runtime?.id && chrome.runtime.sendMessage({type:"isPro"}, b => {
+      f.revealMapOnlyOnce || (f.revealMapOnlyOnce = !0, chrome.runtime?.id && chrome.runtime.sendMessage({type:"isPro"}, b => {
         if (null === b.value) {
           console.log("stock data fail");
         } else {
-          var a = b.amazonSellerIds, d = b.stockData, f = !0 === b.value, e = c => {
+          var a = b.amazonSellerIds, e = b.stockData, g = !0 === b.value, d = c => {
             c = c.trim();
-            let h = d.amazonNames[c];
-            return h ? "W" === h ? d.warehouseIds[g.domain] : "A" === h ? d.amazonIds[g.domain] : h : (c = c.match(new RegExp(d.sellerId))) && c[1] ? c[1] : null;
+            let h = e.amazonNames[c];
+            return h ? "W" === h ? e.warehouseIds[f.domain] : "A" === h ? e.amazonIds[f.domain] : h : (c = c.match(new RegExp(e.sellerId))) && c[1] ? c[1] : null;
           };
           chrome.storage.local.get("revealStock", function(c) {
             "undefined" == typeof c && (c = {});
             let h = !0;
             try {
               h = "0" != c.revealStock;
-            } catch (r) {
+            } catch (q) {
             }
-            onlyOnceLogStock && (onlyOnceLogStock = !1, console.log("Stock " + f + " " + h));
+            onlyOnceLogStock && (onlyOnceLogStock = !1, console.log("Stock " + g + " " + h));
             try {
-              if ((h || "com" == g.tld) && !g.revealWorking) {
-                if (g.revealWorking = !0, document.getElementById("keepaMAP")) {
-                  g.revealWorking = !1;
+              if ((h || "com" == f.tld) && !f.revealWorking) {
+                if (f.revealWorking = !0, document.getElementById("keepaMAP")) {
+                  f.revealWorking = !1;
                 } else {
                   var k = function() {
-                    const r = new MutationObserver(function(A) {
+                    const q = new MutationObserver(function(B) {
                       setTimeout(function() {
-                        g.revealMAP();
+                        f.revealMAP();
                       }, 100);
                       try {
-                        r.disconnect();
+                        q.disconnect();
                       } catch (t) {
                       }
                     });
-                    r.observe(document.getElementById("keepaMAP").parentNode.parentNode.parentNode, {childList:!0, subtree:!0});
-                  }, l = (r, A, t, v, E, B, G, N) => {
-                    if ("undefined" == typeof g.revealCache[v] || null == r.parentElement.querySelector(".keepaStock")) {
-                      null == N && (N = a[g.domain]);
-                      var Q = "" == r.id && "aod-pinned-offer" == r.parentNode.id;
-                      B = B || Q;
+                    q.observe(document.getElementById("keepaMAP").parentNode.parentNode.parentNode, {childList:!0, subtree:!0});
+                  }, l = (q, B, t, v, C, y, G, L, P, S) => {
+                    if ("undefined" == typeof f.revealCache[v] || null == q.parentElement.querySelector(".keepaStock")) {
+                      null == L && (L = a[f.domain]);
+                      var Q = "" == q.id && "aod-pinned-offer" == q.parentNode.id;
+                      y = y || Q;
                       try {
-                        t = t || -1 != r.textContent.toLowerCase().indexOf("add to cart to see product details.") || !B && /(our price|always remove it|add this item to your cart|see product details in cart|see price in cart)/i.test(document.getElementById("price").textContent);
-                      } catch (p) {
+                        t = t || -1 != q.textContent.toLowerCase().indexOf("to cart to see") || !y && /(our price|always remove it|add this item to your cart|see product details in cart|see price in cart)/i.test(document.getElementById("price").textContent);
+                      } catch (n) {
                       }
-                      if (t || f) {
-                        n(r, A, t, v, B);
-                        var R = p => {
-                          const y = document.getElementById("keepaStock" + v);
-                          if (null != y) {
-                            y.innerHTML = "";
-                            if (null != p && null != p.price && t) {
-                              var H = document.createElement("div");
-                              p = 5 == g.domain ? p.price : (Number(p.price) / 100).toFixed(2);
-                              var U = new Intl.NumberFormat(" en-US en-GB de-DE fr-FR ja-JP en-CA zh-CN it-IT es-ES hi-IN es-MX pt-BR en-AU nl-NL tr-TR".split(" ")[g.domain], {style:"currency", currency:" USD GBP EUR EUR JPY CAD CNY EUR EUR INR MXN BRL AUD EUR TRY".split(" ")[g.domain]});
-                              0 < p && (H.innerHTML = 'Price&emsp;&ensp;<span style="font-weight: bold;">' + U.format(p) + "</span>");
-                              y.parentNode.parentNode.parentNode.prepend(H);
+                      if (t || g) {
+                        p(q, B, t, v, y);
+                        var M = n => {
+                          const V = document.getElementById("keepaStock" + v);
+                          if (null != V) {
+                            V.innerHTML = "";
+                            if (null != n && null != n.price && t) {
+                              var T = document.createElement("div");
+                              n = 5 == f.domain ? n.price : (Number(n.price) / 100).toFixed(2);
+                              var W = new Intl.NumberFormat(" en-US en-GB de-DE fr-FR ja-JP en-CA zh-CN it-IT es-ES hi-IN es-MX pt-BR en-AU nl-NL tr-TR".split(" ")[f.domain], {style:"currency", currency:" USD GBP EUR EUR JPY CAD CNY EUR EUR INR MXN BRL AUD EUR TRY".split(" ")[f.domain]});
+                              0 < n && (T.innerHTML = 'Price&emsp;&ensp;<span style="font-weight: bold;">' + W.format(n) + "</span>");
+                              V.parentNode.parentNode.parentNode.prepend(T);
                             }
-                            f && (p = g.revealCache[v].stock, 999 == p ? p = "999+" : 1000 == p ? p = "1000+" : g.revealCache[v].isMaxQty && 30 == p && (p += "+"), H = document.createElement("span"), H.style = "font-weight: bold;", H.innerText = p + " ", p = document.createElement("span"), p.style = "color: #dedede;", p.innerText = " (revealed by \u271c Keepa)", U = document.createElement("span"), U.style = "color:#da4c33;", U.innerText = " order limit", y.appendChild(H), g.revealCache[v].limit && 
-                            (0 < g.revealCache[v].orderLimit && (U.innerText += ": " + g.revealCache[v].orderLimit), y.appendChild(U)), B && y.appendChild(p));
+                            g && (n = f.revealCache[v].stock, 999 == n ? n = "999+" : 1000 == n ? n = "1000+" : -3 != f.revealCache[v].price && 1 > f.revealCache[v].price && (30 == n || P) && (n += "+"), T = document.createElement("span"), T.style = "font-weight: bold;", T.innerText = n + " ", n = document.createElement("span"), n.style = "color: #dedede;", n.innerText = " (revealed by \u271c Keepa)", W = document.createElement("span"), W.style = "color:#da4c33;", W.innerText = " order limit", V.appendChild(T), 
+                            f.revealCache[v].limit && (0 < f.revealCache[v].orderLimit && (W.innerText += ": " + f.revealCache[v].orderLimit), V.appendChild(W)), (T = f.revealCache[v].errorCode) ? (n = document.createElement("span"), n.style = "color: #f7d1d1;", n.innerText = " (e_" + T + ")", null != f.revealCache[v].error && (n.title = f.revealCache[v].error + ". Contact info@keepa.com with a screenshot & URL for assistance."), V.appendChild(n)) : y && V.appendChild(n));
                           }
                         };
-                        "undefined" != typeof g.revealCache[v] && -1 != g.revealCache[v] ? "pending" != g.revealCache[v] && R(g.revealCache[v]) : (g.revealCache[v] = "pending", chrome.runtime?.id && chrome.runtime.sendMessage({type:"getStock", asin:A, oid:v, sellerId:N, maxQty:G, isMAP:t, host:document.location.hostname, force:t, referer:document.location + "", domainId:g.domain, cachedStock:g.revealCache[N], offscreen:!1, session:E}, p => {
-                          if ("undefined" != typeof p && null != p) {
-                            if (p.error) {
-                              const y = document.getElementById("keepaStock" + v);
-                              y.innerHTML = "";
-                              const H = document.createElement("span");
-                              H.style = "color:#e8c7c1;";
-                              H.innerText = "error(" + p.errorCode + ")";
-                              H.title = p.error + ". Contact info@keepa.com with a screenshot & URL for assistance.";
-                              y.appendChild(H);
-                              console.log(p.error);
-                            } else {
-                              g.revealCache[v] = p, g.revealCache[N] = p, R(p);
-                            }
+                        if ("undefined" != typeof f.revealCache[v] && -1 != f.revealCache[v]) {
+                          "pending" != f.revealCache[v] && M(f.revealCache[v]);
+                        } else {
+                          f.revealCache[v] = "pending";
+                          Q = q = "";
+                          try {
+                            q = document.querySelector("meta[name=encrypted-slate-token]").getAttribute("content"), Q = document.querySelector("#aod-offer-list input#aod-atc-csrf-token").getAttribute("value");
+                          } catch (n) {
                           }
-                        }));
+                          chrome.runtime?.id && chrome.runtime.sendMessage({type:"getStock", asin:B, oid:v, sellerId:L, maxQty:G, hasPlus:P, isMAP:t, host:document.location.hostname, force:t, referer:document.location + "", domainId:f.domain, cachedStock:f.revealCache[L], offscreen:!1, atcCsrf:Q || S, slateToken:q, session:C}, n => {
+                            if ("undefined" == typeof n || null == n || !1 === n?.stock) {
+                              if (n = document.getElementById("keepaMAP")) {
+                                n.innerHTML = "";
+                              }
+                            } else {
+                              f.revealCache[v] = n, f.revealCache[L] = n, M(n);
+                            }
+                          });
+                        }
                       }
                     }
-                  }, n = (r, A, t, v, E) => {
-                    A = "" == r.id && "aod-pinned-offer" == r.parentNode.id;
-                    var B = (E ? r.parentElement : r).querySelector(".keepaMAP");
-                    if (null == (E ? r.parentElement : r).querySelector(".keepaStock")) {
-                      null != B && null != B.parentElement && B.parentElement.remove();
-                      var G = E ? "165px" : "55px;height:20px;";
-                      B = document.createElement("div");
-                      B.id = "keepaMAP" + (E ? t + v : "");
-                      B.className = "a-section a-spacing-none a-spacing-top-micro aod-clear-float keepaStock";
+                  }, p = (q, B, t, v, C) => {
+                    B = "" == q.id && "aod-pinned-offer" == q.parentNode.id;
+                    var y = (C ? q.parentElement : q).querySelector(".keepaMAP");
+                    if (null == (C ? q.parentElement : q).querySelector(".keepaStock")) {
+                      null != y && null != y.parentElement && y.parentElement.remove();
+                      var G = C ? "165px" : "55px;height:20px;";
+                      y = document.createElement("div");
+                      y.id = "keepaMAP" + (C ? t + v : "");
+                      y.className = "a-section a-spacing-none a-spacing-top-micro aod-clear-float keepaStock";
                       t = document.createElement("div");
                       t.className = "a-fixed-left-grid";
-                      var N = document.createElement("div");
-                      N.style = "padding-left:" + G;
-                      E && (N.className = "a-fixed-left-grid-inner");
-                      var Q = document.createElement("div");
-                      Q.style = "width:" + G + ";margin-left:-" + G + ";float:left;";
-                      Q.className = "a-fixed-left-grid-col aod-padding-right-10 a-col-left";
+                      var L = document.createElement("div");
+                      L.style = "padding-left:" + G;
+                      C && (L.className = "a-fixed-left-grid-inner");
+                      var P = document.createElement("div");
+                      P.style = "width:" + G + ";margin-left:-" + G + ";float:left;";
+                      P.className = "a-fixed-left-grid-col aod-padding-right-10 a-col-left";
                       G = document.createElement("div");
                       G.style = "padding-left:0%;float:left;";
                       G.className = "a-fixed-left-grid-col a-col-right";
-                      var R = document.createElement("span");
-                      R.className = "a-size-small a-color-tertiary";
-                      var p = document.createElement("span");
-                      p.style = "color: #dedede;";
-                      p.innerText = "loading\u2026";
-                      var y = document.createElement("span");
-                      y.className = "a-size-small a-color-base";
-                      y.id = "keepaStock" + v;
-                      y.appendChild(p);
-                      G.appendChild(y);
-                      Q.appendChild(R);
-                      N.appendChild(Q);
-                      N.appendChild(G);
-                      t.appendChild(N);
-                      B.appendChild(t);
-                      R.className = "a-size-small a-color-tertiary";
-                      g.revealWorking = !1;
-                      f && (R.innerText = "Stock");
-                      E ? A ? (r = document.querySelector("#aod-pinned-offer-show-more-link"), 0 == r.length && document.querySelector("#aod-pinned-offer-main-content-show-more"), r.prepend(B)) : r.parentNode.insertBefore(B, r.parentNode.children[r.parentNode.children.length - 1]) : r.appendChild(B);
-                      E || k();
+                      var S = document.createElement("span");
+                      S.className = "a-size-small a-color-tertiary";
+                      var Q = document.createElement("span");
+                      Q.style = "color: #dedede;";
+                      Q.innerText = "loading\u2026";
+                      var M = document.createElement("span");
+                      M.className = "a-size-small a-color-base";
+                      M.id = "keepaStock" + v;
+                      M.appendChild(Q);
+                      G.appendChild(M);
+                      P.appendChild(S);
+                      L.appendChild(P);
+                      L.appendChild(G);
+                      t.appendChild(L);
+                      y.appendChild(t);
+                      S.className = "a-size-small a-color-tertiary";
+                      f.revealWorking = !1;
+                      g && (S.innerText = "Stock");
+                      C ? B ? (q = document.querySelector("#aod-pinned-offer-show-more-link"), 0 == q.length && document.querySelector("#aod-pinned-offer-main-content-show-more"), q.prepend(y)) : q.parentNode.insertBefore(y, q.parentNode.children[q.parentNode.children.length - 1]) : q.appendChild(y);
+                      C || k();
                     }
-                  }, m = document.location.href, w = new MutationObserver(function(r) {
+                  }, m = document.location.href, w = new MutationObserver(function(q) {
                     try {
-                      let E = document.querySelectorAll("#aod-offer,#aod-pinned-offer");
-                      if (null != E && 0 != E.length) {
-                        r = null;
-                        var A = E[0].querySelector('input[name="session-id"]');
-                        if (A) {
-                          r = A.getAttribute("value");
+                      let C = document.querySelectorAll("#aod-offer,#aod-pinned-offer");
+                      if (null != C && 0 != C.length) {
+                        q = null;
+                        var B = C[0].querySelector('input[name="session-id"]');
+                        if (B) {
+                          q = B.getAttribute("value");
                         } else {
-                          if (A = document.querySelector("#session-id")) {
-                            r = document.querySelector("#session-id").value;
+                          if (B = document.querySelector("#session-id")) {
+                            q = document.querySelector("#session-id").value;
                           }
                         }
-                        if (!r) {
+                        if (!q) {
                           var t = document.querySelectorAll("script");
                           for (var v of t) {
-                            let B = v.text.match("ue_sid.?=.?'([0-9-]{19})'");
-                            B && (r = B[1]);
+                            let y = v.text.match("ue_sid.?=.?'([0-9-]{19})'");
+                            y && (q = y[1]);
                           }
                         }
-                        if (r) {
-                          for (let B in E) {
-                            if (!E.hasOwnProperty(B)) {
+                        if (q) {
+                          for (let y in C) {
+                            if (!C.hasOwnProperty(y)) {
                               continue;
                             }
-                            const G = E[B];
+                            const G = C[y];
                             if (null != G && "DIV" == G.nodeName) {
-                              let N;
-                              A = 999;
-                              let Q = G.querySelector('input[name="offeringID.1"]');
-                              if (Q) {
-                                N = Q.getAttribute("value");
+                              let L;
+                              B = 999;
+                              let P = G.querySelector('input[name="offeringID.1"]');
+                              if (P) {
+                                L = P.getAttribute("value");
                               } else {
                                 try {
-                                  let y = JSON.parse(G.querySelectorAll("[data-aod-atc-action]")[0].dataset.aodAtcAction);
-                                  N = y.oid;
-                                  A = y.maxQty;
-                                } catch (y) {
+                                  let M = JSON.parse(G.querySelectorAll("[data-aod-atc-action]")[0].dataset.aodAtcAction);
+                                  L = M.oid;
+                                  B = M.maxQty;
+                                } catch (M) {
                                   try {
-                                    let H = JSON.parse(G.querySelectorAll("[data-aw-aod-cart-api]")[0].dataset.awAodCartApi);
-                                    N = H.oid;
-                                    A = H.maxQty;
-                                  } catch (H) {
+                                    let n = JSON.parse(G.querySelectorAll("[data-aw-aod-cart-api]")[0].dataset.awAodCartApi);
+                                    L = n.oid;
+                                    B = n.maxQty;
+                                  } catch (n) {
                                   }
                                 }
                               }
-                              if (!N) {
+                              if (!L) {
                                 continue;
                               }
-                              const R = G.children[0];
+                              const S = G.children[0];
                               t = null;
-                              if (d) {
-                                for (v = 0; v < d.soldByOffers.length; v++) {
-                                  let y = G.querySelector(d.soldByOffers[v]);
-                                  if (null == y) {
+                              if (e) {
+                                for (v = 0; v < e.soldByOffers.length; v++) {
+                                  let M = G.querySelector(e.soldByOffers[v]);
+                                  if (null == M) {
                                     continue;
                                   }
-                                  t = e(y.innerText);
+                                  t = d(M.innerText);
                                   if (null != t) {
                                     break;
                                   }
-                                  let H = y.getAttribute("href");
-                                  null == H && (H = y.innerHTML);
-                                  t = e(H);
+                                  let n = M.getAttribute("href");
+                                  null == n && (n = M.innerHTML);
+                                  t = d(n);
                                   if (null != t) {
                                     break;
                                   }
                                 }
                               }
-                              const p = -1 != G.textContent.toLowerCase().indexOf("add to cart to see product details.");
-                              l(R, g.ASIN, p, N, r, !0, A, t);
+                              const Q = -1 != G.textContent.toLowerCase().indexOf("add to cart to see product details.");
+                              l(S, f.ASIN, Q, L, q, !0, B, t);
                             }
                           }
                         } else {
                           console.error("missing sessionId");
                         }
                       }
-                    } catch (E) {
-                      console.log(E), g.reportBug(E, "MAP error: " + m);
+                    } catch (C) {
+                      console.log(C);
                     }
                   });
                   w.observe(document.querySelector("body"), {childList:!0, attributes:!1, characterData:!1, subtree:!0, attributeOldValue:!1, characterDataOldValue:!1});
-                  window.onunload = function A() {
+                  window.onunload = function B() {
                     try {
-                      window.detachEvent("onunload", A), w.disconnect();
+                      window.detachEvent("onunload", B), w.disconnect();
                     } catch (t) {
                     }
                   };
-                  var C = document.querySelector(d.soldOfferId);
+                  var z = document.querySelector(e.soldOfferId);
                   c = null;
-                  if (d) {
-                    var K = document.querySelector(d.soldByBBForm);
-                    K && (c = K.getAttribute("value"));
+                  if (e) {
+                    var E = document.querySelector(e.soldByBBForm);
+                    E && (c = E.getAttribute("value"));
                     if (null == c) {
-                      for (K = 0; K < d.soldByBB.length; K++) {
-                        var L = document.querySelector(d.soldByBB[K]);
-                        if (null != L && (c = e(L.innerHTML), null != c)) {
+                      for (E = 0; E < e.soldByBB.length; E++) {
+                        var J = document.querySelector(e.soldByBB[E]);
+                        if (null != J && (c = d(J.innerHTML), null != c)) {
                           break;
                         }
                       }
                     }
                   }
-                  if (null != C && null != C.value) {
-                    var T = C.parentElement.querySelector("#session-id");
-                    const A = C.parentElement.querySelector("#ASIN"), t = C.parentElement.querySelector("#selectQuantity #quantity > option:last-child");
-                    if (null != T && null != A) {
-                      for (L = 0; L < d.mainEl.length; L++) {
-                        let v = document.querySelector(d.mainEl[L]);
-                        if (null != v) {
-                          L = !1;
+                  if (null != z && null != z.value) {
+                    var U = z.parentElement.querySelector("#session-id");
+                    const B = z.parentElement.querySelector("#ASIN"), t = z.parentElement.querySelector("#selectQuantity #quantity > option:last-child");
+                    let v = z.parentElement.querySelector('input[name*="CSRF" i]')?.getAttribute("value");
+                    if (null != U && null != B) {
+                      for (J = 0; J < e.mainEl.length; J++) {
+                        let C = document.querySelector(e.mainEl[J]);
+                        if (null != C) {
+                          E = J = !1;
                           if (null != t) {
                             try {
-                              L = Number(t.value);
-                            } catch (E) {
-                              console.log(E);
+                              0 < t.innerText.indexOf("+") && (E = !0), J = Number("" == t.value ? t.innerText.replaceAll("+", "") : t.value);
+                            } catch (y) {
+                              console.log(y);
                             }
                           }
-                          l(v, A.value, !1, C.value, T.value, !1, L, c);
+                          l(C, B.value, !1, z.value, U.value, !1, J, c, E, v);
                           break;
                         }
                       }
                     }
                   }
-                  var Y = document.getElementById("price");
-                  if (null != Y && /(our price|always remove it|add this item to your cart|see product details in cart|see price in cart)/i.test(Y.textContent)) {
-                    let A = document.getElementById("merchant-info");
-                    T = C = "";
-                    if (A) {
-                      if (-1 == A.textContent.toLowerCase().indexOf("amazon.c")) {
-                        const t = Y.querySelector('span[data-action="a-modal"]');
+                  var aa = document.getElementById("price");
+                  if (null != aa && /(our price|always remove it|add this item to your cart|see product details in cart|see price in cart)/i.test(aa.textContent)) {
+                    let B = document.getElementById("merchant-info");
+                    U = z = "";
+                    if (B) {
+                      if (-1 == B.textContent.toLowerCase().indexOf("amazon.c")) {
+                        const t = aa.querySelector('span[data-action="a-modal"]');
                         if (t) {
-                          var Z = t.getAttribute("data-a-modal");
-                          Z.match(/offeringID\.1=(.*?)&amp/) && (C = RegExp.$1);
+                          var ba = t.getAttribute("data-a-modal");
+                          ba.match(/offeringID\.1=(.*?)&amp/) && (z = RegExp.$1);
                         }
-                        if (0 == C.length) {
-                          if (Z.match('map_help_pop_(.*?)"')) {
-                            T = RegExp.$1;
+                        if (0 == z.length) {
+                          if (ba.match('map_help_pop_(.*?)"')) {
+                            U = RegExp.$1;
                           } else {
-                            g.revealWorking = !1;
+                            f.revealWorking = !1;
                             return;
                           }
                         }
                       }
-                      if (null != C && 10 < C.length) {
+                      if (null != z && 10 < z.length) {
                         const t = document.querySelector("#session-id");
-                        l(Y, g.ASIN, !1, C, t.value, !1, !1, T);
+                        l(aa, f.ASIN, !1, z, t.value, !1, !1, U);
                       }
                     } else {
-                      g.revealWorking = !1;
+                      f.revealWorking = !1;
                     }
                   } else {
-                    g.revealWorking = !1;
+                    f.revealWorking = !1;
                   }
                 }
               }
-            } catch (r) {
-              g.revealWorking = !1, console.log(r);
+            } catch (q) {
+              f.revealWorking = !1, console.log(q);
             }
           });
         }
       }));
     }, onPageLoad:function() {
-      g.tld = RegExp.$1;
+      f.tld = RegExp.$1;
       const b = RegExp.$3;
-      g.ASIN || (g.ASIN = b);
-      g.domain = g.getDomain(g.tld);
+      f.ASIN || (f.ASIN = b);
+      f.domain = f.getDomain(f.tld);
       chrome.storage.local.get(["s_boxType", "s_boxOfferListing"], function(a) {
         "undefined" == typeof a && (a = {});
-        document.addEventListener("DOMContentLoaded", function(d) {
-          d = document.getElementsByTagName("head")[0];
-          const f = document.createElement("script");
-          f.type = "text/javascript";
-          f.src = chrome.runtime.getURL("selectionHook.js");
-          d.appendChild(f);
-          "0" == a.s_boxType ? g.swapIFrame() : g.getPlaceholderAndInsertIFrame((e, c) => {
-            if (void 0 !== e) {
+        document.addEventListener("DOMContentLoaded", function(e) {
+          e = document.getElementsByTagName("head")[0];
+          const g = document.createElement("script");
+          g.type = "text/javascript";
+          g.src = chrome.runtime.getURL("selectionHook.js");
+          e.appendChild(g);
+          "0" == a.s_boxType ? f.swapIFrame() : f.getPlaceholderAndInsertIFrame((d, c) => {
+            if (void 0 !== d) {
               c = document.createElement("div");
               c.setAttribute("id", "keepaButton");
               c.setAttribute("style", "    background-color: #444;\n    border: 0 solid #ccc;\n    border-radius: 6px 6px 6px 6px;\n    color: #fff;\n    cursor: pointer;\n    font-size: 12px;\n    margin: 15px;\n    padding: 6px;\n    text-decoration: none;\n    text-shadow: none;\n    display: flex;\n    box-shadow: 0px 0px 7px 0px #888;\n    width: 100px;\n    background-repeat: no-repeat;\n    height: 32px;\n    background-position-x: 7px;\n    background-position-y: 7px;\n    text-align: center;\n    background-image: url(https://cdn.keepa.com/img/logo_circled_w.svg);\n    background-size: 80px;");
@@ -680,45 +684,45 @@ const scanner = function() {
               c.addEventListener("click", function() {
                 const k = document.getElementById("keepaButton");
                 k.parentNode.removeChild(k);
-                g.swapIFrame();
+                f.swapIFrame();
               }, !1);
-              e.parentNode.insertBefore(c, e);
+              d.parentNode.insertBefore(c, d);
             }
           });
         }, !1);
       });
     }, swapIFrame:function() {
-      if ("com.au" == g.tld) {
+      if ("com.au" == f.tld) {
         try {
-          g.revealMAP(document, g.ASIN, g.tld), g.revealMapOnlyOnce = !1;
+          f.revealMAP(document, f.ASIN, f.tld), f.revealMapOnlyOnce = !1;
         } catch (a) {
         }
       } else {
         if (!document.getElementById("keepaButton")) {
-          g.swapIFrame.swapTimer && clearTimeout(g.swapIFrame.swapTimer);
-          g.swapIFrame.swapTimer = setTimeout(function() {
+          f.swapIFrame.swapTimer && clearTimeout(f.swapIFrame.swapTimer);
+          f.swapIFrame.swapTimer = setTimeout(function() {
             if (!u) {
-              document.getElementById("keepaContainer") || g.getPlaceholderAndInsertIFrame(g.insertIFrame);
+              document.getElementById("keepaContainer") || f.getPlaceholderAndInsertIFrame(f.insertIFrame);
               try {
-                g.revealMAP(document, g.ASIN, g.tld), g.revealMapOnlyOnce = !1;
+                f.revealMAP(document, f.ASIN, f.tld), f.revealMapOnlyOnce = !1;
               } catch (a) {
               }
-              g.swapIFrame.swapTimer = setTimeout(function() {
-                document.getElementById("keepaContainer") || g.getPlaceholderAndInsertIFrame(g.insertIFrame);
+              f.swapIFrame.swapTimer = setTimeout(function() {
+                document.getElementById("keepaContainer") || f.getPlaceholderAndInsertIFrame(f.insertIFrame);
               }, 2000);
             }
           }, 2000);
           var b = document.getElementById("keepaContainer");
-          if (null != g.iframeStorage && b) {
+          if (null != f.iframeStorage && b) {
             try {
-              g.iframeStorage.contentWindow.postMessage({origin:"keepaContentScript", key:"updateASIN", value:{d:g.domain, a:g.ASIN, eType:M, eVersion:q, url:document.location.href}}, "*");
+              f.iframeStorage.contentWindow.postMessage({origin:"keepaContentScript", key:"updateASIN", value:{d:f.domain, a:f.ASIN, eType:K, eVersion:r, url:document.location.href}}, "*");
             } catch (a) {
               console.error(a);
             }
           } else {
-            g.getPlaceholderAndInsertIFrame(g.insertIFrame);
+            f.getPlaceholderAndInsertIFrame(f.insertIFrame);
             try {
-              g.revealMAP(document, g.ASIN, g.tld), g.revealMapOnlyOnce = !1;
+              f.revealMAP(document, f.ASIN, f.tld), f.revealMapOnlyOnce = !1;
             } catch (a) {
             }
           }
@@ -731,20 +735,20 @@ const scanner = function() {
     }, getPlaceholderAndInsertIFrame:function(b) {
       chrome.storage.local.get("keepaBoxPlaceholder keepaBoxPlaceholderBackup keepaBoxPlaceholderBackupClass keepaBoxPlaceholderAppend keepaBoxPlaceholderBackupAppend webGraphType webGraphRange".split(" "), function(a) {
         "undefined" == typeof a && (a = {});
-        let d = 0;
-        const f = function() {
+        let e = 0;
+        const g = function() {
           if (!document.getElementById("keepaButton") && !document.getElementById("amazonlive-homepage-widget")) {
             if (u) {
               const l = document.querySelector("#tabular_feature_div,#olpLinkWidget_feature_div,#tellAFriendBox_feature_div");
               try {
                 document.querySelector("#keepaMobileContainer")[0].remove();
-              } catch (n) {
+              } catch (p) {
               }
               if (l && l.previousSibling) {
                 try {
-                  var e = a.webGraphType;
+                  var d = a.webGraphType;
                   try {
-                    e = JSON.parse(e);
+                    d = JSON.parse(d);
                   } catch (w) {
                   }
                   var c = a.webGraphRange;
@@ -752,36 +756,36 @@ const scanner = function() {
                     c = Number(c);
                   } catch (w) {
                   }
-                  var h = Math.min(1800, 1.6 * window.innerWidth).toFixed(0), k = "https://graph.keepa.com/pricehistory.png?type=2&asin=" + g.ASIN + "&domain=" + g.domain + "&width=" + h + "&height=450";
-                  k = "undefined" == typeof e ? k + "&amazon=1&new=1&used=1&salesrank=1&range=365" : k + ("&amazon=" + e[0] + "&new=" + e[1] + "&used=" + e[2] + "&salesrank=" + e[3] + "&range=" + c + "&fba=" + e[10] + "&fbm=" + e[7] + "&bb=" + e[18] + "&ld=" + e[8] + "&wd=" + e[9]);
-                  const n = document.createElement("div");
-                  n.setAttribute("id", "keepaMobileContainer");
-                  n.setAttribute("style", "margin-bottom: 20px;");
+                  var h = Math.min(1800, 1.6 * window.innerWidth).toFixed(0), k = "https://graph.keepa.com/pricehistory.png?type=2&asin=" + f.ASIN + "&domain=" + f.domain + "&width=" + h + "&height=450";
+                  k = "undefined" == typeof d ? k + "&amazon=1&new=1&used=1&salesrank=1&range=365" : k + ("&amazon=" + d[0] + "&new=" + d[1] + "&used=" + d[2] + "&salesrank=" + d[3] + "&range=" + c + "&fba=" + d[10] + "&fbm=" + d[7] + "&bb=" + d[18] + "&ld=" + d[8] + "&pe=" + d[33] + "&bbu=" + d[32] + "&wd=" + d[9]);
+                  const p = document.createElement("div");
+                  p.setAttribute("id", "keepaMobileContainer");
+                  p.setAttribute("style", "margin-bottom: 20px;");
                   const m = document.createElement("img");
                   m.setAttribute("style", "margin: 5px 0; width: " + Math.min(1800, window.innerWidth) + "px;");
-                  m.setAttribute("id", "keepaImageContainer" + g.ASIN);
+                  m.setAttribute("id", "keepaImageContainer" + f.ASIN);
                   m.setAttribute("src", k);
                   document.createElement("div").setAttribute("style", "margin: 20px; display: flex;justify-content: space-evenly;");
-                  n.appendChild(m);
-                  l.after(n);
+                  p.appendChild(m);
+                  l.after(p);
                   m.addEventListener("click", function() {
                     m.remove();
-                    g.insertIFrame(l.previousSibling, !1, !0);
+                    f.insertIFrame(l.previousSibling, !1, !0);
                   }, !1);
-                } catch (n) {
-                  console.error(n);
+                } catch (p) {
+                  console.error(p);
                 }
                 return;
               }
             }
-            if ((e = document.getElementById("gpdp-btf-container")) && e.previousElementSibling) {
-              g.insertIFrame(e.previousElementSibling, !1, !0);
+            if ((d = document.getElementById("gpdp-btf-container")) && d.previousElementSibling) {
+              f.insertIFrame(d.previousElementSibling, !1, !0);
             } else {
-              if ((e = document.getElementsByClassName("mocaGlamorContainer")[0]) || (e = document.getElementById("dv-sims")), e ||= document.getElementById("mas-terms-of-use"), e && e.nextSibling) {
-                g.insertIFrame(e.nextSibling, !1, !0);
+              if ((d = document.getElementsByClassName("mocaGlamorContainer")[0]) || (d = document.getElementById("dv-sims")), d ||= document.getElementById("mas-terms-of-use"), d && d.nextSibling) {
+                f.insertIFrame(d.nextSibling, !1, !0);
               } else {
-                if (c = a.keepaBoxPlaceholder || "#bottomRow", e = !1, c = document.querySelector(c)) {
-                  "sims_fbt" == c.previousElementSibling.id && (c = c.previousElementSibling, "bucketDivider" == c.previousElementSibling.className && (c = c.previousElementSibling), e = !0), 1 == a.keepaBoxPlaceholderAppend && (c = c.nextSibling), b(c, e);
+                if (c = a.keepaBoxPlaceholder || "#bottomRow", d = !1, c = document.querySelector(c)) {
+                  "sims_fbt" == c.previousElementSibling.id && (c = c.previousElementSibling, "bucketDivider" == c.previousElementSibling.className && (c = c.previousElementSibling), d = !0), 1 == a.keepaBoxPlaceholderAppend && (c = c.nextSibling), b(c, d);
                 } else {
                   if (c = a.keepaBoxPlaceholderBackup || "#elevatorBottom", "ATFCriticalFeaturesDataContainer" == c && (c = "#ATFCriticalFeaturesDataContainer"), c = document.querySelector(c)) {
                     1 == a.keepaBoxPlaceholderBackupAppend && (c = c.nextSibling), b(c, !0);
@@ -792,10 +796,10 @@ const scanner = function() {
                       if (c = a.keepaBoxPlaceholderBackupClass || ".a-fixed-left-grid", (c = document.querySelector(c)) && c.nextSibling) {
                         b(c.nextSibling, !0);
                       } else {
-                        e = 0;
+                        d = 0;
                         c = document.getElementsByClassName("twisterMediaMatrix");
                         h = !!document.getElementById("dm_mp3Player");
-                        if ((c = 0 == c.length ? document.getElementById("handleBuy") : c[0]) && 0 == e && !h && null != c.nextElementSibling) {
+                        if ((c = 0 == c.length ? document.getElementById("handleBuy") : c[0]) && 0 == d && !h && null != c.nextElementSibling) {
                           k = !1;
                           for (h = c; h;) {
                             if (h = h.parentNode, "table" === h.tagName.toLowerCase()) {
@@ -815,19 +819,19 @@ const scanner = function() {
                         }
                         c = document.getElementsByClassName("bucketDivider");
                         0 == c.length && (c = document.getElementsByClassName("a-divider-normal"));
-                        if (!c[e]) {
+                        if (!c[d]) {
                           if (!c[0]) {
-                            40 > d++ && window.setTimeout(function() {
-                              f();
+                            40 > e++ && window.setTimeout(function() {
+                              g();
                             }, 100);
                             return;
                           }
-                          e = 0;
+                          d = 0;
                         }
-                        for (h = c[e]; h && c[e];) {
+                        for (h = c[d]; h && c[d];) {
                           if (h = h.parentNode, "table" === h.tagName.toLowerCase()) {
                             if ("buyboxrentTable" === h.className || /buyBox/.test(h.className) || "buyingDetailsGrid" === h.className) {
-                              h = c[++e];
+                              h = c[++d];
                             } else {
                               break;
                             }
@@ -835,8 +839,8 @@ const scanner = function() {
                             break;
                           }
                         }
-                        g.placeholder = c[e];
-                        c[e] && c[e].parentNode && (e = document.getElementsByClassName("lpo")[0] && c[1] && 0 == e ? c[1] : c[e], b(e, !1));
+                        f.placeholder = c[d];
+                        c[d] && c[d].parentNode && (d = document.getElementsByClassName("lpo")[0] && c[1] && 0 == d ? c[1] : c[d], b(d, !1));
                       }
                     }
                   }
@@ -845,47 +849,47 @@ const scanner = function() {
             }
           }
         };
-        f();
+        g();
       });
     }, getAFComment:function(b) {
       for (b = [b]; 0 < b.length;) {
         const a = b.pop();
-        for (let d = 0; d < a.childNodes.length; d++) {
-          const f = a.childNodes[d];
-          if (8 === f.nodeType && -1 < f.textContent.indexOf("MarkAF")) {
-            return f;
+        for (let e = 0; e < a.childNodes.length; e++) {
+          const g = a.childNodes[e];
+          if (8 === g.nodeType && -1 < g.textContent.indexOf("MarkAF")) {
+            return g;
           }
-          b.push(f);
+          b.push(g);
         }
       }
       return null;
     }, insertIFrame:function(b, a) {
-      if (null != g.iframeStorage && document.getElementById("keepaContainer")) {
-        g.swapIFrame();
+      if (null != f.iframeStorage && document.getElementById("keepaContainer")) {
+        f.swapIFrame();
       } else {
-        var d = document.getElementById("hover-zoom-end"), f = function(e) {
-          var c = document.getElementById(e);
+        var e = document.getElementById("hover-zoom-end"), g = function(d) {
+          var c = document.getElementById(d);
           const h = [];
           for (; c;) {
-            h.push(c), c.id = "a-different-id", c = document.getElementById(e);
+            h.push(c), c.id = "a-different-id", c = document.getElementById(d);
           }
           for (c = 0; c < h.length; ++c) {
-            h[c].id = e;
+            h[c].id = d;
           }
           return h;
         }("hover-zoom-end");
-        chrome.storage.local.get("s_boxHorizontal", function(e) {
-          "undefined" == typeof e && (e = {});
+        chrome.storage.local.get("s_boxHorizontal", function(d) {
+          "undefined" == typeof d && (d = {});
           if (null == b) {
             setTimeout(() => {
-              g.getPlaceholderAndInsertIFrame(g.insertIFrame);
+              f.getPlaceholderAndInsertIFrame(f.insertIFrame);
             }, 3000);
           } else {
-            var c = e.s_boxHorizontal, h = window.innerWidth - 50;
+            var c = d.s_boxHorizontal, h = window.innerWidth - 50;
             if (!document.getElementById("keepaContainer")) {
-              e = document.createElement("div");
-              "0" == c ? (h -= 550, 960 > h && (h = 960), e.setAttribute("style", "min-width: 935px; max-width:" + h + "px;display: flex;  height: 500px; border:0 none; margin: 10px 0 0;")) : e.setAttribute("style", "min-width: 935px; width: calc(100% - 30px); height: 500px; display: flex; border:0 none; margin: 10px 0 0;");
-              e.setAttribute("id", "keepaContainer");
+              d = document.createElement("div");
+              "0" == c ? (h -= 550, 960 > h && (h = 960), d.setAttribute("style", "min-width: 935px; max-width:" + h + "px;display: flex;  height: 500px; border:0 none; margin: 10px 0 0;")) : d.setAttribute("style", "min-width: 935px; width: calc(100% - 30px); height: 500px; display: flex; border:0 none; margin: 10px 0 0;");
+              d.setAttribute("id", "keepaContainer");
               var k = document.createElement("iframe");
               c = document.createElement("div");
               c.setAttribute("id", "keepaClear");
@@ -893,71 +897,71 @@ const scanner = function() {
               k.setAttribute("src", "https://keepa.com/keepaBox.html");
               k.setAttribute("scrolling", "no");
               k.setAttribute("id", "keepa");
-              X ||= !0;
-              e.appendChild(k);
+              Z ||= !0;
+              d.appendChild(k);
               h = !1;
               if (!a) {
                 null == b.parentNode || "promotions_feature_div" !== b.parentNode.id && "dp-out-of-stock-top_feature_div" !== b.parentNode.id || (b = b.parentNode);
                 try {
                   var l = b.previousSibling.previousSibling;
                   null != l && "technicalSpecifications_feature_div" == l.id && (b = l);
-                } catch (T) {
+                } catch (U) {
                 }
-                0 < f.length && (d = f[f.length - 1]) && "centerCol" != d.parentElement.id && ((l = g.getFirstInDOM([b, d], document.body)) && 600 < l.parentElement.offsetWidth && (b = l), b === d && (h = !0));
-                (l = document.getElementById("title") || document.getElementById("title_row")) && g.getFirstInDOM([b, l], document.body) !== l && (b = l);
+                0 < g.length && (e = g[g.length - 1]) && "centerCol" != e.parentElement.id && ((l = f.getFirstInDOM([b, e], document.body)) && 600 < l.parentElement.offsetWidth && (b = l), b === e && (h = !0));
+                (l = document.getElementById("title") || document.getElementById("title_row")) && f.getFirstInDOM([b, l], document.body) !== l && (b = l);
               }
               l = document.getElementById("vellumMsg");
               null != l && (b = l);
               l = document.body;
-              var n = document.documentElement;
-              n = Math.max(l.scrollHeight, l.offsetHeight, n.clientHeight, n.scrollHeight, n.offsetHeight);
-              var m = b.offsetTop / n;
+              var p = document.documentElement;
+              p = Math.max(l.scrollHeight, l.offsetHeight, p.clientHeight, p.scrollHeight, p.offsetHeight);
+              var m = b.offsetTop / p;
               if (0.5 < m || 0 > m) {
-                l = g.getAFComment(l), null != l && (m = b.offsetTop / n, 0.5 > m && (b = l));
+                l = f.getAFComment(l), null != l && (m = b.offsetTop / p, 0.5 > m && (b = l));
               }
               if (b.parentNode) {
                 l = document.querySelector(".container_vertical_middle");
-                "burjPageDivider" == b.id ? (b.parentNode.insertBefore(e, b), a || b.parentNode.insertBefore(c, e.nextSibling)) : "bottomRow" == b.id ? (b.parentNode.insertBefore(e, b), a || b.parentNode.insertBefore(c, e.nextSibling)) : h ? (b.parentNode.insertBefore(e, b.nextSibling), a || b.parentNode.insertBefore(c, e.nextSibling)) : null != l ? (b = l, b.parentNode.insertBefore(e, b.nextSibling), a || b.parentNode.insertBefore(c, e.nextSibling)) : (b.parentNode.insertBefore(e, b), a || b.parentNode.insertBefore(c, 
-                e));
-                g.iframeStorage = k;
-                e.style.display = g.cssFlex;
-                var w = !1, C = 5;
+                "burjPageDivider" == b.id ? (b.parentNode.insertBefore(d, b), a || b.parentNode.insertBefore(c, d.nextSibling)) : "bottomRow" == b.id ? (b.parentNode.insertBefore(d, b), a || b.parentNode.insertBefore(c, d.nextSibling)) : h ? (b.parentNode.insertBefore(d, b.nextSibling), a || b.parentNode.insertBefore(c, d.nextSibling)) : null != l ? (b = l, b.parentNode.insertBefore(d, b.nextSibling), a || b.parentNode.insertBefore(c, d.nextSibling)) : (b.parentNode.insertBefore(d, b), a || b.parentNode.insertBefore(c, 
+                d));
+                f.iframeStorage = k;
+                d.style.display = f.cssFlex;
+                var w = !1, z = 5;
                 if (!u) {
-                  var K = setInterval(function() {
-                    if (0 >= C--) {
-                      clearInterval(K);
+                  var E = setInterval(function() {
+                    if (0 >= z--) {
+                      clearInterval(E);
                     } else {
-                      var T = null != document.getElementById("keepa");
+                      var U = null != document.getElementById("keepa");
                       try {
-                        if (!T) {
-                          throw g.getPlaceholderAndInsertIFrame(g.insertIFrame), 1;
+                        if (!U) {
+                          throw f.getPlaceholderAndInsertIFrame(f.insertIFrame), 1;
                         }
                         if (w) {
                           throw 1;
                         }
                         document.getElementById("keepa").contentDocument.location = iframeUrl;
-                      } catch (Y) {
-                        clearInterval(K);
+                      } catch (aa) {
+                        clearInterval(E);
                       }
                     }
-                  }, 4000), L = function() {
+                  }, 4000), J = function() {
                     w = !0;
-                    k.removeEventListener("load", L, !1);
-                    g.synchronizeIFrame();
+                    k.removeEventListener("load", J, !1);
+                    f.synchronizeIFrame();
                   };
-                  k.addEventListener("load", L, !1);
+                  k.addEventListener("load", J, !1);
                 }
               } else {
-                g.swapIFrame();
+                f.swapIFrame();
               }
             }
           }
         });
       }
-    }, handleIFrameMessage:function(b, a, d) {
+    }, handleIFrameMessage:function(b, a, e) {
       switch(b) {
         case "resize":
-          V ||= !0;
+          X ||= !0;
           a = "" + a;
           -1 == a.indexOf("px") && (a += "px");
           if (b = document.getElementById("keepaContainer")) {
@@ -965,141 +969,141 @@ const scanner = function() {
           }
           break;
         case "ping":
-          d({location:chrome.runtime.id + " " + document.location});
+          e({location:chrome.runtime.id + " " + document.location});
           break;
         case "openPage":
           chrome.runtime?.id && chrome.runtime.sendMessage({type:"openPage", url:a});
           break;
         case "getToken":
-          let f = {d:g.domain, a:g.ASIN, eType:M, eVersion:q, url:document.location.href};
-          chrome.runtime?.id ? g.sendMessageWithRetry({type:"getCookie", key:"token"}, 3, 1000, e => {
-            f.token = e?.value;
-            f.install = e?.install;
-            d(f);
-          }, e => {
-            console.log("failed token retrieval: ", e);
-            d(f);
-          }) : d(f);
+          let g = {d:f.domain, a:f.ASIN, eType:K, eVersion:r, url:document.location.href};
+          chrome.runtime?.id ? f.sendMessageWithRetry({type:"getCookie", key:"token"}, 3, 1000, d => {
+            g.token = d?.value;
+            g.install = d?.install;
+            e(g);
+          }, d => {
+            console.log("failed token retrieval: ", d);
+            e(g);
+          }) : e(g);
           break;
         case "setCookie":
           chrome.runtime?.id && chrome.runtime.sendMessage({type:"setCookie", key:a.key, val:a.val});
       }
-    }, sendMessageWithRetry:function(b, a, d, f, e) {
+    }, sendMessageWithRetry:function(b, a, e, g, d) {
       let c = 0, h = !1;
       const k = () => {
         c += 1;
         chrome.runtime.sendMessage(b, l => {
-          h || (h = !0, f(l));
+          h || (h = !0, g(l));
         });
         setTimeout(() => {
-          h || (c < a ? setTimeout(k, d) : (console.log("Failed to receive a response after maximum retries."), e()));
-        }, d);
+          h || (c < a ? setTimeout(k, e) : (console.log("Failed to receive a response after maximum retries."), d()));
+        }, e);
       };
       k();
     }, synchronizeIFrame:function() {
       let b = 0;
-      chrome.storage.local.get("s_boxHorizontal", function(f) {
-        "undefined" != typeof f && "undefined" != typeof f.s_boxHorizontal && (b = f.s_boxHorizontal);
+      chrome.storage.local.get("s_boxHorizontal", function(g) {
+        "undefined" != typeof g && "undefined" != typeof g.s_boxHorizontal && (b = g.s_boxHorizontal);
       });
-      let a = window.innerWidth, d = !1;
+      let a = window.innerWidth, e = !1;
       u || window.addEventListener("resize", function() {
-        d || (d = !0, window.setTimeout(function() {
+        e || (e = !0, window.setTimeout(function() {
           if (a != window.innerWidth && "0" == b) {
             a = window.innerWidth;
-            let f = window.innerWidth - 50;
-            f -= 550;
-            935 > f && (f = 935);
-            document.getElementById("keepaContainer").style.width = f;
+            let g = window.innerWidth - 50;
+            g -= 550;
+            935 > g && (g = 935);
+            document.getElementById("keepaContainer").style.width = g;
           }
-          d = !1;
+          e = !1;
         }, 100));
       }, !1);
     }, getFirstInDOM:function(b, a) {
-      let d;
+      let e;
       for (a = a.firstChild; a; a = a.nextSibling) {
         if ("IFRAME" !== a.nodeName && 1 === a.nodeType) {
           if (-1 !== b.indexOf(a)) {
             return a;
           }
-          if (d = g.getFirstInDOM(b, a)) {
-            return d;
+          if (e = f.getFirstInDOM(b, a)) {
+            return e;
           }
         }
       }
       return null;
     }, getClipRect:function(b) {
       "string" === typeof b && (b = document.querySelector(b));
-      let a = 0, d = 0;
-      const f = function(e) {
-        a += e.offsetLeft;
-        d += e.offsetTop;
-        e.offsetParent && f(e.offsetParent);
+      let a = 0, e = 0;
+      const g = function(d) {
+        a += d.offsetLeft;
+        e += d.offsetTop;
+        d.offsetParent && g(d.offsetParent);
       };
-      f(b);
-      return 0 == d && 0 == a ? g.getClipRect(b.parentNode) : {top:d, left:a, width:b.offsetWidth, height:b.offsetHeight};
+      g(b);
+      return 0 == e && 0 == a ? f.getClipRect(b.parentNode) : {top:e, left:a, width:b.offsetWidth, height:b.offsetHeight};
     }, findPlaceholderBelowImages:function(b) {
       const a = b;
-      let d, f = 100;
+      let e, g = 100;
       do {
-        for (f--, d = null; !d;) {
-          d = b.nextElementSibling, d || (d = b.parentNode.nextElementSibling), b = d ? d : b.parentNode.parentNode, !d || "IFRAME" !== d.nodeName && "SCRIPT" !== d.nodeName && 1 === d.nodeType || (d = null);
+        for (g--, e = null; !e;) {
+          e = b.nextElementSibling, e || (e = b.parentNode.nextElementSibling), b = e ? e : b.parentNode.parentNode, !e || "IFRAME" !== e.nodeName && "SCRIPT" !== e.nodeName && 1 === e.nodeType || (e = null);
         }
-      } while (0 < f && 100 < g.getClipRect(d).left);
-      return d ? d : a;
+      } while (0 < g && 100 < f.getClipRect(e).left);
+      return e ? e : a;
     }, httpGet:function(b, a) {
-      const d = new XMLHttpRequest();
-      a && (d.onreadystatechange = function() {
-        4 == d.readyState && a.call(this, d.responseText);
+      const e = new XMLHttpRequest();
+      a && (e.onreadystatechange = function() {
+        4 == e.readyState && a.call(this, e.responseText);
       });
-      d.open("GET", b, !0);
-      d.send();
-    }, httpPost2:function(b, a, d, f, e) {
+      e.open("GET", b, !0);
+      e.send();
+    }, httpPost2:function(b, a, e, g, d) {
       const c = new XMLHttpRequest();
-      f && (c.onreadystatechange = function() {
-        4 == c.readyState && f.call(this, c.responseText);
+      g && (c.onreadystatechange = function() {
+        4 == c.readyState && g.call(this, c.responseText);
       });
-      c.withCredentials = e;
+      c.withCredentials = d;
       c.open("POST", b, !0);
-      c.setRequestHeader("Content-Type", d);
+      c.setRequestHeader("Content-Type", e);
       c.send(a);
-    }, httpPost:function(b, a, d, f) {
-      g.httpPost2(b, a, "text/plain;charset=UTF-8", d, f);
-    }, lastBugReport:0, reportBug:function(b, a, d) {
-      var f = Date.now();
-      if (!(6E5 > f - g.lastBugReport || /(dead object)|(Script error)|(\.location is null)/i.test(b))) {
-        g.lastBugReport = f;
-        f = "";
+    }, httpPost:function(b, a, e, g) {
+      f.httpPost2(b, a, "text/plain;charset=UTF-8", e, g);
+    }, lastBugReport:0, reportBug:function(b, a, e) {
+      var g = Date.now();
+      if (!(6E5 > g - f.lastBugReport || /(dead object)|(Script error)|(\.location is null)/i.test(b))) {
+        f.lastBugReport = g;
+        g = "";
         try {
-          f = Error().stack.split("\n").splice(1).splice(1).join("&ensp;&lArr;&ensp;");
-          if (!/(keepa|content)\.js/.test(f)) {
+          g = Error().stack.split("\n").splice(1).splice(1).join("&ensp;&lArr;&ensp;");
+          if (!/(keepa|content)\.js/.test(g)) {
             return;
           }
-          f = f.replace(RegExp("chrome-extension://.*?/content/", "g"), "").replace(/:[0-9]*?\)/g, ")").replace(/[ ]{2,}/g, "");
-        } catch (e) {
+          g = g.replace(RegExp("chrome-extension://.*?/content/", "g"), "").replace(/:[0-9]*?\)/g, ")").replace(/[ ]{2,}/g, "");
+        } catch (d) {
         }
         if ("object" == typeof b) {
           try {
             b = b instanceof Error ? b.toString() : JSON.stringify(b);
-          } catch (e) {
+          } catch (d) {
           }
         }
-        null == d && (d = {exception:b, additional:a, url:document.location.host, stack:f});
-        null != d.url && d.url.startsWith("blob:") || (d.keepaType = O ? "keepaChrome" : F ? "keepaOpera" : P ? "keepaSafari" : z ? "keepaEdge" : "keepaFirefox", d.version = q, chrome.storage.local.get("token", function(e) {
-          "undefined" == typeof e && (e = {token:"undefined"});
-          g.httpPost("https://dyn.keepa.com/service/bugreport/?user=" + e.token + "&type=" + M, JSON.stringify(d));
+        null == e && (e = {exception:b, additional:a, url:document.location.host, stack:g});
+        null != e.url && e.url.startsWith("blob:") || (e.keepaType = N ? "keepaChrome" : F ? "keepaOpera" : O ? "keepaSafari" : A ? "keepaEdge" : "keepaFirefox", e.version = r, chrome.storage.local.get("token", function(d) {
+          "undefined" == typeof d && (d = {token:"undefined"});
+          //f.httpPost("https://dyn.keepa.com/service/bugreport/?user=" + d.token + "&type=" + K, JSON.stringify(e));
         }));
       }
     }};
-    window.onerror = function(b, a, d, f, e) {
+    window.onerror = function(b, a, e, g, d) {
       let c;
-      "string" !== typeof b && (e = b.error, c = b.filename || b.fileName, d = b.lineno || b.lineNumber, f = b.colno || b.columnNumber, b = b.message || b.name || e.message || e.name);
+      "string" !== typeof b && (d = b.error, c = b.filename || b.fileName, e = b.lineno || b.lineNumber, g = b.colno || b.columnNumber, b = b.message || b.name || d.message || d.name);
       b = b.toString();
       let h = "";
-      f = f || 0;
-      if (e && e.stack) {
-        h = e.stack;
+      g = g || 0;
+      if (d && d.stack) {
+        h = d.stack;
         try {
-          h = e.stack.split("\n").splice(1).splice(1).join("&ensp;&lArr;&ensp;");
+          h = d.stack.split("\n").splice(1).splice(1).join("&ensp;&lArr;&ensp;");
           if (!/(keepa|content)\.js/.test(h)) {
             return;
           }
@@ -1107,54 +1111,41 @@ const scanner = function() {
         } catch (k) {
         }
       }
-      "undefined" === typeof d && (d = 0);
-      "undefined" === typeof f && (f = 0);
-      b = {msg:b, url:(a || c || document.location.toString()) + ":" + d + ":" + f, stack:h};
+      "undefined" === typeof e && (e = 0);
+      "undefined" === typeof g && (g = 0);
+      b = {msg:b, url:(a || c || document.location.toString()) + ":" + e + ":" + g, stack:h};
       "ipbakfmnjdenbmoenhicfmoojdojjjem" != chrome.runtime.id && "blfpbjkajgamcehdbehfdioapoiibdmc" != chrome.runtime.id || console.log(b);
-      g.reportBug(null, null, b);
+      //f.reportBug(null, null, b);
       return !1;
     };
-    if (window.self == window.top && (document.addEventListener("DOMContentLoaded", function(b) {
-      chrome.runtime.sendMessage({type:"optionalPermissionsRequired"}, function(a) {
-        if (!0 === a.value) {
-          let d = 0;
-          const f = () => {
-            0 < d || (d++, chrome.runtime.sendMessage({type:"optionalPermissions"}, function(e) {
-            }), document.body.removeEventListener("contextmenu", f), document.body.removeEventListener("dblclick", f), document.body.removeEventListener("click", f));
-          };
-          document.body.addEventListener("contextmenu", f, {once:!0});
-          document.body.addEventListener("dblclick", f, {once:!0});
-          document.body.addEventListener("click", f, {once:!0});
-        }
-      });
-    }), !(/.*music\.amazon\..*/.test(document.location.href) || /.*primenow\.amazon\..*/.test(document.location.href) || /.*amazonlive-portal\.amazon\..*/.test(document.location.href) || /.*amazon\.com\/restaurants.*/.test(document.location.href)))) {
+    if (window.self == window.top && !(/.*music\.amazon\..*/.test(document.location.href) || /.*primenow\.amazon\..*/.test(document.location.href) || /.*amazonlive-portal\.amazon\..*/.test(document.location.href) || /.*amazon\.com\/restaurants.*/.test(document.location.href))) {
       x = function(b) {
         chrome.runtime.sendMessage({type:"sendData", val:{key:"m1", payload:[b]}}, function() {
         });
       };
-      var J = document.location.href, W = !1;
+      var I = document.location.href, Y = !1;
       document.addEventListener("DOMContentLoaded", function(b) {
-        if (!W) {
+        if (!Y) {
           try {
-            if (J.startsWith("https://test.keepa.com") || J.startsWith("https://keepa.com")) {
+            if (I.startsWith("https://test.keepa.com") || I.startsWith("https://keepa.com")) {
               let a = document.createElement("div");
               a.id = "extension";
-              a.setAttribute("type", M);
-              a.setAttribute("version", q);
+              a.setAttribute("type", K);
+              a.setAttribute("version", r);
               document.body.appendChild(a);
-              W = !0;
+              Y = !0;
             }
           } catch (a) {
           }
         }
       });
-      var S = !1;
+      var R = !1;
       chrome.runtime.sendMessage({type:"isActive"});
-      if (!/((\/images)|(\/review)|(\/customer-reviews)|(ask\/questions)|(\/product-reviews))/.test(J) && !/\/e\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/.test(J) && (J.match(/^https:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|es|nl|in|com\.mx|com\.br|com\.au)\/[^.]*?(\/|[?&]ASIN=)([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) || J.match(/^https:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|es|nl|in|com\.mx|com\.br|com\.au)\/(.*?)\/dp\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))\//) || J.match(/^https:\/\/.*?\.amzn\.(com).*?\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/))) {
-        g.onPageLoad(!1), S = !0;
-      } else if (!J.match(/^https:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|nl|es|in|com\.mx|com\.br|com\.au)\/[^.]*?\/(wishlist|registry)/) && !J.match(/^htt(p|ps):\/\/w*?\.amzn\.(com)[^.]*?\/(wishlist|registry)/)) {
-        if (J.match("^https://.*?(?:seller).*?.amazon.(de|com|co.uk|co.jp|ca|fr|it|nl|es|in|com.mx|com.br|com.au)/")) {
-          x("s" + g.getDomain(RegExp.$1));
+      if (!/((\/images)|(\/review)|(\/customer-reviews)|(ask\/questions)|(\/product-reviews))/.test(I) && !/\/e\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/.test(I) && (I.match(/^https:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|es|nl|in|com\.mx|com\.br|com\.au)\/[^.]*?(\/|[?&]ASIN=)([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) || I.match(/^https:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|es|nl|in|com\.mx|com\.br|com\.au)\/(.*?)\/dp\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))\//) || I.match(/^https:\/\/.*?\.amzn\.(com).*?\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/))) {
+        f.onPageLoad(!1), R = !0;
+      } else if (!I.match(/^https:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|nl|es|in|com\.mx|com\.br|com\.au)\/[^.]*?\/(wishlist|registry)/) && !I.match(/^htt(p|ps):\/\/w*?\.amzn\.(com)[^.]*?\/(wishlist|registry)/)) {
+        if (I.match("^https://.*?(?:seller).*?.amazon.(de|com|co.uk|co.jp|ca|fr|it|nl|es|in|com.mx|com.br|com.au)/")) {
+          x("s" + f.getDomain(RegExp.$1));
           let b = !1;
           function a() {
             b || (b = !0, chrome.runtime.sendMessage({type:"isSellerActive"}), setTimeout(() => {
@@ -1166,33 +1157,33 @@ const scanner = function() {
           document.addEventListener("keydown", a);
           document.addEventListener("touchstart", a);
         } else {
-          J.match(/^https:\/\/.*?(?:af.?ilia|part|assoc).*?\.amazon\.(de|com|co\.uk|co\.jp|nl|ca|fr|it|es|in|com\.mx|com\.br|com\.au)\/home/) && x("a" + g.getDomain(RegExp.$1));
+          I.match(/^https:\/\/.*?(?:af.?ilia|part|assoc).*?\.amazon\.(de|com|co\.uk|co\.jp|nl|ca|fr|it|es|in|com\.mx|com\.br|com\.au)\/home/) && x("a" + f.getDomain(RegExp.$1));
         }
       }
       if (!u) {
         x = /^https:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|es|nl|in|com\.mx|com\.br|com\.au)\/(s([\/?])|gp\/bestsellers\/|gp\/search\/|.*?\/b\/)/;
-        (S || J.match(x)) && document.addEventListener("DOMContentLoaded", function(b) {
+        (R || I.match(x)) && document.addEventListener("DOMContentLoaded", function(b) {
           let a = null;
-          chrome.runtime.sendMessage({type:"getFilters"}, function(d) {
-            a = d;
+          chrome.runtime.sendMessage({type:"getFilters"}, function(e) {
+            a = e;
             if (null != a && null != a.value) {
-              let f = function() {
-                let l = J.match("^https?://.*?.amazon.(de|com|co.uk|co.jp|ca|fr|it|es|in|com.br|nl|com.mx)/");
-                if (S || l) {
-                  let n = g.getDomain(RegExp.$1);
-                  scanner.scan(d.value, function(m) {
+              let g = function() {
+                let l = I.match("^https?://.*?.amazon.(de|com|co.uk|co.jp|ca|fr|it|es|in|com.br|nl|com.mx)/");
+                if (R || l) {
+                  let p = f.getDomain(RegExp.$1);
+                  scanner.scan(e.value, function(m) {
                     m.key = "f1";
-                    m.domainId = n;
+                    m.domainId = p;
                     chrome.runtime.sendMessage({type:"sendData", val:m}, function(w) {
                     });
                   });
                 }
               };
-              f();
-              let e = document.location.href, c = -1, h = -1, k = -1;
+              g();
+              let d = document.location.href, c = -1, h = -1, k = -1;
               h = setInterval(function() {
-                e != document.location.href && (e = document.location.href, clearTimeout(k), k = setTimeout(function() {
-                  f();
+                d != document.location.href && (d = document.location.href, clearTimeout(k), k = setTimeout(function() {
+                  g();
                 }, 2000), clearTimeout(c), c = setTimeout(function() {
                   clearInterval(h);
                 }, 180000));
@@ -1206,86 +1197,86 @@ const scanner = function() {
         x = document.location.href;
         x.match("^https://.*?.amazon.(de|com|co.uk|co.jp|ca|fr|it|es|in|nl|com.mx|com.br|com.au)/") && -1 == x.indexOf("aws.amazon.") && -1 == x.indexOf("music.amazon.") && -1 == x.indexOf("services.amazon.") && -1 == x.indexOf("primenow.amazon.") && -1 == x.indexOf("kindle.amazon.") && -1 == x.indexOf("watch.amazon.") && -1 == x.indexOf("developer.amazon.") && -1 == x.indexOf("skills-store.amazon.") && -1 == x.indexOf("pay.amazon.") && document.addEventListener("DOMContentLoaded", function(b) {
           setTimeout(function() {
-            chrome.runtime.onMessage.addListener(function(a, d, f) {
+            chrome.runtime.onMessage.addListener(function(a, e, g) {
               switch(a.key) {
                 case "collectASINs":
                   a = {};
-                  var e = !1;
-                  d = (document.querySelector("#main") || document.querySelector("#zg") || document.querySelector("#pageContent") || document.querySelector("#wishlist-page") || document.querySelector("#merchandised-content") || document.querySelector("#reactApp") || document.querySelector("[id^='contentGrid']") || document.querySelector("#container") || document.querySelector(".a-container") || document).getElementsByTagName("a");
-                  if (void 0 != d && null != d) {
-                    for (let h = 0; h < d.length; h++) {
-                      var c = d[h].href;
-                      /\/images/.test(c) || /\/e\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/.test(c) || !c.match(/^https?:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|es|nl|in|com\.mx|com\.br|com\.au)\/[^.]*?(?:\/|\?ASIN=)([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) && !c.match(/^https?:\/\/.*?\.amzn\.(com)[^.]*?\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) || (e = RegExp.$2, c = g.getDomain(RegExp.$1), "undefined" === typeof a[c] && (a[c] = []), a[c].includes(e) || a[c].push(e), e = !0);
+                  var d = !1;
+                  e = (document.querySelector("#main") || document.querySelector("#zg") || document.querySelector("#pageContent") || document.querySelector("#wishlist-page") || document.querySelector("#merchandised-content") || document.querySelector("#reactApp") || document.querySelector("[id^='contentGrid']") || document.querySelector("#container") || document.querySelector(".a-container") || document).getElementsByTagName("a");
+                  if (void 0 != e && null != e) {
+                    for (let h = 0; h < e.length; h++) {
+                      var c = e[h].href;
+                      /\/images/.test(c) || /\/e\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/.test(c) || !c.match(/^https?:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|es|nl|in|com\.mx|com\.br|com\.au)\/[^.]*?(?:\/|\?ASIN=)([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) && !c.match(/^https?:\/\/.*?\.amzn\.(com)[^.]*?\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) || (d = RegExp.$2, c = f.getDomain(RegExp.$1), "undefined" === typeof a[c] && (a[c] = []), a[c].includes(d) || a[c].push(d), d = !0);
                     }
                   }
-                  if (e) {
-                    f(a);
+                  if (d) {
+                    g(a);
                   } else {
                     return alert("Keepa: No product ASINs found on this page."), !1;
                   }
                   break;
                 default:
-                  f({});
+                  g({});
               }
             });
             chrome.storage.local.get(["overlayPriceGraph", "webGraphType", "webGraphRange"], function(a) {
               "undefined" == typeof a && (a = {});
               try {
-                let d = a.overlayPriceGraph, f = a.webGraphType;
+                let e = a.overlayPriceGraph, g = a.webGraphType;
                 try {
-                  f = JSON.parse(f);
+                  g = JSON.parse(g);
                 } catch (h) {
                 }
-                let e = a.webGraphRange;
+                let d = a.webGraphRange;
                 try {
-                  e = Number(e);
+                  d = Number(d);
                 } catch (h) {
                 }
                 let c;
-                if (1 == d) {
+                if (1 == e) {
                   let h = document.getElementsByTagName("a");
                   if (void 0 != h && null != h) {
                     for (c = 0; c < h.length; c++) {
-                      let n = h[c].href;
-                      /\/images/.test(n) || /\/e\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/.test(n) || !n.match(/^https?:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|es|in|com\.mx)\/[^.]*?(?:\/|\?ASIN=)([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) && !n.match(/^https?:\/\/.*?\.amzn\.(com)[^.]*?\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) || -1 == n.indexOf("offer-listing") && D.add_events(f, e, h[c], n, RegExp.$1, RegExp.$2);
+                      let p = h[c].href;
+                      /\/images/.test(p) || /\/e\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/.test(p) || !p.match(/^https?:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|es|in|com\.mx)\/[^.]*?(?:\/|\?ASIN=)([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) && !p.match(/^https?:\/\/.*?\.amzn\.(com)[^.]*?\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) || -1 == p.indexOf("offer-listing") && D.add_events(g, d, h[c], p, RegExp.$1, RegExp.$2);
                     }
                   }
-                  let k = function(n) {
-                    if ("A" == n.nodeName) {
-                      var m = n.href;
-                      /\/images/.test(m) || /\/e\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/.test(m) || !m.match(/^https?:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|es|in|com\.mx)\/[^.]*?(?:\/|\?ASIN=)([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) && !m.match(/^https?:\/\/.*?\.amzn\.(com)[^.]*?\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) || -1 == m.indexOf("offer-listing") && D.add_events(f, e, n, m, RegExp.$1, RegExp.$2);
+                  let k = function(p) {
+                    if ("A" == p.nodeName) {
+                      var m = p.href;
+                      /\/images/.test(m) || /\/e\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/.test(m) || !m.match(/^https?:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|es|in|com\.mx)\/[^.]*?(?:\/|\?ASIN=)([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) && !m.match(/^https?:\/\/.*?\.amzn\.(com)[^.]*?\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) || -1 == m.indexOf("offer-listing") && D.add_events(g, d, p, m, RegExp.$1, RegExp.$2);
                     }
-                  }, l = new MutationObserver(function(n) {
-                    n.forEach(function(m) {
+                  }, l = new MutationObserver(function(p) {
+                    p.forEach(function(m) {
                       try {
                         if ("childList" === m.type) {
                           for (c = 0; c < m.addedNodes.length; c++) {
                             k(m.addedNodes[c]);
                             for (var w = m.addedNodes[c].children; null != w && "undefined" != w && 0 < w.length;) {
-                              var C = [];
-                              for (let K = 0; K < w.length; K++) {
-                                k(w[K]);
+                              var z = [];
+                              for (let E = 0; E < w.length; E++) {
+                                k(w[E]);
                                 try {
-                                  if (w[K].children && 0 < w[K].children.length) {
-                                    for (let L = 0; L < w[K].children.length && 30 > L; L++) {
-                                      C.push(w[K].children[L]);
+                                  if (w[E].children && 0 < w[E].children.length) {
+                                    for (let J = 0; J < w[E].children.length && 30 > J; J++) {
+                                      z.push(w[E].children[J]);
                                     }
                                   }
-                                } catch (L) {
+                                } catch (J) {
                                 }
                               }
-                              w = C;
+                              w = z;
                             }
                           }
                         } else {
-                          if (C = m.target.getElementsByTagName("a"), "undefined" != C && null != C) {
-                            for (w = 0; w < C.length; w++) {
-                              k(C[w]);
+                          if (z = m.target.getElementsByTagName("a"), "undefined" != z && null != z) {
+                            for (w = 0; w < z.length; w++) {
+                              k(z[w]);
                             }
                           }
                         }
                         k(m.target);
-                      } catch (K) {
+                      } catch (E) {
                       }
                     });
                   });
@@ -1300,12 +1291,12 @@ const scanner = function() {
                     D.clear_image(m);
                   });
                 }
-              } catch (d) {
+              } catch (e) {
               }
             });
           }, 100);
         });
-        var D = {image_urls_main:[], pf_preview_current:"", preview_images:[], tld:"", createNewImageElement:function(b, a, d) {
+        var D = {image_urls_main:[], pf_preview_current:"", preview_images:[], tld:"", createNewImageElement:function(b, a, e) {
           b = b.createElement("img");
           b.style.borderTop = "2px solid #ff9f29";
           b.style.borderBottom = "3px solid grey";
@@ -1313,14 +1304,14 @@ const scanner = function() {
           b.style.position = "relative";
           b.style.padding = "5px";
           b.style.width = a + "px";
-          b.style.height = d + "px";
+          b.style.height = e + "px";
           b.style.maxWidth = a + "px";
-          b.style.maxHeight = d + "px";
+          b.style.maxHeight = e + "px";
           return b;
-        }, preview_image:function(b, a, d, f, e, c) {
+        }, preview_image:function(b, a, e, g, d, c) {
           let h;
           try {
-            h = d.originalTarget.ownerDocument;
+            h = e.originalTarget.ownerDocument;
           } catch (m) {
             h = document;
           }
@@ -1341,22 +1332,22 @@ const scanner = function() {
           }
           D.pf_preview_current = h.getElementById("pf_preview");
           if (!D.pf_preview_current.firstChild) {
-            var l = Math.max(Math.floor(0.3 * h.defaultView.innerHeight), 128), n = Math.max(Math.floor(0.3 * h.defaultView.innerWidth), 128);
+            var l = Math.max(Math.floor(0.3 * h.defaultView.innerHeight), 128), p = Math.max(Math.floor(0.3 * h.defaultView.innerWidth), 128);
             k = 2;
-            if (300 > n || 150 > l) {
+            if (300 > p || 150 > l) {
               k = 1;
             }
-            1000 < n && (n = 1000);
+            1000 < p && (p = 1000);
             1000 < l && (l = 1000);
             D.pf_preview_current.current = -1;
-            D.pf_preview_current.a = e;
-            D.pf_preview_current.href = f;
-            D.pf_preview_current.size = Math.floor(1.1 * Math.min(n, l));
-            h.defaultView.innerWidth - d.clientX < 1.05 * n && h.defaultView.innerHeight - d.clientY < 1.05 * l && (d = h.getElementById("pf_preview"), d.style.right = "", d.style.left = "6px");
-            e = "https://graph.keepa.com/pricehistory.png?type=" + k + "&asin=" + e + "&domain=" + c + "&width=" + n + "&height=" + l;
-            e = "undefined" == typeof b ? e + "&amazon=1&new=1&used=1&salesrank=1&range=365" : e + ("&amazon=" + b[0] + "&new=" + b[1] + "&used=" + b[2] + "&salesrank=" + b[3] + "&range=" + a + "&fba=" + b[10] + "&fbm=" + b[7] + "&bb=" + b[18] + "&ld=" + b[8] + "&wd=" + b[9]);
+            D.pf_preview_current.a = d;
+            D.pf_preview_current.href = g;
+            D.pf_preview_current.size = Math.floor(1.1 * Math.min(p, l));
+            h.defaultView.innerWidth - e.clientX < 1.05 * p && h.defaultView.innerHeight - e.clientY < 1.05 * l && (e = h.getElementById("pf_preview"), e.style.right = "", e.style.left = "6px");
+            d = "https://graph.keepa.com/pricehistory.png?type=" + k + "&asin=" + d + "&domain=" + c + "&width=" + p + "&height=" + l;
+            d = "undefined" == typeof b ? d + "&amazon=1&new=1&used=1&salesrank=1&range=365" : d + ("&amazon=" + b[0] + "&new=" + b[1] + "&used=" + b[2] + "&salesrank=" + b[3] + "&range=" + a + "&fba=" + b[10] + "&fbm=" + b[7] + "&bb=" + b[18] + "&ld=" + b[8] + "&pe=" + b[33] + "&bbu=" + b[32] + "&wd=" + b[9]);
             h.getElementById("pf_preview").style.display = "block";
-            fetch(e).then(m => {
+            fetch(d).then(m => {
               try {
                 if ("FAIL" === m.headers.get("screenshot-status")) {
                   return null;
@@ -1369,7 +1360,7 @@ const scanner = function() {
                 if (D.pf_preview_current.firstChild) {
                   D.pf_preview_current.firstChild.setAttribute("src", URL.createObjectURL(m));
                 } else {
-                  let w = D.createNewImageElement(h, n, l);
+                  let w = D.createNewImageElement(h, p, l);
                   D.pf_preview_current.appendChild(w);
                   w.setAttribute("src", URL.createObjectURL(m));
                 }
@@ -1379,27 +1370,27 @@ const scanner = function() {
         }, clear_image:function(b) {
           let a;
           try {
-            let d;
+            let e;
             try {
-              d = b.originalTarget.ownerDocument;
-            } catch (f) {
-              d = document;
+              e = b.originalTarget.ownerDocument;
+            } catch (g) {
+              e = document;
             }
-            a = d.getElementById("pf_preview");
+            a = e.getElementById("pf_preview");
             a.style.display = "none";
             a.style.right = "2px";
             a.style.left = "";
             D.pf_preview_current.innerHTML = "";
-          } catch (d) {
+          } catch (e) {
           }
-        }, add_events:function(b, a, d, f, e, c) {
-          0 <= f.indexOf("#") || 0 < f.indexOf("plattr=") || (D.tld = e, "pf_prevImg" != d.getAttribute("keepaPreview") && (d.addEventListener("mouseover", function(h) {
-            D.preview_image(b, a, h, f, c, e);
-            d.addEventListener("mouseout", function(k) {
+        }, add_events:function(b, a, e, g, d, c) {
+          0 <= g.indexOf("#") || 0 < g.indexOf("plattr=") || (D.tld = d, "pf_prevImg" != e.getAttribute("keepaPreview") && (e.addEventListener("mouseover", function(h) {
+            D.preview_image(b, a, h, g, c, d);
+            e.addEventListener("mouseout", function(k) {
               D.clear_image(k);
             }, {once:!0});
             return !0;
-          }, !0), d.setAttribute("keepaPreview", "pf_prevImg")));
+          }, !0), e.setAttribute("keepaPreview", "pf_prevImg")));
         }};
       }
     }
