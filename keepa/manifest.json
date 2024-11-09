@@ -1,9 +1,7 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
-
     "name": "Keepa - Amazon Price Tracker",
     "short_name": "Keepa",
-    "version": "5.38",
+    "version": "5.41",
     "permissions": ["alarms", "storage", "declarativeNetRequestWithHostAccess", "cookies", "contextMenus", "offscreen", "webRequest"],
     "optional_permissions": [],
     "author": "Keepa GmbH",

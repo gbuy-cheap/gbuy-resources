@@ -13,11 +13,20 @@ async function waitForCookies(a, d) {
       e(null);
     }, d);
     c || (clearTimeout(b), e(null));
-    c.then(g => {
+    c.then(f => {
       clearTimeout(b);
-      e(g);
+      e(f);
     });
   });
+}
+function parseNumberFormat(a) {
+  try {
+    let d = a.toString(), c = d.includes(".") ? d.split(".")[1].length : 0;
+    d = d.replace(".", "");
+    return parseInt(d, 10) * Math.pow(10, 2 - c);
+  } catch (d) {
+  }
+  return null;
 }
 async function handleGuestSession(a, d) {
   let c = null;
@@ -43,8 +52,8 @@ function updateCookies(a, d) {
     if (e.has(b.name)) {
       "-" !== b.value && "" !== b.value && "delete" !== b.value && c.set(b.name, b);
     } else {
-      const g = c.get(b.name);
-      g && g.secure === b.secure && g.path === b.path ? "" === b.value || "-" === b.value || "delete" === b.value ? c.delete(b.name) : c.set(b.name, b) : "" !== b.value && "-" !== b.value && "delete" !== b.value && c.set(b.name, b);
+      const f = c.get(b.name);
+      f && f.secure === b.secure && f.path === b.path ? "" === b.value || "-" === b.value || "delete" === b.value ? c.delete(b.name) : c.set(b.name, b) : "" !== b.value && "-" !== b.value && "delete" !== b.value && c.set(b.name, b);
     }
   });
   return Array.from(c.values());
@@ -53,16 +62,16 @@ function parseSetCookieString(a) {
   a = a.split(";").map(b => b.trim());
   const [d, c] = a[0].split("="), e = {name:d, value:c, domain:"", path:"", secure:!1, hostOnly:!1, httpOnly:!1, session:!1, storeId:"0", sameSite:"unspecified", expirationDate:0};
   a.slice(1).forEach(b => {
-    const [g, l] = b.split("=");
-    switch(g.toLowerCase()) {
+    const [f, m] = b.split("=");
+    switch(f.toLowerCase()) {
       case "domain":
-        e.domain = l;
+        e.domain = m;
         break;
       case "path":
-        e.path = l;
+        e.path = m;
         break;
       case "expires":
-        e.expirationDate = (new Date(l)).getTime() / 1000;
+        e.expirationDate = (new Date(m)).getTime() / 1000;
         break;
       case "secure":
         e.secure = !0;
@@ -92,8 +101,8 @@ const cookieToString = a => {
   let d = "", c = "";
   var e = {};
   for (let b in a) {
-    const g = a[b];
-    e[g.name] = g;
+    const f = a[b];
+    e[f.name] = f;
   }
   a = [];
   for (let b in cookieOrder) {
@@ -119,28 +128,28 @@ async function updateLocalStorage() {
 const swapCookies = async(a, d, c) => {
   cloud.getSessionId(d);
   cloud.getSessionId(c);
-  let e = null != c ? new Set(c.map(g => g.name)) : null, b = [];
+  let e = null != c ? new Set(c.map(f => f.name)) : null, b = [];
   if (null != d) {
-    for (let g of d) {
-      null != c && e.has(g.name) || (delete g.hostOnly, delete g.session, b.push(chrome.cookies.remove({url:a + g.path, name:g.name})));
+    for (let f of d) {
+      null != c && e.has(f.name) || (delete f.hostOnly, delete f.session, b.push(chrome.cookies.remove({url:a + f.path, name:f.name})));
     }
   }
   if (null != c) {
-    for (let g of c) {
-      delete g.hostOnly, delete g.session, g.url = a, b.push(chrome.cookies.set(g));
+    for (let f of c) {
+      delete f.hostOnly, delete f.session, f.url = a, b.push(chrome.cookies.set(f));
     }
   }
-  await Promise.all(b).catch(g => {
+  await Promise.all(b).catch(f => {
     setTimeout(() => {
-      //common.reportBug(g, "Error in cookie swap.");
+      //common.reportBug(f, "Error in cookie swap.");
     }, 1);
   });
 }, DNR = (() => {
   let a = 100;
   const d = e => 0 === e.length ? Promise.resolve() : chrome.declarativeNetRequest.updateSessionRules({removeRuleIds:e}), c = async() => {
     let e = [], b = chrome.declarativeNetRequest.getSessionRules();
-    b.then(g => g.forEach(l => {
-      e.push(l.id);
+    b.then(f => f.forEach(m => {
+      e.push(m.id);
     }));
     await b;
     return d(e);
@@ -150,10 +159,10 @@ const swapCookies = async(a, d, c) => {
   })();
   return {addSessionRules:e => {
     let b = [];
-    e.forEach(g => {
-      const l = ++a;
-      g.id = l;
-      b.push(l);
+    e.forEach(f => {
+      const m = ++a;
+      f.id = m;
+      b.push(m);
     });
     return [chrome.declarativeNetRequest.updateSessionRules({addRules:e}), b];
   }, deleteSessionRules:d, deleteAllRules:c};
@@ -218,18 +227,18 @@ const requestQueue = new AutoQueue(), processRequest = async a => {
         a.userCookies = null;
         var b = null != a.cookies ? cookieToString(a.cookies) : null;
         d = hasWebRequestPermission || !0 === a.ignoreCookies && null != b && 8 < b.length;
-        for (let m = 0; m < a.dnr.length; m++) {
-          const f = a.dnr[m];
-          f.priority = 108108;
-          f.condition && (-1 < a.url.indexOf("amazon.") ? f.condition.urlFilter = "||amazon." + getTldByDomain(a.domainId) : f.condition.urlFilter = a.url, f.condition.initiatorDomains = [chrome.runtime.id], delete f.condition.tabIds);
+        for (let l = 0; l < a.dnr.length; l++) {
+          const g = a.dnr[l];
+          g.priority = 108108;
+          g.condition && (-1 < a.url.indexOf("amazon.") ? g.condition.urlFilter = "||amazon." + getTldByDomain(a.domainId) : g.condition.urlFilter = a.url, g.condition.initiatorDomains = [chrome.runtime.id], delete g.condition.tabIds);
           let k = !1;
-          for (let n = 0; n < f.action.requestHeaders.length; n++) {
-            const p = f.action.requestHeaders[n];
+          for (let n = 0; n < g.action.requestHeaders.length; n++) {
+            const p = g.action.requestHeaders[n];
             "set" == p.operation && ("cookie" == p.header.toLowerCase() ? (null != b ? p.value = p.value.replace("{COOKIE}", b) : (delete p.value, p.operation = "remove"), k = !0) : (p.value = p.value.replace("{ORIGIN}", a.originHost ? a.originHost : e.host), a.language && (p.value = p.value.replace("{LANG}", a.language)), a.referer && (p.value = p.value.replace("{REFERER}", a.referer)), a.csrf && (p.value = p.value.replace("{CSRF}", a.csrf)), a.atcCsrf && (p.value = p.value.replace("{ATCCSRF}", 
             a.atcCsrf)), a.slateToken && (p.value = p.value.replace("{STOKEN}", a.slateToken))));
           }
-          a.isGuest && !k && "modifyHeaders" == f.action.type && (null != b && 0 < a.cookies.length ? f.action.requestHeaders.push({header:"Cookie", operation:"set", value:b}) : f.action.requestHeaders.push({header:"Cookie", operation:"remove"}));
-          a.isGuest && d && (f.action.responseHeaders = [{header:"Set-Cookie", operation:"remove"}]);
+          a.isGuest && !k && "modifyHeaders" == g.action.type && (null != b && 0 < a.cookies.length ? g.action.requestHeaders.push({header:"Cookie", operation:"set", value:b}) : g.action.requestHeaders.push({header:"Cookie", operation:"remove"}));
+          a.isGuest && d && (g.action.responseHeaders = [{header:"Set-Cookie", operation:"remove"}]);
         }
         try {
           try {
@@ -240,33 +249,33 @@ const requestQueue = new AutoQueue(), processRequest = async a => {
           }
           if (a.isGuest) {
             a.userSession = "";
-            var g = {excludedInitiatorDomains:[chrome.runtime.id], isUrlFilterCaseSensitive:!1, urlFilter:"||amazon." + getTldByDomain(a.domainId), resourceTypes:"main_frame sub_frame csp_report font image media object other ping script stylesheet webbundle websocket webtransport xmlhttprequest".split(" ")};
+            var f = {excludedInitiatorDomains:[chrome.runtime.id], isUrlFilterCaseSensitive:!1, urlFilter:"||amazon." + getTldByDomain(a.domainId), resourceTypes:"main_frame sub_frame csp_report font image media object other ping script stylesheet webbundle websocket webtransport xmlhttprequest".split(" ")};
             a.userCookies = await chrome.cookies.getAll({url:a.url});
             if (0 < a.userCookies.length) {
-              var l = cloud.getSessionId(a.userCookies);
-              if (l && 0 < l.length) {
-                if (cloud.getSessionId(a.cookies) == l) {
-                  throw "pre r; u s is r c s: " + l + " : " + a.userSession + " - " + a.url + "  sc active: " + (0 == lastSellerActivity ? "never" : (new Date(lastSellerActivity)).toISOString().substring(0, 19)) + " c active: " + (0 == lastContentActivity ? "never" : (new Date(lastContentActivity)).toISOString().substring(0, 19));
+              var m = cloud.getSessionId(a.userCookies);
+              if (m && 0 < m.length) {
+                if (cloud.getSessionId(a.cookies) == m) {
+                  throw "pre r; u s is r c s: " + m + " : " + a.userSession + " - " + a.url + "  sc active: " + (0 == lastSellerActivity ? "never" : (new Date(lastSellerActivity)).toISOString().substring(0, 19)) + " c active: " + (0 == lastContentActivity ? "never" : (new Date(lastContentActivity)).toISOString().substring(0, 19));
                 }
-                a.userSession = l;
+                a.userSession = m;
               }
-              d || a.dnr.push({priority:108107, action:{type:"modifyHeaders", requestHeaders:[{header:"Cookie", operation:"set", value:cookieToString(a.userCookies)}], responseHeaders:[{header:"Set-Cookie", operation:"remove"}]}, condition:g});
+              d || a.dnr.push({priority:108107, action:{type:"modifyHeaders", requestHeaders:[{header:"Cookie", operation:"set", value:cookieToString(a.userCookies)}], responseHeaders:[{header:"Set-Cookie", operation:"remove"}]}, condition:f});
             } else {
-              d || a.dnr.push({priority:108107, action:{type:"modifyHeaders", requestHeaders:[{header:"Cookie", operation:"remove"}], responseHeaders:[{header:"Set-Cookie", operation:"remove"}]}, condition:g});
+              d || a.dnr.push({priority:108107, action:{type:"modifyHeaders", requestHeaders:[{header:"Cookie", operation:"remove"}], responseHeaders:[{header:"Set-Cookie", operation:"remove"}]}, condition:f});
             }
           }
-          const [m, f] = DNR.addSessionRules(a.dnr);
+          const [l, g] = DNR.addSessionRules(a.dnr);
           try {
-            await m;
+            await l;
           } catch (k) {
             //common.reportBug(k, "Error dnrPromise.");
             return;
           }
           var h = "object" === typeof a.urls;
-          g = null;
+          f = null;
           try {
             if (a.isGuest && (settings.userCookies["" + a.domainId] = a.userCookies, await chrome.storage.local.set({userCookies:await compressObject(settings.userCookies)}), !d)) {
-              l = [];
+              m = [];
               if (null != a.cookies) {
                 for (e = 0; e < a.cookies.length; ++e) {
                   let n = a.cookies[e];
@@ -275,12 +284,12 @@ const requestQueue = new AutoQueue(), processRequest = async a => {
                   } catch (p) {
                     console.error(p);
                   }
-                  "sp-cdn" != n.name && l.push(n);
+                  "sp-cdn" != n.name && m.push(n);
                 }
               } else {
-                l = null;
+                m = null;
               }
-              await swapCookies(a.url, a.userCookies, l);
+              await swapCookies(a.url, a.userCookies, m);
             }
             let k = n => {
               hasWebRequestPermission && (interceptedExtensionCookies[n] = {promise:null, resolve:null}, interceptedExtensionCookies[n].promise = new Promise(p => {
@@ -305,14 +314,14 @@ const requestQueue = new AutoQueue(), processRequest = async a => {
               await Promise.all(n);
             } else {
               k(a.url);
-              g = await fetch(a.url, a.fetch);
+              f = await fetch(a.url, a.fetch);
               if (!delayedFetch || d) {
-                a.response.text = await g.text();
+                a.response.text = await f.text();
               }
-              for (let n of g.headers.entries()) {
+              for (let n of f.headers.entries()) {
                 a.response.headers[n[0]] = n[1];
               }
-              a.response.status = g.status;
+              a.response.status = f.status;
             }
           } catch (k) {
             console.log(k, "Fetch: " + a.url);
@@ -355,11 +364,11 @@ const requestQueue = new AutoQueue(), processRequest = async a => {
             }
             delete settings.userCookies["" + a.domainId];
             await updateLocalStorage();
-            await DNR.deleteSessionRules(f);
-            delayedFetch && !d && null != g && (a.response.text = await g.text());
+            await DNR.deleteSessionRules(g);
+            delayedFetch && !d && null != f && (a.response.text = await f.text());
             delete interceptedExtensionCookies[a.url];
           }
-        } catch (m) {
+        } catch (l) {
           a.response.cookies = null, a.response.text = null, a.response.status = 901, delete settings.extensionCookies["" + a.domainId], delete common.addToCartAssocCsrfs[a.domainId], delete settings.userCookies["" + a.domainId], await chrome.storage.local.set({extensionCookies:await compressObject(settings.extensionCookies), userCookies:await compressObject(settings.userCookies)}), await DNR.deleteAllRules();
         }
       }
@@ -384,7 +393,7 @@ const requestQueue = new AutoQueue(), processRequest = async a => {
       }
     }
   } catch (a) {
-    common.reportBug(a, "restoreUserCookies");
+    //common.reportBug(a, "restoreUserCookies");
   }
 };
 async function decompress(a, d) {
@@ -403,12 +412,6 @@ async function compress(a, d) {
   c.close();
   a = await (new Response(d.readable)).arrayBuffer();
   return new Uint8Array(a);
-}
-function parseNumberFormat(a) {
-  a = a.toString();
-  var d = a.includes(".") ? a.split(".")[1].length : 0;
-  a = a.replace(".", "");
-  return parseInt(a, 10) * Math.pow(10, 2 - d);
 }
 async function compressObject(a) {
   try {
@@ -430,7 +433,7 @@ chrome.storage.local.set({lastActivated:Date.now()}, () => {
         try {
           settings.extensionCookies = await decompressObject(settings.extensionCookies);
         } catch (d) {
-          //common.reportBug(d, "1 " + JSON.stringify(a)), settings.extensionCookies = [];
+          settings.extensionCookies = [];
         }
       } else {
         settings.extensionCookies = [];
@@ -439,7 +442,7 @@ chrome.storage.local.set({lastActivated:Date.now()}, () => {
         try {
           settings.userCookies = await decompressObject(settings.userCookies), restoreUserCookies();
         } catch (d) {
-          //common.reportBug(d, "3 " + JSON.stringify(a)), settings.userCookies = [];
+          settings.userCookies = [];
         }
       } else {
         settings.userCookies = [];
@@ -475,13 +478,13 @@ chrome.runtime.onMessage.addListener((a, d, c) => {
         break;
       case "setCookie":
         chrome.cookies.set({url:"https://keepa.com", path:"/extension", name:a.key, value:a.val, secure:!0, expirationDate:(Date.now() / 1000 | 0) + 31536E3});
-        "token" == a.key ? settings?.token != a.val && 64 == a.val.length && (settings.token = a.val, chrome.storage.local.set({token:a.val}), chrome.tabs.query({}, l => {
+        "token" == a.key ? settings?.token != a.val && 64 == a.val.length && (settings.token = a.val, chrome.storage.local.set({token:a.val}), chrome.tabs.query({}, m => {
           try {
-            l.forEach(h => {
+            m.forEach(h => {
               try {
                 h.url && !h.incognito && chrome.tabs.sendMessage(h.id, {key:"updateToken", value:settings.token});
-              } catch (m) {
-                console.log(m);
+              } catch (l) {
+                console.log(l);
               }
             });
           } catch (h) {
@@ -490,8 +493,8 @@ chrome.runtime.onMessage.addListener((a, d, c) => {
         })) : (settings[a.key] = a.val, chrome.storage.local.set({[a.key]:a.val}));
         break;
       case "getCookie":
-        return chrome.cookies.get({url:"https://keepa.com/extension", name:a.key}, l => {
-          null == l ? c({value:null, install:installTimestamp}) : c({value:l.value, install:installTimestamp});
+        return chrome.cookies.get({url:"https://keepa.com/extension", name:a.key}, m => {
+          null == m ? c({value:null, install:installTimestamp}) : c({value:m.value, install:installTimestamp});
         }), !0;
       case "openPage":
         chrome.windows.create({url:a.url, incognito:!0});
@@ -529,20 +532,20 @@ chrome.runtime.onMessage.addListener((a, d, c) => {
           break;
         }
         a.cachedStock = {stock:a.maxQty, limit:!1, isMaxQty:a.maxQty};
-        let g = a.offscreen ? common.addStockJobSequential : common.addStockJob;
-        g(a, l => {
-          if (l.errorCode && 0 < l.errorCode && a.cachedStock && 430 != l.errorCode) {
-            a.cachedStock.errorCode = l.errorCode, a.cachedStock.error = l.error, c(a.cachedStock);
+        let f = a.offscreen && !common.stockData.cartOffscreenBatch ? common.addStockJobSequential : common.addStockJob;
+        f(a, m => {
+          if (m.errorCode && 0 < m.errorCode && a.cachedStock && 430 != m.errorCode) {
+            a.cachedStock.errorCode = m.errorCode, a.cachedStock.error = m.error, c(a.cachedStock);
           } else {
-            if (5 == l.errorCode || 429 == l.errorCode || 430 == l.errorCode || 9 == l.errorCode) {
-              if (9 == l.errorCode || 430 == l.errorCode) {
+            if (5 != m.errorCode && 429 != m.errorCode && 430 != m.errorCode && 9 != m.errorCode || a.offscreen) {
+              c(m);
+            } else {
+              if (9 == m.errorCode || 430 == m.errorCode) {
                 a.getNewId = !0;
               }
               setTimeout(() => {
-                g(a, c);
+                f(a, c);
               }, 1);
-            } else {
-              c(l);
             }
           }
         });
@@ -565,10 +568,10 @@ chrome.runtime.onMessage.addListener((a, d, c) => {
           if (e = d.ratings, 1000 > asinCacheSize) {
             if ("f1" == d.key) {
               if (e) {
-                let l = e.length;
-                for (; l--;) {
-                  var b = e[l];
-                  null == b || null == b.asin ? e.splice(l, 1) : (b = d.domainId + b.asin + b.ls, asinCache[b] ? e.splice(l, 1) : (asinCache[b] = 1, asinCacheSize++));
+                let m = e.length;
+                for (; m--;) {
+                  var b = e[m];
+                  null == b || null == b.asin ? e.splice(m, 1) : (b = d.domainId + b.asin + b.ls, asinCache[b] ? e.splice(m, 1) : (asinCache[b] = 1, asinCacheSize++));
                 }
                 0 < e.length && webSocketObj.sendPlainMessage(d);
               }
@@ -621,16 +624,16 @@ const common = {version:chrome.runtime.getManifest().version, Guid:function() {
       c = new self.Uint16Array(16);
       self.crypto.getRandomValues(c);
       var e = "";
-      for (g in c) {
-        var b = c[g].toString(16);
+      for (f in c) {
+        var b = c[f].toString(16);
         b = a(b, 4, "0");
         e += b;
       }
-      var g = e;
+      var f = e;
     } else {
-      g = d();
+      f = d();
     }
-    return g;
+    return f;
   }};
 }(), register:async function() {
   chrome.cookies.onChanged.addListener(c => {
@@ -639,8 +642,8 @@ const common = {version:chrome.runtime.getManifest().version, Guid:function() {
         e.forEach(b => {
           try {
             b.url && !b.incognito && chrome.tabs.sendMessage(b.id, {key:"updateToken", value:settings.token});
-          } catch (g) {
-            console.log(g);
+          } catch (f) {
+            console.log(f);
           }
         });
       } catch (b) {
@@ -652,14 +655,14 @@ const common = {version:chrome.runtime.getManifest().version, Guid:function() {
     for (let e = 0; e < c.length; e++) {
       const b = c[e];
       try {
-        const g = await chrome.cookies.get({url:"https://keepa.com/extension", name:b});
+        const f = await chrome.cookies.get({url:"https://keepa.com/extension", name:b});
         if (chrome.runtime.lastError && -1 < chrome.runtime.lastError.message.indexOf("No host permission")) {
           a || (a = !0);
           break;
         }
-        null != g && null != g.value && 0 < g.value.length && common.set(b, g.value);
-      } catch (g) {
-        console.log(g);
+        null != f && null != f.value && 0 < f.value.length && common.set(b, f.value);
+      } catch (f) {
+        console.log(f);
       }
     }
   };
@@ -686,7 +689,7 @@ const common = {version:chrome.runtime.getManifest().version, Guid:function() {
       });
     }
   } catch (c) {
-    common.reportBug(c, "get token cookie");
+    //common.reportBug(c, "get token cookie");
   }
   isFirefox ? common.set("addonVersionFirefox", common.version) : common.set("addonVersionChrome", common.version);
   try {
@@ -724,8 +727,8 @@ const common = {version:chrome.runtime.getManifest().version, Guid:function() {
 }, stockRequest:[], stockData:null, stockJobQueue:[], stockJobQueueSingle:[], addStockJobSequential:(a, d) => {
   a.gid = common.Guid.newGuid().substr(0, 8);
   a.requestType = -1;
-  let c = !1, e = g => {
-    c || (c = !0, clearTimeout(b), g.error && delete common.addToCartAssocCsrfs[a.domainId], common.stockJobQueueSingle.shift(), d(g), 0 < common.stockJobQueueSingle.length && (stockDelay ? setTimeout(() => {
+  let c = !1, e = f => {
+    c || (c = !0, clearTimeout(b), f.error && delete common.addToCartAssocCsrfs[a.domainId], common.stockJobQueueSingle.shift(), d(f), 0 < common.stockJobQueueSingle.length && (stockDelay ? setTimeout(() => {
       common.processStockJob(common.stockJobQueueSingle[0][0], null, null, null, common.stockJobQueueSingle[0][1]);
     }, stockDelay) : common.processStockJob(common.stockJobQueueSingle[0][0], null, null, null, common.stockJobQueueSingle[0][1])));
   }, b = setTimeout(() => {
@@ -736,8 +739,8 @@ const common = {version:chrome.runtime.getManifest().version, Guid:function() {
 }, batchTimer:null, batchProcessing:!1, addStockJob:(a, d) => {
   a.gid = common.Guid.newGuid().substr(0, 8);
   a.requestType = -1;
-  let c = !1, e = g => {
-    c || (c = !0, clearTimeout(b), d(g));
+  let c = !1, e = f => {
+    c || (c = !0, clearTimeout(b), d(f));
   }, b = setTimeout(() => {
     e({error:"stock retrieval timeout", errorCode:408});
   }, a.offscreen ? 5000 : 0 == common.stockJobQueue.length ? 16000 : Math.min(15000 + 6000 * common.stockJobQueue.length, 60000));
@@ -752,21 +755,21 @@ const common = {version:chrome.runtime.getManifest().version, Guid:function() {
     var a = common.stockJobQueue;
     common.stockJobQueue = [];
     var d = {}, c = [], e = [];
-    a.forEach(m => {
-      let f = `${m.request.sellerId || "defaultSellerId"}_${m.request.asin || "defaultAsin"}`;
-      d[f] ? e.push(m) : (d[f] = !0, c.push(m));
+    a.forEach(l => {
+      let g = `${l.request.sellerId || "defaultSellerId"}_${l.request.asin || "defaultAsin"}`;
+      d[g] ? l.request.offscreen ? l.hook({error:"stock dup", errorCode:444}) : e.push(l) : (d[g] = !0, c.push(l));
     });
     common.stockJobQueue.push(...e);
-    a = c.map(m => m.request);
-    var b = c.map(m => m.hook), g = c.map(m => m.request.asin), l = c.map(m => m.request.oid), h = c.map(m => m.request.sellerId);
-    common.processStockJob(a[0], l, g, h, m => {
+    a = c.map(l => l.request);
+    var b = c.map(l => l.hook), f = c.map(l => l.request.asin), m = c.map(l => l.request.oid), h = c.map(l => l.request.sellerId);
+    common.processStockJob(a[0], m, f, h, l => {
       try {
-        m.forEach((f, k) => {
-          b[k](f);
+        l.forEach((g, k) => {
+          b[k](g);
         });
-      } catch (f) {
+      } catch (g) {
         b.forEach((k, n) => {
-          b[n](m);
+          b[n](l);
         });
       }
       0 < common.stockJobQueue.length ? common.processBatch() : common.batchProcessing = !1;
@@ -778,8 +781,8 @@ const common = {version:chrome.runtime.getManifest().version, Guid:function() {
     a.dnr[0].action.requestHeaders = a.dnr[0].action.requestHeaders.filter(e => !c.includes(e.header.toLowerCase()));
   }
 }, addToCartAjax:(a, d, c) => {
-  let e = !1, b = !1, g = 0, l = cloud.getSessionId(a.cookies);
-  l && (e = !0, l != a.session && (b = !0, g = l));
+  let e = !1, b = !1, f = 0, m = cloud.getSessionId(a.cookies);
+  m && (e = !0, m != a.session && (b = !0, f = m));
   if (e && b) {
     var h = structuredClone(common.stockData.addCart);
     h.isStock = !0;
@@ -789,141 +792,138 @@ const common = {version:chrome.runtime.getManifest().version, Guid:function() {
     h.slateToken = a.slateToken;
     h.originHost = a.host;
     h.domainId = a.domainId;
-    c || (h.url = h.url.replaceAll("{SESSION_ID}", g).replaceAll("{TLD}", getTldByDomain(a.domainId)).replaceAll("{OFFER_ID}", a.oid).replaceAll("{MARKETPLACE}", common.stockData.marketplaceIds[a.domainId]).replaceAll("{ADDCART}", encodeURIComponent(common.stockData.stockAdd[a.domainId])).replaceAll("{ASIN}", a.asin));
+    c || (h.url = h.url.replaceAll("{SESSION_ID}", f).replaceAll("{TLD}", getTldByDomain(a.domainId)).replaceAll("{OFFER_ID}", a.oid).replaceAll("{MARKETPLACE}", common.stockData.marketplaceIds[a.domainId]).replaceAll("{ADDCART}", encodeURIComponent(common.stockData.stockAdd[a.domainId])).replaceAll("{ASIN}", a.asin));
     h.language = common.stockData.languageCode[a.domainId];
     h.referer = common.stockData.isMobile ? "https://" + a.host + "/gp/aw/d/" + a.asin + "/" : a.referer;
     h.cookies = a.cookies;
-    h.fetch.body = h.fetch.body.replaceAll("{SESSION_ID}", g).replaceAll("{CSRF}", encodeURIComponent(a.csrf)).replaceAll("{OFFER_ID}", a.oid).replaceAll("{ADDCART}", encodeURIComponent(common.stockData.stockAdd[a.domainId])).replaceAll("{ASIN}", a.asin);
+    h.fetch.body = h.fetch.body.replaceAll("{SESSION_ID}", f).replaceAll("{CSRF}", encodeURIComponent(a.csrf)).replaceAll("{OFFER_ID}", a.oid).replaceAll("{ADDCART}", encodeURIComponent(common.stockData.stockAdd[a.domainId])).replaceAll("{ASIN}", a.asin);
     requestQueue.enqueue(() => processRequest(h)).then(async() => {
-      const m = h.response?.text, f = h.response?.status;
-      if (null == m) {
-        a.cookies = null, common.stockData.domainId = -1, d({error:"(" + f + ") Stock retrieval failed for this offer. Try reloading the page or restarting your browser if the issue persists. ", errorCode:66});
+      const l = h.response?.text, g = h.response?.status;
+      if (null == l) {
+        a.cookies = null, common.stockData.domainId = -1, d({error:"(" + g + ") Stock retrieval failed for this offer. Try reloading the page or restarting your browser if the issue persists. ", errorCode:66});
       } else {
         try {
-          if (422 == f || 200 == f) {
-            let k = JSON.parse(m), n = (new RegExp(common.stockData.limit)).test(JSON.stringify(k.entity.items[0].responseMessage));
-            d({stock:k.entity.items[0].quantity, orderLimit:-1, limit:n, price:-3, location:null});
+          if (422 == g || 200 == g) {
+            let k = JSON.parse(l), n = (new RegExp(common.stockData.limit)).test(JSON.stringify(k.entity.items[0].responseMessage));
+            d({stock:k.entity.items[0].quantity, orderLimit:-1, limit:n, price:-3, location:null, type:1});
           } else {
-            d({error:"Stock retrieval failed for this offer. Try reloading the page after a while. ", errorCode:f});
+            d({error:"Stock retrieval failed for this offer. Try reloading the page after a while. ", errorCode:g});
           }
         } catch (k) {
           a.error = k, console.error("request failed", k), d({error:"An error occurred during stock retrieval", errorCode:500});
         }
       }
-    }).catch(m => {
-      a.error = m;
-      console.error("request failed", m);
+    }).catch(l => {
+      a.error = l;
+      console.error("request failed", l);
       d({error:"An error occurred during stock retrieval", errorCode:501});
-      //common.reportBug(m, "6 stock error - " + JSON.stringify(asins));
+      //common.reportBug(l, "6 stock error - " + JSON.stringify(asins));
     });
   } else {
-    //common.reportBug(null, "stock session issue: " + e + " " + b + " c: " + JSON.stringify(a.cookies) + " " + JSON.stringify(a)), d({error:"stock session issue: " + e + " " + b, errorCode:4});
+    //d({error:"stock session issue: " + e + " " + b, errorCode:4});
   }
 }, addToCartAssocCsrfs:[], deleteExtensionCookies:async a => {
   delete common.addToCartAssocCsrfs[a];
   delete settings.extensionCookies[a];
   await chrome.storage.local.set({extensionCookies:await compressObject(settings.extensionCookies)});
-}, addToCartAssoc:(a, d, c, e, b, g) => {
-  let l = structuredClone(common.stockData.createCart);
-  l.isStock = !0;
-  l.userSession = a.session;
-  l.originHost = a.host;
-  l.domainId = a.domainId;
-  l.language = common.stockData.languageCode[a.domainId];
-  l.cookies = a.cookies;
-  l.url = l.url.replaceAll("{TLD}", getTldByDomain(a.domainId)).replaceAll("{TAG}", common.stockData.tags[a.domainId]);
-  l.url += "&Quantity.1=1&OfferListingId.1=" + a.oid;
-  common.addToCartAssocCsrfs[a.domainId] ? common.addToCartAssocWithCsrf(a, d, c, e, b, g, common.addToCartAssocCsrfs[a.domainId], l.url) : requestQueue.enqueue(() => processRequest(l)).then(async() => {
-    let h = l.response?.text, m = l.response?.status;
-    if (null == h || 200 != m) {
-      a.cookies = null, common.stockData.domainId = -1, common.deleteExtensionCookies(a.domainId), b({error:"(" + m + ") Stock retrieval failed for this offer. Try reloading the page or restarting your browser if the issue persists", errorCode:65});
+}, addToCartAssoc:(a, d, c, e, b) => {
+  let f = structuredClone(common.stockData.createCart);
+  f.isStock = !0;
+  f.userSession = a.session;
+  f.originHost = a.host;
+  f.domainId = a.domainId;
+  f.language = common.stockData.languageCode[a.domainId];
+  f.cookies = a.cookies;
+  f.url = f.url.replaceAll("{TLD}", getTldByDomain(a.domainId)).replaceAll("{TAG}", common.stockData.tags[a.domainId]);
+  f.url += "&Quantity.1=1&ASIN.1=" + a.asin;
+  common.addToCartAssocCsrfs[a.domainId] ? common.addToCartAssocWithCsrf(a, d, c, e, b, common.addToCartAssocCsrfs[a.domainId], f.url) : requestQueue.enqueue(() => processRequest(f)).then(async() => {
+    let m = f.response?.text, h = f.response?.status;
+    if (null == m || 200 != h) {
+      a.cookies = null, common.stockData.domainId = -1, common.deleteExtensionCookies(a.domainId), b({error:"(" + h + ") Stock retrieval failed for this offer. Try reloading the page or restarting your browser if the issue persists", errorCode:65});
     } else {
-      if (0 > h.indexOf('name="OfferListingId.1"')) {
-        a.cookies = null, common.stockData.domainId = -1, common.deleteExtensionCookies(a.domainId), b({error:"Stock retrieval failed for this offer. Try reloading the page or restarting your browser if the issue persists. ", errorCode:404});
-      } else {
-        try {
-          let f = h.match(new RegExp(common.stockData.csrfAssoc));
-          if (null != f) {
-            f = f[1];
-            let k = a.domainId;
-            common.addToCartAssocCsrfs[k] = f;
-            setTimeout(() => {
-              delete common.addToCartAssocCsrfs[k];
-            }, 6E5);
-            common.addToCartAssocWithCsrf(a, d, c, e, b, g, f, l.url);
-          } else {
-            b({error:"Stock retrieval failed for this offer. Try reloading the page after a while. ", errorCode:m});
-          }
-        } catch (f) {
-          a.error = f, console.error("request failed", f), b({error:"An error occurred during stock retrieval", errorCode:502}), common.reportBug(f, "4 stock error - " + JSON.stringify(c));
+      try {
+        let l = m.match(new RegExp(common.stockData.csrfAssoc));
+        if (null != l) {
+          l = l[1];
+          let g = a.domainId;
+          common.addToCartAssocCsrfs[g] = l;
+          setTimeout(() => {
+            delete common.addToCartAssocCsrfs[g];
+          }, 6E5);
+          common.addToCartAssocWithCsrf(a, d, c, e, b, l, f.url);
+        } else {
+          b({error:"Stock retrieval failed for this offer. Try reloading the page after a while. ", errorCode:h});
         }
+      } catch (l) {
+        a.error = l, console.error("request failed", l), b({error:"An error occurred during stock retrieval", errorCode:502});
       }
     }
-  }).catch(h => {
-    a.error = h;
-    console.error("cc request failed", h);
+  }).catch(m => {
+    a.error = m;
+    console.error("cc request failed", m);
     b({error:"An error occurred during stock retrieval", errorCode:503});
-    common.reportBug(h, "3 stock error - " + JSON.stringify(c));
   });
-}, addToCartAssocWithCsrf:(a, d, c, e, b, g, l, h) => {
-  let m = structuredClone(common.stockData.addCartAssoc);
-  m.isStock = !0;
-  m.userSession = a.session;
-  m.originHost = a.host;
-  m.domainId = a.domainId;
-  m.language = common.stockData.languageCode[a.domainId];
-  m.referer = h;
-  m.cookies = a.cookies;
-  g = "";
-  for (h = 0; h < d.length; h++) {
-    var f = h + 1;
-    g += "OfferListingId." + f + "=" + encodeURIComponent(d[h]) + "&";
-    g += "ASIN." + f + "=" + encodeURIComponent(c[h]) + "&";
-    g += "Quantity." + f + "=" + common.stockData.stockQty + "&";
+}, addToCartAssocWithCsrf:(a, d, c, e, b, f, m) => {
+  let h = structuredClone(common.stockData.addCartAssoc);
+  h.isStock = !0;
+  h.userSession = a.session;
+  h.originHost = a.host;
+  h.domainId = a.domainId;
+  h.language = common.stockData.languageCode[a.domainId];
+  h.referer = m;
+  h.cookies = a.cookies;
+  m = "";
+  for (var l = 0; l < d.length; l++) {
+    var g = l + 1;
+    m += "OfferListingId." + g + "=" + encodeURIComponent(d[l]) + "&";
+    m += "ASIN." + g + "=" + encodeURIComponent(c[l]) + "&";
+    m += "Quantity." + g + "=" + common.stockData.stockQty + "&";
   }
-  g += "anti-csrftoken-a2z=" + encodeURIComponent(l);
-  m.fetch.body = g;
-  m.fetch.redirect = "follow";
-  m.url = m.url.replaceAll("{TLD}", getTldByDomain(a.domainId));
-  requestQueue.enqueue(() => processRequest(m)).then(async() => {
-    let k = m.response?.text;
-    if (200 != m.response?.status) {
+  m += "anti-csrftoken-a2z=" + encodeURIComponent(f);
+  h.fetch.body = m;
+  h.fetch.redirect = "follow";
+  h.url = h.url.replaceAll("{TLD}", getTldByDomain(a.domainId));
+  requestQueue.enqueue(() => processRequest(h)).then(async() => {
+    let k = h.response?.text;
+    if (200 != h.response?.status) {
       a.cookies = null, common.stockData.domainId = -1, b({error:"Stock retrieval failed for this offer. Try reloading the page or restarting your browser if the issue persists. ", errorCode:165});
     } else {
       try {
-        let n = [];
-        for (let p = 0; p < c.length; p++) {
-          const r = c[p], q = e[p], t = (new RegExp(`<div[^>]*\\bdata-asin="${r}"[^>]*?(?=.*\\bdata-price="([^"]+)")(?=.*\\bdata-quantity="([^"]+)")(?=.*\\bdata-itemid="([^"]+)")[^]{10,2300}smid=${q}`, "i")).exec(k);
-          if (t) {
-            const w = t[1];
-            let v = t[2];
-            const u = t[3];
+        let p = [], r = !1;
+        for (let q = 0; q < c.length; q++) {
+          const t = c[q], u = e[q], v = (new RegExp(`<div[^>]*\\bdata-asin="${t}"[^>]*?(?=.*\\bdata-price="([^"]+)")(?=.*\\bdata-quantity="([^"]+)")(?=.*\\bdata-itemid="([^"]+)")[^]{10,2300}smid=${u}`, "i")).exec(k);
+          if (v && !r) {
+            const z = parseNumberFormat(v[1]);
+            let w = parseInt(v[2]);
+            const x = v[3];
+            var n = null;
+            if (a.offscreen) {
+              const y = (new RegExp(common.stockData.stockLocation, "i")).exec(k);
+              y && (n = y[1]);
+            }
             "undefined" == typeof settings.extensionCookies[a.domainId].cartCache && (settings.extensionCookies[a.domainId].cartCache = []);
-            settings.extensionCookies[a.domainId].cartCache[u] && (v = settings.extensionCookies[a.domainId].cartCache[u]);
-            let x = {asin:r, sellerId:q, dataItemId:u, stock:v, orderLimit:-1, limit:!1, price:w, location:null};
-            settings.extensionCookies[a.domainId].cartCache[u] = v;
-            n.push(x);
+            settings.extensionCookies[a.domainId].cartCache[x] && (w = settings.extensionCookies[a.domainId].cartCache[x]);
+            1000 < w ? (common.deleteExtensionCookies(a.domainId), p.push({asin:t, sellerId:u, errorCode:535, error:"Offer not found"}), r = !0) : (n = {asin:t, sellerId:u, dataItemId:x, stock:w, orderLimit:-1, limit:!1, price:z, type:2, location:n}, settings.extensionCookies[a.domainId].cartCache[x] = w, p.push(n));
           } else {
-            n.push({asin:r, sellerId:q, errorCode:535, error:"Offer not found"});
+            p.push({asin:t, sellerId:u, errorCode:535, error:"Offer not found"});
           }
         }
         chrome.storage.local.set({extensionCookies:await compressObject(settings.extensionCookies)});
-        b(n);
-      } catch (n) {
-        a.error = n, console.error("request failed", n), b({error:"An error occurred during stock retrieval", errorCode:505}), common.reportBug(n, "1 stock error - " + JSON.stringify(c));
+        b(p);
+      } catch (p) {
+        a.error = p, console.error("request failed", p), b({error:"An error occurred during stock retrieval", errorCode:505});
       }
     }
   }).catch(k => {
     a.error = k;
     console.error("request failed", k);
     b({error:"An error occurred during stock retrieval", errorCode:506});
-    //common.reportBug(k, "2 stock error - " + JSON.stringify(c));
   });
 }, processStockJob:async(a, d, c, e, b) => {
   Date.now();
-  let g = !a.offscreen;
+  let f = !a.offscreen || common.stockData.cartOffscreenBatch;
   a.queue = [async() => {
-    g ? common.addToCartAssoc(a, d, c, e, b, g) : common.addToCartAjax(a, b, g);
+    f ? common.addToCartAssoc(a, d, c, e, b) : common.addToCartAjax(a, b, f);
   }];
   a.getNewId && (common.stockData.geoRetry && common.deleteExtensionCookies(a.domainId), a.queue.unshift(async() => {
     let h = structuredClone(common.stockData.geo);
@@ -935,25 +935,25 @@ const common = {version:chrome.runtime.getManifest().version, Guid:function() {
     h.language = common.stockData.languageCode[a.domainId];
     requestQueue.enqueue(async() => processRequest(h)).then(async() => {
       if (h.response.text.match(common.stockData.sellerIdBBVerify.replace("{SID}", a.sellerId))) {
-        var m = null;
-        for (var f = 0; f < common.stockData.csrfBB.length; f++) {
-          var k = h.response.text.match(new RegExp(common.stockData.csrfBB[f]));
+        var l = null;
+        for (var g = 0; g < common.stockData.csrfBB.length; g++) {
+          var k = h.response.text.match(new RegExp(common.stockData.csrfBB[g]));
           if (null != k && k[1]) {
-            m = k[1];
+            l = k[1];
             break;
           }
         }
-        if (m) {
-          a.csrf = m;
-          m = null;
-          for (f = 0; f < common.stockData.offerIdBB.length; f++) {
-            if (k = h.response.text.match(new RegExp(common.stockData.offerIdBB[f])), null != k && k[1]) {
-              m = k[1];
+        if (l) {
+          a.csrf = l;
+          l = null;
+          for (g = 0; g < common.stockData.offerIdBB.length; g++) {
+            if (k = h.response.text.match(new RegExp(common.stockData.offerIdBB[g])), null != k && k[1]) {
+              l = k[1];
               break;
             }
           }
-          if (m) {
-            a.oid = m;
+          if (l) {
+            a.oid = l;
             a.callback();
             return;
           }
@@ -961,11 +961,11 @@ const common = {version:chrome.runtime.getManifest().version, Guid:function() {
       }
       common.deleteExtensionCookies(a.domainId);
       b({error:"stock retrieval failed for offer: " + a.asin + " id: " + a.gid + " mismatch oid.", errorCode:10});
-    }).catch(async m => {
-      a.error = m;
+    }).catch(async l => {
+      a.error = l;
       common.deleteExtensionCookies(a.domainId);
       b({error:"stock retrieval failed for offer: " + a.asin + " id: " + a.gid + " mismatch oid.", errorCode:101});
-      console.error("request failed", m);
+      console.error("request failed", l);
     });
   }));
   a.callback = () => {
@@ -975,7 +975,7 @@ const common = {version:chrome.runtime.getManifest().version, Guid:function() {
   if (settings.extensionCookies[a.domainId] && 288E5 > Date.now() - settings.extensionCookies[a.domainId].createDate && 1729806460708 < settings.extensionCookies[a.domainId].createDate) {
     a.cookies = settings.extensionCookies[a.domainId].cookies, a.callback();
   } else {
-    var l = common.stockData.zipCodes[a.domainId];
+    var m = common.stockData.zipCodes[a.domainId];
     if (common.stockData.domainId == a.domainId) {
       a.requestType = 3;
       let h = structuredClone(common.stockData.addressChange);
@@ -985,14 +985,14 @@ const common = {version:chrome.runtime.getManifest().version, Guid:function() {
       h.url = "https://" + a.host + h.url;
       h.csrf = "";
       h.language = common.stockData.languageCode[a.domainId];
-      h.fetch.body = h.fetch.body.replace("{ZIPCODE}", l);
+      h.fetch.body = h.fetch.body.replace("{ZIPCODE}", m);
       requestQueue.enqueue(() => processRequest(h)).then(() => {
         a.cookies = h.response.cookies;
         a.callback();
-      }).catch(m => {
-        a.error = m;
+      }).catch(l => {
+        a.error = l;
         b({error:"stock retrieval failed for offer: " + a.asin + " id: " + a.gid + " main.", errorCode:73});
-        console.error("request failed", m);
+        console.error("request failed", l);
       });
     } else {
       let h = structuredClone(common.stockData.geo);
@@ -1002,9 +1002,9 @@ const common = {version:chrome.runtime.getManifest().version, Guid:function() {
       h.language = common.stockData.languageCode[a.domainId];
       h.domainId = a.domainId;
       requestQueue.enqueue(() => processRequest(h)).then(async() => {
-        let m = h.response.text;
-        var f = m?.match(new RegExp(common.stockData.csrfGeo));
-        null != f && (h.csrf = f[1]);
+        let l = h.response.text;
+        var g = l?.match(new RegExp(common.stockData.csrfGeo));
+        null != g && (h.csrf = g[1]);
         if (200 == h.response.status) {
           let k = structuredClone(common.stockData.setAddress);
           k.userSession = a.session;
@@ -1023,11 +1023,11 @@ const common = {version:chrome.runtime.getManifest().version, Guid:function() {
             k.isStock = !0;
             n.url = "https://" + a.host + n.url;
             n.language = common.stockData.languageCode[a.domainId];
-            m = k.response.text;
-            let p = m?.match(new RegExp(common.stockData.csrfSetAddress));
+            l = k.response.text;
+            let p = l?.match(new RegExp(common.stockData.csrfSetAddress));
             null != p && (n.csrf = p[1]);
             n.cookies = k.response.cookies;
-            n.fetch.body = n.fetch.body.replace("{ZIPCODE}", l);
+            n.fetch.body = n.fetch.body.replace("{ZIPCODE}", m);
             a.requestType = 3;
             requestQueue.enqueue(() => processRequest(n)).then(() => {
               a.cookies = n.response.cookies;
@@ -1045,19 +1045,19 @@ const common = {version:chrome.runtime.getManifest().version, Guid:function() {
             b({error:"stock retrieval failed for offer: " + a.asin + " id: " + a.gid + " main.", errorCode:71});
           });
         } else {
-          if (429 == h.response.status) {
+          if (429 != h.response.status || a.offscreen) {
+            common.deleteExtensionCookies(a.domainId), b({error:"stock retrieval failed for offer: " + a.asin + " id: " + a.gid + " main.", errorCode:7});
+          } else {
             const k = a.isMainRetry;
             setTimeout(() => {
-              k ? b({error:"stock retrieval failed for offer: " + a.asin + " id: " + a.gid + " main.", errorCode:429}) : (a.isMainRetry = !0, (g ? common.addStockJob : common.addStockJobSequential)(a, b));
+              k ? b({error:"stock retrieval failed for offer: " + a.asin + " id: " + a.gid + " main.", errorCode:429}) : (a.isMainRetry = !0, (f ? common.addStockJob : common.addStockJobSequential)(a, b));
             }, 1156);
-            k || (f = g ? common.stockJobQueue : common.stockJobQueueSingle, f.shift(), 0 < f.length && common.processStockJob(f[0][0], null, null, null, f[0][1]));
-          } else {
-            common.deleteExtensionCookies(a.domainId), b({error:"stock retrieval failed for offer: " + a.asin + " id: " + a.gid + " main.", errorCode:7});
+            k || (g = f ? common.stockJobQueue : common.stockJobQueueSingle, g.shift(), 0 < g.length && common.processStockJob(g[0][0], null, null, null, g[0][1]));
           }
         }
-      }).catch(async m => {
-        a.error = m;
-        console.error("request failed " + a.url, m);
+      }).catch(async l => {
+        a.error = l;
+        console.error("request failed " + a.url, l);
         common.deleteExtensionCookies(a.domainId);
         b({error:"stock retrieval failed for offer: " + a.asin + " id: " + a.gid + " main.", errorCode:74});
       });
@@ -1068,37 +1068,38 @@ const common = {version:chrome.runtime.getManifest().version, Guid:function() {
   e[a] = d;
   common.storage.set(e, c);
 }, lastBugReport:0, reportBug:function(a, d, c) {
+  return
   console.error(a, d);
   const e = a ? a : Error();
   common.storage.get(["token"], function(b) {
-    var g = Date.now();
-    if (!(12E5 > g - common.lastBugReport || /(dead object)|(Script error)|(setUninstallURL)|(File error: Corrupted)|(operation is insecure)|(\.location is null)/i.test(a))) {
-      common.lastBugReport = g;
-      g = "";
-      var l = common.version;
+    var f = Date.now();
+    if (!(12E5 > f - common.lastBugReport || /(dead object)|(Script error)|(setUninstallURL)|(File error: Corrupted)|(operation is insecure)|(\.location is null)/i.test(a))) {
+      common.lastBugReport = f;
+      f = "";
+      var m = common.version;
       d = d || "";
       try {
-        if (g = e.stack.split("\n").splice(1).join("&ensp;&lArr;&ensp;"), !/(keepa|content)\.js/.test(g) || g.startsWith("https://www.amazon") || g.startsWith("https://smile.amazon") || g.startsWith("https://sellercentral")) {
+        if (f = e.stack.split("\n").splice(1).join("&ensp;&lArr;&ensp;"), !/(keepa|content)\.js/.test(f) || f.startsWith("https://www.amazon") || f.startsWith("https://smile.amazon") || f.startsWith("https://sellercentral")) {
           return;
         }
-      } catch (m) {
+      } catch (l) {
       }
       try {
-        g = g.replace(RegExp("chrome-extension://.*?/content/", "g"), "").replace(/:[0-9]*?\)/g, ")").replace(/[ ]{2,}/g, "");
-      } catch (m) {
+        f = f.replace(RegExp("chrome-extension://.*?/content/", "g"), "").replace(/:[0-9]*?\)/g, ")").replace(/[ ]{2,}/g, "");
+      } catch (l) {
       }
       if ("object" == typeof a) {
         try {
           a = a instanceof Error ? a.toString() : JSON.stringify(a);
-        } catch (m) {
+        } catch (l) {
         }
       }
-      null == c && (c = {exception:a, additional:d, url:chrome.runtime.id, stack:g});
+      null == c && (c = {exception:a, additional:d, url:chrome.runtime.id, stack:f});
       c.keepaType = type;
-      c.version = l;
+      c.version = m;
       var h = JSON.stringify(c);
       setTimeout(function() {
-        fetch("https://dyn.keepa.com/service/bugreport/?user=" + b.token + "&type=" + browserType + "&version=" + l + "&delayed=" + (delayedFetch ? 1 : 0) + "&timeout=" + sellerLockoutDuration, {method:"POST", body:h, mode:"cors", cache:"no-cache", credentials:"same-origin", redirect:"error"});
+        fetch("https://dyn.keepa.com/service/bugreport/?user=" + b.token + "&type=" + browserType + "&version=" + m + "&delayed=" + (delayedFetch ? 1 : 0) + "&timeout=" + sellerLockoutDuration, {method:"POST", body:h, mode:"cors", cache:"no-cache", credentials:"same-origin", redirect:"error"});
       }, 50);
     }
   });
@@ -1123,32 +1124,32 @@ let webSocketObj = {server:["wss://dyn-2.keepa.com", "wss://dyn.keepa.com"], ser
           e.onmessage = async function(b) {
             if (0 != b.data.byteLength) {
               b = b.data;
-              var g = null;
+              var f = null;
               b instanceof ArrayBuffer && (b = await decompress(b, !0));
               try {
-                g = JSON.parse(b);
-              } catch (l) {
-                //common.reportBug(l, b);
+                f = JSON.parse(b);
+              } catch (m) {
+                common.reportBug(m, b);
                 return;
               } finally {
                 b = b = null;
               }
               lastActivity = Date.now();
-              108 != g.status && ("" == g.key ? common.stockData.domainId = g.domainId : 108108 == g.timeout ? (g.stockDataV3 && (common.stockData = g.stockDataV3, common.stockData.cookieOrder && (cookieOrder = common.stockData.cookieOrder), g.stockDataV3.amazonIds && (AmazonSellerIds = g.stockDataV3.amazonIds), g.stockDataV3.warehouseIds && (WarehouseDealsSellerIds = g.stockDataV3.warehouseIds), common.stockData.sellerLockoutDuration && (sellerLockoutDuration = common.stockData.sellerLockoutDuration), 
-              common.stockData.delayedFetch && (delayedFetch = common.stockData.delayedFetch), common.stockData.ignoreWebRequest && (hasWebRequestPermission = !1), hasWebRequestPermission && chrome.webRequest?.onHeadersReceived.addListener(l => {
-                if (l.initiator == serviceWorkerUrl) {
-                  var h = l.responseHeaders, m = l.url, f = [];
+              108 != f.status && ("" == f.key ? common.stockData.domainId = f.domainId : 108108 == f.timeout ? (f.stockDataV3 && (common.stockData = f.stockDataV3, common.stockData.cookieOrder && (cookieOrder = common.stockData.cookieOrder), f.stockDataV3.amazonIds && (AmazonSellerIds = f.stockDataV3.amazonIds), f.stockDataV3.warehouseIds && (WarehouseDealsSellerIds = f.stockDataV3.warehouseIds), common.stockData.sellerLockoutDuration && (sellerLockoutDuration = common.stockData.sellerLockoutDuration), 
+              common.stockData.delayedFetch && (delayedFetch = common.stockData.delayedFetch), common.stockData.ignoreWebRequest && (hasWebRequestPermission = !1), hasWebRequestPermission && chrome.webRequest?.onHeadersReceived.addListener(m => {
+                if (m.initiator == serviceWorkerUrl) {
+                  var h = m.responseHeaders, l = m.url, g = [];
                   for (let k = 0; k < h.length; ++k) {
-                    "set-cookie" == h[k].name.toLowerCase() && f.push(parseSetCookieString(h[k].value));
+                    "set-cookie" == h[k].name.toLowerCase() && g.push(parseSetCookieString(h[k].value));
                   }
                   try {
-                    interceptedExtensionCookies[m].resolve({cookies:f, request:l});
+                    interceptedExtensionCookies[l].resolve({cookies:g, request:m});
                   } catch (k) {
-                    -1 < m.indexOf("/gp/cart/view") && interceptedExtensionCookies[m.replaceAll("/gp/cart/view.html", "/associates/addtocart")]?.resolve({cookies:f, request:l});
+                    -1 < l.indexOf("/gp/cart/view") && interceptedExtensionCookies[l.replaceAll("/gp/cart/view.html", "/associates/addtocart")]?.resolve({cookies:g, request:m});
                   }
                 }
-              }, {urls:["<all_urls>"]}, ["responseHeaders", "extraHeaders"]), common.stockData.stockDelay && (stockDelay = common.stockData.stockDelay)), "undefined" != typeof g.keepaBoxPlaceholder && common.set("keepaBoxPlaceholder", g.keepaBoxPlaceholder), "undefined" != typeof g.keepaBoxPlaceholderBackup && common.set("keepaBoxPlaceholderBackup", g.keepaBoxPlaceholderBackup), "undefined" != typeof g.keepaBoxPlaceholderBackupClass && common.set("keepaBoxPlaceholderBackupClass", g.keepaBoxPlaceholderBackupClass), 
-              "undefined" != typeof g.keepaBoxPlaceholderAppend && common.set("keepaBoxPlaceholderAppend", g.keepaBoxPlaceholderAppend), "undefined" != typeof g.keepaBoxPlaceholderBackupAppend && common.set("keepaBoxPlaceholderBackupAppend", g.keepaBoxPlaceholderBackupAppend)) : (g.domainId && (webSocketObj.lastDomain = g.domainId), cloud.onMessage(g)));
+              }, {urls:["<all_urls>"]}, ["responseHeaders", "extraHeaders"]), common.stockData.stockDelay && (stockDelay = common.stockData.stockDelay)), "undefined" != typeof f.keepaBoxPlaceholder && common.set("keepaBoxPlaceholder", f.keepaBoxPlaceholder), "undefined" != typeof f.keepaBoxPlaceholderBackup && common.set("keepaBoxPlaceholderBackup", f.keepaBoxPlaceholderBackup), "undefined" != typeof f.keepaBoxPlaceholderBackupClass && common.set("keepaBoxPlaceholderBackupClass", f.keepaBoxPlaceholderBackupClass), 
+              "undefined" != typeof f.keepaBoxPlaceholderAppend && common.set("keepaBoxPlaceholderAppend", f.keepaBoxPlaceholderAppend), "undefined" != typeof f.keepaBoxPlaceholderBackupAppend && common.set("keepaBoxPlaceholderBackupAppend", f.keepaBoxPlaceholderBackupAppend)) : (f.domainId && (webSocketObj.lastDomain = f.domainId), cloud.onMessage(f)));
             }
           };
           e.onclose = function(b) {
@@ -1170,33 +1171,33 @@ let webSocketObj = {server:["wss://dyn-2.keepa.com", "wss://dyn.keepa.com"], ser
     }
   }
 }}, cloud = function() {
-  function a(f, k) {
-    if (null != f) {
-      f.sent = !0;
-      f = {key:f.key, messageId:f.messageId, sessionId:b(settings.extensionCookies[f.domainId]?.cookies), payload:[], status:200};
+  function a(g, k) {
+    if (null != g) {
+      g.sent = !0;
+      g = {key:g.key, messageId:g.messageId, sessionId:b(settings.extensionCookies[g.domainId]?.cookies), payload:[], status:200};
       for (let n in k) {
-        f[n] = k[n];
+        g[n] = k[n];
       }
-      return f;
+      return g;
     }
   }
-  async function d(f) {
-    if (-1 == f.url.indexOf("keepa.com/")) {
-      f.request.cookies = settings.extensionCookies[f.domainId]?.cookies;
+  async function d(g) {
+    if (-1 == g.url.indexOf("keepa.com/")) {
+      g.request.cookies = settings.extensionCookies[g.domainId]?.cookies;
       try {
-        f.request.userSession = "guest";
+        g.request.userSession = "guest";
       } catch (k) {
       }
     }
-    e(f, function(k) {
+    e(g, function(k) {
       let n = {payload:[]};
       if (k) {
-        if (k.match(m)) {
+        if (k.match(l)) {
           n.status = 403;
         } else {
-          if (f.contentFilters && 0 < f.contentFilters.length) {
-            for (let p in f.contentFilters) {
-              let r = k.match(new RegExp(f.contentFilters[p]));
+          if (g.contentFilters && 0 < g.contentFilters.length) {
+            for (let p in g.contentFilters) {
+              let r = k.match(new RegExp(g.contentFilters[p]));
               if (r) {
                 n.payload[p] = r[1].replace(/\n/g, "");
               } else {
@@ -1210,44 +1211,44 @@ let webSocketObj = {server:["wss://dyn-2.keepa.com", "wss://dyn.keepa.com"], ser
           }
         }
       }
-      "undefined" == typeof f.sent && webSocketObj.sendMessage(a(f, n));
+      "undefined" == typeof g.sent && webSocketObj.sendMessage(a(g, n));
     });
   }
-  async function c(f) {
-    f.request.cookies = settings.extensionCookies[f.domainId]?.cookies;
-    f.request.userSession = "guest";
-    e(f, function(k) {
-      null == k && "undefined" == typeof f.sent && webSocketObj.sendMessage(a(f, {payload:[], redirectUrl:f.request?.response?.redirectUrl, status:305}));
+  async function c(g) {
+    g.request.cookies = settings.extensionCookies[g.domainId]?.cookies;
+    g.request.userSession = "guest";
+    e(g, function(k) {
+      null == k && "undefined" == typeof g.sent && webSocketObj.sendMessage(a(g, {payload:[], redirectUrl:g.request?.response?.redirectUrl, status:305}));
     });
   }
-  function e(f, k) {
-    1 == f.httpMethod && f.scrapeFilters && 0 < f.scrapeFilters.length && (h = {scrapeFilters:f.scrapeFilters, dbg1:f.dbg1, dbg2:f.dbg2, domainId:f.domainId});
-    f.request.domainId = f.domainId;
-    requestQueue.enqueue(() => processRequest(f.request)).then(async() => {
+  function e(g, k) {
+    1 == g.httpMethod && g.scrapeFilters && 0 < g.scrapeFilters.length && (h = {scrapeFilters:g.scrapeFilters, dbg1:g.dbg1, dbg2:g.dbg2, domainId:g.domainId});
+    g.request.domainId = g.domainId;
+    requestQueue.enqueue(() => processRequest(g.request)).then(async() => {
       try {
-        "object" === typeof f.request.urls && (f.request.response.text = "", f.request.urls.forEach(p => {
-          p = f.request.responses[p];
-          200 == p.status ? null != p.text && 10 < p.text.length && (f.request.response.text += p.text) : l(p.status, null, f);
+        "object" === typeof g.request.urls && (g.request.response.text = "", g.request.urls.forEach(p => {
+          p = g.request.responses[p];
+          200 == p.status ? null != p.text && 10 < p.text.length && (g.request.response.text += p.text) : m(p.status, null, g);
         }));
       } catch (p) {
         console.error(p);
       }
-      let n = f?.request?.response?.text;
+      let n = g?.request?.response?.text;
       if (offscreenSupported && null != n && "" != n) {
-        if ("o0" == f.key) {
+        if ("o0" == g.key) {
           k(n);
         } else {
           n = n.replace(/src=".*?"/g, 'src=""');
-          f.block && (n = n.replace(new RegExp(f.block, "g"), ""));
+          g.block && (n = n.replace(new RegExp(g.block, "g"), ""));
           try {
-            await setupOffscreenDocument(), chrome.runtime.sendMessage({type:"parse", target:"offscreen", data:{content:n, message:f, stockData:common.stockData}}, p => {
+            await setupOffscreenDocument(), chrome.runtime.sendMessage({type:"parse", target:"offscreen", data:{content:n, message:g, stockData:common.stockData}}, p => {
               p = p.response;
-              p = a(f, p);
+              p = a(g, p);
               webSocketObj.sendMessage(p);
               chrome.offscreen.closeDocument();
             });
           } catch (p) {
-            //common.reportBug(p), f.request.isStock ? k(null) : l(410, null, f);
+            common.reportBug(p), g.request.isStock ? k(null) : m(410, null, g);
           }
         }
       } else {
@@ -1255,15 +1256,15 @@ let webSocketObj = {server:["wss://dyn-2.keepa.com", "wss://dyn.keepa.com"], ser
       }
     }).catch(n => {
       console.error("request failed", n);
-      f.request.error = n;
-      f.request.isStock ? k(null) : l(410, null, f);
+      g.request.error = n;
+      g.request.isStock ? k(null) : m(410, null, g);
     });
   }
-  function b(f) {
+  function b(g) {
     try {
-      if (f) {
-        for (let k = 0; k < f.length; ++k) {
-          let n = f[k];
+      if (g) {
+        for (let k = 0; k < g.length; ++k) {
+          let n = g[k];
           if ("session-id" == n.name && 16 < n.value.length && 65 > n.value.length) {
             return n.value;
           }
@@ -1274,12 +1275,12 @@ let webSocketObj = {server:["wss://dyn-2.keepa.com", "wss://dyn.keepa.com"], ser
     }
     return "";
   }
-  async function g(f) {
-    delete settings.extensionCookies["" + f];
+  async function f(g) {
+    delete settings.extensionCookies["" + g];
     await chrome.storage.local.set({extensionCookies:await compressObject(settings.extensionCookies)});
-    delete common.addToCartAssocCsrfs[f];
+    delete common.addToCartAssocCsrfs[g];
   }
-  function l(f, k, n) {
+  function m(g, k, n) {
     if (null != n) {
       try {
         if ("undefined" != typeof n.sent) {
@@ -1287,39 +1288,39 @@ let webSocketObj = {server:["wss://dyn-2.keepa.com", "wss://dyn.keepa.com"], ser
         }
         const p = a(n, {});
         k && (p.payload = k);
-        p.status = f;
+        p.status = g;
         webSocketObj.sendMessage(p);
         chrome.offscreen.closeDocument();
       } catch (p) {
-        //common.reportBug(p, "abort");
+        common.reportBug(p, "abort");
       }
     }
     clearLog && console.clear();
   }
   let h = null;
-  const m = /automated access|api-services-support@/;
-  return {onMessage:function(f) {
-    switch(f.key) {
+  const l = /automated access|api-services-support@/;
+  return {onMessage:function(g) {
+    switch(g.key) {
       case "update":
         chrome.runtime.requestUpdateCheck(function(k, n) {
           "update_available" == k && chrome.runtime.reload();
         });
         break;
       case "o0":
-        d(f);
+        d(g);
         break;
       case "o1":
-        c(f);
+        c(g);
         break;
       case "o2":
-        g(f.domainId);
+        f(g.domainId);
         break;
       case "1":
         chrome.runtime.reload();
     }
-  }, endSession:g, getSessionId:b, getOutgoingMessage:a, getFilters:function() {
+  }, endSession:f, getSessionId:b, getOutgoingMessage:a, getFilters:function() {
     return h;
-  }, abortJob:l};
+  }, abortJob:m};
 }(), getTldByDomain = a => {
   a = parseInt(a);
   switch(a) {
