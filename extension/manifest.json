@@ -1,7 +1,7 @@
 {
-  "name": "GBUY - Extension",
-  "version": "3.6.9",
-  "description": "ecommerce analyzer tool.",
+  "name": "Zelium10",
+  "version": "3.7.9",
+  "description": "Zelium10 amazon extension",
   "permissions": [
     "storage",
     "tabs",
