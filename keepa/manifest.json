@@ -9,7 +9,7 @@
         "service_worker": "keepa.js",
         "type": "module"
     },
-    "minimum_chrome_version": "120",
+    "minimum_chrome_version": "110",
     "host_permissions": ["*://*.keepa.com/*", "*://*.amazon.com/*", "*://*.amzn.com/*", "*://*.amazon.co.uk/*", "*://*.amazon.de/*", "*://*.amazon.fr/*", "*://*.amazon.it/*", "*://*.amazon.ca/*", "*://*.amazon.com.mx/*", "*://*.amazon.es/*", "*://*.amazon.co.jp/*", "*://*.amazon.in/*", "*://*.amazon.com.br/*", "*://*.amazon.nl/*", "*://*.amazon.com.au/*"],
     "web_accessible_resources": [{
             "resources": ["selectionHook.js"],
