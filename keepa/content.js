@@ -1,40 +1,40 @@
 let onlyOnceLogStock = !0;
 const scanner = function() {
-  function X(F, w) {
-    const A = {};
+  function X(F, x) {
+    const C = {};
     if (null == document.body) {
-      A.status = 599;
+      C.status = 599;
     } else {
       if (document.body.textContent.match("you're not a robot")) {
-        A.status = 403;
+        C.status = 403;
       } else {
-        for (var O = document.evaluate("//comment()", document, null, XPathResult.ANY_TYPE, null), N = O.iterateNext(), K = ""; N;) {
-          K += N, N = O.iterateNext();
+        for (var P = document.evaluate("//comment()", document, null, XPathResult.ANY_TYPE, null), O = P.iterateNext(), J = ""; O;) {
+          J += O, O = P.iterateNext();
         }
-        if (K.match(/automated access|api-services-support@/)) {
-          A.status = 403;
+        if (J.match(/automated access|api-services-support@/)) {
+          C.status = 403;
         } else {
-          if (K.match(/ref=cs_503_link/)) {
-            A.status = 503;
+          if (J.match(/ref=cs_503_link/)) {
+            C.status = 503;
           } else {
             if (F.scrapeFilters && 0 < F.scrapeFilters.length) {
-              O = {};
-              N = null;
-              let H = "", f = null;
-              const I = {};
-              K = {};
+              P = {};
+              O = null;
+              let G = "", f = null;
+              const H = {};
+              J = {};
               let Y = !1;
-              const R = function(b, d, g) {
+              const S = function(b, d, g) {
                 var e = [];
                 if (!b.selectors || 0 == b.selectors.length) {
                   if (!b.regExp) {
-                    return H = "invalid selector, sel/regexp", !1;
+                    return G = "invalid selector, sel/regexp", !1;
                   }
                   e = document.getElementsByTagName("html")[0].innerHTML.match(new RegExp(b.regExp, "i"));
                   if (!e || e.length < b.reGroup) {
                     g = "regexp fail: html - " + b.name + g;
                     if (!1 === b.optional) {
-                      return H = g, !1;
+                      return G = g, !1;
                     }
                     f += " // " + g;
                     return !0;
@@ -50,19 +50,19 @@ const scanner = function() {
                   if (!0 === b.optional) {
                     return !0;
                   }
-                  H = "selector no match: " + b.name + g;
+                  G = "selector no match: " + b.name + g;
                   return !1;
                 }
                 if (b.parentSelector && (c = [c[0].parentNode.querySelector(b.parentSelector)], null == c[0])) {
                   if (!0 === b.optional) {
                     return !0;
                   }
-                  H = "parent selector no match: " + b.name + g;
+                  G = "parent selector no match: " + b.name + g;
                   return !1;
                 }
                 if ("undefined" != typeof b.multiple && null != b.multiple && (!0 === b.multiple && 1 > c.length || !1 === b.multiple && 1 < c.length)) {
                   if (!Y) {
-                    return Y = !0, R(b, d, g);
+                    return Y = !0, S(b, d, g);
                   }
                   g = "selector multiple mismatch: " + b.name + g + " found: " + c.length;
                   if (!1 === b.optional) {
@@ -70,17 +70,17 @@ const scanner = function() {
                     for (var h in c) {
                       !c.hasOwnProperty(h) || 1000 < b.length || (b += " - " + h + ": " + c[h].outerHTML + " " + c[h].getAttribute("class") + " " + c[h].getAttribute("id"));
                     }
-                    H = g + b + " el: " + d.getAttribute("class") + " " + d.getAttribute("id");
+                    G = g + b + " el: " + d.getAttribute("class") + " " + d.getAttribute("id");
                     return !1;
                   }
                   f += " // " + g;
                   return !0;
                 }
                 if (b.isListSelector) {
-                  return I[b.name] = c, !0;
+                  return H[b.name] = c, !0;
                 }
                 if (!b.attribute) {
-                  return H = "selector attribute undefined?: " + b.name + g, !1;
+                  return G = "selector attribute undefined?: " + b.name + g, !1;
                 }
                 for (let l in c) {
                   if (c.hasOwnProperty(l)) {
@@ -94,7 +94,7 @@ const scanner = function() {
                       if (h.length < b.childNode) {
                         g = "childNodes fail: " + h.length + " - " + b.name + g;
                         if (!1 === b.optional) {
-                          return H = g, !1;
+                          return G = g, !1;
                         }
                         f += " // " + g;
                         return !0;
@@ -106,7 +106,7 @@ const scanner = function() {
                     if (!h || 0 == h.length || 0 == h.replace(/(\r\n|\n|\r)/gm, "").replace(/^\s+|\s+$/g, "").length) {
                       g = "selector attribute null: " + b.name + g;
                       if (!1 === b.optional) {
-                        return H = g, !1;
+                        return G = g, !1;
                       }
                       f += " // " + g;
                       return !0;
@@ -116,7 +116,7 @@ const scanner = function() {
                       if (!k || k.length < b.reGroup) {
                         g = "regexp fail: " + h + " - " + b.name + g;
                         if (!1 === b.optional) {
-                          return H = g, !1;
+                          return G = g, !1;
                         }
                         f += " // " + g;
                         return !0;
@@ -158,7 +158,7 @@ const scanner = function() {
                   if (g.attribute && (t = null, t = "text" == g.attribute ? "" : q[0].getAttribute(g.attribute), null == t)) {
                     continue;
                   }
-                  N = b;
+                  O = b;
                   for (let e in d) {
                     if (a) {
                       break;
@@ -167,16 +167,16 @@ const scanner = function() {
                     if (q.name != g.name) {
                       if (q.parentList) {
                         t = [];
-                        if ("undefined" != typeof I[q.parentList]) {
-                          t = I[q.parentList];
+                        if ("undefined" != typeof H[q.parentList]) {
+                          t = H[q.parentList];
                         } else {
-                          if (!0 === R(d[q.parentList], D, b)) {
-                            t = I[q.parentList];
+                          if (!0 === S(d[q.parentList], D, b)) {
+                            t = H[q.parentList];
                           } else {
                             break;
                           }
                         }
-                        K[q.parentList] || (K[q.parentList] = []);
+                        J[q.parentList] || (J[q.parentList] = []);
                         for (let c in t) {
                           if (a) {
                             break;
@@ -184,25 +184,25 @@ const scanner = function() {
                           if (!t.hasOwnProperty(c)) {
                             continue;
                           }
-                          let h = R(q, t[c], b);
+                          let h = S(q, t[c], b);
                           if (!1 === h) {
                             a = !0;
                             break;
                           }
                           if (!0 !== h) {
-                            if (K[q.parentList][c] || (K[q.parentList][c] = {}), q.multiple) {
+                            if (J[q.parentList][c] || (J[q.parentList][c] = {}), q.multiple) {
                               for (let k in h) {
                                 h.hasOwnProperty(k) && !q.keepBR && (h[k] = h[k].replace(/(\r\n|\n|\r)/gm, " ").replace(/^\s+|\s+$/g, "").replace(/\s{2,}/g, " "));
                               }
                               h = h.join("\u271c\u271c");
-                              K[q.parentList][c][q.name] = h;
+                              J[q.parentList][c][q.name] = h;
                             } else {
-                              K[q.parentList][c][q.name] = q.keepBR ? h : h.replace(/(\r\n|\n|\r)/gm, " ").replace(/^\s+|\s+$/g, "").replace(/\s{2,}/g, " ");
+                              J[q.parentList][c][q.name] = q.keepBR ? h : h.replace(/(\r\n|\n|\r)/gm, " ").replace(/^\s+|\s+$/g, "").replace(/\s{2,}/g, " ");
                             }
                           }
                         }
                       } else {
-                        t = R(q, D, b);
+                        t = S(q, D, b);
                         if (!1 === t) {
                           a = !0;
                           break;
@@ -216,7 +216,7 @@ const scanner = function() {
                           } else {
                             q.keepBR || (t = t.replace(/(\r\n|\n|\r)/gm, " ").replace(/^\s+|\s+$/g, "").replace(/\s{2,}/g, " "));
                           }
-                          O[q.name] = t;
+                          P[q.name] = t;
                         }
                       }
                     }
@@ -224,47 +224,47 @@ const scanner = function() {
                   a = !0;
                 }
               }
-              if (null == N) {
-                H += " // no pageVersion matched", A.status = 308, A.payload = [f, H, F.dbg1 ? document.getElementsByTagName("html")[0].innerHTML : ""];
+              if (null == O) {
+                G += " // no pageVersion matched", C.status = 308, C.payload = [f, G, F.dbg1 ? document.getElementsByTagName("html")[0].innerHTML : ""];
               } else {
-                if ("" === H) {
-                  A.payload = [f];
-                  A.scrapedData = O;
-                  for (let b in K) {
-                    A[b] = K[b];
+                if ("" === G) {
+                  C.payload = [f];
+                  C.scrapedData = P;
+                  for (let b in J) {
+                    C[b] = J[b];
                   }
                 } else {
-                  A.status = 305, A.payload = [f, H, F.dbg2 ? document.getElementsByTagName("html")[0].innerHTML : ""];
+                  C.status = 305, C.payload = [f, G, F.dbg2 ? document.getElementsByTagName("html")[0].innerHTML : ""];
                 }
               }
             } else {
-              A.status = 306;
+              C.status = 306;
             }
           }
         }
       }
     }
-    w(A);
+    x(C);
   }
   let Z = !0;
   window.self === window.top && (Z = !1);
   window.sandboxHasRun && (Z = !1);
   Z && (window.sandboxHasRun = !0, window.addEventListener("message", function(F) {
     if (F.source == window.parent && F.data && (F.origin == "chrome-extension://" + chrome.runtime.id || F.origin.startsWith("moz-extension://") || F.origin.startsWith("safari-extension://"))) {
-      var w = F.data.value;
-      "data" == F.data.key && w.url && w.url == document.location && setTimeout(function() {
+      var x = F.data.value;
+      "data" == F.data.key && x.url && x.url == document.location && setTimeout(function() {
         null == document.body ? setTimeout(function() {
-          X(w, function(A) {
-            //window.parent.postMessage({sandbox:A}, "*");
+          X(x, function(C) {
+            window.parent.postMessage({sandbox:C}, "*");
           });
-        }, 1500) : X(w, function(A) {
-          //window.parent.postMessage({sandbox:A}, "*");
+        }, 1500) : X(x, function(C) {
+          window.parent.postMessage({sandbox:C}, "*");
         });
       }, 800);
     }
   }, !1), window.parent.postMessage({sandbox:document.location + "", isUrlMsg:!0}, "*"));
-  window.addEventListener("error", function(F, w, A, O, N) {
-    "ipbakfmnjdenbmoenhicfmoojdojjjem" != chrome.runtime.id && "blfpbjkajgamcehdbehfdioapoiibdmc" != chrome.runtime.id || console.log(N);
+  window.addEventListener("error", function(F, x, C, P, O) {
+    "ipbakfmnjdenbmoenhicfmoojdojjjem" != chrome.runtime.id && "blfpbjkajgamcehdbehfdioapoiibdmc" != chrome.runtime.id || console.log(O);
     return !1;
   });
   return {scan:X};
@@ -272,8 +272,8 @@ const scanner = function() {
 (function() {
   let X = !1, Z = !1;
   const F = window.opera || -1 < navigator.userAgent.indexOf(" OPR/");
-  var w = -1 < navigator.userAgent.toLowerCase().indexOf("firefox");
-  const A = -1 < navigator.userAgent.toLowerCase().indexOf("edge/"), O = /Apple Computer/.test(navigator.vendor) && /Safari/.test(navigator.userAgent), N = !F && !w && !A & !O, K = w ? "Firefox" : O ? "Safari" : N ? "Chrome" : F ? "Opera" : A ? "Edge" : "Unknown", q = chrome.runtime.getManifest().version;
+  var x = -1 < navigator.userAgent.toLowerCase().indexOf("firefox");
+  const C = -1 < navigator.userAgent.toLowerCase().indexOf("edge/"), P = /Apple Computer/.test(navigator.vendor) && /Safari/.test(navigator.userAgent), O = !F && !x && !C & !P, J = x ? "Firefox" : P ? "Safari" : O ? "Chrome" : F ? "Opera" : C ? "Edge" : "Unknown", q = chrome.runtime.getManifest().version;
   let t = !1;
   try {
     t = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent);
@@ -281,7 +281,7 @@ const scanner = function() {
   }
   if (!window.keepaHasRun) {
     window.keepaHasRun = !0;
-    var H = 0;
+    var G = 0;
     chrome.runtime.onMessage.addListener((a, b, d) => {
       switch(a.key) {
         case "updateToken":
@@ -324,7 +324,7 @@ const scanner = function() {
           } catch (d) {
             return;
           }
-          (b = b.asin) && /^([BC][A-Z0-9]{9}|\d{9}(!?X|\d))$/.test(b.trim()) && (b != f.ASIN ? (f.ASIN = b, f.swapIFrame()) : 0 != H ? (window.clearTimeout(H), H = 1) : H = window.setTimeout(function() {
+          (b = b.asin) && /^([BC][A-Z0-9]{9}|\d{9}(!?X|\d))$/.test(b.trim()) && (b != f.ASIN ? (f.ASIN = b, f.swapIFrame()) : 0 != G ? (window.clearTimeout(G), G = 1) : G = window.setTimeout(function() {
             f.swapIFrame();
           }, 1000));
         }
@@ -378,7 +378,7 @@ const scanner = function() {
       }
     }, revealWorking:!1, juvecOnlyOnce:!1, revealMapOnlyOnce:!1, revealCache:{}, revealMAP:function() {
       f.revealMapOnlyOnce || (f.revealMapOnlyOnce = !0, chrome.runtime?.id && chrome.runtime.sendMessage({type:"isPro"}, a => {
-        if (null === a.value) {
+        if (null == a.value) {
           console.log("stock data fail");
         } else {
           var b = a.amazonSellerIds, d = a.stockData, g = !0 === a.value, e = c => {
@@ -391,7 +391,7 @@ const scanner = function() {
             let h = !0;
             try {
               h = "0" != c.revealStock;
-            } catch (p) {
+            } catch (n) {
             }
             onlyOnceLogStock && (onlyOnceLogStock = !1, console.log("Stock " + g + " " + h));
             try {
@@ -400,223 +400,224 @@ const scanner = function() {
                   f.revealWorking = !1;
                 } else {
                   var k = function() {
-                    const p = new MutationObserver(function(B) {
+                    const n = new MutationObserver(function(A) {
                       setTimeout(function() {
                         f.revealMAP();
                       }, 100);
                       try {
-                        p.disconnect();
+                        n.disconnect();
                       } catch (r) {
                       }
                     });
-                    p.observe(document.getElementById("keepaMAP").parentNode.parentNode.parentNode, {childList:!0, subtree:!0});
-                  }, l = (p, B, r, v, C, y, G, L, P, S) => {
-                    if ("undefined" == typeof f.revealCache[v] || null == p.parentElement.querySelector(".keepaStock")) {
-                      null == L && (L = b[f.domain]);
-                      var Q = "" == p.id && "aod-pinned-offer" == p.parentNode.id;
-                      y = y || Q;
+                    n.observe(document.getElementById("keepaMAP").parentNode.parentNode.parentNode, {childList:!0, subtree:!0});
+                  }, l = (n, A, r, v, y, w, M, N, R, L) => {
+                    if (("undefined" == typeof f.revealCache[v] || null == n.parentElement.querySelector(".keepaStock")) && "undefined" !== typeof b) {
+                      null == N && (N = b[f.domain]);
+                      var K = "" == n.id && "aod-pinned-offer" == n.parentNode.id;
+                      w = w || K;
                       try {
-                        r = r || -1 != p.textContent.toLowerCase().indexOf("to cart to see") || !y && /(our price|always remove it|add this item to your cart|see product details in cart|see price in cart)/i.test(document.getElementById("price").textContent);
-                      } catch (m) {
+                        r = r || -1 != n.textContent.toLowerCase().indexOf("to cart to see") || !w && /(our price|always remove it|add this item to your cart|see product details in cart|see price in cart)/i.test(document.getElementById("price").textContent);
+                      } catch (p) {
                       }
                       if (r || g) {
-                        u(p, B, r, v, y);
-                        var M = m => {
+                        u(n, A, r, v, w);
+                        var Q = p => {
                           const V = document.getElementById("keepaStock" + v);
                           if (null != V) {
                             V.innerHTML = "";
-                            if (null != m && null != m.price && r) {
+                            if (null != p && null != p.price && r) {
                               var T = document.createElement("div");
-                              m = 5 == f.domain ? m.price : (Number(m.price) / 100).toFixed(2);
+                              p = 5 == f.domain ? p.price : (Number(p.price) / 100).toFixed(2);
                               var W = new Intl.NumberFormat(" en-US en-GB de-DE fr-FR ja-JP en-CA zh-CN it-IT es-ES hi-IN es-MX pt-BR en-AU nl-NL tr-TR".split(" ")[f.domain], {style:"currency", currency:" USD GBP EUR EUR JPY CAD CNY EUR EUR INR MXN BRL AUD EUR TRY".split(" ")[f.domain]});
-                              0 < m && (T.innerHTML = 'Price&emsp;&ensp;<span style="font-weight: bold;">' + W.format(m) + "</span>");
+                              0 < p && (T.innerHTML = 'Price&emsp;&ensp;<span style="font-weight: bold;">' + W.format(p) + "</span>");
                               V.parentNode.parentNode.parentNode.prepend(T);
                             }
-                            g && (m = f.revealCache[v].stock, 999 == m ? m = "999+" : 1000 == m ? m = "1000+" : -3 != f.revealCache[v].price && 1 > f.revealCache[v].price && (30 == m || P) && (m += "+"), T = document.createElement("span"), T.style = "font-weight: bold;", T.innerText = m + " ", m = document.createElement("span"), m.style = "color: #dedede;", m.innerText = " (revealed by \u271c Keepa)", W = document.createElement("span"), W.style = "color:#da4c33;", W.innerText = " order limit", V.appendChild(T), 
-                            f.revealCache[v].limit && (0 < f.revealCache[v].orderLimit && (W.innerText += ": " + f.revealCache[v].orderLimit), V.appendChild(W)), (T = f.revealCache[v].errorCode) ? (m = document.createElement("span"), m.style = "color: #f7d1d1;", m.innerText = " (e_" + T + ")", null != f.revealCache[v].error && (m.title = f.revealCache[v].error + ". Contact info@keepa.com with a screenshot & URL for assistance."), V.appendChild(m)) : y && V.appendChild(m));
+                            g && (p = f.revealCache[v].stock, 999 == p ? p = "999+" : 1000 == p ? p = "1000+" : -3 != f.revealCache[v].price && 1 > f.revealCache[v].price && (30 == p || R) && (p += "+"), T = document.createElement("span"), T.style = "font-weight: bold;", T.innerText = p + " ", p = document.createElement("span"), p.style = "color: #dedede;", p.innerText = " (revealed by \u271c Keepa)", W = document.createElement("span"), W.style = "color:#da4c33;", W.innerText = " order limit", V.appendChild(T), 
+                            f.revealCache[v].limit && (0 < f.revealCache[v].orderLimit && (W.innerText += ": " + f.revealCache[v].orderLimit), V.appendChild(W)), (T = f.revealCache[v].errorCode) ? (p = document.createElement("span"), p.style = "color: #f7d1d1;", p.innerText = " (e_" + T + ")", null != f.revealCache[v].error && (p.title = f.revealCache[v].error + ". Contact info@keepa.com with a screenshot & URL for assistance."), V.appendChild(p)) : w && V.appendChild(p));
                           }
                         };
                         if ("undefined" != typeof f.revealCache[v] && -1 != f.revealCache[v]) {
-                          "pending" != f.revealCache[v] && M(f.revealCache[v]);
+                          "pending" != f.revealCache[v] && Q(f.revealCache[v]);
                         } else {
                           f.revealCache[v] = "pending";
-                          Q = p = "";
+                          K = n = "";
                           try {
-                            p = document.querySelector("meta[name=encrypted-slate-token]").getAttribute("content"), Q = document.querySelector("#aod-offer-list input#aod-atc-csrf-token").getAttribute("value");
-                          } catch (m) {
+                            n = document.querySelector("meta[name=encrypted-slate-token]").getAttribute("content"), K = document.querySelector("#aod-offer-list input#aod-atc-csrf-token").getAttribute("value");
+                          } catch (p) {
                           }
-                          chrome.runtime?.id && chrome.runtime.sendMessage({type:"getStock", asin:B, oid:v, sellerId:L, maxQty:G, hasPlus:P, isMAP:r, host:document.location.hostname, force:r, referer:document.location + "", domainId:f.domain, cachedStock:f.revealCache[L], offscreen:!1, atcCsrf:Q || S, slateToken:p, session:C}, m => {
-                            if ("undefined" == typeof m || null == m || !1 === m?.stock) {
-                              if (m = document.getElementById("keepaMAP")) {
-                                m.innerHTML = "";
+                          chrome.runtime?.id && chrome.runtime.sendMessage({type:"getStock", asin:A, oid:v, sellerId:N, maxQty:M, hasPlus:R, isMAP:r, host:document.location.hostname, force:r, referer:document.location + "", domainId:f.domain, cachedStock:f.revealCache[N], offscreen:!1, atcCsrf:K || L, slateToken:n, session:y}, p => {
+                            if ("undefined" == typeof p || null == p || !1 === p?.stock) {
+                              if (p = document.getElementById("keepaMAP")) {
+                                p.innerHTML = "";
                               }
                             } else {
-                              f.revealCache[v] = m, f.revealCache[L] = m, M(m);
+                              f.revealCache[v] = p, f.revealCache[N] = p, Q(p);
                             }
                           });
                         }
                       }
                     }
-                  }, u = (p, B, r, v, C) => {
-                    B = "" == p.id && "aod-pinned-offer" == p.parentNode.id;
-                    var y = (C ? p.parentElement : p).querySelector(".keepaMAP");
-                    if (null == (C ? p.parentElement : p).querySelector(".keepaStock")) {
-                      null != y && null != y.parentElement && y.parentElement.remove();
-                      var G = C ? "165px" : "55px;height:20px;";
-                      y = document.createElement("div");
-                      y.id = "keepaMAP" + (C ? r + v : "");
-                      y.className = "a-section a-spacing-none a-spacing-top-micro aod-clear-float keepaStock";
+                  }, u = (n, A, r, v, y) => {
+                    A = "" == n.id && "aod-pinned-offer" == n.parentNode.id;
+                    var w = (y ? n.parentElement : n).querySelector(".keepaMAP");
+                    if (null == (y ? n.parentElement : n).querySelector(".keepaStock")) {
+                      null != w && null != w.parentElement && w.parentElement.remove();
+                      var M = y ? "165px" : "55px;height:20px;";
+                      w = document.createElement("div");
+                      w.id = "keepaMAP" + (y ? r + v : "");
+                      w.className = "a-section a-spacing-none a-spacing-top-micro aod-clear-float keepaStock";
                       r = document.createElement("div");
                       r.className = "a-fixed-left-grid";
-                      var L = document.createElement("div");
-                      L.style = "padding-left:" + G;
-                      C && (L.className = "a-fixed-left-grid-inner");
-                      var P = document.createElement("div");
-                      P.style = "width:" + G + ";margin-left:-" + G + ";float:left;";
-                      P.className = "a-fixed-left-grid-col aod-padding-right-10 a-col-left";
-                      G = document.createElement("div");
-                      G.style = "padding-left:0%;float:left;";
-                      G.className = "a-fixed-left-grid-col a-col-right";
-                      var S = document.createElement("span");
-                      S.className = "a-size-small a-color-tertiary";
+                      var N = document.createElement("div");
+                      N.style = "padding-left:" + M;
+                      y && (N.className = "a-fixed-left-grid-inner");
+                      var R = document.createElement("div");
+                      R.style = "width:" + M + ";margin-left:-" + M + ";float:left;";
+                      R.className = "a-fixed-left-grid-col aod-padding-right-10 a-col-left";
+                      M = document.createElement("div");
+                      M.style = "padding-left:0%;float:left;";
+                      M.className = "a-fixed-left-grid-col a-col-right";
+                      var L = document.createElement("span");
+                      L.className = "a-size-small a-color-tertiary";
+                      var K = document.createElement("span");
+                      K.style = "color: #dedede;";
+                      K.innerText = "loading\u2026";
                       var Q = document.createElement("span");
-                      Q.style = "color: #dedede;";
-                      Q.innerText = "loading\u2026";
-                      var M = document.createElement("span");
-                      M.className = "a-size-small a-color-base";
-                      M.id = "keepaStock" + v;
+                      Q.className = "a-size-small a-color-base";
+                      Q.id = "keepaStock" + v;
+                      Q.appendChild(K);
                       M.appendChild(Q);
-                      G.appendChild(M);
-                      P.appendChild(S);
-                      L.appendChild(P);
-                      L.appendChild(G);
-                      r.appendChild(L);
-                      y.appendChild(r);
-                      S.className = "a-size-small a-color-tertiary";
+                      R.appendChild(L);
+                      N.appendChild(R);
+                      N.appendChild(M);
+                      r.appendChild(N);
+                      w.appendChild(r);
+                      L.className = "a-size-small a-color-tertiary";
                       f.revealWorking = !1;
-                      g && (S.innerText = "Stock");
-                      C ? B ? (p = document.querySelector("#aod-pinned-offer-show-more-link"), 0 == p.length && document.querySelector("#aod-pinned-offer-main-content-show-more"), p.prepend(y)) : p.parentNode.insertBefore(y, p.parentNode.children[p.parentNode.children.length - 1]) : p.appendChild(y);
-                      C || k();
+                      g && (L.innerText = "Stock");
+                      y ? A ? (n = document.querySelector("#aod-pinned-offer-show-more-link"), 0 == n.length && document.querySelector("#aod-pinned-offer-main-content-show-more"), n.prepend(w)) : n.parentNode.insertBefore(w, n.parentNode.children[n.parentNode.children.length - 1]) : n.appendChild(w);
+                      y || k();
                     }
-                  }, n = document.location.href, x = new MutationObserver(function(p) {
+                  }, m = document.location.href, z = new MutationObserver(function(n) {
                     try {
-                      let C = document.querySelectorAll("#aod-offer,#aod-pinned-offer");
-                      if (null != C && 0 != C.length) {
-                        p = null;
-                        var B = C[0].querySelector('input[name="session-id"]');
-                        if (B) {
-                          p = B.getAttribute("value");
+                      var A = document.querySelectorAll("#aod-offer,#aod-pinned-offer");
+                      if (null != A && 0 != A.length) {
+                        n = null;
+                        var r = A[0].querySelector('input[name="session-id"]');
+                        if (r) {
+                          n = r.getAttribute("value");
                         } else {
-                          if (B = document.querySelector("#session-id")) {
-                            p = document.querySelector("#session-id").value;
+                          if (r = document.querySelector("#session-id")) {
+                            n = document.querySelector("#session-id").value;
                           }
                         }
-                        if (!p) {
-                          var r = document.querySelectorAll("script");
-                          for (var v of r) {
-                            let y = v.text.match("ue_sid.?=.?'([0-9-]{19})'");
-                            y && (p = y[1]);
+                        if (!n) {
+                          var v = document.querySelectorAll("script");
+                          for (const y of v) {
+                            let w = y.text.match("ue_sid.?=.?'([0-9-]{19})'");
+                            w && (n = w[1]);
                           }
                         }
-                        if (p) {
-                          for (let y in C) {
-                            if (!C.hasOwnProperty(y)) {
-                              continue;
-                            }
-                            const G = C[y];
-                            if (null != G && "DIV" == G.nodeName) {
-                              let L;
-                              B = 999;
-                              let P = G.querySelector('input[name="offeringID.1"]');
-                              if (P) {
-                                L = P.getAttribute("value");
+                        if (n) {
+                          for (const y of A) {
+                            if (null != y && "DIV" == y.nodeName) {
+                              let w;
+                              r = 999;
+                              let M = y.querySelector('input[name="offeringID.1"]');
+                              if (M) {
+                                w = M.getAttribute("value");
                               } else {
                                 try {
-                                  let M = JSON.parse(G.querySelectorAll("[data-aod-atc-action]")[0].dataset.aodAtcAction);
-                                  L = M.oid;
-                                  B = M.maxQty;
-                                } catch (M) {
+                                  const L = y.querySelectorAll("[data-aod-atc-action]");
+                                  if (0 < L.length) {
+                                    let K = JSON.parse(L[0].dataset.aodAtcAction);
+                                    w = K.oid;
+                                    r = K.maxQty;
+                                  }
+                                } catch (L) {
                                   try {
-                                    let m = JSON.parse(G.querySelectorAll("[data-aw-aod-cart-api]")[0].dataset.awAodCartApi);
-                                    L = m.oid;
-                                    B = m.maxQty;
-                                  } catch (m) {
+                                    const K = y.querySelectorAll("[data-aw-aod-cart-api]");
+                                    if (0 < K.length) {
+                                      let Q = JSON.parse(K[0].dataset.awAodCartApi);
+                                      w = Q.oid;
+                                      r = Q.maxQty;
+                                    }
+                                  } catch (K) {
                                   }
                                 }
                               }
-                              if (!L) {
+                              if (!w) {
                                 continue;
                               }
-                              const S = G.children[0];
-                              r = null;
+                              const N = y.children[0];
+                              A = null;
                               if (d) {
                                 for (v = 0; v < d.soldByOffers.length; v++) {
-                                  let M = G.querySelector(d.soldByOffers[v]);
-                                  if (null == M) {
+                                  let L = y.querySelector(d.soldByOffers[v]);
+                                  if (null == L) {
                                     continue;
                                   }
-                                  r = e(M.innerText);
-                                  if (null != r) {
+                                  A = e(L.innerText);
+                                  if (null != A) {
                                     break;
                                   }
-                                  let m = M.getAttribute("href");
-                                  null == m && (m = M.innerHTML);
-                                  r = e(m);
-                                  if (null != r) {
+                                  let K = L.getAttribute("href") || L.innerHTML;
+                                  A = e(K);
+                                  if (null != A) {
                                     break;
                                   }
                                 }
                               }
-                              const Q = -1 != G.textContent.toLowerCase().indexOf("add to cart to see product details.");
-                              l(S, f.ASIN, Q, L, p, !0, B, r);
+                              const R = y.textContent.toLowerCase().includes("add to cart to see product details.");
+                              l(N, f.ASIN, R, w, n, !0, r, A);
                             }
                           }
                         } else {
                           console.error("missing sessionId");
                         }
                       }
-                    } catch (C) {
-                      console.log(C), f.reportBug(C, "MAP error: " + n);
+                    } catch (y) {
+                      console.log(y), f.reportBug(y, "MAP error: " + m);
                     }
                   });
-                  x.observe(document.querySelector("body"), {childList:!0, attributes:!1, characterData:!1, subtree:!0, attributeOldValue:!1, characterDataOldValue:!1});
-                  window.onunload = function B() {
+                  z.observe(document.querySelector("body"), {childList:!0, attributes:!1, characterData:!1, subtree:!0, attributeOldValue:!1, characterDataOldValue:!1});
+                  window.onunload = function A() {
                     try {
-                      window.detachEvent("onunload", B), x.disconnect();
+                      window.detachEvent("onunload", A), z.disconnect();
                     } catch (r) {
                     }
                   };
-                  var z = document.querySelector(d.soldOfferId);
+                  var B = document.querySelector(d.soldOfferId);
                   c = null;
                   if (d) {
                     var E = document.querySelector(d.soldByBBForm);
                     E && (c = E.getAttribute("value"));
                     if (null == c) {
                       for (E = 0; E < d.soldByBB.length; E++) {
-                        var J = document.querySelector(d.soldByBB[E]);
-                        if (null != J && (c = e(J.innerHTML), null != c)) {
+                        var I = document.querySelector(d.soldByBB[E]);
+                        if (null != I && (c = e(I.innerHTML), null != c)) {
                           break;
                         }
                       }
                     }
                   }
-                  if (null != z && null != z.value) {
-                    var U = z.parentElement.querySelector("#session-id");
-                    const B = z.parentElement.querySelector("#ASIN"), r = z.parentElement.querySelector("#selectQuantity #quantity > option:last-child");
-                    let v = z.parentElement.querySelector('input[name*="CSRF" i]')?.getAttribute("value");
-                    if (null != U && null != B) {
-                      for (J = 0; J < d.mainEl.length; J++) {
-                        let C = document.querySelector(d.mainEl[J]);
-                        if (null != C) {
-                          E = J = !1;
+                  if (null != B && null != B.value) {
+                    var U = B.parentElement.querySelector("#session-id");
+                    const A = B.parentElement.querySelector("#ASIN"), r = B.parentElement.querySelector("#selectQuantity #quantity > option:last-child");
+                    let v = B.parentElement.querySelector('input[name*="CSRF" i]')?.getAttribute("value");
+                    if (null != U && null != A) {
+                      for (I = 0; I < d.mainEl.length; I++) {
+                        let y = document.querySelector(d.mainEl[I]);
+                        if (null != y) {
+                          E = I = !1;
                           if (null != r) {
                             try {
-                              0 < r.innerText.indexOf("+") && (E = !0), J = Number("" == r.value ? r.innerText.replaceAll("+", "") : r.value);
-                            } catch (y) {
-                              console.log(y);
+                              0 < r.innerText.indexOf("+") && (E = !0), I = Number("" == r.value ? r.innerText.replaceAll("+", "") : r.value);
+                            } catch (w) {
+                              console.log(w);
                             }
                           }
-                          l(C, B.value, !1, z.value, U.value, !1, J, c, E, v);
+                          l(y, A.value, !1, B.value, U.value, !1, I, c, E, v);
                           break;
                         }
                       }
@@ -624,16 +625,16 @@ const scanner = function() {
                   }
                   var aa = document.getElementById("price");
                   if (null != aa && /(our price|always remove it|add this item to your cart|see product details in cart|see price in cart)/i.test(aa.textContent)) {
-                    let B = document.getElementById("merchant-info");
-                    U = z = "";
-                    if (B) {
-                      if (-1 == B.textContent.toLowerCase().indexOf("amazon.c")) {
+                    let A = document.getElementById("merchant-info");
+                    U = B = "";
+                    if (A) {
+                      if (-1 == A.textContent.toLowerCase().indexOf("amazon.c")) {
                         const r = aa.querySelector('span[data-action="a-modal"]');
                         if (r) {
                           var ba = r.getAttribute("data-a-modal");
-                          ba.match(/offeringID\.1=(.*?)&amp/) && (z = RegExp.$1);
+                          ba.match(/offeringID\.1=(.*?)&amp/) && (B = RegExp.$1);
                         }
-                        if (0 == z.length) {
+                        if (0 == B.length) {
                           if (ba.match('map_help_pop_(.*?)"')) {
                             U = RegExp.$1;
                           } else {
@@ -642,9 +643,9 @@ const scanner = function() {
                           }
                         }
                       }
-                      if (null != z && 10 < z.length) {
+                      if (null != B && 10 < B.length) {
                         const r = document.querySelector("#session-id");
-                        l(aa, f.ASIN, !1, z, r.value, !1, !1, U);
+                        l(aa, f.ASIN, !1, B, r.value, !1, !1, U);
                       }
                     } else {
                       f.revealWorking = !1;
@@ -654,8 +655,8 @@ const scanner = function() {
                   }
                 }
               }
-            } catch (p) {
-              f.revealWorking = !1, console.log(p);
+            } catch (n) {
+              f.revealWorking = !1, console.log(n);
             }
           });
         }
@@ -715,7 +716,7 @@ const scanner = function() {
           var a = document.getElementById("keepaContainer");
           if (null != f.iframeStorage && a) {
             try {
-              f.iframeStorage.contentWindow.postMessage({origin:"keepaContentScript", key:"updateASIN", value:{d:f.domain, a:f.ASIN, eType:K, eVersion:q, url:document.location.href}}, "*");
+              f.iframeStorage.contentWindow.postMessage({origin:"keepaContentScript", key:"updateASIN", value:{d:f.domain, a:f.ASIN, eType:J, eVersion:q, url:document.location.href}}, "*");
             } catch (b) {
               console.error(b);
             }
@@ -891,9 +892,9 @@ const scanner = function() {
               l = document.body;
               var u = document.documentElement;
               u = Math.max(l.scrollHeight, l.offsetHeight, u.clientHeight, u.scrollHeight, u.offsetHeight);
-              var n = a.offsetTop / u;
-              if (0.5 < n || 0 > n) {
-                l = f.getAFComment(l), null != l && (n = a.offsetTop / u, 0.5 > n && (a = l));
+              var m = a.offsetTop / u;
+              if (0.5 < m || 0 > m) {
+                l = f.getAFComment(l), null != l && (m = a.offsetTop / u, 0.5 > m && (a = l));
               }
               if (a.parentNode) {
                 l = document.querySelector(".container_vertical_middle");
@@ -901,10 +902,10 @@ const scanner = function() {
                 e));
                 f.iframeStorage = k;
                 e.style.display = f.cssFlex;
-                var x = !1, z = 5;
+                var z = !1, B = 5;
                 if (!t) {
                   var E = setInterval(function() {
-                    if (0 >= z--) {
+                    if (0 >= B--) {
                       clearInterval(E);
                     } else {
                       var U = null != document.getElementById("keepa");
@@ -912,7 +913,7 @@ const scanner = function() {
                         if (!U) {
                           throw f.getPlaceholderAndInsertIFrame(f.insertIFrame), 1;
                         }
-                        if (x) {
+                        if (z) {
                           throw 1;
                         }
                         document.getElementById("keepa").contentDocument.location = iframeUrl;
@@ -920,12 +921,12 @@ const scanner = function() {
                         clearInterval(E);
                       }
                     }
-                  }, 4000), J = function() {
-                    x = !0;
-                    k.removeEventListener("load", J, !1);
+                  }, 4000), I = function() {
+                    z = !0;
+                    k.removeEventListener("load", I, !1);
                     f.synchronizeIFrame();
                   };
-                  k.addEventListener("load", J, !1);
+                  k.addEventListener("load", I, !1);
                 }
               } else {
                 f.swapIFrame();
@@ -951,7 +952,7 @@ const scanner = function() {
           chrome.runtime?.id && chrome.runtime.sendMessage({type:"openPage", url:b});
           break;
         case "getToken":
-          let e = {d:f.domain, a:f.ASIN, eType:K, eVersion:q, url:document.location.href};
+          let e = {d:f.domain, a:f.ASIN, eType:J, eVersion:q, url:document.location.href};
           chrome.runtime?.id ? f.sendMessageWithRetry({type:"getCookie", key:"token"}, 3, 1000, c => {
             e.token = c?.value;
             e.install = c?.install;
@@ -1045,7 +1046,6 @@ const scanner = function() {
     }, httpPost:function(a, b, d, g) {
       f.httpPost2(a, b, "text/plain;charset=UTF-8", d, g);
     }, lastBugReport:0, reportBug:function(a, b, d) {
-      return
       var g = Date.now();
       if (!(6E5 > g - f.lastBugReport || /(dead object)|(Script error)|(\.location is null)/i.test(a))) {
         f.lastBugReport = g;
@@ -1065,9 +1065,9 @@ const scanner = function() {
           }
         }
         null == d && (d = {exception:a, additional:b, url:document.location.host, stack:g});
-        null != d.url && d.url.startsWith("blob:") || (d.keepaType = N ? "keepaChrome" : F ? "keepaOpera" : O ? "keepaSafari" : A ? "keepaEdge" : "keepaFirefox", d.version = q, chrome.storage.local.get("token", function(e) {
+        null != d.url && d.url.startsWith("blob:") || (d.keepaType = O ? "keepaChrome" : F ? "keepaOpera" : P ? "keepaSafari" : C ? "keepaEdge" : "keepaFirefox", d.version = q, chrome.storage.local.get("token", function(e) {
           "undefined" == typeof e && (e = {token:"undefined"});
-          f.httpPost("https://dyn.keepa.com/service/bugreport/?user=" + e.token + "&type=" + K, JSON.stringify(d));
+          f.httpPost("https://dyn.keepa.com/service/bugreport/?user=" + e.token + "&type=" + J, JSON.stringify(d));
         }));
       }
     }};
@@ -1092,22 +1092,22 @@ const scanner = function() {
       "undefined" === typeof g && (g = 0);
       a = {msg:a, url:(b || c || document.location.toString()) + ":" + d + ":" + g, stack:h};
       "ipbakfmnjdenbmoenhicfmoojdojjjem" != chrome.runtime.id && "blfpbjkajgamcehdbehfdioapoiibdmc" != chrome.runtime.id || console.log(a);
-      //f.reportBug(null, null, a);
+      f.reportBug(null, null, a);
       return !1;
     };
     if (window.self == window.top && !(/.*music\.amazon\..*/.test(document.location.href) || /.*primenow\.amazon\..*/.test(document.location.href) || /.*amazonlive-portal\.amazon\..*/.test(document.location.href) || /.*amazon\.com\/restaurants.*/.test(document.location.href))) {
-      w = function(a) {
+      x = function(a) {
         chrome.runtime.sendMessage({type:"sendData", val:{key:"m1", payload:[a]}}, function() {
         });
       };
-      var I = document.location.href, Y = !1;
+      var H = document.location.href, Y = !1;
       document.addEventListener("DOMContentLoaded", function(a) {
         if (!Y) {
           try {
-            if (I.startsWith("https://test.keepa.com") || I.startsWith("https://keepa.com")) {
+            if (H.startsWith("https://test.keepa.com") || H.startsWith("https://keepa.com")) {
               let b = document.createElement("div");
               b.id = "extension";
-              b.setAttribute("type", K);
+              b.setAttribute("type", J);
               b.setAttribute("version", q);
               document.body.appendChild(b);
               Y = !0;
@@ -1116,13 +1116,13 @@ const scanner = function() {
           }
         }
       });
-      var R = !1;
+      var S = !1;
       chrome.runtime.sendMessage({type:"isActive"});
-      if (!/((\/images)|(\/review)|(\/customer-reviews)|(ask\/questions)|(\/product-reviews))/.test(I) && !/\/e\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/.test(I) && (I.match(/^https:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|es|nl|in|com\.mx|com\.br|com\.au)\/[^.]*?(\/|[?&]ASIN=)([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) || I.match(/^https:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|es|nl|in|com\.mx|com\.br|com\.au)\/(.*?)\/dp\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))\//) || I.match(/^https:\/\/.*?\.amzn\.(com).*?\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/))) {
-        f.onPageLoad(!1), R = !0;
-      } else if (!I.match(/^https:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|nl|es|in|com\.mx|com\.br|com\.au)\/[^.]*?\/(wishlist|registry)/) && !I.match(/^htt(p|ps):\/\/w*?\.amzn\.(com)[^.]*?\/(wishlist|registry)/)) {
-        if (I.match("^https://.*?(?:seller).*?.amazon.(de|com|co.uk|co.jp|ca|fr|it|nl|es|in|com.mx|com.br|com.au)/")) {
-          w("s" + f.getDomain(RegExp.$1));
+      if (!/((\/images)|(\/review)|(\/customer-reviews)|(ask\/questions)|(\/product-reviews))/.test(H) && !/\/e\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/.test(H) && (H.match(/^https:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|es|nl|in|com\.mx|com\.br|com\.au)\/[^.]*?(\/|[?&]ASIN=)([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) || H.match(/^https:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|es|nl|in|com\.mx|com\.br|com\.au)\/(.*?)\/dp\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))\//) || H.match(/^https:\/\/.*?\.amzn\.(com).*?\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/))) {
+        f.onPageLoad(!1), S = !0;
+      } else if (!H.match(/^https:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|nl|es|in|com\.mx|com\.br|com\.au)\/[^.]*?\/(wishlist|registry)/) && !H.match(/^htt(p|ps):\/\/w*?\.amzn\.(com)[^.]*?\/(wishlist|registry)/)) {
+        if (H.match("^https://.*?(?:seller).*?.amazon.(de|com|co.uk|co.jp|ca|fr|it|nl|es|in|com.mx|com.br|com.au)/")) {
+          x("s" + f.getDomain(RegExp.$1));
           let a = !1;
           function b() {
             a || (a = !0, chrome.runtime.sendMessage({type:"isSellerActive"}), setTimeout(() => {
@@ -1134,24 +1134,24 @@ const scanner = function() {
           document.addEventListener("keydown", b);
           document.addEventListener("touchstart", b);
         } else {
-          I.match(/^https:\/\/.*?(?:af.?ilia|part|assoc).*?\.amazon\.(de|com|co\.uk|co\.jp|nl|ca|fr|it|es|in|com\.mx|com\.br|com\.au)\/home/) && w("a" + f.getDomain(RegExp.$1));
+          H.match(/^https:\/\/.*?(?:af.?ilia|part|assoc).*?\.amazon\.(de|com|co\.uk|co\.jp|nl|ca|fr|it|es|in|com\.mx|com\.br|com\.au)\/home/) && x("a" + f.getDomain(RegExp.$1));
         }
       }
       if (!t) {
-        w = /^https:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|es|nl|in|com\.mx|com\.br|com\.au)\/(s([\/?])|gp\/bestsellers\/|gp\/search\/|.*?\/b\/)/;
-        (R || I.match(w)) && document.addEventListener("DOMContentLoaded", function(a) {
+        x = /^https:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|es|nl|in|com\.mx|com\.br|com\.au)\/(s([\/?])|gp\/bestsellers\/|gp\/search\/|.*?\/b\/)/;
+        (S || H.match(x)) && document.addEventListener("DOMContentLoaded", function(a) {
           let b = null;
           chrome.runtime.sendMessage({type:"getFilters"}, function(d) {
             b = d;
             if (null != b && null != b.value) {
               let g = function() {
-                let l = I.match("^https?://.*?.amazon.(de|com|co.uk|co.jp|ca|fr|it|es|in|com.br|nl|com.mx)/");
-                if (R || l) {
+                let l = H.match("^https?://.*?.amazon.(de|com|co.uk|co.jp|ca|fr|it|es|in|com.br|nl|com.mx)/");
+                if (S || l) {
                   let u = f.getDomain(RegExp.$1);
-                  scanner.scan(d.value, function(n) {
-                    n.key = "f1";
-                    n.domainId = u;
-                    chrome.runtime.sendMessage({type:"sendData", val:n}, function(x) {
+                  scanner.scan(d.value, function(m) {
+                    m.key = "f1";
+                    m.domainId = u;
+                    chrome.runtime.sendMessage({type:"sendData", val:m}, function(z) {
                     });
                   });
                 }
@@ -1171,8 +1171,8 @@ const scanner = function() {
             }
           });
         });
-        w = document.location.href;
-        w.match("^https://.*?.amazon.(de|com|co.uk|co.jp|ca|fr|it|es|in|nl|com.mx|com.br|com.au)/") && -1 == w.indexOf("aws.amazon.") && -1 == w.indexOf("music.amazon.") && -1 == w.indexOf("services.amazon.") && -1 == w.indexOf("primenow.amazon.") && -1 == w.indexOf("kindle.amazon.") && -1 == w.indexOf("watch.amazon.") && -1 == w.indexOf("developer.amazon.") && -1 == w.indexOf("skills-store.amazon.") && -1 == w.indexOf("pay.amazon.") && document.addEventListener("DOMContentLoaded", function(a) {
+        x = document.location.href;
+        x.match("^https://.*?.amazon.(de|com|co.uk|co.jp|ca|fr|it|es|in|nl|com.mx|com.br|com.au)/") && -1 == x.indexOf("aws.amazon.") && -1 == x.indexOf("music.amazon.") && -1 == x.indexOf("services.amazon.") && -1 == x.indexOf("primenow.amazon.") && -1 == x.indexOf("kindle.amazon.") && -1 == x.indexOf("watch.amazon.") && -1 == x.indexOf("developer.amazon.") && -1 == x.indexOf("skills-store.amazon.") && -1 == x.indexOf("pay.amazon.") && document.addEventListener("DOMContentLoaded", function(a) {
           setTimeout(function() {
             chrome.runtime.onMessage.addListener(function(b, d, g) {
               switch(b.key) {
@@ -1220,52 +1220,52 @@ const scanner = function() {
                   }
                   let k = function(u) {
                     if ("A" == u.nodeName) {
-                      var n = u.href;
-                      /\/images/.test(n) || /\/e\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/.test(n) || !n.match(/^https?:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|es|in|com\.mx)\/[^.]*?(?:\/|\?ASIN=)([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) && !n.match(/^https?:\/\/.*?\.amzn\.(com)[^.]*?\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) || -1 == n.indexOf("offer-listing") && D.add_events(g, e, u, n, RegExp.$1, RegExp.$2);
+                      var m = u.href;
+                      /\/images/.test(m) || /\/e\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/.test(m) || !m.match(/^https?:\/\/.*?\.amazon\.(de|com|co\.uk|co\.jp|ca|fr|it|es|in|com\.mx)\/[^.]*?(?:\/|\?ASIN=)([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) && !m.match(/^https?:\/\/.*?\.amzn\.(com)[^.]*?\/([BC][A-Z0-9]{9}|\d{9}(!?X|\d))/) || -1 == m.indexOf("offer-listing") && D.add_events(g, e, u, m, RegExp.$1, RegExp.$2);
                     }
                   }, l = new MutationObserver(function(u) {
-                    u.forEach(function(n) {
+                    u.forEach(function(m) {
                       try {
-                        if ("childList" === n.type) {
-                          for (c = 0; c < n.addedNodes.length; c++) {
-                            k(n.addedNodes[c]);
-                            for (var x = n.addedNodes[c].children; null != x && "undefined" != x && 0 < x.length;) {
-                              var z = [];
-                              for (let E = 0; E < x.length; E++) {
-                                k(x[E]);
+                        if ("childList" === m.type) {
+                          for (c = 0; c < m.addedNodes.length; c++) {
+                            k(m.addedNodes[c]);
+                            for (var z = m.addedNodes[c].children; null != z && "undefined" != z && 0 < z.length;) {
+                              var B = [];
+                              for (let E = 0; E < z.length; E++) {
+                                k(z[E]);
                                 try {
-                                  if (x[E].children && 0 < x[E].children.length) {
-                                    for (let J = 0; J < x[E].children.length && 30 > J; J++) {
-                                      z.push(x[E].children[J]);
+                                  if (z[E].children && 0 < z[E].children.length) {
+                                    for (let I = 0; I < z[E].children.length && 30 > I; I++) {
+                                      B.push(z[E].children[I]);
                                     }
                                   }
-                                } catch (J) {
+                                } catch (I) {
                                 }
                               }
-                              x = z;
+                              z = B;
                             }
                           }
                         } else {
-                          if (z = n.target.getElementsByTagName("a"), "undefined" != z && null != z) {
-                            for (x = 0; x < z.length; x++) {
-                              k(z[x]);
+                          if (B = m.target.getElementsByTagName("a"), "undefined" != B && null != B) {
+                            for (z = 0; z < B.length; z++) {
+                              k(B[z]);
                             }
                           }
                         }
-                        k(n.target);
+                        k(m.target);
                       } catch (E) {
                       }
                     });
                   });
                   l.observe(document.querySelector("html"), {childList:!0, attributes:!1, characterData:!1, subtree:!0, attributeOldValue:!1, characterDataOldValue:!1});
-                  window.onunload = function n() {
+                  window.onunload = function m() {
                     try {
-                      window.detachEvent("onunload", n), l.disconnect();
-                    } catch (x) {
+                      window.detachEvent("onunload", m), l.disconnect();
+                    } catch (z) {
                     }
                   };
-                  document.addEventListener("scroll", n => {
-                    D.clear_image(n);
+                  document.addEventListener("scroll", m => {
+                    D.clear_image(m);
                   });
                 }
               } catch (d) {
@@ -1289,14 +1289,14 @@ const scanner = function() {
           let h;
           try {
             h = d.originalTarget.ownerDocument;
-          } catch (n) {
+          } catch (m) {
             h = document;
           }
           if (!h.getElementById("pf_preview")) {
             var k = h.createElement("div");
             k.id = "pf_preview";
-            k.addEventListener("mouseout", function(n) {
-              D.clear_image(n);
+            k.addEventListener("mouseout", function(m) {
+              D.clear_image(m);
             }, !1);
             k.style.boxShadow = "rgb(68, 68, 68) 0px 1px 7px -2px";
             k.style.position = "fixed";
@@ -1324,22 +1324,22 @@ const scanner = function() {
             e = "https://graph.keepa.com/pricehistory.png?type=" + k + "&asin=" + e + "&domain=" + c + "&width=" + u + "&height=" + l;
             e = "undefined" == typeof a ? e + "&amazon=1&new=1&used=1&salesrank=1&range=365" : e + ("&amazon=" + a[0] + "&new=" + a[1] + "&used=" + a[2] + "&salesrank=" + a[3] + "&range=" + b + "&fba=" + a[10] + "&fbm=" + a[7] + "&bb=" + a[18] + "&ld=" + a[8] + "&pe=" + a[33] + "&bbu=" + a[32] + "&wd=" + a[9]);
             h.getElementById("pf_preview").style.display = "block";
-            fetch(e).then(n => {
+            fetch(e).then(m => {
               try {
-                if ("FAIL" === n.headers.get("screenshot-status")) {
+                if ("FAIL" === m.headers.get("screenshot-status")) {
                   return null;
                 }
-              } catch (x) {
+              } catch (z) {
               }
-              return n.blob();
-            }).then(n => {
-              if (null != n) {
+              return m.blob();
+            }).then(m => {
+              if (null != m) {
                 if (D.pf_preview_current.firstChild) {
-                  D.pf_preview_current.firstChild.setAttribute("src", URL.createObjectURL(n));
+                  D.pf_preview_current.firstChild.setAttribute("src", URL.createObjectURL(m));
                 } else {
-                  let x = D.createNewImageElement(h, u, l);
-                  D.pf_preview_current.appendChild(x);
-                  x.setAttribute("src", URL.createObjectURL(n));
+                  let z = D.createNewImageElement(h, u, l);
+                  D.pf_preview_current.appendChild(z);
+                  z.setAttribute("src", URL.createObjectURL(m));
                 }
               }
             });
